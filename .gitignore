@@ -58,3 +58,6 @@ sysinfo.txt
 # Crashlytics generated file
 crashlytics-build.properties
 
+Assets/Sounds/AmbientSounds/indoors1.wav
+Assets/Sounds/AmbientSounds/countryside2.wav
+Assets/Sounds/AmbientSounds/countryside1.wav

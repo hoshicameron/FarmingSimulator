@@ -1,0 +1,1080 @@
+fileFormatVersion: 2
+guid: af7f0b1f63a1df54d9a2633729d8cc25
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5876846186171342553
+    second: wallpillars_0
+  - first:
+      213: 6366107012590596668
+    second: wallpillars_1
+  - first:
+      213: -468168871604001483
+    second: wallpillars_2
+  - first:
+      213: -5954558446327563524
+    second: wallpillars_3
+  - first:
+      213: 2534470582549161241
+    second: wallpillars_4
+  - first:
+      213: 2928552637359581467
+    second: wallpillars_5
+  - first:
+      213: -7440492298715166050
+    second: wallpillars_6
+  - first:
+      213: -6916273101537252442
+    second: wallpillars_7
+  - first:
+      213: -8557143446075431599
+    second: wallpillars_8
+  - first:
+      213: -551465262445548895
+    second: wallpillars_9
+  - first:
+      213: -358711947297099089
+    second: wallpillars_10
+  - first:
+      213: 4131085201443491869
+    second: wallpillars_11
+  - first:
+      213: -2218376147757213610
+    second: wallpillars_12
+  - first:
+      213: 870172615821392389
+    second: wallpillars_13
+  - first:
+      213: -3651205371288443782
+    second: wallpillars_14
+  - first:
+      213: -8505674168327663214
+    second: wallpillars_15
+  - first:
+      213: 8988982681401447371
+    second: wallpillars_16
+  - first:
+      213: -448418144465550845
+    second: wallpillars_17
+  - first:
+      213: -1463301667885828264
+    second: wallpillars_18
+  - first:
+      213: -244418456063455990
+    second: wallpillars_19
+  - first:
+      213: -5380269141205654480
+    second: wallpillars_20
+  - first:
+      213: -1223287846015212585
+    second: wallpillars_21
+  - first:
+      213: 434155586439607573
+    second: wallpillars_22
+  - first:
+      213: -3155612661371804207
+    second: wallpillars_23
+  - first:
+      213: -5924796413510204263
+    second: wallpillars_24
+  - first:
+      213: 2697646285308244133
+    second: wallpillars_25
+  - first:
+      213: 6178365172986564272
+    second: wallpillars_26
+  - first:
+      213: -4299386567270977367
+    second: wallpillars_27
+  - first:
+      213: 7939602954089662708
+    second: wallpillars_28
+  - first:
+      213: 681994028258941484
+    second: wallpillars_29
+  - first:
+      213: -1319140813838784682
+    second: wallpillars_30
+  - first:
+      213: -1184696322094052785
+    second: wallpillars_31
+  - first:
+      213: 4726053952111713033
+    second: wallpillars_32
+  - first:
+      213: -7263722620563889648
+    second: wallpillars_33
+  - first:
+      213: 9151564075831249919
+    second: wallpillars_34
+  - first:
+      213: 195711482604731331
+    second: wallpillars_35
+  - first:
+      213: -5273288007161362822
+    second: wallpillars_36
+  - first:
+      213: -3756847055292493642
+    second: wallpillars_37
+  - first:
+      213: -1429339450702192573
+    second: wallpillars_38
+  - first:
+      213: -2088699895398068745
+    second: wallpillars_39
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: wallpillars_0
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 475
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9de1a5e2870ce8150800000000000000
+      internalID: 5876846186171342553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallpillars_1
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 475
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c32f59f4994f85850800000000000000
+      internalID: 6366107012590596668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallpillars_2
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 475
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 535e52944eab089f0800000000000000
+      internalID: -468168871604001483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallpillars_3
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 475
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfaf75444a82d5da0800000000000000
+      internalID: -5954558446327563524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallpillars_4
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 475
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 915258e019f3c2320800000000000000
+      internalID: 2534470582549161241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallpillars_5
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 475
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b19e9d78b1f44a820800000000000000
+      internalID: 2928552637359581467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallpillars_6
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 395
+        width: 23
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9a8d0dfcaf0eb890800000000000000
+      internalID: -7440492298715166050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallpillars_7
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 395
+        width: 23
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ab684512467400a0800000000000000
+      internalID: -6916273101537252442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallpillars_8
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 395
+        width: 23
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 155ac9c9f5bee3980800000000000000
+      internalID: -8557143446075431599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallpillars_9
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 395
+        width: 23
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1aa27fdf34dc858f0800000000000000
+      internalID: -551465262445548895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallpillars_10
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 395
+        width: 23
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa2faac6269950bf0800000000000000
+      internalID: -358711947297099089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallpillars_11
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 395
+        width: 23
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1099e07a10945930800000000000000
+      internalID: 4131085201443491869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallpillars_12
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 347
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6585bb6a5aeb631e0800000000000000
+      internalID: -2218376147757213610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallpillars_13
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 347
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50a7e4b3269731c00800000000000000
+      internalID: 870172615821392389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallpillars_14
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 347
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a74aa5a4f00545dc0800000000000000
+      internalID: -3651205371288443782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallpillars_15
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 347
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2911d9da866c5f980800000000000000
+      internalID: -8505674168327663214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallpillars_16
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 347
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc352118f184fbc70800000000000000
+      internalID: 8988982681401447371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallpillars_17
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 347
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3028a4cc216e6c9f0800000000000000
+      internalID: -448418144465550845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallpillars_18
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 265
+        width: 23
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 857bd6ec2ee41bbe0800000000000000
+      internalID: -1463301667885828264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallpillars_19
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 265
+        width: 23
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0dc9cd85b6ab9cf0800000000000000
+      internalID: -244418456063455990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallpillars_20
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 265
+        width: 23
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 034e072d8b17555b0800000000000000
+      internalID: -5380269141205654480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallpillars_21
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 265
+        width: 23
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d3e5307f22060fe0800000000000000
+      internalID: -1223287846015212585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallpillars_22
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 265
+        width: 23
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 515fbf2a43e660600800000000000000
+      internalID: 434155586439607573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallpillars_23
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 265
+        width: 23
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d5653ee0030534d0800000000000000
+      internalID: -3155612661371804207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallpillars_24
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 219
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99447368d05e6cda0800000000000000
+      internalID: -5924796413510204263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallpillars_25
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 219
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a03375f007ff6520800000000000000
+      internalID: 2697646285308244133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallpillars_26
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 219
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0be4284f366fdb550800000000000000
+      internalID: 6178365172986564272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallpillars_27
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 219
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a03ab932b28554c0800000000000000
+      internalID: -4299386567270977367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallpillars_28
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 219
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f8082822d22f2e60800000000000000
+      internalID: 7939602954089662708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallpillars_29
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 219
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2adf4194fde67900800000000000000
+      internalID: 681994028258941484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallpillars_30
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 137
+        width: 23
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6576b6e3b6871bde0800000000000000
+      internalID: -1319140813838784682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallpillars_31
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 137
+        width: 23
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4a4fdac8fc1f8fe0800000000000000
+      internalID: -1184696322094052785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallpillars_32
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 137
+        width: 23
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90b13fc9701569140800000000000000
+      internalID: 4726053952111713033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallpillars_33
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 137
+        width: 23
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 012e15ee2c2123b90800000000000000
+      internalID: -7263722620563889648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallpillars_34
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 137
+        width: 23
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffbc5273a03e00f70800000000000000
+      internalID: 9151564075831249919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallpillars_35
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 137
+        width: 23
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cbbe177e8e47b200800000000000000
+      internalID: 195711482604731331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallpillars_36
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 91
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a76c1de1f7481d6b0800000000000000
+      internalID: -5273288007161362822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallpillars_37
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 91
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b091d1028ffcdbc0800000000000000
+      internalID: -3756847055292493642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallpillars_38
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 9
+        width: 23
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 340a171b757f92ce0800000000000000
+      internalID: -1429339450702192573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallpillars_39
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 9
+        width: 23
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fd0764f2827303e0800000000000000
+      internalID: -2088699895398068745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

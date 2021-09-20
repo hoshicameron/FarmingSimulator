@@ -1,0 +1,888 @@
+fileFormatVersion: 2
+guid: e9feef83e87333a4c96becc00fcd5cf5
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6252020983826661180
+    second: hero regular hammer front 1
+  - first:
+      213: -8335055081268044077
+    second: hero silver hammer front 1
+  - first:
+      213: 9212829394440030688
+    second: hero gold hammer front 1
+  - first:
+      213: -2257096597855530440
+    second: hero diamond hammer front 1
+  - first:
+      213: 1341084634185025353
+    second: hero regular hammer front 2
+  - first:
+      213: 7151623357909081673
+    second: hero silver hammer front 2
+  - first:
+      213: 509631374242355289
+    second: hero gold hammer front 2
+  - first:
+      213: 2682169091032597575
+    second: hero diamond hammer front 2
+  - first:
+      213: -335317146237679243
+    second: hero regular hammer front 3
+  - first:
+      213: 6126500428856297716
+    second: hero silver hammer front 3
+  - first:
+      213: -8166106935696843984
+    second: hero gold hammer front 3
+  - first:
+      213: 1845533537707542300
+    second: hero diamond hammer front 3
+  - first:
+      213: 5640075391079490040
+    second: hero regular hammer front 4
+  - first:
+      213: 7402220617696580088
+    second: hero silver hammer front 4
+  - first:
+      213: -2453934811005347206
+    second: hero gold hammer front 4
+  - first:
+      213: -8015097357838649875
+    second: hero diamond hammer front 4
+  - first:
+      213: 4072193136304291910
+    second: hero regular hammer back 1
+  - first:
+      213: -5068396261893675363
+    second: hero silver hammer back 1
+  - first:
+      213: -439643975046138562
+    second: hero gold hammer back 1
+  - first:
+      213: 4499705597289262163
+    second: hero diamond hammer back 1
+  - first:
+      213: 4077843285176119829
+    second: hero regular hammer back 2
+  - first:
+      213: -1733597288881027467
+    second: hero silver hammer back 2
+  - first:
+      213: -1541674016481853639
+    second: hero gold hammer back 2
+  - first:
+      213: -2702891261759547423
+    second: hero diamond hammer back 2
+  - first:
+      213: 466497700957276032
+    second: hero regular hammer back 3
+  - first:
+      213: 7862749096892069375
+    second: hero silver hammer back 3
+  - first:
+      213: 109783135172786345
+    second: hero gold hammer back 3
+  - first:
+      213: 377057701944388245
+    second: hero diamond hammer back 3
+  - first:
+      213: -3214621105920820058
+    second: hero regular hammer back 4
+  - first:
+      213: -1663218222000040761
+    second: hero silver hammer back 4
+  - first:
+      213: -7246777049163801392
+    second: hero gold hammer back 4
+  - first:
+      213: -2477684831744848193
+    second: hero diamond hammer back 4
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: hero regular hammer front 1
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 423
+        width: 25
+        height: 51
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c049b23a0c5c39a0800000000000000
+      internalID: -6252020983826661180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero silver hammer front 1
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 423
+        width: 25
+        height: 51
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3de14b9809fe35c80800000000000000
+      internalID: -8335055081268044077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero gold hammer front 1
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 423
+        width: 25
+        height: 51
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e900e7c58b8adf70800000000000000
+      internalID: 9212829394440030688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero diamond hammer front 1
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 423
+        width: 25
+        height: 51
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83214155a9e2da0e0800000000000000
+      internalID: -2257096597855530440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero regular hammer front 2
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 363
+        width: 25
+        height: 55
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94745529e5d7c9210800000000000000
+      internalID: 1341084634185025353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero silver hammer front 2
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 363
+        width: 25
+        height: 55
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94e9e879d8baf3360800000000000000
+      internalID: 7151623357909081673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero gold hammer front 2
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 363
+        width: 25
+        height: 55
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9581c14e803921700800000000000000
+      internalID: 509631374242355289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero diamond hammer front 2
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 363
+        width: 25
+        height: 55
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 744c78ad39af83520800000000000000
+      internalID: 2682169091032597575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero regular hammer front 3
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 300
+        width: 22
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 579c76305d6b85bf0800000000000000
+      internalID: -335317146237679243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero silver hammer front 3
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 300
+        width: 22
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f802423ea3b50550800000000000000
+      internalID: 6126500428856297716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero gold hammer front 3
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 300
+        width: 22
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03b9fe302092cae80800000000000000
+      internalID: -8166106935696843984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero diamond hammer front 3
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 300
+        width: 22
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c17c02879f6ac9910800000000000000
+      internalID: 1845533537707542300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero regular hammer front 4
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 240
+        width: 22
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f127bf8fa2954e40800000000000000
+      internalID: 5640075391079490040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero silver hammer front 4
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 240
+        width: 22
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f190e2ee68f9b660800000000000000
+      internalID: 7402220617696580088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero gold hammer front 4
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 240
+        width: 22
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7a9f087a4fd1fdd0800000000000000
+      internalID: -2453934811005347206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero diamond hammer front 4
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 240
+        width: 22
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de5fad93b67a4c090800000000000000
+      internalID: -8015097357838649875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero regular hammer back 1
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 183
+        width: 25
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64083320516538830800000000000000
+      internalID: 4072193136304291910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero silver hammer back 1
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 184
+        width: 25
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d96e8ec047079a9b0800000000000000
+      internalID: -5068396261893675363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero gold hammer back 1
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 183
+        width: 25
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e35fbbf422216e9f0800000000000000
+      internalID: -439643975046138562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero diamond hammer back 1
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 183
+        width: 25
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35c6348766a227e30800000000000000
+      internalID: 4499705597289262163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero regular hammer back 2
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 123
+        width: 24
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51272aeccd8679830800000000000000
+      internalID: 4077843285176119829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero silver hammer back 2
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 124
+        width: 24
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5768aa4637601f7e0800000000000000
+      internalID: -1733597288881027467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero gold hammer back 2
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 123
+        width: 24
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93f362076afda9ae0800000000000000
+      internalID: -1541674016481853639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero diamond hammer back 2
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 123
+        width: 24
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e7905cc7b66d7ad0800000000000000
+      internalID: -2702891261759547423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero regular hammer back 3
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 62
+        width: 23
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 087481aff25597600800000000000000
+      internalID: 466497700957276032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero silver hammer back 3
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 63
+        width: 23
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff5764e15a81e1d60800000000000000
+      internalID: 7862749096892069375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero gold hammer back 3
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 62
+        width: 23
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a87d460e27068100800000000000000
+      internalID: 109783135172786345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero diamond hammer back 3
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 62
+        width: 23
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59a68307bf39b3500800000000000000
+      internalID: 377057701944388245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero regular hammer back 4
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 2
+        width: 23
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6acbd1ec22f5363d0800000000000000
+      internalID: -3214621105920820058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero silver hammer back 4
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 3
+        width: 23
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c41bb5d6df0be8e0800000000000000
+      internalID: -1663218222000040761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero gold hammer back 4
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 2
+        width: 23
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dc532a3ba64e6b90800000000000000
+      internalID: -7246777049163801392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero diamond hammer back 4
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 2
+        width: 23
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbe897ad5ce7d9dd0800000000000000
+      internalID: -2477684831744848193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

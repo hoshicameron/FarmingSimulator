@@ -1,0 +1,2136 @@
+fileFormatVersion: 2
+guid: 950de1a4bee621d42a3709259e179380
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7386441160234851309
+    second: NPC front 1-1
+  - first:
+      213: -6670386301346003692
+    second: NPC front 1-2
+  - first:
+      213: -7658988245387933335
+    second: NPC front 1-3
+  - first:
+      213: 7207743288115920367
+    second: NPC front 2-1
+  - first:
+      213: 728704421431683799
+    second: NPC front 2-2
+  - first:
+      213: -6056044242575532157
+    second: NPC front 2-3
+  - first:
+      213: -2138940487399532597
+    second: NPC front 3-1
+  - first:
+      213: -5375666244147568891
+    second: NPC front 3-2
+  - first:
+      213: 7347173001647064649
+    second: NPC front 3-3
+  - first:
+      213: 3299848474890016488
+    second: NPC front 4-1
+  - first:
+      213: 7755204798632865518
+    second: NPC front 4-2
+  - first:
+      213: -1438375727942746169
+    second: NPC front 4-3
+  - first:
+      213: 9080586617268593654
+    second: NPC left 1-1
+  - first:
+      213: 2630188243470156941
+    second: NPC left 1-2
+  - first:
+      213: -1764117184807875462
+    second: NPC left 1-3
+  - first:
+      213: -8247052434181134308
+    second: NPC left 2-1
+  - first:
+      213: 7976259188861739388
+    second: NPC left 2-2
+  - first:
+      213: -6269792252497126516
+    second: NPC left 2-3
+  - first:
+      213: -6251913045085653161
+    second: NPC left 3-1
+  - first:
+      213: 5678793038010333815
+    second: NPC left 3-2
+  - first:
+      213: 8748688312401849633
+    second: NPC left 3-3
+  - first:
+      213: -23074284498684661
+    second: NPC left 4-1
+  - first:
+      213: 7894480766781318888
+    second: NPC left 4-2
+  - first:
+      213: -7982493041920154975
+    second: NPC left 4-3
+  - first:
+      213: 5815160155061356691
+    second: NPC right 1-1
+  - first:
+      213: -3161189757451024610
+    second: NPC right 1-2
+  - first:
+      213: 1014046857601654018
+    second: NPC right 1-3
+  - first:
+      213: -1725614914889639159
+    second: NPC right 2-1
+  - first:
+      213: -3919300688788582937
+    second: NPC right 2-2
+  - first:
+      213: 6295451585175108544
+    second: NPC right 2-3
+  - first:
+      213: -3181132604576680275
+    second: NPC right 3-1
+  - first:
+      213: -604538056797589470
+    second: NPC right 2-
+  - first:
+      213: 4610551911266427910
+    second: NPC right 3-3
+  - first:
+      213: -5548417776134945174
+    second: NPC right 4-1
+  - first:
+      213: -4582863368878146396
+    second: NPC right 4-2
+  - first:
+      213: 7853551986313711071
+    second: NPC right 4-3
+  - first:
+      213: -7939439101176102638
+    second: NPC back 1-1
+  - first:
+      213: 8963525296395326769
+    second: NPC back 1-2
+  - first:
+      213: -7793560061094444208
+    second: NPC back 1-3
+  - first:
+      213: -2871839296023193858
+    second: NPC back 2-1
+  - first:
+      213: 7501375159970987463
+    second: NPC back 2-2
+  - first:
+      213: -4657320668052737706
+    second: NPC back 2-3
+  - first:
+      213: -7880576210774324495
+    second: NPC back 3-1
+  - first:
+      213: -6154426321145986095
+    second: NPC back 3-2
+  - first:
+      213: -3955987387302346756
+    second: NPC back 3-3
+  - first:
+      213: 4769761325744552351
+    second: NPC back 4-1
+  - first:
+      213: -3971960206414585731
+    second: NPC back 4-2
+  - first:
+      213: 4880824204266873269
+    second: NPC back 4-3
+  - first:
+      213: 7495704490665206805
+    second: NPC front 5-1
+  - first:
+      213: 7042961987278987883
+    second: NPC front 5-2
+  - first:
+      213: 6804007447490440636
+    second: NPC front 5-3
+  - first:
+      213: -598715431630896348
+    second: NPC front 6-1
+  - first:
+      213: 7406634604149753995
+    second: NPC front 6-2
+  - first:
+      213: -1460581491860357085
+    second: NPC front 6-3
+  - first:
+      213: -1298606611855829983
+    second: NPC front 7-1
+  - first:
+      213: -7458157838862922939
+    second: NPC front 7-2
+  - first:
+      213: 1861039888891096456
+    second: NPC front 7-3
+  - first:
+      213: -3396429907165609741
+    second: NPC left 5-1
+  - first:
+      213: 6109355211434530937
+    second: NPC left 5-2
+  - first:
+      213: -6510984932786385178
+    second: NPC left 5-3
+  - first:
+      213: 592566000456598988
+    second: NPC left 6-1
+  - first:
+      213: -3264358856837971801
+    second: NPC left 6-2
+  - first:
+      213: 3491109416517215180
+    second: NPC left 6-3
+  - first:
+      213: -6302665836109017520
+    second: NPC left 7-1
+  - first:
+      213: -6780436619910755800
+    second: NPC left 7-
+  - first:
+      213: -2684810925040441432
+    second: NPC left 7-3
+  - first:
+      213: 4753455761160398567
+    second: NPC right 5-1
+  - first:
+      213: -8647716484906443422
+    second: NPC right 5-2
+  - first:
+      213: -1270031005376057998
+    second: NPC right 5-3
+  - first:
+      213: 2883892672198292765
+    second: NPC right 6-1
+  - first:
+      213: 2102225212050224778
+    second: NPC right 6-2
+  - first:
+      213: -489443117349873713
+    second: NPC right 6-3
+  - first:
+      213: 3899643159194956282
+    second: NPC right 7-1
+  - first:
+      213: 6496944134909017895
+    second: NPC right 7-2
+  - first:
+      213: -5382269448341621894
+    second: NPC right 7-3
+  - first:
+      213: -7286222559949434003
+    second: NPC back 5-1
+  - first:
+      213: 7861299862578480834
+    second: NPC back 5-2
+  - first:
+      213: -908494857041212077
+    second: NPC back 5-3
+  - first:
+      213: 8614781380319514350
+    second: NPC back 6-1
+  - first:
+      213: -7357951904528728614
+    second: NPC back 6-2
+  - first:
+      213: -5079432519395510131
+    second: NPC back 6-3
+  - first:
+      213: 6786192671197651857
+    second: NPC back 7-1
+  - first:
+      213: -6706539626164977048
+    second: NPC back 7-2
+  - first:
+      213: -7891729635612147884
+    second: NPC back 7-3
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: NPC front 1-1
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 315
+        width: 27
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: deb5f16a919e18660800000000000000
+      internalID: 7386441160234851309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC front 1-2
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 315
+        width: 27
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 415c3a900070e63a0800000000000000
+      internalID: -6670386301346003692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC front 1-3
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 315
+        width: 27
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96982c615cec5b590800000000000000
+      internalID: -7658988245387933335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC front 2-1
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 315
+        width: 19
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fedfa50155c070460800000000000000
+      internalID: 7207743288115920367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC front 2-2
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 315
+        width: 19
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7da21b97fc0ec1a00800000000000000
+      internalID: 728704421431683799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC front 2-3
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 315
+        width: 19
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38f5c3109db94fba0800000000000000
+      internalID: -6056044242575532157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC front 3-1
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 315
+        width: 19
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc799d495f4f052e0800000000000000
+      internalID: -2138940487399532597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC front 3-2
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 315
+        width: 19
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50f968e480cc565b0800000000000000
+      internalID: -5375666244147568891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC front 3-3
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 315
+        width: 19
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94683820be666f560800000000000000
+      internalID: 7347173001647064649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC front 4-1
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 315
+        width: 19
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e61f6e54ba6bcd20800000000000000
+      internalID: 3299848474890016488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC front 4-2
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 315
+        width: 19
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eeeaaeeeca500ab60800000000000000
+      internalID: 7755204798632865518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC front 4-3
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 315
+        width: 19
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cfbd6275ecd90ce0800000000000000
+      internalID: -1438375727942746169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC left 1-1
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 270
+        width: 30
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f3e57ada69b40e70800000000000000
+      internalID: 9080586617268593654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC left 1-2
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 270
+        width: 30
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d848278a54e408420800000000000000
+      internalID: 2630188243470156941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC left 1-3
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 270
+        width: 30
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7c4d5164c89487e0800000000000000
+      internalID: -1764117184807875462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC left 2-1
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 270
+        width: 26
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c18ec9081859c8d80800000000000000
+      internalID: -8247052434181134308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC left 2-2
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 270
+        width: 24
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c71ac84e87d51be60800000000000000
+      internalID: 7976259188861739388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC left 2-3
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 270
+        width: 26
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8b99664a293df8a0800000000000000
+      internalID: -6269792252497126516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC left 3-1
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 270
+        width: 26
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 757f905a53ebc39a0800000000000000
+      internalID: -6251913045085653161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC left 3-2
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 270
+        width: 24
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77a31973e202fce40800000000000000
+      internalID: 5678793038010333815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC left 3-3
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 270
+        width: 26
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12de257eaa5996970800000000000000
+      internalID: 8748688312401849633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC left 4-1
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 270
+        width: 26
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b05720d7f060eaff0800000000000000
+      internalID: -23074284498684661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC left 4-2
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 270
+        width: 24
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e6672e3e64de8d60800000000000000
+      internalID: 7894480766781318888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC left 4-3
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 270
+        width: 26
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a262561fdc783190800000000000000
+      internalID: -7982493041920154975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC right 1-1
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 225
+        width: 30
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 398007ad95993b050800000000000000
+      internalID: 5815160155061356691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC right 1-2
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 225
+        width: 30
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e17478f0aa23124d0800000000000000
+      internalID: -3161189757451024610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC right 1-3
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 225
+        width: 30
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20d92fc8e3e921e00800000000000000
+      internalID: 1014046857601654018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC right 2-1
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 225
+        width: 26
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90b13eaa0626d08e0800000000000000
+      internalID: -1725614914889639159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC right 2-2
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 225
+        width: 24
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ed00d4f9c8db99c0800000000000000
+      internalID: -3919300688788582937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC right 2-3
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 225
+        width: 26
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cb380bacdfed5750800000000000000
+      internalID: 6295451585175108544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC right 3-1
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 225
+        width: 26
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da63bc020c85ad3d0800000000000000
+      internalID: -3181132604576680275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC right 2-
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 225
+        width: 24
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 220ff5f17df3c97f0800000000000000
+      internalID: -604538056797589470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC right 3-3
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 225
+        width: 26
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 604a8891988fbff30800000000000000
+      internalID: 4610551911266427910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC right 4-1
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 225
+        width: 26
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a66830ced6f0003b0800000000000000
+      internalID: -5548417776134945174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC right 4-2
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 225
+        width: 24
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ac3edb0c066660c0800000000000000
+      internalID: -4582863368878146396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC right 4-3
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 225
+        width: 26
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fddca41fbeb6dfc60800000000000000
+      internalID: 7853551986313711071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC back 1-1
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 180
+        width: 27
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2114d82d33271d190800000000000000
+      internalID: -7939439101176102638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC back 1-2
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 180
+        width: 27
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1351fda24c6d46c70800000000000000
+      internalID: 8963525296395326769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC back 1-3
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 180
+        width: 27
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0534bce9a66b7d390800000000000000
+      internalID: -7793560061094444208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC back 2-1
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 180
+        width: 19
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef6978c306d2528d0800000000000000
+      internalID: -2871839296023193858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC back 2-2
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 180
+        width: 19
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cd7209c6fc3a1860800000000000000
+      internalID: 7501375159970987463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC back 2-3
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 180
+        width: 19
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 651b1a7278fdd5fb0800000000000000
+      internalID: -4657320668052737706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC back 3-1
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 180
+        width: 19
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fa076b70b192a290800000000000000
+      internalID: -7880576210774324495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC back 3-2
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 180
+        width: 19
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d387c35ed5179aa0800000000000000
+      internalID: -6154426321145986095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC back 3-3
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 180
+        width: 19
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfffae35e628919c0800000000000000
+      internalID: -3955987387302346756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC back 4-1
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 180
+        width: 19
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f99766c87a8913240800000000000000
+      internalID: 4769761325744552351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC back 4-2
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 180
+        width: 19
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d70eba29c33c0e8c0800000000000000
+      internalID: -3971960206414585731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC back 4-3
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 180
+        width: 19
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b1a47a01cb2cb340800000000000000
+      internalID: 4880824204266873269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC front 5-1
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 135
+        width: 20
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51466633587160860800000000000000
+      internalID: 7495704490665206805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC front 5-2
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 135
+        width: 19
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b62e75abc90adb160800000000000000
+      internalID: 7042961987278987883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC front 5-3
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 135
+        width: 20
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbda7cc69b0bc6e50800000000000000
+      internalID: 6804007447490440636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC front 6-1
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 135
+        width: 19
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4238810bc7fe0b7f0800000000000000
+      internalID: -598715431630896348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC front 6-2
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 135
+        width: 19
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8846713ee6a9c660800000000000000
+      internalID: 7406634604149753995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC front 6-3
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 135
+        width: 19
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32047242fd8fabbe0800000000000000
+      internalID: -1460581491860357085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC front 7-1
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 135
+        width: 19
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1241c55ba2c6afde0800000000000000
+      internalID: -1298606611855829983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC front 7-2
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 135
+        width: 19
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54bc7c7e5fc4f7890800000000000000
+      internalID: -7458157838862922939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC front 7-3
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 135
+        width: 19
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88daf223bedb3d910800000000000000
+      internalID: 1861039888891096456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC left 5-1
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 90
+        width: 26
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f081e69ef47dd0d0800000000000000
+      internalID: -3396429907165609741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC left 5-2
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 90
+        width: 24
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9789c30323ac8c450800000000000000
+      internalID: 6109355211434530937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC left 5-3
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 90
+        width: 26
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6eec85743b554a5a0800000000000000
+      internalID: -6510984932786385178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC left 6-1
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 90
+        width: 26
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc5803b43a7393800800000000000000
+      internalID: 592566000456598988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC left 6-2
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 90
+        width: 24
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a0c5ce3aeaa2b2d0800000000000000
+      internalID: -3264358856837971801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC left 6-3
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 90
+        width: 26
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc3a7838489e27030800000000000000
+      internalID: 3491109416517215180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC left 7-1
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 90
+        width: 26
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05e4bb4a0de6888a0800000000000000
+      internalID: -6302665836109017520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC left 7-
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 90
+        width: 24
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82a4b2881dc07e1a0800000000000000
+      internalID: -6780436619910755800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC left 7-3
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 90
+        width: 26
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a760eb30b2adbad0800000000000000
+      internalID: -2684810925040441432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC right 5-1
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 45
+        width: 26
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e6ef7374daa7f140800000000000000
+      internalID: 4753455761160398567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC right 5-2
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 45
+        width: 24
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26d9cdeaca32df780800000000000000
+      internalID: -8647716484906443422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC right 5-3
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 45
+        width: 26
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27de3de8781ff5ee0800000000000000
+      internalID: -1270031005376057998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC right 6-1
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 45
+        width: 26
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d153bb81b15a50820800000000000000
+      internalID: 2883892672198292765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC right 6-2
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 45
+        width: 24
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a86bf1a31ba9c2d10800000000000000
+      internalID: 2102225212050224778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC right 6-3
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 45
+        width: 26
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc7d994f3162539f0800000000000000
+      internalID: -489443117349873713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC right 7-1
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 45
+        width: 26
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af1f896cac05e1630800000000000000
+      internalID: 3899643159194956282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC right 7-2
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 45
+        width: 24
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72f3fc6b448c92a50800000000000000
+      internalID: 6496944134909017895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC right 7-3
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 45
+        width: 26
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a73f82604765e45b0800000000000000
+      internalID: -5382269448341621894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC back 5-1
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 0
+        width: 19
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d63d6cf8f2322ea90800000000000000
+      internalID: -7286222559949434003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC back 5-2
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 0
+        width: 19
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c641d5f292f81d60800000000000000
+      internalID: 7861299862578480834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC back 5-3
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 0
+        width: 19
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35d0acdadb06463f0800000000000000
+      internalID: -908494857041212077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC back 6-1
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 0
+        width: 19
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eee0897b50add8770800000000000000
+      internalID: 8614781380319514350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC back 6-2
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 0
+        width: 19
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: addf7281abd43e990800000000000000
+      internalID: -7357951904528728614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC back 6-3
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 0
+        width: 19
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d88fcdc190b3289b0800000000000000
+      internalID: -5079432519395510131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC back 7-1
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 0
+        width: 19
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 193681897466d2e50800000000000000
+      internalID: 6786192671197651857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC back 7-2
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 0
+        width: 19
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8620b562eb59de2a0800000000000000
+      internalID: -6706539626164977048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC back 7-3
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 0
+        width: 19
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45f3ae565b1fa7290800000000000000
+      internalID: -7891729635612147884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,888 @@
+fileFormatVersion: 2
+guid: f017b3bfd5b26bd43b21657ccd94310b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4035184720689882621
+    second: Heroine regular sickle front 1
+  - first:
+      213: -800543731335427851
+    second: Heroine silver sickle front 1
+  - first:
+      213: -6289490192889344722
+    second: Heroine gold sickle front 1
+  - first:
+      213: -2786740395343290800
+    second: Heroine diamond sickle front 1
+  - first:
+      213: -382074564072351291
+    second: Heroine regular sickle front 2
+  - first:
+      213: -3827699643572046654
+    second: Heroine silver sickle front 2
+  - first:
+      213: -6777511087609863955
+    second: Heroine gold sickle front 2
+  - first:
+      213: 7977239201510038944
+    second: Heroine diamond sickle front 2
+  - first:
+      213: 5001354929255110718
+    second: Heroine regular sickle front 3
+  - first:
+      213: 3204319319600178001
+    second: Heroine silver sickle front 3
+  - first:
+      213: -3607709008449732748
+    second: Heroine gold sickle front 3
+  - first:
+      213: -2133777031630231074
+    second: Heroine diamond sickle front 3
+  - first:
+      213: -842558037545855714
+    second: Heroine regular sickle front 4
+  - first:
+      213: -7782425978382412173
+    second: Heroine silver sickle front 4
+  - first:
+      213: 5241187332374952632
+    second: Heroine gold sickle front 4
+  - first:
+      213: -3975453737214569306
+    second: Heroine diamond sickle front 4
+  - first:
+      213: -8114186798842151667
+    second: Heroine regular sickle back 1
+  - first:
+      213: -2841134051601987165
+    second: Heroine silver sickle back 1
+  - first:
+      213: -1512425302865740700
+    second: Heroine gold sickle back 1
+  - first:
+      213: 4007677767345303645
+    second: Heroine diamond sickle back 1
+  - first:
+      213: -4632631563821458233
+    second: Heroine regular sickle back 2
+  - first:
+      213: -8684210005774799327
+    second: Heroine silver sickle back 2
+  - first:
+      213: 7281873161306336983
+    second: Heroine gold sickle back 2
+  - first:
+      213: -1985574682806305217
+    second: Heroine diamond sickle back 2
+  - first:
+      213: 3966959833354877529
+    second: Heroine regular sickle back 3
+  - first:
+      213: -5165741302299696262
+    second: Heroine silver sickle back 3
+  - first:
+      213: 1236435756413535613
+    second: Heroine gold sickle back 3
+  - first:
+      213: 2039070639097528445
+    second: Heroine diamond sickle back 3
+  - first:
+      213: 1070942121383665500
+    second: Heroine regular sickle back 4
+  - first:
+      213: -1515129717428803355
+    second: Heroine silver sickle back 4
+  - first:
+      213: 5033323953083203697
+    second: Heroine gold sickle back 4
+  - first:
+      213: 5056458809567380767
+    second: Heroine diamond sickle back 4
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Heroine regular sickle front 1
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 423
+        width: 34
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df5edc7cf1bdff730800000000000000
+      internalID: 4035184720689882621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heroine silver sickle front 1
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 423
+        width: 34
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f80692c7b5e3e4f0800000000000000
+      internalID: -800543731335427851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heroine gold sickle front 1
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 423
+        width: 34
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2d07822efd37b8a0800000000000000
+      internalID: -6289490192889344722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heroine diamond sickle front 1
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 423
+        width: 34
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05ed45e00628359d0800000000000000
+      internalID: -2786740395343290800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heroine regular sickle front 2
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 363
+        width: 36
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c951c2553992baf0800000000000000
+      internalID: -382074564072351291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heroine silver sickle front 2
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 363
+        width: 36
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c4bff5447741eac0800000000000000
+      internalID: -3827699643572046654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heroine gold sickle front 2
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 363
+        width: 36
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de02eb9139171f1a0800000000000000
+      internalID: -6777511087609863955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heroine diamond sickle front 2
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 363
+        width: 36
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ad935ed9c8d4be60800000000000000
+      internalID: 7977239201510038944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heroine regular sickle front 3
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 303
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3856e15fc1686540800000000000000
+      internalID: 5001354929255110718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heroine silver sickle front 3
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 303
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 153a0b7a177087c20800000000000000
+      internalID: 3204319319600178001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heroine gold sickle front 3
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 303
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47f706275c7deedc0800000000000000
+      internalID: -3607709008449732748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heroine diamond sickle front 3
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 303
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed9eacf481d4362e0800000000000000
+      internalID: -2133777031630231074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heroine regular sickle front 4
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 243
+        width: 25
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e15dd6dcde1ae44f0800000000000000
+      internalID: -842558037545855714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heroine silver sickle front 4
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 243
+        width: 25
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3769eb34ec44ff390800000000000000
+      internalID: -7782425978382412173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heroine gold sickle front 4
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 243
+        width: 25
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ba7c7b1c107cb840800000000000000
+      internalID: 5241187332374952632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heroine diamond sickle front 4
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 243
+        width: 25
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a4935c83e954d8c0800000000000000
+      internalID: -3975453737214569306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heroine regular sickle back 1
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 183
+        width: 34
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0d79d5e81e946f80800000000000000
+      internalID: -8114186798842151667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heroine silver sickle back 1
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 183
+        width: 34
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a94ffe02a34298d0800000000000000
+      internalID: -2841134051601987165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heroine gold sickle back 1
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 183
+        width: 34
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46cff514339c20be0800000000000000
+      internalID: -1512425302865740700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heroine diamond sickle back 1
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 183
+        width: 34
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d50f8d022b12e9730800000000000000
+      internalID: 4007677767345303645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heroine regular sickle back 2
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 123
+        width: 34
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ccd82f232695bfb0800000000000000
+      internalID: -4632631563821458233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heroine silver sickle back 2
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 123
+        width: 34
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12e66eab20d7b7780800000000000000
+      internalID: -8684210005774799327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heroine gold sickle back 2
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 123
+        width: 34
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7de6d172f096e0560800000000000000
+      internalID: 7281873161306336983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heroine diamond sickle back 2
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 123
+        width: 34
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3e32549852d174e0800000000000000
+      internalID: -1985574682806305217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heroine regular sickle back 3
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 62
+        width: 31
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95a3c5953f87d0730800000000000000
+      internalID: 3966959833354877529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heroine silver sickle back 3
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 62
+        width: 31
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a73ecd2a7a99f48b0800000000000000
+      internalID: -5165741302299696262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heroine gold sickle back 3
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 62
+        width: 31
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d75ce9005c3b82110800000000000000
+      internalID: 1236435756413535613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heroine diamond sickle back 3
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 62
+        width: 31
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d70465b51fb3c4c10800000000000000
+      internalID: 2039070639097528445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heroine regular sickle back 4
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 2
+        width: 24
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5f93107f20ccde00800000000000000
+      internalID: 1070942121383665500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heroine silver sickle back 4
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 2
+        width: 24
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e8a40cac8d29fae0800000000000000
+      internalID: -1515129717428803355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heroine gold sickle back 4
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 2
+        width: 24
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1704df6b775f9d540800000000000000
+      internalID: 5033323953083203697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heroine diamond sickle back 4
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 2
+        width: 24
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1588ad3f762c2640800000000000000
+      internalID: 5056458809567380767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,888 @@
+fileFormatVersion: 2
+guid: 9f1a1e235f467af4caf473c8e0e7236c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7263748363840041802
+    second: Hero misc front 1
+  - first:
+      213: 7151543213535116727
+    second: Hero misc back 1
+  - first:
+      213: -159817249487884386
+    second: Hero misc left 1
+  - first:
+      213: -6983975284959094940
+    second: Hero misc right 1
+  - first:
+      213: -8690744455881055168
+    second: Hero misc front 2
+  - first:
+      213: 7034310098364136266
+    second: Hero misc back 2
+  - first:
+      213: -790831934198294586
+    second: Hero misc left 2
+  - first:
+      213: 3983250182779683359
+    second: Hero misc right
+  - first:
+      213: -6995332763514807062
+    second: Hero misc front 3
+  - first:
+      213: -4658499464937736368
+    second: Hero misc back 3
+  - first:
+      213: 5901675062553567512
+    second: Hero misc left 3
+  - first:
+      213: 7812204632419852469
+    second: Hero misc right 2
+  - first:
+      213: 3830014042531486829
+    second: Hero misc front 4
+  - first:
+      213: -6832104986249027406
+    second: Hero misc back 4
+  - first:
+      213: -1003926782264658786
+    second: Hero misc left 4
+  - first:
+      213: -9210506579771794522
+    second: Hero misc right 4
+  - first:
+      213: 3557070037007227652
+    second: Hero fishing front 1
+  - first:
+      213: -8512920391680531609
+    second: Hero fishing back 1
+  - first:
+      213: -5586133389232922470
+    second: Hero fishing left 1
+  - first:
+      213: 1581808318740816258
+    second: Hero fishing right 1
+  - first:
+      213: -6169672278435829960
+    second: Hero fishing front 2
+  - first:
+      213: 5325521822487821811
+    second: Hero fishing back 2
+  - first:
+      213: -6176405134455623903
+    second: Hero fishing left 2
+  - first:
+      213: 974756555022518221
+    second: Hero fishing right 2
+  - first:
+      213: 4833862694271489832
+    second: Hero fishing front 3
+  - first:
+      213: -5090004564344325286
+    second: Hero fishing back 3
+  - first:
+      213: 7227397047983322837
+    second: Hero fishing left 3
+  - first:
+      213: -252953232415743878
+    second: Hero fishing right 3
+  - first:
+      213: 3614609253988043929
+    second: Hero fishing front 4
+  - first:
+      213: -4325728562280643239
+    second: Hero fishing back 4
+  - first:
+      213: -6857121309799421108
+    second: Hero fishing left 4
+  - first:
+      213: -2679804341381957651
+    second: Hero fishing right 4
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Hero misc front 1
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 424
+        width: 21
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bc4d7b195bf13b90800000000000000
+      internalID: -7263748363840041802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero misc back 1
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 424
+        width: 23
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bdbd9689a26f3360800000000000000
+      internalID: 7151543213535116727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero misc left 1
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 424
+        width: 32
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9f6b4fee0738cdf0800000000000000
+      internalID: -159817249487884386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero misc right 1
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 424
+        width: 32
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 467d7e32b7fe31f90800000000000000
+      internalID: -6983975284959094940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero misc front 2
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 361
+        width: 21
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 044a38186f5446780800000000000000
+      internalID: -8690744455881055168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero misc back 2
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 364
+        width: 24
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4bffecd3c3ee9160800000000000000
+      internalID: 7034310098364136266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero misc left 2
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 364
+        width: 33
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c7531dbb866605f0800000000000000
+      internalID: -790831934198294586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero misc right
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 364
+        width: 34
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f12c714efe8574730800000000000000
+      internalID: 3983250182779683359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero misc front 3
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 300
+        width: 26
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aec5c091ae59bee90800000000000000
+      internalID: -6995332763514807062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero misc back 3
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 305
+        width: 28
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 057f90e1b6fa95fb0800000000000000
+      internalID: -4658499464937736368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero misc left 3
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 304
+        width: 40
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81169437336f6e150800000000000000
+      internalID: 5901675062553567512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero misc right 2
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 304
+        width: 41
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b0eb0ce8b68a6c60800000000000000
+      internalID: 7812204632419852469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero misc front 4
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 240
+        width: 28
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6cd8d9ba71f62530800000000000000
+      internalID: 3830014042531486829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero misc back 4
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 245
+        width: 27
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b0a37a86bc7f21a0800000000000000
+      internalID: -6832104986249027406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero misc left 4
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 244
+        width: 40
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e943d9a19e55112f0800000000000000
+      internalID: -1003926782264658786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero misc right 4
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 244
+        width: 41
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6abdd47a015bd2080800000000000000
+      internalID: -9210506579771794522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero fishing front 1
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 183
+        width: 23
+        height: 55
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40b500d3a504d5130800000000000000
+      internalID: 3557070037007227652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero fishing back 1
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 183
+        width: 22
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 763e3b4d1080cd980800000000000000
+      internalID: -8512920391680531609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero fishing left 1
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 184
+        width: 23
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a90a2d277411a72b0800000000000000
+      internalID: -5586133389232922470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero fishing right 1
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 184
+        width: 24
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 281ed4df846b3f510800000000000000
+      internalID: 1581808318740816258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero fishing front 2
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 123
+        width: 24
+        height: 56
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 837e14740cbe06aa0800000000000000
+      internalID: -6169672278435829960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero fishing back 2
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 123
+        width: 23
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fd3af8b1ed08e940800000000000000
+      internalID: 5325521822487821811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero fishing left 2
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 124
+        width: 22
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12fafd31140094aa0800000000000000
+      internalID: -6176405134455623903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero fishing right 2
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 124
+        width: 23
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc7c99c1ce7078d00800000000000000
+      internalID: 974756555022518221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero fishing front 3
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 60
+        width: 23
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82790117284551340800000000000000
+      internalID: 4833862694271489832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero fishing back 3
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 62
+        width: 25
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5bb32511dbac59b0800000000000000
+      internalID: -5090004564344325286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero fishing left 3
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 64
+        width: 41
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d6b0cf925fdc4460800000000000000
+      internalID: 7227397047983322837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero fishing right 3
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 64
+        width: 42
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a70a21510645d7cf0800000000000000
+      internalID: -252953232415743878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero fishing front 4
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 0
+        width: 21
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99c0cc927fba92230800000000000000
+      internalID: 3614609253988043929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero fishing back 4
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 2
+        width: 25
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95540829acce7f3c0800000000000000
+      internalID: -4325728562280643239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero fishing left 4
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 4
+        width: 41
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4be4a3df7c96d0a0800000000000000
+      internalID: -6857121309799421108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero fishing right 4
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 4
+        width: 42
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de7f064562c6fcad0800000000000000
+      internalID: -2679804341381957651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

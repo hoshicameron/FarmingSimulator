@@ -1,0 +1,888 @@
+fileFormatVersion: 2
+guid: c8493b49df9b373469ff06f01c2274ae
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1926278056394702688
+    second: Hero regular shovel front 1
+  - first:
+      213: -2847432404289097549
+    second: Hero silver shovel front 1
+  - first:
+      213: 3129262810760610485
+    second: Hero gold shovel front 1
+  - first:
+      213: 5398310008530875276
+    second: Hero diamond shovel front 1
+  - first:
+      213: 4174582617533935244
+    second: Hero regular shovel front 2
+  - first:
+      213: 1554143149535018413
+    second: Hero silver shovel front 2
+  - first:
+      213: -362040458610677148
+    second: Hero gold shovel front 2
+  - first:
+      213: -346827606226986288
+    second: Hero diamond shovel front 2
+  - first:
+      213: -6041472771878063966
+    second: Hero regular shovel front 3
+  - first:
+      213: -825458570564719909
+    second: Hero silver shovel front
+  - first:
+      213: 2749129908249219918
+    second: Hero gold shovel front 3
+  - first:
+      213: 6865416286354989530
+    second: Hero diamond shovel front 3
+  - first:
+      213: -8570472870530050589
+    second: Hero regular shovel front 4
+  - first:
+      213: 1813393039118524321
+    second: Hero silver shovel front 4
+  - first:
+      213: 6534043351583987226
+    second: Hero gold shovel front 4
+  - first:
+      213: 7838013115834938532
+    second: Hero diamond shovel front 4
+  - first:
+      213: 8987083575613678068
+    second: Hero regular shovel back 1
+  - first:
+      213: 3605443222400810364
+    second: Hero silver shovel back 1
+  - first:
+      213: 8831967152488348019
+    second: Hero gold shovel back 1
+  - first:
+      213: -2786413970199066094
+    second: Hero diamond shovel back 1
+  - first:
+      213: 7106142414880387258
+    second: Hero regular shovel back 2
+  - first:
+      213: -3905042484591778739
+    second: Hero silver shovel back 2
+  - first:
+      213: -8337715624565640769
+    second: Hero gold shovel back 2
+  - first:
+      213: -3162846334542600215
+    second: Hero diamond shovel back 2
+  - first:
+      213: -4176659192401070506
+    second: Hero regular shovel back 3
+  - first:
+      213: -9173536676320147945
+    second: Hero silver shovel back 3
+  - first:
+      213: 3785562988599639933
+    second: Hero gold shovel back 3
+  - first:
+      213: -3508007807208675407
+    second: Hero diamond shovel back 3
+  - first:
+      213: -6732571880461599043
+    second: Hero regular shovel back 4
+  - first:
+      213: -4329094269378016669
+    second: Hero silver shovel back 4
+  - first:
+      213: 4053190319193886437
+    second: Hero gold shovel back 4
+  - first:
+      213: -1515531602778379637
+    second: Hero diamond shovel back 4
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Hero regular shovel front 1
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 424
+        width: 21
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a0c6f5405c7445e0800000000000000
+      internalID: -1926278056394702688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero silver shovel front 1
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 424
+        width: 21
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b0796c8053eb78d0800000000000000
+      internalID: -2847432404289097549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero gold shovel front 1
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 424
+        width: 21
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b20a3462ff5d6b20800000000000000
+      internalID: 3129262810760610485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero diamond shovel front 1
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 424
+        width: 21
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c833bede956aaea40800000000000000
+      internalID: 5398310008530875276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero regular shovel front 2
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 361
+        width: 24
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8e61a3d5c81fe930800000000000000
+      internalID: 4174582617533935244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero silver shovel front 2
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 361
+        width: 24
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dad3426d5fc619510800000000000000
+      internalID: 1554143149535018413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero gold shovel front 2
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 361
+        width: 24
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46ae03efe16c9faf0800000000000000
+      internalID: -362040458610677148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero diamond shovel front 2
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 361
+        width: 24
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0da9a843122df2bf0800000000000000
+      internalID: -346827606226986288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero regular shovel front 3
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 301
+        width: 24
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a07308e580682ca0800000000000000
+      internalID: -6041472771878063966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero silver shovel front
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 301
+        width: 24
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bda20b4bdc16b84f0800000000000000
+      internalID: -825458570564719909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero gold shovel front 3
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 301
+        width: 24
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e43d896061fd62620800000000000000
+      internalID: 2749129908249219918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero diamond shovel front 3
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 301
+        width: 24
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad1ee57ecbbd64f50800000000000000
+      internalID: 6865416286354989530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero regular shovel front 4
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 241
+        width: 24
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e51fe225509f0980800000000000000
+      internalID: -8570472870530050589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero silver shovel front 4
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 241
+        width: 24
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1af53de7c577a2910800000000000000
+      internalID: 1813393039118524321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero gold shovel front 4
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 241
+        width: 24
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a169a263fc59daa50800000000000000
+      internalID: 6534043351583987226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero diamond shovel front 4
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 241
+        width: 24
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a4b13ab66736cc60800000000000000
+      internalID: 7838013115834938532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero regular shovel back 1
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 183
+        width: 21
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f1633b75e888bc70800000000000000
+      internalID: 8987083575613678068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero silver shovel back 1
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 183
+        width: 21
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7d3a01228b190230800000000000000
+      internalID: 3605443222400810364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero gold shovel back 1
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 183
+        width: 21
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3797cf7d453719a70800000000000000
+      internalID: 8831967152488348019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero diamond shovel back 1
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 183
+        width: 21
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21a4915d14ba459d0800000000000000
+      internalID: -2786413970199066094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero regular shovel back 2
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 123
+        width: 23
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab0384a50e61e9260800000000000000
+      internalID: 7106142414880387258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero silver shovel back 2
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 123
+        width: 23
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d442911dc808ec9c0800000000000000
+      internalID: -3905042484591778739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero gold shovel back 2
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 123
+        width: 23
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb17a8780db7a4c80800000000000000
+      internalID: -8337715624565640769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero diamond shovel back 2
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 123
+        width: 23
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e7217624005b14d0800000000000000
+      internalID: -3162846334542600215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero regular shovel back 3
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 64
+        width: 23
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6567019e7968906c0800000000000000
+      internalID: -4176659192401070506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero silver shovel back 3
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 64
+        width: 23
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7168be11ffc01b080800000000000000
+      internalID: -9173536676320147945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero gold shovel back 3
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 64
+        width: 23
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7ff85a3b75098430800000000000000
+      internalID: 3785562988599639933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero diamond shovel back 3
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 64
+        width: 23
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b7a70e4c7d015fc0800000000000000
+      internalID: -3508007807208675407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero regular shovel back 4
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 4
+        width: 24
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbe7d40ab891192a0800000000000000
+      internalID: -6732571880461599043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero silver shovel back 4
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 4
+        width: 24
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36a4b82d2b7fbe3c0800000000000000
+      internalID: -4329094269378016669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero gold shovel back 4
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 4
+        width: 24
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ee8a9ede13df3830800000000000000
+      internalID: 4053190319193886437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero diamond shovel back 4
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 4
+        width: 24
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8a24827900c7fae0800000000000000
+      internalID: -1515531602778379637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,888 @@
+fileFormatVersion: 2
+guid: 1dabba86b1344d6439c2910e4ffc3b4c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5392003754443484898
+    second: Heroine regular shovel front 1
+  - first:
+      213: -7310267417127475078
+    second: Heroine silver shovel front 1
+  - first:
+      213: 6153641437797000534
+    second: Heroine gold shovel front 1
+  - first:
+      213: -8252202601265092995
+    second: Heroine diamond shovel front 1
+  - first:
+      213: 1801088779059685862
+    second: Heroine regular shovel front 2
+  - first:
+      213: -5848844560699531834
+    second: Heroine silver shovel front 2
+  - first:
+      213: -8851206795509733011
+    second: Heroine gold shovel front 2
+  - first:
+      213: 8835884275921192739
+    second: Heroine diamond shovel front 2
+  - first:
+      213: 1013067207454021566
+    second: Heroine regular shovel front 3
+  - first:
+      213: -7012592945993324272
+    second: Heroine silver shovel front 3
+  - first:
+      213: 8498293700121779491
+    second: Heroine gold shovel front 3
+  - first:
+      213: 4798054121118053170
+    second: Heroine diamond shovel front 3
+  - first:
+      213: 1498895768205619656
+    second: Heroine regular shovel front 4
+  - first:
+      213: 9061646903578979833
+    second: Heroine silver shovel front 4
+  - first:
+      213: -1437284304536583126
+    second: Heroine gold shovel front 4
+  - first:
+      213: -7747477983351194865
+    second: Heroine diamond shovel front 4
+  - first:
+      213: -5845041082035062661
+    second: Heroine regular shovel back 1
+  - first:
+      213: -751367496023198130
+    second: Heroine silver shovel back 1
+  - first:
+      213: -1557835372715075658
+    second: Heroine gold shovel back 1
+  - first:
+      213: 2783371368004345700
+    second: Heroine diamond shovel back 1
+  - first:
+      213: 2495444789949279464
+    second: Heroine regular shovel back 2
+  - first:
+      213: 4701392096478978506
+    second: Heroine silver shovel back 2
+  - first:
+      213: -7771802530343327490
+    second: Heroine gold shovel back 2
+  - first:
+      213: -4687956260284977660
+    second: Heroine diamond shovel back 2
+  - first:
+      213: 1578656713433865394
+    second: Heroine regular shovel back 3
+  - first:
+      213: -1797857171826754092
+    second: Heroine silver shovel back 3
+  - first:
+      213: -131621521779959556
+    second: Heroine gold shovel back 3
+  - first:
+      213: 66785255569864151
+    second: Heroine diamond shovel back 3
+  - first:
+      213: -2154424664388113914
+    second: Heroine regular shovel back 4
+  - first:
+      213: 910601725987850492
+    second: Heroine silver shovel back 4
+  - first:
+      213: -1495278958171492795
+    second: Heroine gold shovel back 4
+  - first:
+      213: 6544841814363232189
+    second: Heroine diamond shovel back 4
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Heroine regular shovel front 1
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 424
+        width: 23
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e11d2d44721cb25b0800000000000000
+      internalID: -5392003754443484898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heroine silver shovel front 1
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 424
+        width: 23
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a78210df386bc8a90800000000000000
+      internalID: -7310267417127475078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heroine gold shovel front 1
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 424
+        width: 23
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 655a307c840266550800000000000000
+      internalID: 6153641437797000534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heroine diamond shovel front 1
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 424
+        width: 23
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d762a09c4794a7d80800000000000000
+      internalID: -8252202601265092995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heroine regular shovel front 2
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 361
+        width: 26
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e96bc4b3b0cef810800000000000000
+      internalID: 1801088779059685862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heroine silver shovel front 2
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 361
+        width: 26
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cd570d4cdab4dea0800000000000000
+      internalID: -5848844560699531834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heroine gold shovel front 2
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 361
+        width: 26
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d696e10b0523a2580800000000000000
+      internalID: -8851206795509733011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heroine diamond shovel front 2
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 361
+        width: 26
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3270eb63fed5f9a70800000000000000
+      internalID: 8835884275921192739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heroine regular shovel front 3
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 301
+        width: 26
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb7d4e9f1432f0e00800000000000000
+      internalID: 1013067207454021566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heroine silver shovel front 3
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 301
+        width: 26
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01968a3bed34eae90800000000000000
+      internalID: -7012592945993324272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heroine gold shovel front 3
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 301
+        width: 26
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32dd2b8281100f570800000000000000
+      internalID: 8498293700121779491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heroine diamond shovel front 3
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 301
+        width: 26
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 233375e4dcc169240800000000000000
+      internalID: 4798054121118053170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heroine regular shovel front 4
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 241
+        width: 26
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c17b3b72c52dc410800000000000000
+      internalID: 1498895768205619656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heroine silver shovel front 4
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 241
+        width: 26
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fde7df19df61cd70800000000000000
+      internalID: 9061646903578979833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heroine gold shovel front 4
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 241
+        width: 26
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a244ad24a8dbd0ce0800000000000000
+      internalID: -1437284304536583126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heroine diamond shovel front 4
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 241
+        width: 26
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0b313172dd6b7490800000000000000
+      internalID: -7747477983351194865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heroine regular shovel back 1
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 183
+        width: 23
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b783cbfaa1e32eea0800000000000000
+      internalID: -5845041082035062661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heroine silver shovel back 1
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 183
+        width: 23
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4633c74e3b9295f0800000000000000
+      internalID: -751367496023198130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heroine gold shovel back 1
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 183
+        width: 23
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b797c67bf4716ae0800000000000000
+      internalID: -1557835372715075658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heroine diamond shovel back 1
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 183
+        width: 23
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46f54e3238580a620800000000000000
+      internalID: 2783371368004345700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heroine regular shovel back 2
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 123
+        width: 25
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8eca685a0d991a220800000000000000
+      internalID: 2495444789949279464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heroine silver shovel back 2
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 123
+        width: 25
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac16574e333be3140800000000000000
+      internalID: 4701392096478978506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heroine gold shovel back 2
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 123
+        width: 25
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef8676286c2052490800000000000000
+      internalID: -7771802530343327490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heroine diamond shovel back 2
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 123
+        width: 25
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40e252f7e9801feb0800000000000000
+      internalID: -4687956260284977660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heroine regular shovel back 3
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 64
+        width: 25
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bcd282bae388e510800000000000000
+      internalID: 1578656713433865394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heroine silver shovel back 3
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 64
+        width: 25
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ddb06c7d6abc07e0800000000000000
+      internalID: -1797857171826754092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heroine gold shovel back 3
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 64
+        width: 25
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf8528d5ce26c2ef0800000000000000
+      internalID: -131621521779959556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heroine diamond shovel back 3
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 64
+        width: 25
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d5b97a06d44de000800000000000000
+      internalID: 66785255569864151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heroine regular shovel back 4
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 4
+        width: 26
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60a6ecfae22f912e0800000000000000
+      internalID: -2154424664388113914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heroine silver shovel back 4
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 4
+        width: 26
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf80d59f17b13ac00800000000000000
+      internalID: 910601725987850492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heroine gold shovel back 4
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 4
+        width: 26
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54e621ab5b3bf3be0800000000000000
+      internalID: -1495278958171492795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heroine diamond shovel back 4
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 4
+        width: 26
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db75e3044f2f3da50800000000000000
+      internalID: 6544841814363232189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

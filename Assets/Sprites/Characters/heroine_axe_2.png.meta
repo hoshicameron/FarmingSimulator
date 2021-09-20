@@ -1,0 +1,888 @@
+fileFormatVersion: 2
+guid: a200ec21c1a533448a6d96ffc7d331bb
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4439908472318322808
+    second: Heroine regular axe left 1
+  - first:
+      213: 8467099181337137612
+    second: Heroine silver axe left 1
+  - first:
+      213: 2075032292981022843
+    second: Heroine gold axe left 1
+  - first:
+      213: -3907304659755087284
+    second: Heroine diamond axe left 1
+  - first:
+      213: -2395206105258185048
+    second: Heroine regular axe left 2
+  - first:
+      213: -1495449079894324580
+    second: Heroine silver axe left 2
+  - first:
+      213: -6665944192126592011
+    second: Heroine gold axe left 2
+  - first:
+      213: -7158914980043592038
+    second: Heroine diamond axe left 2
+  - first:
+      213: 7676325358000151630
+    second: Heroine regular axe left 3
+  - first:
+      213: 4480628791226274786
+    second: Heroine silver axe left 3
+  - first:
+      213: -2576196847524608848
+    second: Heroine gold axe left 3
+  - first:
+      213: 6045321631503356357
+    second: Heroine diamond axe left 3
+  - first:
+      213: 4807803939613227127
+    second: Heroine regular axe left 4
+  - first:
+      213: 1966349658227579401
+    second: Heroine silver axe left 4
+  - first:
+      213: -2205058678022842440
+    second: Heroine gold axe left 4
+  - first:
+      213: 4523778434816994370
+    second: Heroine diamond axe left 4
+  - first:
+      213: 3202828491845725575
+    second: Heroine regular axe right 1
+  - first:
+      213: -8382742813205364088
+    second: Heroine silver axe right 1
+  - first:
+      213: 724481278843043234
+    second: Heroine gold axe right 1
+  - first:
+      213: -6021889931434650147
+    second: Heroine diamond axe right 1
+  - first:
+      213: 6677623086821831887
+    second: Heroine regular axe right 2
+  - first:
+      213: -2144585632887668889
+    second: Heroine silver axe right 2
+  - first:
+      213: -2432533406300045151
+    second: Heroine gold axe right 2
+  - first:
+      213: 8741759131877439909
+    second: Heroine diamond axe right 2
+  - first:
+      213: 7458911035053884170
+    second: Heroine regular axe right 3
+  - first:
+      213: 2278773209286084139
+    second: Heroine silver axe right 3
+  - first:
+      213: 8294812324310701910
+    second: Heroine gold axe right 3
+  - first:
+      213: 6703240273776894709
+    second: Heroine diamond axe right 3
+  - first:
+      213: -5957071933347684764
+    second: Heroine regular axe right 4
+  - first:
+      213: 6271117707555016022
+    second: Heroine silver axe right 4
+  - first:
+      213: 8809326802539261028
+    second: Heroine gold axe right 4
+  - first:
+      213: 4681258342203359491
+    second: Heroine diamond axe right 4
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Heroine regular axe left 1
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 420
+        width: 24
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8871830a4c64262c0800000000000000
+      internalID: -4439908472318322808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heroine silver axe left 1
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 420
+        width: 24
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc1d99548dd218570800000000000000
+      internalID: 8467099181337137612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heroine gold axe left 1
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 420
+        width: 24
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b70299060eefbcc10800000000000000
+      internalID: 2075032292981022843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heroine diamond axe left 1
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 420
+        width: 24
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4ac11e1d1776c9c0800000000000000
+      internalID: -3907304659755087284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heroine regular axe left 2
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 360
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ae2d34dcb482ced0800000000000000
+      internalID: -2395206105258185048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heroine silver axe left 2
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 360
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9ac63d2cf81f3be0800000000000000
+      internalID: -1495449079894324580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heroine gold axe left 2
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 360
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fb57bf231fcd73a0800000000000000
+      internalID: -6665944192126592011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heroine diamond axe left 2
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 360
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9e674551cc66ac90800000000000000
+      internalID: -7158914980043592038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heroine regular axe left 3
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 300
+        width: 39
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4c1ceffd39c78a60800000000000000
+      internalID: 7676325358000151630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heroine silver axe left 3
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 300
+        width: 39
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e31e6f65246e2e30800000000000000
+      internalID: 4480628791226274786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heroine gold axe left 3
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 300
+        width: 39
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b480dfcd928f3cd0800000000000000
+      internalID: -2576196847524608848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heroine diamond axe left 3
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 300
+        width: 39
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c11ebe8efb45e350800000000000000
+      internalID: 6045321631503356357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heroine regular axe left 4
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 240
+        width: 38
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 778be52d530c8b240800000000000000
+      internalID: 4807803939613227127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heroine silver axe left 4
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 240
+        width: 38
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90a9dd29890e94b10800000000000000
+      internalID: 1966349658227579401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heroine gold axe left 4
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 240
+        width: 38
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b75e83b0de0661e0800000000000000
+      internalID: -2205058678022842440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heroine diamond axe left 4
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 240
+        width: 38
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24ce6d9b480b7ce30800000000000000
+      internalID: 4523778434816994370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heroine regular axe right 1
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 180
+        width: 23
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78de6f44b8bb27c20800000000000000
+      internalID: 3202828491845725575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heroine silver axe right 1
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 180
+        width: 23
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8828f6733d38aab80800000000000000
+      internalID: -8382742813205364088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heroine gold axe right 1
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 180
+        width: 23
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ad3cd772efdd0a00800000000000000
+      internalID: 724481278843043234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heroine diamond axe right 1
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 180
+        width: 23
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd516504303fd6ca0800000000000000
+      internalID: -6021889931434650147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heroine regular axe right 2
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 120
+        width: 31
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc476f161deabac50800000000000000
+      internalID: 6677623086821831887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heroine silver axe right 2
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 120
+        width: 31
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76ff259bab6ec32e0800000000000000
+      internalID: -2144585632887668889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heroine gold axe right 2
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 120
+        width: 31
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a0073d41c7ed3ed0800000000000000
+      internalID: -2432533406300045151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heroine diamond axe right 2
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 120
+        width: 31
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a9f4975d97f05970800000000000000
+      internalID: 8741759131877439909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heroine regular axe right 3
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 60
+        width: 40
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a03c0af3110638760800000000000000
+      internalID: 7458911035053884170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heroine silver axe right 3
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 60
+        width: 40
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b268c2f0924df9f10800000000000000
+      internalID: 2278773209286084139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heroine gold axe right 3
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 60
+        width: 40
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65752157cd71d1370800000000000000
+      internalID: 8294812324310701910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heroine diamond axe right 3
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 60
+        width: 40
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f260928381b60d50800000000000000
+      internalID: 6703240273776894709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heroine regular axe right 4
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 0
+        width: 39
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46e9c5773aa345da0800000000000000
+      internalID: -5957071933347684764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heroine silver axe right 4
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 0
+        width: 39
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65d8a77445c770750800000000000000
+      internalID: 6271117707555016022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heroine gold axe right 4
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 0
+        width: 39
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46c2ea79d04014a70800000000000000
+      internalID: 8809326802539261028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heroine diamond axe right 4
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 0
+        width: 39
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3018ddce8ab27f040800000000000000
+      internalID: 4681258342203359491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

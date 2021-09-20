@@ -1,0 +1,891 @@
+fileFormatVersion: 2
+guid: f79f5dc7ad9e1fe4ead145d426deb4bc
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3766207882364431025
+    second: Hero regular  pick left 1
+  - first:
+      213: 6390475650259928165
+    second: Hero silver  pick left 1
+  - first:
+      213: 4189687822393398999
+    second: Hero gold  pick left 1
+  - first:
+      213: 7508200753465947765
+    second: Hero diamond  pick left 1
+  - first:
+      213: 5230355500516446099
+    second: Hero regular  pick left 2
+  - first:
+      213: -6291181550683754010
+    second: Hero silver  pick left 2
+  - first:
+      213: -3573611437283825234
+    second: Hero gold  pick left 2
+  - first:
+      213: 5000511495344596356
+    second: hero_pick_2_20
+  - first:
+      213: -8565523119407682794
+    second: Hero diamond  pick left 2
+  - first:
+      213: -1966557816807362999
+    second: Hero regular  pick left 3
+  - first:
+      213: -3940186149532928983
+    second: Hero silver  pick left 3
+  - first:
+      213: -1675143168801694027
+    second: Hero gold  pick left 3
+  - first:
+      213: -774477839649209335
+    second: Hero diamond  pick left 3
+  - first:
+      213: -853443728901402783
+    second: Hero regular  pick left 4
+  - first:
+      213: 5359983881110573871
+    second: Hero silver  pick left 4
+  - first:
+      213: -5262322491633889526
+    second: Hero gold  pick left 4
+  - first:
+      213: -913879861064733617
+    second: Hero diamond  pick left 4
+  - first:
+      213: 7977771791848585587
+    second: Hero regular  pick right 1
+  - first:
+      213: 1285980263137909756
+    second: Hero silver  pick right 1
+  - first:
+      213: -8394512274064218375
+    second: Hero gold  pick right 1
+  - first:
+      213: 8150912221628447286
+    second: Hero diamond  pick right 1
+  - first:
+      213: -7828789404651327199
+    second: Hero regular  pick right 2
+  - first:
+      213: -81056732536952290
+    second: Hero silver  pick right 2
+  - first:
+      213: 3528809340627910203
+    second: Hero gold  pick right 2
+  - first:
+      213: -1547793115395523293
+    second: Hero diamond  pick right 2
+  - first:
+      213: 5269353191757553191
+    second: Hero regular  pick right 3
+  - first:
+      213: -1766388676901682842
+    second: Hero silver  pick right 3
+  - first:
+      213: 4640594504385106927
+    second: Hero gold  pick right 3
+  - first:
+      213: 50568339169200986
+    second: Hero diamond  pick right 3
+  - first:
+      213: 2935360123232123484
+    second: Hero regular  pick right 4
+  - first:
+      213: -7856549502966162339
+    second: Hero silver  pick right 4
+  - first:
+      213: 447199002543102139
+    second: Hero gold  pick right 4
+  - first:
+      213: -3083281854957410073
+    second: Hero diamond  pick right 4
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Hero regular  pick left 1
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 424
+        width: 23
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f45546d92edbbbbc0800000000000000
+      internalID: -3766207882364431025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero silver  pick left 1
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 424
+        width: 23
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 564c687eeb78fa850800000000000000
+      internalID: 6390475650259928165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero gold  pick left 1
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 424
+        width: 23
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d6d98560e2c42a30800000000000000
+      internalID: 4189687822393398999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero diamond  pick left 1
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 424
+        width: 23
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57678ac1ecc723860800000000000000
+      internalID: 7508200753465947765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero regular  pick left 2
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 364
+        width: 28
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39f0b49bd94f59840800000000000000
+      internalID: 5230355500516446099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero silver  pick left 2
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 364
+        width: 28
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e1f00636bb31b8a0800000000000000
+      internalID: -6291181550683754010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero gold  pick left 2
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 364
+        width: 28
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea9ac63e45bf76ec0800000000000000
+      internalID: -3573611437283825234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero diamond  pick left 2
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 364
+        width: 28
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61b2f40ea16212980800000000000000
+      internalID: -8565523119407682794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero regular  pick left 3
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 304
+        width: 35
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94eedeab51265b4e0800000000000000
+      internalID: -1966557816807362999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero silver  pick left 3
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 304
+        width: 35
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 924fc20b295a159c0800000000000000
+      internalID: -3940186149532928983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero gold  pick left 3
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 304
+        width: 35
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5be17abc922b0c8e0800000000000000
+      internalID: -1675143168801694027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero diamond  pick left 3
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 304
+        width: 35
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9040c4912808045f0800000000000000
+      internalID: -774477839649209335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero regular  pick left 4
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 244
+        width: 39
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16f0c074375f724f0800000000000000
+      internalID: -853443728901402783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero silver  pick left 4
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 244
+        width: 39
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f235a6301fc726a40800000000000000
+      internalID: 5359983881110573871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero gold  pick left 4
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 244
+        width: 39
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0f0d98239978f6b0800000000000000
+      internalID: -5262322491633889526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero diamond  pick left 4
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 244
+        width: 39
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4c6ad9bb1f3153f0800000000000000
+      internalID: -913879861064733617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero regular  pick right 1
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 184
+        width: 24
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37934483d2db6be60800000000000000
+      internalID: 7977771791848585587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero silver  pick right 1
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 184
+        width: 24
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfb9f746c38b8d110800000000000000
+      internalID: 1285980263137909756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero gold  pick right 1
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 184
+        width: 24
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f6eeb11093b08b80800000000000000
+      internalID: -8394512274064218375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero diamond  pick right 1
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 184
+        width: 24
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63abd8dea7bdd1170800000000000000
+      internalID: 8150912221628447286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero regular  pick right 2
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 124
+        width: 28
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1217a62e38d8a5390800000000000000
+      internalID: -7828789404651327199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero silver  pick right 2
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 124
+        width: 28
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1a2b7ac45700eef0800000000000000
+      internalID: -81056732536952290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero gold  pick right 2
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 124
+        width: 28
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3ef43c1669d8f030800000000000000
+      internalID: 3528809340627910203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero diamond  pick right 2
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 124
+        width: 28
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32dfd03bc52258ae0800000000000000
+      internalID: -1547793115395523293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero regular  pick right 3
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 64
+        width: 35
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72e97c64fc0802940800000000000000
+      internalID: 5269353191757553191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero silver  pick right 3
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 64
+        width: 35
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 661c00a6bd68c77e0800000000000000
+      internalID: -1766388676901682842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero gold  pick right 3
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 64
+        width: 35
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe311846d14b66040800000000000000
+      internalID: 4640594504385106927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero diamond  pick right 3
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 64
+        width: 35
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5bcf05f2a7a3b000800000000000000
+      internalID: 50568339169200986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero regular  pick right 4
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 4
+        width: 39
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5af819da7e7cb820800000000000000
+      internalID: 2935360123232123484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero silver  pick right 4
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 4
+        width: 39
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5c1e635adde7f290800000000000000
+      internalID: -7856549502966162339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero gold  pick right 4
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 4
+        width: 39
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb89d7a9f15c43600800000000000000
+      internalID: 447199002543102139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero diamond  pick right 4
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 4
+        width: 39
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e82bd42d7bf535d0800000000000000
+      internalID: -3083281854957410073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

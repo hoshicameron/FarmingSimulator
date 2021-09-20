@@ -1,0 +1,1848 @@
+fileFormatVersion: 2
+guid: 2b8ab62a49cee2a49be16e1b161385cc
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6983202077367773121
+    second: Hero front 1-1
+  - first:
+      213: 2165717997959944645
+    second: Hero front 1-2
+  - first:
+      213: -484125075312390652
+    second: Hero front 1-3
+  - first:
+      213: 4769582802073678384
+    second: Hero front 2-1
+  - first:
+      213: 6973112104302177094
+    second: Hero front 2-2
+  - first:
+      213: -7790536598922295408
+    second: Hero front 2-3
+  - first:
+      213: 6880510811088228608
+    second: Hero front 3-1
+  - first:
+      213: 1239997267041418887
+    second: Hero front 3-2
+  - first:
+      213: 9041744707722229347
+    second: Hero front 3-3
+  - first:
+      213: -2554558783982643705
+    second: Hero front 4-1
+  - first:
+      213: -3143747720611569955
+    second: Hero front 4-2
+  - first:
+      213: -1441367491989087567
+    second: Hero front 4-3
+  - first:
+      213: -2536812357762739467
+    second: Hero left 1-1
+  - first:
+      213: 3751482360151385957
+    second: Hero left 1-2
+  - first:
+      213: -7552365569855543737
+    second: Hero left 1-3
+  - first:
+      213: 3486201979362440957
+    second: Hero left 2-1
+  - first:
+      213: -3342250814936734638
+    second: Hero left 2-2
+  - first:
+      213: 8659153330860531560
+    second: Hero left 2-3
+  - first:
+      213: -988397748858753067
+    second: Hero left 3-1
+  - first:
+      213: -4696232841503732163
+    second: Hero left 3-2
+  - first:
+      213: 6846020252029557940
+    second: Hero left 3-3
+  - first:
+      213: 1312006728331200451
+    second: Hero left 4-1
+  - first:
+      213: 6040123109708199838
+    second: Hero left 4-2
+  - first:
+      213: 1479681714974343196
+    second: Hero left 4-3
+  - first:
+      213: -2997978750011649656
+    second: Hero right 1-1
+  - first:
+      213: -4719196334977366149
+    second: Hero right 1-2
+  - first:
+      213: 686563839610087686
+    second: Hero right 1-3
+  - first:
+      213: 4167593246911263099
+    second: Hero right 2-1
+  - first:
+      213: 1958664415795017576
+    second: Hero right 2-2
+  - first:
+      213: -3021405375389047754
+    second: Hero right 2-3
+  - first:
+      213: -8173930910717470810
+    second: Hero right 3-1
+  - first:
+      213: -8543417710906114353
+    second: Hero right 3-2
+  - first:
+      213: -6577920545908702067
+    second: Hero right 3-3
+  - first:
+      213: -3135478492595718921
+    second: Hero right 4-1
+  - first:
+      213: -945883419356339855
+    second: Hero right 4-2
+  - first:
+      213: -4109827333807066474
+    second: Hero right 4-3
+  - first:
+      213: 8372409171090621462
+    second: Hero back 1-1
+  - first:
+      213: -3017240296218241381
+    second: Hero back 1-2
+  - first:
+      213: -8592656907777354864
+    second: Hero back 1-3
+  - first:
+      213: 2764019120487544535
+    second: Hero back 2-1
+  - first:
+      213: 2028165649456344009
+    second: Hero back 2-2
+  - first:
+      213: -9025154755875259612
+    second: Hero back 2-3
+  - first:
+      213: -8051563828625789436
+    second: Hero back 3-1
+  - first:
+      213: -4559883842297199490
+    second: Hero back 3-2
+  - first:
+      213: 1999024720489616001
+    second: Hero back 3-3
+  - first:
+      213: 4423028453989635627
+    second: Hero back 4-1
+  - first:
+      213: -44383849155403708
+    second: Hero back 4-2
+  - first:
+      213: 4025281361279010924
+    second: Hero back 4-3
+  - first:
+      213: 8622432569457266232
+    second: Hero front 5-1
+  - first:
+      213: 537547120573868721
+    second: Hero front 5-2
+  - first:
+      213: -3926369800878928850
+    second: Hero front 5-3
+  - first:
+      213: 8422382385892034238
+    second: Hero front 6-1
+  - first:
+      213: 4574522086659633218
+    second: Hero front 6-2
+  - first:
+      213: -8428759743009622143
+    second: Hero front 6-3
+  - first:
+      213: -1790904071898911131
+    second: Hero left 5-1
+  - first:
+      213: 748731602682169645
+    second: Hero left 5-2
+  - first:
+      213: 4314356096921090816
+    second: Hero left 5-3
+  - first:
+      213: 5031819629044734766
+    second: Hero left 6-1
+  - first:
+      213: 5482581661184054566
+    second: Hero left 6-2
+  - first:
+      213: -5604232586182052436
+    second: Hero left 6-3
+  - first:
+      213: 119000662481462294
+    second: Hero right 5-1
+  - first:
+      213: -363050210827826008
+    second: Hero right 5-2
+  - first:
+      213: 1236666901150917642
+    second: Hero right 5-3
+  - first:
+      213: 2056073482615724568
+    second: Hero right 6-1
+  - first:
+      213: 7565488540387079199
+    second: Hero right 6-2
+  - first:
+      213: -628408757636257549
+    second: Hero right 6-3
+  - first:
+      213: -6008444456927889439
+    second: Hero back 5-1
+  - first:
+      213: 2998187352434946161
+    second: Hero back 5-2
+  - first:
+      213: -2129405371241869008
+    second: Hero back 5-3
+  - first:
+      213: -1261539234979215284
+    second: Hero back 6-1
+  - first:
+      213: 2505306327546127839
+    second: Hero back 6-2
+  - first:
+      213: 1355235177659698288
+    second: Hero back 6-3
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Hero front 1-1
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 315
+        width: 21
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c7a6407a4159e060800000000000000
+      internalID: 6983202077367773121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero front 1-2
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 315
+        width: 21
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c992107b0d2e0e10800000000000000
+      internalID: 2165717997959944645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero front 1-3
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 315
+        width: 21
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40e452b1fca0849f0800000000000000
+      internalID: -484125075312390652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero front 2-1
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 315
+        width: 21
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 032f964c946f03240800000000000000
+      internalID: 4769582802073678384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero front 2-2
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 315
+        width: 21
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64b68e3838875c060800000000000000
+      internalID: 6973112104302177094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero front 2-3
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 315
+        width: 21
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0978e834d3472e390800000000000000
+      internalID: -7790536598922295408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero front 3-1
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 315
+        width: 21
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0011620d02c7c7f50800000000000000
+      internalID: 6880510811088228608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero front 3-2
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 315
+        width: 21
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78e7570d1fa553110800000000000000
+      internalID: 1239997267041418887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero front 3-3
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 315
+        width: 21
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3663d8d08eaba7d70800000000000000
+      internalID: 9041744707722229347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero front 4-1
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 315
+        width: 21
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7065cd212526c8cd0800000000000000
+      internalID: -2554558783982643705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero front 4-2
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 315
+        width: 21
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dded089ba1a2f54d0800000000000000
+      internalID: -3143747720611569955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero front 4-3
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 315
+        width: 21
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bad13917eb3ffbe0800000000000000
+      internalID: -1441367491989087567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero left 1-1
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 270
+        width: 23
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f21bb9e99e6bccd0800000000000000
+      internalID: -2536812357762739467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero left 1-2
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 270
+        width: 22
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 567a7f19451ff0430800000000000000
+      internalID: 3751482360151385957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero left 1-3
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 270
+        width: 23
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 746aed2478b903790800000000000000
+      internalID: -7552365569855543737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero left 2-1
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 270
+        width: 23
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df67923ca3a716030800000000000000
+      internalID: 3486201979362440957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero left 2-2
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 270
+        width: 22
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 254af618790fd91d0800000000000000
+      internalID: -3342250814936734638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero left 2-3
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 270
+        width: 23
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86f1595831e7b2870800000000000000
+      internalID: 8659153330860531560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero left 3-1
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 270
+        width: 23
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5df6a72fb718842f0800000000000000
+      internalID: -988397748858753067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero left 3-2
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 270
+        width: 22
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3e85a3cc11a3deb0800000000000000
+      internalID: -4696232841503732163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero left 3-3
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 270
+        width: 23
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bc1a5fb523f10f50800000000000000
+      internalID: 6846020252029557940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero left 4-1
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 270
+        width: 23
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c78a190b2f253210800000000000000
+      internalID: 1312006728331200451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero left 4-2
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 270
+        width: 22
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e97f8c167f3d2d350800000000000000
+      internalID: 6040123109708199838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero left 4-3
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 270
+        width: 23
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c10cfa91ea2e88410800000000000000
+      internalID: 1479681714974343196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero right 1-1
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 225
+        width: 23
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 881d269f53a0566d0800000000000000
+      internalID: -2997978750011649656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero right 1-2
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 225
+        width: 22
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b77495ccfeb028eb0800000000000000
+      internalID: -4719196334977366149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero right 1-3
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 225
+        width: 22
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 609669fac2a278900800000000000000
+      internalID: 686563839610087686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero right 2-1
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 225
+        width: 23
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b71767a2af346d930800000000000000
+      internalID: 4167593246911263099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero right 2-2
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 225
+        width: 22
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 867f8a1a8e29e2b10800000000000000
+      internalID: 1958664415795017576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero right 2-3
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 225
+        width: 22
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 634ea75b1dfc116d0800000000000000
+      internalID: -3021405375389047754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero right 3-1
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 225
+        width: 23
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a79910e42d509e80800000000000000
+      internalID: -8173930910717470810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero right 3-2
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 225
+        width: 22
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcef8ad5bdeaf6980800000000000000
+      internalID: -8543417710906114353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero right 3-3
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 225
+        width: 22
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d844e546d1886b4a0800000000000000
+      internalID: -6577920545908702067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero right 4-1
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 225
+        width: 23
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f474f76cea8c74d0800000000000000
+      internalID: -3135478492595718921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero right 4-2
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 225
+        width: 22
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1716556aa0c8fd2f0800000000000000
+      internalID: -945883419356339855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero right 4-3
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 225
+        width: 22
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6923d3090d5f6f6c0800000000000000
+      internalID: -4109827333807066474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero back 1-1
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 180
+        width: 22
+        height: 39
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 614441d38c5c03470800000000000000
+      internalID: 8372409171090621462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero back 1-2
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 180
+        width: 21
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b96dae5cfeb9026d0800000000000000
+      internalID: -3017240296218241381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero back 1-3
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 180
+        width: 22
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 093df177110c0c880800000000000000
+      internalID: -8592656907777354864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero back 2-1
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 180
+        width: 22
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d63c05eeb4cb5620800000000000000
+      internalID: 2764019120487544535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero back 2-2
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 180
+        width: 21
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cbae7999ed752c10800000000000000
+      internalID: 2028165649456344009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero back 2-3
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 180
+        width: 22
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42bb02d119530c280800000000000000
+      internalID: -9025154755875259612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero back 3-1
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 180
+        width: 22
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40e206c5b59134090800000000000000
+      internalID: -8051563828625789436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero back 3-2
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 180
+        width: 21
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7405d20ec908b0c0800000000000000
+      internalID: -4559883842297199490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero back 3-3
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 180
+        width: 22
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 182120a5466fdbb10800000000000000
+      internalID: 1999024720489616001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero back 4-1
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 180
+        width: 22
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b265f77d1f0c16d30800000000000000
+      internalID: 4423028453989635627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero back 4-2
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 180
+        width: 21
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 440e355df11526ff0800000000000000
+      internalID: -44383849155403708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero back 4-3
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 180
+        width: 22
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c68490c321cacd730800000000000000
+      internalID: 4025281361279010924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero front 5-1
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 135
+        width: 21
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83e42420db809a770800000000000000
+      internalID: 8622432569457266232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero front 5-2
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 135
+        width: 21
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bae6d31240c57700800000000000000
+      internalID: 537547120573868721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero front 5-3
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 135
+        width: 21
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2c4ac9087bb289c0800000000000000
+      internalID: -3926369800878928850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero front 6-1
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 135
+        width: 21
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb60a91082052e470800000000000000
+      internalID: 8422382385892034238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero front 6-2
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 135
+        width: 21
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 240b688d997fb7f30800000000000000
+      internalID: 4574522086659633218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero front 6-3
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 135
+        width: 21
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1877cc4dba7070b80800000000000000
+      internalID: -8428759743009622143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero left 5-1
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 90
+        width: 23
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56e2aa73c3e6527e0800000000000000
+      internalID: -1790904071898911131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero left 5-2
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 90
+        width: 22
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d29caf9fc67046a00800000000000000
+      internalID: 748731602682169645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero left 5-3
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 90
+        width: 23
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00bb58ff20cafdb30800000000000000
+      internalID: 4314356096921090816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero left 6-1
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 90
+        width: 23
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2b9c0bfa4d94d540800000000000000
+      internalID: 5031819629044734766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero left 6-2
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 90
+        width: 22
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62552fe09fa061c40800000000000000
+      internalID: 5482581661184054566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero left 6-3
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 90
+        width: 23
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca533f5c724c932b0800000000000000
+      internalID: -5604232586182052436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero right 5-1
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 45
+        width: 23
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6146e37d876c6a100800000000000000
+      internalID: 119000662481462294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero right 5-2
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 45
+        width: 22
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ac0afbb1cf26faf0800000000000000
+      internalID: -363050210827826008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero right 5-3
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 45
+        width: 22
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0465949ef5892110800000000000000
+      internalID: 1236666901150917642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero right 6-1
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 45
+        width: 23
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81a196b50f3a88c10800000000000000
+      internalID: 2056073482615724568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero right 6-2
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 45
+        width: 22
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f147f0a6eb30ef860800000000000000
+      internalID: 7565488540387079199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero right 6-3
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 45
+        width: 22
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f8a85b70917747f0800000000000000
+      internalID: -628408757636257549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero back 5-1
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 0
+        width: 22
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e7f52cb997bd9ca0800000000000000
+      internalID: -6008444456927889439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero back 5-2
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 0
+        width: 21
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17034ff0383bb9920800000000000000
+      internalID: 2998187352434946161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero back 5-3
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 0
+        width: 22
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 031d150d815d272e0800000000000000
+      internalID: -2129405371241869008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero back 6-1
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 0
+        width: 22
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4888dcefbc1e7ee0800000000000000
+      internalID: -1261539234979215284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero back 6-2
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 0
+        width: 21
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd5eceac4d2a4c220800000000000000
+      internalID: 2505306327546127839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero back 6-3
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 0
+        width: 22
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07c0587b633cec210800000000000000
+      internalID: 1355235177659698288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,1272 @@
+fileFormatVersion: 2
+guid: 4129801fe1b0d3e47906a11b2e08bf0b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5705696734865949036
+    second: TileB_exterior_3_fall_1
+  - first:
+      213: 5144553679737614589
+    second: TileB_exterior_3_fall_3
+  - first:
+      213: 5990245914401390925
+    second: TileB_exterior_3_fall_4
+  - first:
+      213: -4645452484983787208
+    second: TileB_exterior_3_fall_6
+  - first:
+      213: -2144800062797774921
+    second: TileB_exterior_3_fall_7
+  - first:
+      213: 5673866884736395585
+    second: TileB_exterior_3_fall_8
+  - first:
+      213: 4418693509291516168
+    second: TileB_exterior_3_fall_9
+  - first:
+      213: -8855776508679841579
+    second: TileB_exterior_3_fall_13
+  - first:
+      213: -7415265957679088671
+    second: TileB_exterior_3_fall_14
+  - first:
+      213: -237120721144651131
+    second: TileB_exterior_3_fall_15
+  - first:
+      213: 5580315008496541482
+    second: TileB_exterior_3_fall_16
+  - first:
+      213: -6545420908606631775
+    second: TileB_exterior_3_fall_17
+  - first:
+      213: -1157827815294550038
+    second: TileB_exterior_3_fall_18
+  - first:
+      213: 8306243410040174290
+    second: TileB_exterior_3_fall_21
+  - first:
+      213: -5864690796284843240
+    second: TileB_exterior_3_fall_22
+  - first:
+      213: 8883646836659372278
+    second: TileB_exterior_3_fall_23
+  - first:
+      213: -6330481278235237504
+    second: TileB_exterior_3_fall_27
+  - first:
+      213: -831491247852579922
+    second: TileB_exterior_3_fall_28
+  - first:
+      213: -4826180339333119746
+    second: TileB_exterior_3_fall_29
+  - first:
+      213: 4604114578333638685
+    second: TileB_exterior_3_fall_30
+  - first:
+      213: 5794987980651598164
+    second: TileB_exterior_3_fall_31
+  - first:
+      213: -450952055536215494
+    second: TileB_exterior_3_fall_32
+  - first:
+      213: -3365492563489956937
+    second: TileB_exterior_3_fall_34
+  - first:
+      213: 8207469451662415033
+    second: TileB_exterior_3_fall_35
+  - first:
+      213: -1757516477358735616
+    second: TileB_exterior_3_fall_36
+  - first:
+      213: 802211523960125457
+    second: TileB_exterior_3_fall_0
+  - first:
+      213: -4117097372827007223
+    second: TileB_exterior_3_fall_2
+  - first:
+      213: -464554448136907042
+    second: TileB_exterior_3_fall_5
+  - first:
+      213: -8671757590521006996
+    second: TileB_exterior_3_fall_10
+  - first:
+      213: 3321344809373716550
+    second: TileB_exterior_3_fall_11
+  - first:
+      213: -6260520384409791157
+    second: TileB_exterior_3_fall_12
+  - first:
+      213: -1833269928149634300
+    second: TileB_exterior_3_fall_19
+  - first:
+      213: 7690052718272714968
+    second: TileB_exterior_3_fall_20
+  - first:
+      213: -6310789377955375200
+    second: TileB_exterior_3_fall_24
+  - first:
+      213: 8274517632427794019
+    second: TileB_exterior_3_fall_25
+  - first:
+      213: -4924405904697813375
+    second: TileB_exterior_3_fall_26
+  - first:
+      213: 3224056279610418229
+    second: TileB_exterior_3_fall_33
+  - first:
+      213: 2508647923153255187
+    second: TileB_exterior_3_fall_37
+  - first:
+      213: -2490624025801326476
+    second: TileB_exterior_3_fall_38
+  - first:
+      213: 2608676145271501449
+    second: TileB_exterior_3_fall_39
+  - first:
+      213: -6624344806226607455
+    second: TileB_exterior_3_fall_40
+  - first:
+      213: -2641180731721547626
+    second: TileB_exterior_3_fall_41
+  - first:
+      213: -7705688543332651462
+    second: TileB_exterior_3_fall_42
+  - first:
+      213: 7873173129904835116
+    second: TileB_exterior_3_fall_43
+  - first:
+      213: -6799246534528027516
+    second: TileB_exterior_3_fall_44
+  - first:
+      213: 1555879582901808351
+    second: TileB_exterior_3_fall_45
+  - first:
+      213: -7695890159126979922
+    second: TileB_exterior_3_fall_46
+  - first:
+      213: 2645892066607099804
+    second: TileB_exterior_3_fall_47
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: TileB_exterior_3_fall_1
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 448
+        width: 30
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49e753abc0b41d0b0800000000000000
+      internalID: -5705696734865949036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileB_exterior_3_fall_3
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 484
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df070b09050256740800000000000000
+      internalID: 5144553679737614589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileB_exterior_3_fall_4
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 482
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d414125ebe0a12350800000000000000
+      internalID: 5990245914401390925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileB_exterior_3_fall_6
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 490
+        width: 19
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 831f59bd399088fb0800000000000000
+      internalID: -4645452484983787208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileB_exterior_3_fall_7
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 480
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bff3bed4b32c32e0800000000000000
+      internalID: -2144800062797774921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileB_exterior_3_fall_8
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 451
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 149a097cedf9dbe40800000000000000
+      internalID: 5673866884736395585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileB_exterior_3_fall_9
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 428
+        width: 32
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80125a0e55a525d30800000000000000
+      internalID: 4418693509291516168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileB_exterior_3_fall_13
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 224
+        width: 89
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d893ed6f26f91580800000000000000
+      internalID: -8855776508679841579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileB_exterior_3_fall_14
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 288
+        width: 28
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ebbd7536eea71990800000000000000
+      internalID: -7415265957679088671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileB_exterior_3_fall_15
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 226
+        width: 95
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 582e94fd5f395bcf0800000000000000
+      internalID: -237120721144651131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileB_exterior_3_fall_16
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 332
+        width: 32
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2f97383fe2417d40800000000000000
+      internalID: 5580315008496541482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileB_exterior_3_fall_17
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 289
+        width: 30
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a0561ddc5ef925a0800000000000000
+      internalID: -6545420908606631775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileB_exterior_3_fall_18
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 226
+        width: 32
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aef3d468cb19eefe0800000000000000
+      internalID: -1157827815294550038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileB_exterior_3_fall_21
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 96
+        width: 115
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d6bf518f54b54370800000000000000
+      internalID: 8306243410040174290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileB_exterior_3_fall_22
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 64
+        width: 88
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81b60f11bce6c9ea0800000000000000
+      internalID: -5864690796284843240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileB_exterior_3_fall_23
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 192
+        width: 31
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f0ca19fabd094b70800000000000000
+      internalID: 8883646836659372278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileB_exterior_3_fall_27
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 130
+        width: 31
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 083278951dc9528a0800000000000000
+      internalID: -6330481278235237504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileB_exterior_3_fall_28
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 96
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea396e19d13f574f0800000000000000
+      internalID: -831491247852579922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileB_exterior_3_fall_29
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 64
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef043143d86f50db0800000000000000
+      internalID: -4826180339333119746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileB_exterior_3_fall_30
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 39
+        width: 26
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1026cab0d915ef30800000000000000
+      internalID: 4604114578333638685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileB_exterior_3_fall_31
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 0
+        width: 92
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45195608ddeeb6050800000000000000
+      internalID: 5794987980651598164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileB_exterior_3_fall_32
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 49
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3a1807ae75edb9f0800000000000000
+      internalID: -450952055536215494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileB_exterior_3_fall_34
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 5
+        width: 20
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bb56fa385e5b41d0800000000000000
+      internalID: -3365492563489956937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileB_exterior_3_fall_35
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 12
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b455333bf9c6e170800000000000000
+      internalID: 8207469451662415033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileB_exterior_3_fall_36
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 9
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00ff228531c0c97e0800000000000000
+      internalID: -1757516477358735616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileB_exterior_3_fall_0
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 387
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1183e587127022b00800000000000000
+      internalID: 802211523960125457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileB_exterior_3_fall_2
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 263
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 907c3f2b0c12dd6c0800000000000000
+      internalID: -4117097372827007223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileB_exterior_3_fall_5
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 3
+        width: 94
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed6d8f3d0329d89f0800000000000000
+      internalID: -464554448136907042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileB_exterior_3_fall_10
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 163
+        width: 21
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c64b2b69a6ab7a780800000000000000
+      internalID: -8671757590521006996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileB_exterior_3_fall_11
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 225
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 640de43c189c71e20800000000000000
+      internalID: 3321344809373716550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileB_exterior_3_fall_12
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 4
+        width: 55
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b45992a41e92e19a0800000000000000
+      internalID: -6260520384409791157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileB_exterior_3_fall_19
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 38
+        width: 95
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4033c33a6baee86e0800000000000000
+      internalID: -1833269928149634300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileB_exterior_3_fall_20
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 6
+        width: 27
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d81ca0243e88ba60800000000000000
+      internalID: 7690052718272714968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileB_exterior_3_fall_24
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 7
+        width: 26
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a759aa2f729b68a0800000000000000
+      internalID: -6310789377955375200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileB_exterior_3_fall_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6
+        width: 96
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36e909842fdf4d270800000000000000
+      internalID: 8274517632427794019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileB_exterior_3_fall_26
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 65
+        width: 96
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18696a89beef8abb0800000000000000
+      internalID: -4924405904697813375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileB_exterior_3_fall_33
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 64
+        width: 62
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 534eb02ca162ebc20800000000000000
+      internalID: 3224056279610418229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileB_exterior_3_fall_37
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 192
+        width: 64
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31b3216aef180d220800000000000000
+      internalID: 2508647923153255187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileB_exterior_3_fall_38
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 166
+        width: 95
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4700f09f4a68f6dd0800000000000000
+      internalID: -2490624025801326476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileB_exterior_3_fall_39
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 194
+        width: 95
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98271fcf121e33420800000000000000
+      internalID: 2608676145271501449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileB_exterior_3_fall_40
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a2c82bfe799114a0800000000000000
+      internalID: -6624344806226607455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileB_exterior_3_fall_41
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 690812a3e14a85bd0800000000000000
+      internalID: -2641180731721547626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileB_exterior_3_fall_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 322
+        width: 95
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3e2cd8a815ef0590800000000000000
+      internalID: -7705688543332651462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileB_exterior_3_fall_43
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2ac02f6f31234d60800000000000000
+      internalID: 7873173129904835116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileB_exterior_3_fall_44
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 356
+        width: 95
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 484b6210d4934a1a0800000000000000
+      internalID: -6799246534528027516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileB_exterior_3_fall_45
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 481
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdc252cbc38979510800000000000000
+      internalID: 1555879582901808351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileB_exterior_3_fall_46
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 481
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eaadfc2cca4b23590800000000000000
+      internalID: -7695890159126979922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileB_exterior_3_fall_47
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 448
+        width: 65
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9fe328e0d818b420800000000000000
+      internalID: 2645892066607099804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,888 @@
+fileFormatVersion: 2
+guid: f17f332f7da8fc042bc9fb916d6fc727
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 739890636829144611
+    second: Heroine regular hammer left 1
+  - first:
+      213: -3665625318289883047
+    second: Heroine silver hammer left 1
+  - first:
+      213: 3335932885626693639
+    second: Heroine gold hammer left 1
+  - first:
+      213: -5623172755498214921
+    second: Heroine diamond hammer left 1
+  - first:
+      213: 5375610755753356435
+    second: Heroine regular hammer left 2
+  - first:
+      213: 1305164089256118166
+    second: Heroine silver hammer left 2
+  - first:
+      213: 8213699380143696302
+    second: Heroine gold hammer left 2
+  - first:
+      213: -2930611557394797355
+    second: Heroine diamond hammer left 2
+  - first:
+      213: -2659480886091726957
+    second: Heroine regular hammer left 3
+  - first:
+      213: -5463579576543480896
+    second: Heroine silver hammer left 3
+  - first:
+      213: 3852185340785115268
+    second: Heroine gold hammer left 3
+  - first:
+      213: -8175071267307886452
+    second: Heroine diamond hammer left 3
+  - first:
+      213: -8018657547645412799
+    second: Heroine regular hammer left 4
+  - first:
+      213: 6878948922024354765
+    second: Heroine silver hammer left 4
+  - first:
+      213: 5307808661315709879
+    second: Heroine gold hammer left 4
+  - first:
+      213: 6316074582268345140
+    second: Heroine diamond hammer left 4
+  - first:
+      213: -8626354990652183425
+    second: Heroine regular hammer right 1
+  - first:
+      213: 9149149172454138873
+    second: Heroine silver hammer right 1
+  - first:
+      213: -4088017036779547425
+    second: Heroine gold hammer right 1
+  - first:
+      213: -4141191793324412556
+    second: Heroine diamond hammer right 1
+  - first:
+      213: -7853318451422948515
+    second: Heroine regular hammer right 2
+  - first:
+      213: 3552904473474908688
+    second: Heroine silver hammer right 2
+  - first:
+      213: -8096573185388670371
+    second: Heroine gold hammer right 2
+  - first:
+      213: -6548941064831962688
+    second: Heroine diamond hammer right 2
+  - first:
+      213: -4559879236886692387
+    second: Heroine regular hammer right 3
+  - first:
+      213: -7001345248036405558
+    second: Heroine silver hammer right 3
+  - first:
+      213: 6927385706858868823
+    second: Heroine gold hammer right 3
+  - first:
+      213: -8412313079948043350
+    second: Heroine diamond hammer right 3
+  - first:
+      213: 4139183033701348590
+    second: Heroine regular hammer right 4
+  - first:
+      213: -5689545867935271874
+    second: Heroine silver hammer right 4
+  - first:
+      213: 1523221129766102640
+    second: Heroine gold hammer right 4
+  - first:
+      213: -764620387611461428
+    second: Heroine diamond hammer right 4
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Heroine regular hammer left 1
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 424
+        width: 24
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 326b6d43d9e944a00800000000000000
+      internalID: 739890636829144611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heroine silver hammer left 1
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 424
+        width: 24
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95047afb135112dc0800000000000000
+      internalID: -3665625318289883047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heroine gold hammer left 1
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 424
+        width: 24
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 708a252f84d9b4e20800000000000000
+      internalID: 3335932885626693639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heroine diamond hammer left 1
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 424
+        width: 24
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f9dfd5fb2a76f1b0800000000000000
+      internalID: -5623172755498214921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heroine regular hammer left 2
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 364
+        width: 29
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39ca27b40810a9a40800000000000000
+      internalID: 5375610755753356435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heroine silver hammer left 2
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 364
+        width: 29
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69705b9f2dfdc1210800000000000000
+      internalID: 1305164089256118166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heroine gold hammer left 2
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 364
+        width: 29
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea9af45711cecf170800000000000000
+      internalID: 8213699380143696302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heroine diamond hammer left 2
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 364
+        width: 29
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dc24dac0506457d0800000000000000
+      internalID: -2930611557394797355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heroine regular hammer left 3
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 304
+        width: 36
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39fbf818930a71bd0800000000000000
+      internalID: -2659480886091726957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heroine silver hammer left 3
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 304
+        width: 36
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c3fb0a82577d24b0800000000000000
+      internalID: -5463579576543480896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heroine gold hammer left 3
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 304
+        width: 36
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 480c67e5826b57530800000000000000
+      internalID: 3852185340785115268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heroine diamond hammer left 3
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 304
+        width: 36
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c886c9aeeff4c8e80800000000000000
+      internalID: -8175071267307886452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heroine regular hammer left 4
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 244
+        width: 36
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14a1711f17108b090800000000000000
+      internalID: -8018657547645412799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heroine silver hammer left 4
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 244
+        width: 36
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc3615d299fe67f50800000000000000
+      internalID: 6878948922024354765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heroine gold hammer left 4
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 244
+        width: 36
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bbe6710bdf19a940800000000000000
+      internalID: 5307808661315709879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heroine diamond hammer left 4
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 244
+        width: 36
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43b7afa5e5437a750800000000000000
+      internalID: 6316074582268345140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heroine regular hammer right 1
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 184
+        width: 25
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7c22c327d7094880800000000000000
+      internalID: -8626354990652183425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heroine silver hammer right 1
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 184
+        width: 25
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f32035b2be48fe70800000000000000
+      internalID: 9149149172454138873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heroine gold hammer right 1
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 184
+        width: 25
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd4920f0a227447c0800000000000000
+      internalID: -4088017036779547425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heroine diamond hammer right 1
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 184
+        width: 25
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 471b22441088786c0800000000000000
+      internalID: -4141191793324412556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heroine regular hammer right 2
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 124
+        width: 28
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d531ae22a78630390800000000000000
+      internalID: -7853318451422948515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heroine silver hammer right 2
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 124
+        width: 28
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0124e566bc37e4130800000000000000
+      internalID: 3552904473474908688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heroine gold hammer right 2
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 124
+        width: 28
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5294fad59133af80800000000000000
+      internalID: -8096573185388670371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heroine diamond hammer right 2
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 124
+        width: 28
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c1f8bf9ccc7d15a0800000000000000
+      internalID: -6548941064831962688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heroine regular hammer right 3
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 64
+        width: 35
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddd70ba4efd08b0c0800000000000000
+      internalID: -4559879236886692387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heroine silver hammer right 3
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 64
+        width: 35
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acebbe4779936de90800000000000000
+      internalID: -7001345248036405558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heroine gold hammer right 3
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 64
+        width: 35
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 750f077f894032060800000000000000
+      internalID: 6927385706858868823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heroine diamond hammer right 3
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 64
+        width: 35
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aab135af2d5714b80800000000000000
+      internalID: -8412313079948043350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heroine regular hammer right 4
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 4
+        width: 35
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee4b710f905517930800000000000000
+      internalID: 4139183033701348590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heroine silver hammer right 4
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 4
+        width: 35
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e343d687d2caa01b0800000000000000
+      internalID: -5689545867935271874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heroine gold hammer right 4
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 4
+        width: 35
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 076e3121c81932510800000000000000
+      internalID: 1523221129766102640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heroine diamond hammer right 4
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 4
+        width: 35
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc8b5600fc58365f0800000000000000
+      internalID: -764620387611461428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

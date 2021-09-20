@@ -1,0 +1,888 @@
+fileFormatVersion: 2
+guid: 560abc492b0eda340b3b813d5e90d330
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7814148774871805070
+    second: Hero regular sickle left 1
+  - first:
+      213: 7614736169292242892
+    second: Hero silver sickle left 1
+  - first:
+      213: 2818444070116325381
+    second: Hero gold sickle left 1
+  - first:
+      213: 6492535654490858448
+    second: Hero diamond sickle left 1
+  - first:
+      213: -3689552402567252956
+    second: Hero regular sickle left 2
+  - first:
+      213: 193012564947616756
+    second: Hero silver sickle left 2
+  - first:
+      213: 5364003042158224083
+    second: Hero gold sickle left 2
+  - first:
+      213: 8527349342485881807
+    second: Hero diamond sickle left 2
+  - first:
+      213: 2865959315636422322
+    second: Hero regular sickle left 3
+  - first:
+      213: 3592206800775787551
+    second: Hero silver sickle left 3
+  - first:
+      213: 8202465099224129221
+    second: Hero gold sickle left 3
+  - first:
+      213: -1342000540707249483
+    second: Hero diamond sickle left
+  - first:
+      213: 3330806385247930080
+    second: Hero regular sickle left 4
+  - first:
+      213: -2296659517429273687
+    second: Hero silver sickle left 4
+  - first:
+      213: -7477595317838387249
+    second: Hero gold sickle left 4
+  - first:
+      213: -5564840497893004573
+    second: Hero diamond sickle left 4
+  - first:
+      213: 3172064199022665
+    second: Hero regular sickle right 1
+  - first:
+      213: -7454681736769265211
+    second: Hero silver sickle right 1
+  - first:
+      213: 2126286428408230982
+    second: Hero gold sickle right 1
+  - first:
+      213: -797291226985158007
+    second: Hero diamond sickle right 1
+  - first:
+      213: -8090509753335604181
+    second: Hero regular sickle right 2
+  - first:
+      213: -1204135726538812
+    second: Hero silver sickle right 2
+  - first:
+      213: 7402921908429948250
+    second: Hero gold sickle right 2
+  - first:
+      213: -3015214663662446377
+    second: Hero diamond sickle right 2
+  - first:
+      213: 9204763848442881461
+    second: Hero regular sickle right 3
+  - first:
+      213: 3869254878575917479
+    second: Hero silver sickle right 3
+  - first:
+      213: 8728983799879492584
+    second: Hero gold sickle right 3
+  - first:
+      213: -875322786562631350
+    second: Hero diamond sickle right 3
+  - first:
+      213: -9167886859603439258
+    second: Hero regular sickle right 4
+  - first:
+      213: -4617279672436468605
+    second: Hero silver sickle right 4
+  - first:
+      213: -5325147740469815820
+    second: Hero gold sickle right 4
+  - first:
+      213: 5424649636912242427
+    second: Hero diamond sickle right 4
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Hero regular sickle left 1
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 424
+        width: 24
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8ca94cd8ee617c60800000000000000
+      internalID: 7814148774871805070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero silver sickle left 1
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 424
+        width: 24
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccf9bfc833afca960800000000000000
+      internalID: 7614736169292242892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero gold sickle left 1
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 424
+        width: 24
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 508f692f2ff1d1720800000000000000
+      internalID: 2818444070116325381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero diamond sickle left 1
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 424
+        width: 24
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d36c7167ce1a1a50800000000000000
+      internalID: 6492535654490858448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero regular sickle left 2
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 364
+        width: 31
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4243ac053a31cccc0800000000000000
+      internalID: -3689552402567252956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero silver sickle left 2
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 364
+        width: 31
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f3c3eab7e7bda200800000000000000
+      internalID: 193012564947616756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero gold sickle left 2
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 364
+        width: 31
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d2a4fdd854c07a40800000000000000
+      internalID: 5364003042158224083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero diamond sickle left 2
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 364
+        width: 31
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc328821c0b375670800000000000000
+      internalID: 8527349342485881807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero regular sickle left 3
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 304
+        width: 40
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b60b3520dee5c720800000000000000
+      internalID: 2865959315636422322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero silver sickle left 3
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 304
+        width: 40
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f14bbff8d051ad130800000000000000
+      internalID: 3592206800775787551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero gold sickle left 3
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 304
+        width: 40
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ce1bc99c8205d170800000000000000
+      internalID: 8202465099224129221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero diamond sickle left
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 304
+        width: 40
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b223c25e91406de0800000000000000
+      internalID: -1342000540707249483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero regular sickle left 4
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 244
+        width: 36
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e64e4092c6693e20800000000000000
+      internalID: 3330806385247930080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero silver sickle left 4
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 244
+        width: 36
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9abab9d4650a020e0800000000000000
+      internalID: -2296659517429273687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero gold sickle left 4
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 244
+        width: 36
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc76e1a2dae3a3890800000000000000
+      internalID: -7477595317838387249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero diamond sickle left 4
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 244
+        width: 36
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ea216b0d07b5c2b0800000000000000
+      internalID: -5564840497893004573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero regular sickle right 1
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 184
+        width: 24
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94899cfb9f44b0000800000000000000
+      internalID: 3172064199022665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero silver sickle right 1
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 184
+        width: 24
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c1a64ef476ab8890800000000000000
+      internalID: -7454681736769265211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero gold sickle right 1
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 184
+        width: 24
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 644b108bd36128d10800000000000000
+      internalID: 2126286428408230982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero diamond sickle right 1
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 184
+        width: 24
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98aa3017ad37fe4f0800000000000000
+      internalID: -797291226985158007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero regular sickle right 2
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 124
+        width: 32
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2c1994ae3cb8bf80800000000000000
+      internalID: -8090509753335604181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero silver sickle right 2
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 124
+        width: 32
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cf12cd48d8bbfff0800000000000000
+      internalID: -1204135726538812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero gold sickle right 2
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 124
+        width: 32
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a558cebd0467cb660800000000000000
+      internalID: 7402921908429948250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero diamond sickle right 2
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 124
+        width: 32
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d8d9da1d3ec726d0800000000000000
+      internalID: -3015214663662446377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero regular sickle right 3
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 64
+        width: 40
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b5abc383f3edbf70800000000000000
+      internalID: 9204763848442881461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero silver sickle right 3
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 64
+        width: 40
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a9f6f6dfca52b530800000000000000
+      internalID: 3869254878575917479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero gold sickle right 3
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 64
+        width: 40
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e3e4f19484932970800000000000000
+      internalID: 8728983799879492584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero diamond sickle right 3
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 64
+        width: 40
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a491123309a3ad3f0800000000000000
+      internalID: -875322786562631350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero regular sickle right 4
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 4
+        width: 36
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6619d58897f15c080800000000000000
+      internalID: -9167886859603439258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero silver sickle right 4
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 4
+        width: 36
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 384dacfe9902cefb0800000000000000
+      internalID: -4617279672436468605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero gold sickle right 4
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 4
+        width: 36
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f592d808564916b0800000000000000
+      internalID: -5325147740469815820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero diamond sickle right 4
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 4
+        width: 36
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfe1b1f8a1a384b40800000000000000
+      internalID: 5424649636912242427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

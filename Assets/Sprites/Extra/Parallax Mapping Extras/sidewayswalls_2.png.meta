@@ -1,0 +1,1008 @@
+fileFormatVersion: 2
+guid: 7edb730cf7d87054987de47bd0652d21
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7873078404433259256
+    second: sidewayswalls_2_0
+  - first:
+      213: 4204539719009841247
+    second: sidewayswalls_2_1
+  - first:
+      213: 7305775114769727528
+    second: sidewayswalls_2_2
+  - first:
+      213: -8934876643424703864
+    second: sidewayswalls_2_3
+  - first:
+      213: -3875561757357987230
+    second: sidewayswalls_2_4
+  - first:
+      213: 5552802450994773192
+    second: sidewayswalls_2_5
+  - first:
+      213: -1741509689270967411
+    second: sidewayswalls_2_6
+  - first:
+      213: -6416843419371677633
+    second: sidewayswalls_2_7
+  - first:
+      213: -1207353877211970871
+    second: sidewayswalls_2_8
+  - first:
+      213: -9068069544920496729
+    second: sidewayswalls_2_9
+  - first:
+      213: -3683080792591903882
+    second: sidewayswalls_2_10
+  - first:
+      213: -6232604283995030057
+    second: sidewayswalls_2_11
+  - first:
+      213: 2279973156196643266
+    second: sidewayswalls_2_12
+  - first:
+      213: -154324047291594031
+    second: sidewayswalls_2_13
+  - first:
+      213: 9188632707785014115
+    second: sidewayswalls_2_14
+  - first:
+      213: 6667752319385821828
+    second: sidewayswalls_2_15
+  - first:
+      213: 4956062557985369242
+    second: sidewayswalls_2_16
+  - first:
+      213: 5247765739295589435
+    second: sidewayswalls_2_17
+  - first:
+      213: 6568960763093774992
+    second: sidewayswalls_2_18
+  - first:
+      213: 1965118866186849657
+    second: sidewayswalls_2_19
+  - first:
+      213: 6824682610687734606
+    second: sidewayswalls_2_20
+  - first:
+      213: -1574129543746369168
+    second: sidewayswalls_2_21
+  - first:
+      213: -7397458813389261241
+    second: sidewayswalls_2_22
+  - first:
+      213: -5949494887500608876
+    second: sidewayswalls_2_23
+  - first:
+      213: 5004313497263240218
+    second: sidewayswalls_2_24
+  - first:
+      213: -3809635037396177536
+    second: sidewayswalls_2_25
+  - first:
+      213: -4580450356854489207
+    second: sidewayswalls_2_26
+  - first:
+      213: -8159470002378758805
+    second: sidewayswalls_2_27
+  - first:
+      213: 3258939773065787802
+    second: sidewayswalls_2_28
+  - first:
+      213: 8289440085879712134
+    second: sidewayswalls_2_29
+  - first:
+      213: 7963826525737457035
+    second: sidewayswalls_2_30
+  - first:
+      213: 6052103533867604525
+    second: sidewayswalls_2_31
+  - first:
+      213: -2396068071536432596
+    second: sidewayswalls_2_32
+  - first:
+      213: 7379023502172231947
+    second: sidewayswalls_2_33
+  - first:
+      213: -2927085508552624999
+    second: sidewayswalls_2_34
+  - first:
+      213: 3560474599851763017
+    second: sidewayswalls_2_35
+  - first:
+      213: 6135038459555325865
+    second: sidewayswalls_2_36
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: sidewayswalls_2_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 499.2
+        width: 64
+        height: 124.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fa2b01781bc24d60800000000000000
+      internalID: 7873078404433259256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sidewayswalls_2_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 499.2
+        width: 64
+        height: 124.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f503a9b0996895a30800000000000000
+      internalID: 4204539719009841247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sidewayswalls_2_2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 499.2
+        width: 64
+        height: 124.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8200dbc52c3536560800000000000000
+      internalID: 7305775114769727528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sidewayswalls_2_3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 499.2
+        width: 64
+        height: 124.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88a6cb42801f00480800000000000000
+      internalID: -8934876643424703864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sidewayswalls_2_4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 499.2
+        width: 64
+        height: 124.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26aa6938d1d373ac0800000000000000
+      internalID: -3875561757357987230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sidewayswalls_2_5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 499.2
+        width: 64
+        height: 124.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cc367fb8648f0d40800000000000000
+      internalID: 5552802450994773192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sidewayswalls_2_6
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 499.2
+        width: 64
+        height: 124.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d836a1e1a2ae4d7e0800000000000000
+      internalID: -1741509689270967411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sidewayswalls_2_7
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 499.2
+        width: 64
+        height: 124.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f385c0178eac2f6a0800000000000000
+      internalID: -6416843419371677633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sidewayswalls_2_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 375.2
+        width: 64
+        height: 124.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c20796ab0e9e3fe0800000000000000
+      internalID: -1207353877211970871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sidewayswalls_2_9
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 375.2
+        width: 64
+        height: 124.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a5c9782bceb72280800000000000000
+      internalID: -9068069544920496729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sidewayswalls_2_10
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 375.2
+        width: 64
+        height: 124.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 673de7e688113ecc0800000000000000
+      internalID: -3683080792591903882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sidewayswalls_2_11
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 375.2
+        width: 64
+        height: 124.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ddf5eaec675189a0800000000000000
+      internalID: -6232604283995030057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sidewayswalls_2_12
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 375.2
+        width: 64
+        height: 124.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c1f688718714af10800000000000000
+      internalID: 2279973156196643266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sidewayswalls_2_13
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 375.2
+        width: 64
+        height: 124.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1da42ecb81bbbddf0800000000000000
+      internalID: -154324047291594031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sidewayswalls_2_14
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 375.2
+        width: 64
+        height: 124.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36bbf07a3c4948f70800000000000000
+      internalID: 9188632707785014115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sidewayswalls_2_15
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 375.2
+        width: 64
+        height: 124.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 482674f386d988c50800000000000000
+      internalID: 6667752319385821828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sidewayswalls_2_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 251.2
+        width: 64
+        height: 124.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9ce45d53a877c440800000000000000
+      internalID: 4956062557985369242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sidewayswalls_2_17
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 251.2
+        width: 64
+        height: 124.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b34cd23d22fc3d840800000000000000
+      internalID: 5247765739295589435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sidewayswalls_2_18
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 251.2
+        width: 64
+        height: 124.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 092feab9203a92b50800000000000000
+      internalID: 6568960763093774992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sidewayswalls_2_19
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 251.2
+        width: 64
+        height: 124.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97d4c787231854b10800000000000000
+      internalID: 1965118866186849657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sidewayswalls_2_20
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 251.2
+        width: 64
+        height: 124.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e43f3dafca426be50800000000000000
+      internalID: 6824682610687734606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sidewayswalls_2_21
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 251.2
+        width: 64
+        height: 124.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 079cc822581972ae0800000000000000
+      internalID: -1574129543746369168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sidewayswalls_2_22
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 251.2
+        width: 64
+        height: 124.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 746b9531762f65990800000000000000
+      internalID: -7397458813389261241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sidewayswalls_2_23
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 251.2
+        width: 64
+        height: 124.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49a068debe52f6da0800000000000000
+      internalID: -5949494887500608876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sidewayswalls_2_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 127.2
+        width: 64
+        height: 124.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a14711d9c94e27540800000000000000
+      internalID: 5004313497263240218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sidewayswalls_2_25
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 127.2
+        width: 64
+        height: 124.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08d6e182e15712bc0800000000000000
+      internalID: -3809635037396177536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sidewayswalls_2_26
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 127.2
+        width: 64
+        height: 124.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98f70603ba8fe60c0800000000000000
+      internalID: -4580450356854489207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sidewayswalls_2_27
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 127.2
+        width: 64
+        height: 124.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6522c8734db3ce80800000000000000
+      internalID: -8159470002378758805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sidewayswalls_2_28
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 127.2
+        width: 64
+        height: 124.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a997afdf4741a3d20800000000000000
+      internalID: 3258939773065787802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sidewayswalls_2_29
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 127.2
+        width: 64
+        height: 124.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6896eb9b6d10a0370800000000000000
+      internalID: 8289440085879712134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sidewayswalls_2_30
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 127.2
+        width: 64
+        height: 124.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b851a6fe702358e60800000000000000
+      internalID: 7963826525737457035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sidewayswalls_2_31
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 127.2
+        width: 64
+        height: 124.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2a901049146df350800000000000000
+      internalID: 6052103533867604525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sidewayswalls_2_32
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 3.199997
+        width: 64
+        height: 124.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2a6a6aa8c47fbed0800000000000000
+      internalID: -2396068071536432596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sidewayswalls_2_33
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 3.199997
+        width: 64
+        height: 124.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b091c3c87ce876660800000000000000
+      internalID: 7379023502172231947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sidewayswalls_2_34
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 3.199997
+        width: 64
+        height: 124.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 994f6830d37e067d0800000000000000
+      internalID: -2927085508552624999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sidewayswalls_2_35
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 3.199997
+        width: 64
+        height: 124.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94527fbc8c8596130800000000000000
+      internalID: 3560474599851763017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sidewayswalls_2_36
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 3.199997
+        width: 64
+        height: 124.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a7a72169f8042550800000000000000
+      internalID: 6135038459555325865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

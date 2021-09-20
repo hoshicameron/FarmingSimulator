@@ -1,0 +1,3000 @@
+fileFormatVersion: 2
+guid: f53e5d789f76a3e4ca03707c62a0bf8e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5499240427418068864
+    second: clutter_1
+  - first:
+      213: -2266380408353431979
+    second: clutter_2
+  - first:
+      213: -5690923696091186616
+    second: clutter_3
+  - first:
+      213: -3285483182531755835
+    second: clutter_4
+  - first:
+      213: -1567940781995921872
+    second: clutter_5
+  - first:
+      213: -6109534519443543673
+    second: clutter_6
+  - first:
+      213: 343298754352216368
+    second: clutter_7
+  - first:
+      213: -7255364119370965111
+    second: clutter_8
+  - first:
+      213: 446569642512521751
+    second: clutter_9
+  - first:
+      213: 2875456203694248194
+    second: clutter_10
+  - first:
+      213: -901038327024525632
+    second: clutter_11
+  - first:
+      213: 3288457616439655950
+    second: clutter_12
+  - first:
+      213: 7423911949405915721
+    second: clutter_13
+  - first:
+      213: -6466376966523848336
+    second: clutter_14
+  - first:
+      213: 927333586587689661
+    second: clutter_15
+  - first:
+      213: 8502619259775910115
+    second: clutter_16
+  - first:
+      213: -3537887978612980776
+    second: clutter_17
+  - first:
+      213: -3045514970890490548
+    second: clutter_18
+  - first:
+      213: 5275451413824136801
+    second: clutter_19
+  - first:
+      213: -1219591571705463732
+    second: clutter_20
+  - first:
+      213: -3952553516443546011
+    second: clutter_23
+  - first:
+      213: -2964379874866218994
+    second: clutter_24
+  - first:
+      213: 1230378856667235357
+    second: clutter_25
+  - first:
+      213: -6248690807180170851
+    second: clutter_26
+  - first:
+      213: -3718676289182198772
+    second: clutter_27
+  - first:
+      213: 592766940710061024
+    second: clutter_28
+  - first:
+      213: -7558856273789310506
+    second: clutter_29
+  - first:
+      213: -288866762350619627
+    second: clutter_30
+  - first:
+      213: 980294180050626023
+    second: clutter_31
+  - first:
+      213: -7869483338248076279
+    second: clutter_32
+  - first:
+      213: 3640716168677916551
+    second: clutter_33
+  - first:
+      213: 4231852124112291302
+    second: clutter_34
+  - first:
+      213: 7914116058310616976
+    second: clutter_35
+  - first:
+      213: -3514746625699353641
+    second: clutter_36
+  - first:
+      213: 5742934439339485698
+    second: clutter_37
+  - first:
+      213: 1595144830708402664
+    second: clutter_38
+  - first:
+      213: 5948183506316360712
+    second: clutter_39
+  - first:
+      213: 3417829041640199372
+    second: clutter_40
+  - first:
+      213: -8375206557298721433
+    second: clutter_41
+  - first:
+      213: -859934946514636068
+    second: clutter_42
+  - first:
+      213: -8240891376209953106
+    second: clutter_43
+  - first:
+      213: -7481392132628352213
+    second: clutter_44
+  - first:
+      213: -2836697879999019504
+    second: clutter_45
+  - first:
+      213: 5189658870275988602
+    second: clutter_46
+  - first:
+      213: -4818789690246806225
+    second: clutter_47
+  - first:
+      213: -246740527967671345
+    second: clutter_48
+  - first:
+      213: 8559060930269916381
+    second: clutter_49
+  - first:
+      213: -6322831993745665461
+    second: clutter_50
+  - first:
+      213: 3570027343532185212
+    second: clutter_51
+  - first:
+      213: -7944220671412193280
+    second: clutter_52
+  - first:
+      213: 8876591609434136083
+    second: clutter_53
+  - first:
+      213: 6180882214455073352
+    second: clutter_54
+  - first:
+      213: -4228054936252781177
+    second: clutter_55
+  - first:
+      213: 6026174642471941684
+    second: clutter_56
+  - first:
+      213: 6290470202940671252
+    second: clutter_57
+  - first:
+      213: -5149875263348682170
+    second: clutter_58
+  - first:
+      213: 3680151973849622277
+    second: clutter_59
+  - first:
+      213: 2959913328512377102
+    second: clutter_60
+  - first:
+      213: 4665914347713527548
+    second: clutter_61
+  - first:
+      213: 6783118721223727642
+    second: clutter_62
+  - first:
+      213: 5210619302857285282
+    second: clutter_63
+  - first:
+      213: 8767858067217691187
+    second: clutter_64
+  - first:
+      213: 1674148044695999545
+    second: clutter_65
+  - first:
+      213: 1485010517044576540
+    second: clutter_66
+  - first:
+      213: 8026696720966529330
+    second: clutter_67
+  - first:
+      213: -109862975528652012
+    second: clutter_68
+  - first:
+      213: -2188471640801405890
+    second: clutter_69
+  - first:
+      213: -2404183307502444989
+    second: clutter_70
+  - first:
+      213: -1179556617766249481
+    second: clutter_71
+  - first:
+      213: 5112533628522797266
+    second: clutter_72
+  - first:
+      213: -4659692004777767431
+    second: clutter_73
+  - first:
+      213: 2213807769006780647
+    second: clutter_74
+  - first:
+      213: -7488527963894108896
+    second: clutter_75
+  - first:
+      213: 5153386863493821795
+    second: clutter_76
+  - first:
+      213: -4029837201070350274
+    second: clutter_77
+  - first:
+      213: 8152542585440983045
+    second: clutter_78
+  - first:
+      213: -8599965458198226520
+    second: clutter_79
+  - first:
+      213: 7631408651271563029
+    second: clutter_81
+  - first:
+      213: -847128516311418083
+    second: clutter_82
+  - first:
+      213: 7666001494006260848
+    second: clutter_83
+  - first:
+      213: -6316294317961868498
+    second: clutter_84
+  - first:
+      213: -6587142268404383607
+    second: clutter_85
+  - first:
+      213: -6062664980334278947
+    second: clutter_86
+  - first:
+      213: 3047203211906674656
+    second: clutter_87
+  - first:
+      213: -5669752616373085836
+    second: clutter_88
+  - first:
+      213: -4417689493336770007
+    second: clutter_89
+  - first:
+      213: 3190217153295749470
+    second: clutter_90
+  - first:
+      213: 5211803082275396267
+    second: clutter_91
+  - first:
+      213: 4755527466498203997
+    second: clutter_92
+  - first:
+      213: 1425535165649004552
+    second: clutter_95
+  - first:
+      213: 5746861261471082471
+    second: clutter_96
+  - first:
+      213: -9096837617046470209
+    second: clutter_97
+  - first:
+      213: -2675067120180627043
+    second: clutter_98
+  - first:
+      213: -5050423911859764970
+    second: clutter_100
+  - first:
+      213: -5086625939774100175
+    second: clutter_101
+  - first:
+      213: -3536656727151244250
+    second: clutter_102
+  - first:
+      213: -1320234653332599413
+    second: clutter_103
+  - first:
+      213: 6134727285400716563
+    second: clutter_104
+  - first:
+      213: 434138851128124750
+    second: clutter_105
+  - first:
+      213: 8883880352222107991
+    second: clutter_106
+  - first:
+      213: 6569305130232009832
+    second: clutter_107
+  - first:
+      213: 3196241274640603993
+    second: clutter_108
+  - first:
+      213: 3872796515045744018
+    second: clutter_109
+  - first:
+      213: 6643492904308814889
+    second: clutter_110
+  - first:
+      213: -4492951210224777248
+    second: clutter_111
+  - first:
+      213: 7348337984224560055
+    second: clutter_113
+  - first:
+      213: 6207878084664025436
+    second: clutter_114
+  - first:
+      213: -2042508741494092935
+    second: clutter_115
+  - first:
+      213: 1580450029636584866
+    second: clutter_116
+  - first:
+      213: 1212918301491378773
+    second: clutter_117
+  - first:
+      213: 8410237191467232651
+    second: clutter_118
+  - first:
+      213: -1859607072163908234
+    second: clutter_119
+  - first:
+      213: -349098111271734771
+    second: clutter_120
+  - first:
+      213: -5438447063206628840
+    second: clutter_121
+  - first:
+      213: -7285110932804607011
+    second: clutter_122
+  - first:
+      213: -5526541286918962886
+    second: clutter_123
+  - first:
+      213: -8776839548054232001
+    second: clutter_124
+  - first:
+      213: 8453700301991668109
+    second: clutter_125
+  - first:
+      213: -3163779001163393604
+    second: clutter_126
+  - first:
+      213: -2728933093720091670
+    second: clutter_80
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: clutter_1
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 226
+        width: 21
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 087a8b2580a315c40800000000000000
+      internalID: 5499240427418068864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clutter_2
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 226
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55e5032c6033c80e0800000000000000
+      internalID: -2266380408353431979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clutter_3
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 229
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84ab1aadc07c501b0800000000000000
+      internalID: -5690923696091186616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clutter_4
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 226
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c0cca5e37e9762d0800000000000000
+      internalID: -3285483182531755835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clutter_5
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 218
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03ee8448a2e8d3ae0800000000000000
+      internalID: -1567940781995921872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clutter_6
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 218
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 789a49969b2963ba0800000000000000
+      internalID: -6109534519443543673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clutter_7
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 219
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0397ff0f564a3c400800000000000000
+      internalID: 343298754352216368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clutter_8
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 183
+        width: 64
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98f57c426c4cf4b90800000000000000
+      internalID: -7255364119370965111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clutter_9
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 147
+        width: 22
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71a9e6d49b8823600800000000000000
+      internalID: 446569642512521751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clutter_10
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 208
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2019364be2ca7e720800000000000000
+      internalID: 2875456203694248194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clutter_11
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 209
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ced0bc5a6ede73f0800000000000000
+      internalID: -901038327024525632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clutter_12
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 209
+        width: 26
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0e30d677c2f2ad20800000000000000
+      internalID: 3288457616439655950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clutter_13
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 209
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94a0e1c9598070760800000000000000
+      internalID: 7423911949405915721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clutter_14
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 207
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 079f396c860d246a0800000000000000
+      internalID: -6466376966523848336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clutter_15
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 208
+        width: 21
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db229d8dbfc8edc00800000000000000
+      internalID: 927333586587689661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clutter_16
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 185
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e0865ffa2f5ff570800000000000000
+      internalID: 8502619259775910115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clutter_17
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 183
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d306a3c0a5e6eec0800000000000000
+      internalID: -3537887978612980776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clutter_18
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 181
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4d20f115482cb5d0800000000000000
+      internalID: -3045514970890490548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clutter_19
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 183
+        width: 25
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 166e1de3c1b263940800000000000000
+      internalID: 5275451413824136801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clutter_20
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 186
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4c7f6d5de3231fe0800000000000000
+      internalID: -1219591571705463732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clutter_23
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 190
+        width: 20
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56e49a0b485b529c0800000000000000
+      internalID: -3952553516443546011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clutter_24
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 182
+        width: 8
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e083843b5386cd6d0800000000000000
+      internalID: -2964379874866218994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clutter_25
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 187
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d144dc22d0f231110800000000000000
+      internalID: 1230378856667235357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clutter_26
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 189
+        width: 7
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d99e6ce51d03849a0800000000000000
+      internalID: -6248690807180170851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clutter_27
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 191
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0490ac0e9b946cc0800000000000000
+      internalID: -3718676289182198772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clutter_28
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 189
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e34e97546ee93800800000000000000
+      internalID: 592766940710061024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clutter_29
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 179
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d92e8c744c891790800000000000000
+      internalID: -7558856273789310506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clutter_30
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 175
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5149caac53dbdfbf0800000000000000
+      internalID: -288866762350619627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clutter_31
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 158
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e5ec49ec54ba9d00800000000000000
+      internalID: 980294180050626023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clutter_32
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 158
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9044ed1299af9c290800000000000000
+      internalID: -7869483338248076279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clutter_33
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 158
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78f711ae01c668230800000000000000
+      internalID: 3640716168677916551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clutter_34
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 158
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e502b7e51f8aba30800000000000000
+      internalID: 4231852124112291302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clutter_35
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 147
+        width: 29
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 097a1decf9694dd60800000000000000
+      internalID: 7914116058310616976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clutter_36
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 141
+        width: 13
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dbefabd09c193fc0800000000000000
+      internalID: -3514746625699353641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clutter_37
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 158
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20aef29f17003bf40800000000000000
+      internalID: 5742934439339485698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clutter_38
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 158
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e9cca7a5c7132610800000000000000
+      internalID: 1595144830708402664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clutter_39
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 161
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80cf2d852613c8250800000000000000
+      internalID: 5948183506316360712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clutter_40
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 161
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc45af9a7619e6f20800000000000000
+      internalID: 3417829041640199372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clutter_41
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 160
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76dffa7820a45cb80800000000000000
+      internalID: -8375206557298721433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clutter_42
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 158
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd2fc07e8b5e014f0800000000000000
+      internalID: -859934946514636068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clutter_43
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 153
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eaefc6894f872ad80800000000000000
+      internalID: -8240891376209953106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clutter_44
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 153
+        width: 28
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b23f8455e71cc2890800000000000000
+      internalID: -7481392132628352213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clutter_45
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 143
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0160e8fbe4602a8d0800000000000000
+      internalID: -2836697879999019504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clutter_46
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 143
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7c514c1f3f550840800000000000000
+      internalID: 5189658870275988602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clutter_47
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 144
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f254689ce48302db0800000000000000
+      internalID: -4818789690246806225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clutter_48
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 144
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcb6bce0cc6639cf0800000000000000
+      internalID: -246740527967671345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clutter_49
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 147
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddca9a77194e7c670800000000000000
+      internalID: 8559060930269916381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clutter_50
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 144
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b42905e2dc9c048a0800000000000000
+      internalID: -6322831993745665461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clutter_51
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 144
+        width: 5
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c76daa144f84b8130800000000000000
+      internalID: 3570027343532185212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clutter_52
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 145
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 008392fb36570c190800000000000000
+      internalID: -7944220671412193280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clutter_53
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 138
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31ed880e90dff2b70800000000000000
+      internalID: 8876591609434136083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clutter_54
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 138
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84adf1750a7e6c550800000000000000
+      internalID: 6180882214455073352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clutter_55
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 141
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78de0d9cf6ee255c0800000000000000
+      internalID: -4228054936252781177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clutter_56
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 125
+        width: 27
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 436b107c8e541a350800000000000000
+      internalID: 6026174642471941684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clutter_57
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 125
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 415457c325d3c4750800000000000000
+      internalID: 6290470202940671252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clutter_58
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 123
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 642d782bbb7f788b0800000000000000
+      internalID: -5149875263348682170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clutter_59
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 123
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50762c0d8b6821330800000000000000
+      internalID: 3680151973849622277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clutter_60
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 123
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e01acef6d79b31920800000000000000
+      internalID: 2959913328512377102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clutter_61
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 124
+        width: 18
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfefcdfc068a0c040800000000000000
+      internalID: 4665914347713527548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clutter_62
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 124
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1a97d7d98a722e50800000000000000
+      internalID: 6783118721223727642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clutter_63
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 124
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ae1a9e16a6df4840800000000000000
+      internalID: 5210619302857285282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clutter_64
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 123
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 332bd814570bda970800000000000000
+      internalID: 8767858067217691187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clutter_65
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 123
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9341581d6c4cb3710800000000000000
+      internalID: 1674148044695999545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clutter_66
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 124
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1149248231db9410800000000000000
+      internalID: 1485010517044576540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clutter_67
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 123
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 231b005f32e846f60800000000000000
+      internalID: 8026696720966529330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clutter_68
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 124
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 413b5a1b430b97ef0800000000000000
+      internalID: -109862975528652012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clutter_69
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 122
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e34140143acf0a1e0800000000000000
+      internalID: -2188471640801405890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clutter_70
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 106
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34e946d0500a2aed0800000000000000
+      internalID: -2404183307502444989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clutter_71
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 104
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fbd495718f51afe0800000000000000
+      internalID: -1179556617766249481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clutter_72
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 104
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d8175e6f3e53f640800000000000000
+      internalID: 5112533628522797266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clutter_73
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 105
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fd4e7c4fc2755fb0800000000000000
+      internalID: -4659692004777767431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clutter_74
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 103
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e036a8cf6609be10800000000000000
+      internalID: 2213807769006780647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clutter_75
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 103
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02d23852e77631890800000000000000
+      internalID: -7488527963894108896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clutter_76
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 101
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 365b6bc6c02848740800000000000000
+      internalID: 5153386863493821795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clutter_77
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 101
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e302c87aa642318c0800000000000000
+      internalID: -4029837201070350274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clutter_78
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 85
+        width: 10
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50854759946a32170800000000000000
+      internalID: 8152542585440983045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clutter_79
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 87
+        width: 31
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a91777faf8c6a880800000000000000
+      internalID: -8599965458198226520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clutter_81
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 103
+        width: 24
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51762e24cb538e960800000000000000
+      internalID: 7631408651271563029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clutter_82
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 104
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1b772a4a156e34f0800000000000000
+      internalID: -847128516311418083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clutter_83
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 92
+        width: 13
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0746bd91ebb136a60800000000000000
+      internalID: 7666001494006260848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clutter_84
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 93
+        width: 11
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2b801178c30858a0800000000000000
+      internalID: -6316294317961868498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clutter_85
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 93
+        width: 11
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 980cbcec105c594a0800000000000000
+      internalID: -6587142268404383607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clutter_86
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 84
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd689fe52561ddba0800000000000000
+      internalID: -6062664980334278947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clutter_87
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 85
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ef602c2d27d94a20800000000000000
+      internalID: 3047203211906674656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clutter_88
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 86
+        width: 23
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4799db8f80ef051b0800000000000000
+      internalID: -5669752616373085836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clutter_89
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 86
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92abfadcfc631b2c0800000000000000
+      internalID: -4417689493336770007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clutter_90
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 98
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e511d82399de54c20800000000000000
+      internalID: 3190217153295749470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clutter_91
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 98
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baa9f4e3a4b045840800000000000000
+      internalID: 5211803082275396267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clutter_92
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 98
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d512d30f8070ff140800000000000000
+      internalID: 4755527466498203997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clutter_95
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 86
+        width: 21
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 808265b2ea488c310800000000000000
+      internalID: 1425535165649004552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clutter_96
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 83
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e7ef6f7ed3f0cf40800000000000000
+      internalID: 5746861261471082471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clutter_97
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 86
+        width: 21
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb1c888626a81c180800000000000000
+      internalID: -9096837617046470209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clutter_98
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 85
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d997e4790a040ead0800000000000000
+      internalID: -2675067120180627043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clutter_100
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 83
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 611c570e53a49e9b0800000000000000
+      internalID: -5050423911859764970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clutter_101
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 53
+        width: 30
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13d2a7a68aca869b0800000000000000
+      internalID: -5086625939774100175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clutter_102
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 52
+        width: 30
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62c87a5d1754beec0800000000000000
+      internalID: -3536656727151244250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clutter_103
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 47
+        width: 4
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8d03f3e3959dade0800000000000000
+      internalID: -1320234653332599413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clutter_104
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 47
+        width: 9
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 315c43086fde22550800000000000000
+      internalID: 6134727285400716563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clutter_105
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 42
+        width: 9
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4520b42cfe560600800000000000000
+      internalID: 434138851128124750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clutter_106
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 47
+        width: 4
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 759554d8c12e94b70800000000000000
+      internalID: 8883880352222107991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clutter_107
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 48
+        width: 42
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86451a4d53cda2b50800000000000000
+      internalID: 6569305130232009832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clutter_108
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 48
+        width: 42
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95b156f31845b5c20800000000000000
+      internalID: 3196241274640603993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clutter_109
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 48
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29d1ca659efeeb530800000000000000
+      internalID: 3872796515045744018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clutter_110
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 61
+        width: 21
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 924b725099d623c50800000000000000
+      internalID: 6643492904308814889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clutter_111
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 60
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e70461dda4d5a1c0800000000000000
+      internalID: -4492951210224777248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clutter_113
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 39
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b30737a67a8af560800000000000000
+      internalID: 7348337984224560055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clutter_114
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 38
+        width: 21
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c51e45d2a30d62650800000000000000
+      internalID: 6207878084664025436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clutter_115
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 7
+        width: 20
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97b4d9c0f1d87a3e0800000000000000
+      internalID: -2042508741494092935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clutter_116
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 7
+        width: 20
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a58eb9ade2eee510800000000000000
+      internalID: 1580450029636584866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clutter_117
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 4
+        width: 23
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55ab6f5d4c625d010800000000000000
+      internalID: 1212918301491378773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clutter_118
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 4
+        width: 22
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8dee229a2a27b470800000000000000
+      internalID: 8410237191467232651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clutter_119
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 10
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 675bdd178395136e0800000000000000
+      internalID: -1859607072163908234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clutter_120
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 10
+        width: 12
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0273ed0e11c72bf0800000000000000
+      internalID: -349098111271734771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clutter_121
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 10
+        width: 12
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8127dcbc531c684b0800000000000000
+      internalID: -5438447063206628840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clutter_122
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 11
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd3eddc643616ea90800000000000000
+      internalID: -7285110932804607011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clutter_123
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 11
+        width: 12
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a314aacfaf7cd43b0800000000000000
+      internalID: -5526541286918962886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clutter_124
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 11
+        width: 12
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f34a0a7cee6623680800000000000000
+      internalID: -8776839548054232001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clutter_125
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 12
+        width: 25
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8963d192a3915570800000000000000
+      internalID: 8453700301991668109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clutter_126
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 11
+        width: 32
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb5d0d7c2cff714d0800000000000000
+      internalID: -3163779001163393604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clutter_80
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 143
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae3910d4fc1e02ad0800000000000000
+      internalID: -2728933093720091670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

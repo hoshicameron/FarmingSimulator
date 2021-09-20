@@ -1,0 +1,2040 @@
+fileFormatVersion: 2
+guid: 2ffff51bc1981c4439e1e211a27b1124
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8188842352347664781
+    second: miningrocks_2_0
+  - first:
+      213: 8534474155841994533
+    second: miningrocks_2_1
+  - first:
+      213: -7981107551698058359
+    second: miningrocks_2_2
+  - first:
+      213: -3601241202703984616
+    second: miningrocks_2_3
+  - first:
+      213: -7729628939944464022
+    second: miningrocks_2_4
+  - first:
+      213: -2405791979150460493
+    second: miningrocks_2_5
+  - first:
+      213: -6297919105246115581
+    second: miningrocks_2_6
+  - first:
+      213: 1968161258663507859
+    second: miningrocks_2_7
+  - first:
+      213: 406725951816944459
+    second: miningrocks_2_8
+  - first:
+      213: 8625967146075147857
+    second: miningrocks_2_9
+  - first:
+      213: -5298500344772629626
+    second: miningrocks_2_10
+  - first:
+      213: -134428854532649801
+    second: miningrocks_2_11
+  - first:
+      213: 8540062460343035022
+    second: miningrocks_2_12
+  - first:
+      213: -4872121660549535502
+    second: miningrocks_2_13
+  - first:
+      213: 4510482396730978964
+    second: miningrocks_2_14
+  - first:
+      213: 3803897284106004447
+    second: miningrocks_2_15
+  - first:
+      213: 8145394626533099578
+    second: miningrocks_2_16
+  - first:
+      213: 2236986733121860750
+    second: miningrocks_2_17
+  - first:
+      213: 3272865189521503670
+    second: miningrocks_2_18
+  - first:
+      213: -8540030261634873198
+    second: miningrocks_2_19
+  - first:
+      213: 8257231502281009673
+    second: miningrocks_2_20
+  - first:
+      213: 4735948319053906558
+    second: miningrocks_2_21
+  - first:
+      213: -5071957210201349600
+    second: miningrocks_2_22
+  - first:
+      213: -2189784699251952776
+    second: miningrocks_2_23
+  - first:
+      213: -9121645702526318064
+    second: miningrocks_2_24
+  - first:
+      213: -7942139460450973694
+    second: miningrocks_2_25
+  - first:
+      213: 3371196247940890581
+    second: miningrocks_2_26
+  - first:
+      213: -1515455905313160099
+    second: miningrocks_2_27
+  - first:
+      213: -5014241229749848179
+    second: miningrocks_2_28
+  - first:
+      213: 3386571360598834261
+    second: miningrocks_2_29
+  - first:
+      213: 7764066460372830361
+    second: miningrocks_2_30
+  - first:
+      213: 3160537309338599421
+    second: miningrocks_2_31
+  - first:
+      213: 1533098965443142928
+    second: miningrocks_2_32
+  - first:
+      213: -4112639325552475279
+    second: miningrocks_2_33
+  - first:
+      213: -5496223604478833135
+    second: miningrocks_2_34
+  - first:
+      213: -7262473733481196185
+    second: miningrocks_2_35
+  - first:
+      213: 6276826935656715306
+    second: miningrocks_2_36
+  - first:
+      213: 8449754266879947627
+    second: miningrocks_2_37
+  - first:
+      213: 1765809413346769209
+    second: miningrocks_2_38
+  - first:
+      213: -5606400279741154301
+    second: miningrocks_2_39
+  - first:
+      213: -6042497056942646939
+    second: miningrocks_2_40
+  - first:
+      213: -4729572899500342971
+    second: miningrocks_2_41
+  - first:
+      213: -8192970564363203360
+    second: miningrocks_2_42
+  - first:
+      213: -5423093738786389370
+    second: miningrocks_2_43
+  - first:
+      213: 1239917034329839482
+    second: miningrocks_2_44
+  - first:
+      213: 8205406098791514336
+    second: miningrocks_2_45
+  - first:
+      213: -4345741607575597800
+    second: miningrocks_2_46
+  - first:
+      213: -6756921921558237836
+    second: miningrocks_2_47
+  - first:
+      213: 1941697898081845585
+    second: miningrocks_2_48
+  - first:
+      213: -4057453053213882600
+    second: miningrocks_2_49
+  - first:
+      213: 4959681872579811120
+    second: miningrocks_2_50
+  - first:
+      213: 4588392385620037738
+    second: miningrocks_2_51
+  - first:
+      213: -5179940060489802089
+    second: miningrocks_2_52
+  - first:
+      213: -9025190719819195594
+    second: miningrocks_2_53
+  - first:
+      213: -7187373952070866788
+    second: miningrocks_2_54
+  - first:
+      213: 7682140298219530925
+    second: miningrocks_2_55
+  - first:
+      213: -4350966975855342884
+    second: miningrocks_2_56
+  - first:
+      213: 2623175780335914683
+    second: miningrocks_2_57
+  - first:
+      213: 4377393680468290338
+    second: miningrocks_2_58
+  - first:
+      213: 6106319066124984290
+    second: miningrocks_2_59
+  - first:
+      213: -707575758195463039
+    second: miningrocks_2_60
+  - first:
+      213: -8863181518521876794
+    second: miningrocks_2_61
+  - first:
+      213: 4669857929538356094
+    second: miningrocks_2_62
+  - first:
+      213: 8671503233884925229
+    second: miningrocks_2_63
+  - first:
+      213: 2307482619427466431
+    second: miningrocks_2_64
+  - first:
+      213: 7410101308334930859
+    second: miningrocks_2_65
+  - first:
+      213: -608552794539780515
+    second: miningrocks_2_66
+  - first:
+      213: 3588684014516196153
+    second: miningrocks_2_67
+  - first:
+      213: 248472402738018716
+    second: miningrocks_2_68
+  - first:
+      213: -2720636446753223263
+    second: miningrocks_2_69
+  - first:
+      213: 7598205952894278129
+    second: miningrocks_2_70
+  - first:
+      213: 5497461358338949940
+    second: miningrocks_2_71
+  - first:
+      213: 5809479717585248366
+    second: miningrocks_2_72
+  - first:
+      213: 1460489659189965135
+    second: miningrocks_2_73
+  - first:
+      213: 2603730000537710929
+    second: miningrocks_2_74
+  - first:
+      213: -7765525111746254424
+    second: miningrocks_2_75
+  - first:
+      213: -1736605401608750052
+    second: miningrocks_2_76
+  - first:
+      213: -8668457323201352202
+    second: miningrocks_2_77
+  - first:
+      213: 511849153055355647
+    second: miningrocks_2_78
+  - first:
+      213: 2410068813394619128
+    second: miningrocks_2_79
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: miningrocks_2_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 337
+        width: 31
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d815b5dabbc94a170800000000000000
+      internalID: 8188842352347664781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: miningrocks_2_1
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 337
+        width: 29
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52fb6b3f60b807670800000000000000
+      internalID: 8534474155841994533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: miningrocks_2_2
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 337
+        width: 31
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98389daa7f86d3190800000000000000
+      internalID: -7981107551698058359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: miningrocks_2_3
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 337
+        width: 30
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8181452d432d50ec0800000000000000
+      internalID: -3601241202703984616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: miningrocks_2_4
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 337
+        width: 31
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a61f705be67dab490800000000000000
+      internalID: -7729628939944464022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: miningrocks_2_5
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 337
+        width: 29
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b9b04ff0f8ec9ed0800000000000000
+      internalID: -2405791979150460493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: miningrocks_2_6
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 337
+        width: 31
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 309c8ab01fb4998a0800000000000000
+      internalID: -6297919105246115581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: miningrocks_2_7
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 337
+        width: 30
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 397f25bac30505b10800000000000000
+      internalID: 1968161258663507859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: miningrocks_2_8
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 337
+        width: 31
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4b4bf6291bf4a500800000000000000
+      internalID: 406725951816944459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: miningrocks_2_9
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 337
+        width: 29
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15ecff1ca6795b770800000000000000
+      internalID: 8625967146075147857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: miningrocks_2_10
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 337
+        width: 31
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68bea835202f776b0800000000000000
+      internalID: -5298500344772629626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: miningrocks_2_11
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 337
+        width: 30
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bcc4064ba9622ef0800000000000000
+      internalID: -134428854532649801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: miningrocks_2_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 289
+        width: 31
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e84256c7f85648670800000000000000
+      internalID: 8540062460343035022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: miningrocks_2_13
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 289
+        width: 29
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f86570d92fb26cb0800000000000000
+      internalID: -4872121660549535502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: miningrocks_2_14
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 289
+        width: 31
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4927dce97d3789e30800000000000000
+      internalID: 4510482396730978964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: miningrocks_2_15
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 289
+        width: 30
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd7263d0d682ac430800000000000000
+      internalID: 3803897284106004447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: miningrocks_2_16
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 289
+        width: 31
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3881e5b1414a0170800000000000000
+      internalID: 8145394626533099578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: miningrocks_2_17
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 289
+        width: 29
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e847dfae49f5b0f10800000000000000
+      internalID: 2236986733121860750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: miningrocks_2_18
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 289
+        width: 31
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b5bb2bac8d8b6d20800000000000000
+      internalID: 3272865189521503670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: miningrocks_2_19
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 289
+        width: 30
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 298ca2c59b7bb7980800000000000000
+      internalID: -8540030261634873198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: miningrocks_2_20
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 289
+        width: 31
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90aef997d44979270800000000000000
+      internalID: 8257231502281009673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: miningrocks_2_21
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 289
+        width: 29
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7201df67e779b140800000000000000
+      internalID: 4735948319053906558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: miningrocks_2_22
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 289
+        width: 31
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 022a7f92ac9cc99b0800000000000000
+      internalID: -5071957210201349600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: miningrocks_2_23
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 289
+        width: 30
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87370820b625c91e0800000000000000
+      internalID: -2189784699251952776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: miningrocks_2_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 241
+        width: 31
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01a43f5ef87696180800000000000000
+      internalID: -9121645702526318064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: miningrocks_2_25
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 241
+        width: 29
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 208053f6d3ad7c190800000000000000
+      internalID: -7942139460450973694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: miningrocks_2_26
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 241
+        width: 31
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5df75aa4025e8ce20800000000000000
+      internalID: 3371196247940890581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: miningrocks_2_27
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 241
+        width: 30
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d548a0322e408fae0800000000000000
+      internalID: -1515455905313160099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: miningrocks_2_28
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 241
+        width: 31
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8774aa0b26d96ab0800000000000000
+      internalID: -5014241229749848179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: miningrocks_2_29
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 241
+        width: 29
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55c310ba5b48ffe20800000000000000
+      internalID: 3386571360598834261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: miningrocks_2_30
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 241
+        width: 31
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9980c075f418fbb60800000000000000
+      internalID: 7764066460372830361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: miningrocks_2_31
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 241
+        width: 30
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfffe7600fb7cdb20800000000000000
+      internalID: 3160537309338599421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: miningrocks_2_32
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 241
+        width: 31
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 015e1c8e269a64510800000000000000
+      internalID: 1533098965443142928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: miningrocks_2_33
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 241
+        width: 29
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1738427b258fce6c0800000000000000
+      internalID: -4112639325552475279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: miningrocks_2_34
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 241
+        width: 31
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11e0ce080cd79b3b0800000000000000
+      internalID: -5496223604478833135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: miningrocks_2_35
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 241
+        width: 30
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7659f3d1e92863b90800000000000000
+      internalID: -7262473733481196185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: miningrocks_2_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 193
+        width: 31
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a241c6887d4cb1750800000000000000
+      internalID: 6276826935656715306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: miningrocks_2_37
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 193
+        width: 29
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6378bcacbe834570800000000000000
+      internalID: 8449754266879947627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: miningrocks_2_38
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 193
+        width: 31
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93933974e4a618810800000000000000
+      internalID: 1765809413346769209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: miningrocks_2_39
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 193
+        width: 30
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30cb06946a01232b0800000000000000
+      internalID: -5606400279741154301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: miningrocks_2_40
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 193
+        width: 31
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5691794f0fcb42ca0800000000000000
+      internalID: -6042497056942646939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: miningrocks_2_41
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 193
+        width: 29
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 541c7f9918e2d5eb0800000000000000
+      internalID: -4729572899500342971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: miningrocks_2_42
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 193
+        width: 31
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ec46ef0ea8bc4e80800000000000000
+      internalID: -8192970564363203360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: miningrocks_2_43
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 193
+        width: 30
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6820ef33afc4db4b0800000000000000
+      internalID: -5423093738786389370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: miningrocks_2_44
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 193
+        width: 31
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a779f2e29f1153110800000000000000
+      internalID: 1239917034329839482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: miningrocks_2_45
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 193
+        width: 29
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e0ca4c6f557fd170800000000000000
+      internalID: 8205406098791514336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: miningrocks_2_46
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 193
+        width: 31
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81d42da5803d0b3c0800000000000000
+      internalID: -4345741607575597800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: miningrocks_2_47
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 193
+        width: 30
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47da872ef479a32a0800000000000000
+      internalID: -6756921921558237836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: miningrocks_2_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 145
+        width: 31
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1518a4463fb42fa10800000000000000
+      internalID: 1941697898081845585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: miningrocks_2_49
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 145
+        width: 29
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 817cc5602f701b7c0800000000000000
+      internalID: -4057453053213882600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: miningrocks_2_50
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 145
+        width: 31
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0375016b26454d440800000000000000
+      internalID: 4959681872579811120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: miningrocks_2_51
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 145
+        width: 30
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a605dfa709e3daf30800000000000000
+      internalID: 4588392385620037738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: miningrocks_2_52
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 145
+        width: 31
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79e90b0a5f72d18b0800000000000000
+      internalID: -5179940060489802089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: miningrocks_2_53
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 145
+        width: 29
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63b560b9bd410c280800000000000000
+      internalID: -9025190719819195594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: miningrocks_2_54
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 145
+        width: 31
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c98abee8871514c90800000000000000
+      internalID: -7187373952070866788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: miningrocks_2_55
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 145
+        width: 30
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: daaa61646e17c9a60800000000000000
+      internalID: 7682140298219530925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: miningrocks_2_56
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 145
+        width: 31
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdacfae76924e93c0800000000000000
+      internalID: -4350966975855342884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: miningrocks_2_57
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 145
+        width: 29
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbe845a5974676420800000000000000
+      internalID: 2623175780335914683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: miningrocks_2_58
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 145
+        width: 31
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22b2a562c50afbc30800000000000000
+      internalID: 4377393680468290338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: miningrocks_2_59
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 145
+        width: 31
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ef139586d00eb450800000000000000
+      internalID: 6106319066124984290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: miningrocks_2_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 97
+        width: 31
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18ce419c89f2e26f0800000000000000
+      internalID: -707575758195463039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: miningrocks_2_61
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 97
+        width: 29
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ce32b83e57aff480800000000000000
+      internalID: -8863181518521876794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: miningrocks_2_62
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 97
+        width: 31
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e73cca18b0baec040800000000000000
+      internalID: 4669857929538356094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: miningrocks_2_63
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 97
+        width: 30
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2dac546f3e575870800000000000000
+      internalID: 8671503233884925229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: miningrocks_2_64
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 97
+        width: 31
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbcac508733d50020800000000000000
+      internalID: 2307482619427466431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: miningrocks_2_65
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 97
+        width: 29
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: babf5f821e7f5d660800000000000000
+      internalID: 7410101308334930859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: miningrocks_2_66
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 97
+        width: 31
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d569266257cfd87f0800000000000000
+      internalID: -608552794539780515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: miningrocks_2_67
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 97
+        width: 30
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9335c58f8119dc130800000000000000
+      internalID: 3588684014516196153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: miningrocks_2_68
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 97
+        width: 31
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c99ffa57550c27300800000000000000
+      internalID: 248472402738018716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: miningrocks_2_69
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 97
+        width: 29
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ad0b44f09b5e3ad0800000000000000
+      internalID: -2720636446753223263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: miningrocks_2_70
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 97
+        width: 31
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f99580ae00427960800000000000000
+      internalID: 7598205952894278129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: miningrocks_2_71
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 97
+        width: 31
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 433ca368af7ea4c40800000000000000
+      internalID: 5497461358338949940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: miningrocks_2_72
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 49
+        width: 31
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e606180f50b6f9050800000000000000
+      internalID: 5809479717585248366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: miningrocks_2_73
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 49
+        width: 29
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4136266b93b44410800000000000000
+      internalID: 1460489659189965135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: miningrocks_2_74
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 49
+        width: 31
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 151f31de3ae422420800000000000000
+      internalID: 2603730000537710929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: miningrocks_2_75
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 49
+        width: 30
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a92dfbed005b3490800000000000000
+      internalID: -7765525111746254424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: miningrocks_2_76
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1
+        width: 31
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1cf512969656e7e0800000000000000
+      internalID: -1736605401608750052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: miningrocks_2_77
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 1
+        width: 29
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fd23f3fdf373b780800000000000000
+      internalID: -8668457323201352202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: miningrocks_2_78
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 1
+        width: 31
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff2f272c7147a1700800000000000000
+      internalID: 511849153055355647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: miningrocks_2_79
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 1
+        width: 30
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fa22a211d8427120800000000000000
+      internalID: 2410068813394619128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

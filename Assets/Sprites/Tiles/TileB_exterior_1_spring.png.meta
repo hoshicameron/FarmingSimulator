@@ -1,0 +1,1296 @@
+fileFormatVersion: 2
+guid: 1d3f66605dcf8054caed86d39549f70c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8305850325861057727
+    second: TileB_exterior_1_spring_0
+  - first:
+      213: 4330278466716424698
+    second: TileB_exterior_1_spring_1
+  - first:
+      213: -2970125565568945882
+    second: TileB_exterior_1_spring_3
+  - first:
+      213: 3687220954633673660
+    second: TileB_exterior_1_spring_4
+  - first:
+      213: -4201198271882240814
+    second: TileB_exterior_1_spring_6
+  - first:
+      213: -8143443881683007144
+    second: TileB_exterior_1_spring_7
+  - first:
+      213: -4424131154670472527
+    second: TileB_exterior_1_spring_8
+  - first:
+      213: -4909766390543142385
+    second: TileB_exterior_1_spring_9
+  - first:
+      213: -5678423002179693727
+    second: TileB_exterior_1_spring_10
+  - first:
+      213: -4357985711207333660
+    second: TileB_exterior_1_spring_13
+  - first:
+      213: -4442863700314843077
+    second: TileB_exterior_1_spring_14
+  - first:
+      213: 3658845076662436525
+    second: TileB_exterior_1_spring_15
+  - first:
+      213: -9212823694781894562
+    second: TileB_exterior_1_spring_16
+  - first:
+      213: -6202175189101263588
+    second: TileB_exterior_1_spring_17
+  - first:
+      213: -2716803519888346997
+    second: TileB_exterior_1_spring_18
+  - first:
+      213: 9164032860623031023
+    second: TileB_exterior_1_spring_21
+  - first:
+      213: -6960583511684968838
+    second: TileB_exterior_1_spring_22
+  - first:
+      213: -1886172830121301937
+    second: TileB_exterior_1_spring_23
+  - first:
+      213: -3507929896617894330
+    second: TileB_exterior_1_spring_25
+  - first:
+      213: 2290049160836032141
+    second: TileB_exterior_1_spring_26
+  - first:
+      213: -4474322143966202702
+    second: TileB_exterior_1_spring_27
+  - first:
+      213: 374708178026433338
+    second: TileB_exterior_1_spring_28
+  - first:
+      213: -6621870596711171878
+    second: TileB_exterior_1_spring_29
+  - first:
+      213: -72813892296173850
+    second: TileB_exterior_1_spring_30
+  - first:
+      213: 4049714152445752451
+    second: TileB_exterior_1_spring_31
+  - first:
+      213: -6189824616486045708
+    second: TileB_exterior_1_spring_32
+  - first:
+      213: -367894512485045988
+    second: TileB_exterior_1_spring_33
+  - first:
+      213: 8015306879904996913
+    second: TileB_exterior_1_spring_34
+  - first:
+      213: 8010841283892441814
+    second: TileB_exterior_1_spring_35
+  - first:
+      213: 9154174194535527893
+    second: TileB_exterior_1_spring_36
+  - first:
+      213: -2723753913364440889
+    second: TileB_exterior_1_spring_37
+  - first:
+      213: -2936525992213265303
+    second: TileB_exterior_1_spring_38
+  - first:
+      213: 1773396758315157734
+    second: TileB_exterior_1_spring_39
+  - first:
+      213: 6826106593025287368
+    second: TileB_exterior_1_spring_40
+  - first:
+      213: -3176171232345701369
+    second: TileB_exterior_1_spring_41
+  - first:
+      213: -236317950551404716
+    second: TileB_exterior_1_spring_42
+  - first:
+      213: -167215111799738125
+    second: TileB_exterior_1_spring_43
+  - first:
+      213: -950960757322455422
+    second: TileB_exterior_1_spring_44
+  - first:
+      213: -8430592761655334201
+    second: TileB_exterior_1_spring_45
+  - first:
+      213: -42013855990855281
+    second: TileB_exterior_1_spring_46
+  - first:
+      213: 8791869154176853150
+    second: TileB_exterior_1_spring_24
+  - first:
+      213: 3779865203707806355
+    second: TileB_exterior_1_spring_47
+  - first:
+      213: -1195677476206413599
+    second: TileB_exterior_1_spring_48
+  - first:
+      213: -7857793541781961631
+    second: TileB_exterior_1_spring_49
+  - first:
+      213: 9010758858976332017
+    second: TileB_exterior_1_spring_50
+  - first:
+      213: -7603448348671848907
+    second: TileB_exterior_1_spring_51
+  - first:
+      213: -3779450913216449923
+    second: TileB_exterior_1_spring_52
+  - first:
+      213: 3887822396416116108
+    second: TileB_exterior_1_spring_53
+  - first:
+      213: -1631770231800777660
+    second: TileB_exterior_1_spring_19
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: TileB_exterior_1_spring_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 326
+        width: 95
+        height: 153
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb4c2867dde444370800000000000000
+      internalID: 8305850325861057727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileB_exterior_1_spring_1
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 448
+        width: 30
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af9d72b925d381c30800000000000000
+      internalID: 4330278466716424698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileB_exterior_1_spring_3
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 484
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 621f4f5d88ef7c6d0800000000000000
+      internalID: -2970125565568945882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileB_exterior_1_spring_4
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 482
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbb11592ce3ab2330800000000000000
+      internalID: 3687220954633673660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileB_exterior_1_spring_6
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 490
+        width: 19
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dc597d3e6852b5c0800000000000000
+      internalID: -4201198271882240814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileB_exterior_1_spring_7
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 480
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 859c4f77fecacfe80800000000000000
+      internalID: -8143443881683007144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileB_exterior_1_spring_8
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 451
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b2b026a7245a92c0800000000000000
+      internalID: -4424131154670472527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileB_exterior_1_spring_9
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 428
+        width: 32
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0236891b710ddbb0800000000000000
+      internalID: -4909766390543142385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileB_exterior_1_spring_10
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 387
+        width: 19
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1631ca67d503231b0800000000000000
+      internalID: -5678423002179693727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileB_exterior_1_spring_13
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 224
+        width: 87
+        height: 122
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e04243d5135583c0800000000000000
+      internalID: -4357985711207333660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileB_exterior_1_spring_14
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 288
+        width: 32
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b38914df007c752c0800000000000000
+      internalID: -4442863700314843077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileB_exterior_1_spring_15
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 226
+        width: 96
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da2c6aa3634d6c230800000000000000
+      internalID: 3658845076662436525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileB_exterior_1_spring_16
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 332
+        width: 32
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e50393649a9752080800000000000000
+      internalID: -9212823694781894562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileB_exterior_1_spring_17
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 289
+        width: 30
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c15c0eaa6827de9a0800000000000000
+      internalID: -6202175189101263588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileB_exterior_1_spring_18
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 226
+        width: 32
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b803688c799fb4ad0800000000000000
+      internalID: -2716803519888346997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileB_exterior_1_spring_21
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 95
+        width: 120
+        height: 127
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fea4177655f2d2f70800000000000000
+      internalID: 9164032860623031023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileB_exterior_1_spring_22
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 64
+        width: 88
+        height: 153
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7e8394cc2a076f90800000000000000
+      internalID: -6960583511684968838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileB_exterior_1_spring_23
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 192
+        width: 31
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4860abedc7f2d5e0800000000000000
+      internalID: -1886172830121301937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileB_exterior_1_spring_25
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 165
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64e1e174854515fc0800000000000000
+      internalID: -3507929896617894330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileB_exterior_1_spring_26
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 130
+        width: 30
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8620dd1493e7cf10800000000000000
+      internalID: 2290049160836032141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileB_exterior_1_spring_27
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 96
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b4fa3e47b308e1c0800000000000000
+      internalID: -4474322143966202702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileB_exterior_1_spring_28
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 0
+        width: 92
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3b03b54a1b333500800000000000000
+      internalID: 374708178026433338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileB_exterior_1_spring_29
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 65
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad83d66c6c36a14a0800000000000000
+      internalID: -6621870596711171878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileB_exterior_1_spring_30
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 39
+        width: 26
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e619f696205dfef0800000000000000
+      internalID: -72813892296173850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileB_exterior_1_spring_31
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 49
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 384b66ab099733830800000000000000
+      internalID: 4049714152445752451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileB_exterior_1_spring_32
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 4
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f771607e43591aa0800000000000000
+      internalID: -6189824616486045708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileB_exterior_1_spring_33
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 5
+        width: 20
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c19638cd3e9f4eaf0800000000000000
+      internalID: -367894512485045988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileB_exterior_1_spring_34
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 12
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13e5b7ee3271c3f60800000000000000
+      internalID: 8015306879904996913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileB_exterior_1_spring_35
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 2
+        width: 19
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d2717654b93c2f60800000000000000
+      internalID: 8010841283892441814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileB_exterior_1_spring_36
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 0
+        width: 89
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d57655dde82a0f70800000000000000
+      internalID: 9154174194535527893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileB_exterior_1_spring_37
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 481
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c815523f38433ad0800000000000000
+      internalID: -2723753913364440889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileB_exterior_1_spring_38
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 481
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9644d602b2d5f37d0800000000000000
+      internalID: -2936525992213265303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileB_exterior_1_spring_39
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 446
+        width: 63
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e84431b4fe5c9810800000000000000
+      internalID: 1773396758315157734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileB_exterior_1_spring_40
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 385
+        width: 65
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c46934b7c33bbe50800000000000000
+      internalID: 6826106593025287368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileB_exterior_1_spring_41
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 320
+        width: 66
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 704483e9719fbe3d0800000000000000
+      internalID: -3176171232345701369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileB_exterior_1_spring_42
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 256
+        width: 66
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45fc557731e68bcf0800000000000000
+      internalID: -236317950551404716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileB_exterior_1_spring_43
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 192
+        width: 64
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f07914edbeedadf0800000000000000
+      internalID: -167215111799738125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileB_exterior_1_spring_44
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 165
+        width: 96
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2866578ca328dc2f0800000000000000
+      internalID: -950960757322455422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileB_exterior_1_spring_45
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 357
+        width: 93
+        height: 155
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7caed8bec84800b80800000000000000
+      internalID: -8430592761655334201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileB_exterior_1_spring_46
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 192
+        width: 95
+        height: 161
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f89450ede9cba6ff0800000000000000
+      internalID: -42013855990855281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileB_exterior_1_spring_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 65
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e94ec661a6ef20a70800000000000000
+      internalID: 8791869154176853150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileB_exterior_1_spring_47
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 96
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3920ddd4067c47430800000000000000
+      internalID: 3779865203707806355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileB_exterior_1_spring_48
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 65
+        width: 64
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e8f7cc9ba9186fe0800000000000000
+      internalID: -1195677476206413599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileB_exterior_1_spring_49
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 5
+        width: 28
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1644ab7f76283f290800000000000000
+      internalID: -7857793541781961631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileB_exterior_1_spring_50
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 5
+        width: 28
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f80df1f075ac0d70800000000000000
+      internalID: 9010758858976332017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileB_exterior_1_spring_51
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 4
+        width: 55
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53e426df2002b7690800000000000000
+      internalID: -7603448348671848907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileB_exterior_1_spring_52
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 39
+        width: 92
+        height: 153
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7235b73b61bc8bc0800000000000000
+      internalID: -3779450913216449923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileB_exterior_1_spring_53
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 226
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c85c038fed154f530800000000000000
+      internalID: 3887822396416116108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileB_exterior_1_spring_19
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 263
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4443572ae99ca59e0800000000000000
+      internalID: -1631770231800777660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

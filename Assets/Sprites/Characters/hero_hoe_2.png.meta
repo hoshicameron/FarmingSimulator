@@ -1,0 +1,1464 @@
+fileFormatVersion: 2
+guid: c27d10fe17a1d1049b59c5ce2f2544e5
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1501794938098040712
+    second: Hero regular hoe left 1
+  - first:
+      213: -8735055702054396661
+    second: Hero silver hoe left 1
+  - first:
+      213: -9108717643234375011
+    second: Hero gold hoe left 1
+  - first:
+      213: -5570111315413691769
+    second: Hero diamond hoe left 1
+  - first:
+      213: -6422834779161387659
+    second: Hero regular hoe left 2
+  - first:
+      213: -4157615889105752295
+    second: Hero silver hoe left 2
+  - first:
+      213: -802881267789449325
+    second: Hero gold hoe left 2
+  - first:
+      213: -1917936533928028543
+    second: Hero diamond hoe left 2
+  - first:
+      213: -8890599464345609267
+    second: Hero regular hoe left 3
+  - first:
+      213: 7669616974615972101
+    second: hero_hoe_2_25
+  - first:
+      213: 4011656668252042183
+    second: hero_hoe_2_27
+  - first:
+      213: -5079177133310451610
+    second: hero_hoe_2_29
+  - first:
+      213: -6699442365702557305
+    second: Hero silver hoe left 3
+  - first:
+      213: -8871077370379924050
+    second: hero_hoe_2_31
+  - first:
+      213: 235651707541572605
+    second: hero_hoe_2_33
+  - first:
+      213: 8497060460134747301
+    second: hero_hoe_2_35
+  - first:
+      213: 9078467666432779525
+    second: Hero gold hoe left 3
+  - first:
+      213: 4182791678200979808
+    second: hero_hoe_2_37
+  - first:
+      213: 9189626616946387913
+    second: hero_hoe_2_39
+  - first:
+      213: -9130902681243011748
+    second: hero_hoe_2_41
+  - first:
+      213: 3591720315994615414
+    second: Hero diamond hoe left 3
+  - first:
+      213: -1191978176278960167
+    second: hero_hoe_2_43
+  - first:
+      213: 1522817080263620202
+    second: hero_hoe_2_45
+  - first:
+      213: -2214019987084569228
+    second: hero_hoe_2_47
+  - first:
+      213: 6587063252342043909
+    second: Hero regular hoe left 4
+  - first:
+      213: 218962734990400160
+    second: Hero silver hoe left 4
+  - first:
+      213: -6495845563685083714
+    second: Hero gold hoe left 4
+  - first:
+      213: 905802569139179459
+    second: Hero diamond hoe left 4
+  - first:
+      213: 8154155773291750572
+    second: Hero regular hoe right 1
+  - first:
+      213: 7020943488997465229
+    second: Hero silver hoe right 1
+  - first:
+      213: -5216162669390891141
+    second: Hero gold hoe right 1
+  - first:
+      213: -4255742150111308073
+    second: Hero diamond hoe right 1
+  - first:
+      213: -7695141503641936362
+    second: Hero regular hoe right 2
+  - first:
+      213: -3712882773707292831
+    second: Hero silver hoe right 2
+  - first:
+      213: 2718043933158360964
+    second: Hero gold hoe right 2
+  - first:
+      213: -2991800070755542332
+    second: Hero diamond hoe right 2
+  - first:
+      213: 1615878357819280365
+    second: Hero regular hoe right 3
+  - first:
+      213: 2937615985091472288
+    second: hero_hoe_2_85
+  - first:
+      213: 1391607997534889333
+    second: hero_hoe_2_87
+  - first:
+      213: -6636867993795403579
+    second: hero_hoe_2_89
+  - first:
+      213: -6906014774176407281
+    second: Hero silver hoe right 3
+  - first:
+      213: -3465439898902746726
+    second: hero_hoe_2_91
+  - first:
+      213: -1869647287959416232
+    second: hero_hoe_2_93
+  - first:
+      213: 761386008367838559
+    second: hero_hoe_2_95
+  - first:
+      213: -8774000299127207269
+    second: Hero gold hoe right 3
+  - first:
+      213: 4181692366875537133
+    second: hero_hoe_2_97
+  - first:
+      213: 2771947403045173661
+    second: hero_hoe_2_99
+  - first:
+      213: -5675933718865378650
+    second: hero_hoe_2_101
+  - first:
+      213: 8158020199623056831
+    second: Hero diamond hoe right 3
+  - first:
+      213: 9116204353722303501
+    second: hero_hoe_2_103
+  - first:
+      213: 4552723035009643319
+    second: hero_hoe_2_105
+  - first:
+      213: 7237300063705752323
+    second: hero_hoe_2_107
+  - first:
+      213: 1026790359473888645
+    second: Hero regular hoe right 4
+  - first:
+      213: -5069148250476901492
+    second: Hero silver hoe right 4
+  - first:
+      213: -1644252060718714519
+    second: hero_hoe_2_114
+  - first:
+      213: -8425722134655245199
+    second: Hero diamond hoe right 4
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Hero regular hoe left 1
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 424
+        width: 23
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88f30d21a8277d410800000000000000
+      internalID: 1501794938098040712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero silver hoe left 1
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 424
+        width: 23
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0d1cc98e19d6c680800000000000000
+      internalID: -8735055702054396661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero gold hoe left 1
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 424
+        width: 23
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9a8ea34095579180800000000000000
+      internalID: -9108717643234375011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero diamond hoe left 1
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 424
+        width: 23
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7821265354df2b2b0800000000000000
+      internalID: -5570111315413691769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero regular hoe left 2
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 364
+        width: 24
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57d9f094cc18dd6a0800000000000000
+      internalID: -6422834779161387659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero silver hoe left 2
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 364
+        width: 24
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91fe459706e2d46c0800000000000000
+      internalID: -4157615889105752295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero gold hoe left 2
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 364
+        width: 24
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3973894adb79bd4f0800000000000000
+      internalID: -802881267789449325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero diamond hoe left 2
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 364
+        width: 24
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 186d97152ee1265e0800000000000000
+      internalID: -1917936533928028543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero regular hoe left 3
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 304
+        width: 39
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcbd66f34ee3e9480800000000000000
+      internalID: -8890599464345609267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_hoe_2_25
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 309
+        width: 5
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5098a47c004ff6a60800000000000000
+      internalID: 7669616974615972101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_hoe_2_27
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 309
+        width: 5
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c37dff2c744ca730800000000000000
+      internalID: 4011656668252042183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_hoe_2_29
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 309
+        width: 5
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6606eb1de432389b0800000000000000
+      internalID: -5079177133310451610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero silver hoe left 3
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 304
+        width: 39
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 781b81fd9acc603a0800000000000000
+      internalID: -6699442365702557305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_hoe_2_31
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 309
+        width: 5
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ead8f73f12a93e480800000000000000
+      internalID: -8871077370379924050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_hoe_2_33
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 309
+        width: 5
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfbcabebaf3354300800000000000000
+      internalID: 235651707541572605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_hoe_2_35
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 309
+        width: 5
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ac4959187f9be570800000000000000
+      internalID: 8497060460134747301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero gold hoe left 3
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 304
+        width: 39
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 505689a2e323dfd70800000000000000
+      internalID: 9078467666432779525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_hoe_2_37
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 309
+        width: 5
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06121a4bed24c0a30800000000000000
+      internalID: 4182791678200979808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_hoe_2_39
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 309
+        width: 5
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cb609928bc188f70800000000000000
+      internalID: 9189626616946387913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_hoe_2_41
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 309
+        width: 5
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5539d59364884180800000000000000
+      internalID: -9130902681243011748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero diamond hoe left 3
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 304
+        width: 39
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67ea96ff89a58d130800000000000000
+      internalID: 3591720315994615414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_hoe_2_43
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 309
+        width: 5
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d7efdef92e357fe0800000000000000
+      internalID: -1191978176278960167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_hoe_2_45
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 309
+        width: 5
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a66b207f012222510800000000000000
+      internalID: 1522817080263620202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_hoe_2_47
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 309
+        width: 5
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47595385d883641e0800000000000000
+      internalID: -2214019987084569228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero regular hoe left 4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 244
+        width: 41
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50570e4d023f96b50800000000000000
+      internalID: 6587063252342043909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero silver hoe left 4
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 244
+        width: 41
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0aa96268279e90300800000000000000
+      internalID: 218962734990400160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero gold hoe left 4
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 244
+        width: 41
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb5e0c450ee1ad5a0800000000000000
+      internalID: -6495845563685083714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero diamond hoe left 4
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 244
+        width: 41
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cf4d2233ae029c00800000000000000
+      internalID: 905802569139179459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero regular hoe right 1
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 184
+        width: 24
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca461462971692170800000000000000
+      internalID: 8154155773291750572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero silver hoe right 1
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 184
+        width: 24
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8c19c997e66f6160800000000000000
+      internalID: 7020943488997465229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero gold hoe right 1
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 184
+        width: 24
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b777d4840b77c97b0800000000000000
+      internalID: -5216162669390891141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero diamond hoe right 1
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 184
+        width: 24
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d655f6ff0190f4c0800000000000000
+      internalID: -4255742150111308073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero regular hoe right 2
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 124
+        width: 25
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61e9e03b29d553590800000000000000
+      internalID: -7695141503641936362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero silver hoe right 2
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 124
+        width: 25
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16f728cf9c0397cc0800000000000000
+      internalID: -3712882773707292831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero gold hoe right 2
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 124
+        width: 25
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4874fcf6e8e68b520800000000000000
+      internalID: 2718043933158360964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero diamond hoe right 2
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 124
+        width: 25
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ca90a7dfadfa76d0800000000000000
+      internalID: -2991800070755542332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero regular hoe right 3
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 64
+        width: 39
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: deb4f0e1ec0cc6610800000000000000
+      internalID: 1615878357819280365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_hoe_2_85
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 69
+        width: 5
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0abe2ed9c2284c820800000000000000
+      internalID: 2937615985091472288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_hoe_2_87
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 69
+        width: 5
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 575e8a7c91cff4310800000000000000
+      internalID: 1391607997534889333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_hoe_2_89
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 69
+        width: 5
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c06aa829bb15e3a0800000000000000
+      internalID: -6636867993795403579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero silver hoe right 3
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 64
+        width: 39
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f01ad9b0728e820a0800000000000000
+      internalID: -6906014774176407281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_hoe_2_91
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 69
+        width: 5
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a99af6bc5c848efc0800000000000000
+      internalID: -3465439898902746726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_hoe_2_93
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 69
+        width: 5
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85218e982bdad06e0800000000000000
+      internalID: -1869647287959416232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_hoe_2_95
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 69
+        width: 5
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f55b7b56a8cf09a00800000000000000
+      internalID: 761386008367838559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero gold hoe right 3
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 64
+        width: 39
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9a0a5fe63d7c3680800000000000000
+      internalID: -8774000299127207269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_hoe_2_97
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 69
+        width: 5
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dee24975d0b580a30800000000000000
+      internalID: 4181692366875537133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_hoe_2_99
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 69
+        width: 5
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d99f2960a7fe77620800000000000000
+      internalID: 2771947403045173661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_hoe_2_101
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 69
+        width: 5
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a20e56ea580b31b0800000000000000
+      internalID: -5675933718865378650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero diamond hoe right 3
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 64
+        width: 39
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbd5ef4062c173170800000000000000
+      internalID: 8158020199623056831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_hoe_2_103
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 69
+        width: 5
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d04cc7b5f83438e70800000000000000
+      internalID: 9116204353722303501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_hoe_2_105
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 69
+        width: 5
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 733fc7e9a758e2f30800000000000000
+      internalID: 4552723035009643319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_hoe_2_107
+      rect:
+        serializedVersion: 2
+        x: 758
+        y: 69
+        width: 5
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 303e716201e007460800000000000000
+      internalID: 7237300063705752323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero regular hoe right 4
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 4
+        width: 41
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58d9c3b4464ef3e00800000000000000
+      internalID: 1026790359473888645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero silver hoe right 4
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 4
+        width: 41
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8b08801684c6a9b0800000000000000
+      internalID: -5069148250476901492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_hoe_2_114
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 4
+        width: 41
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96138af56717e29e0800000000000000
+      internalID: -1644252060718714519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero diamond hoe right 4
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 4
+        width: 41
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1746ab32c52d11b80800000000000000
+      internalID: -8425722134655245199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

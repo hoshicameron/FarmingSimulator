@@ -1,0 +1,888 @@
+fileFormatVersion: 2
+guid: e93d52c5492b2be4ab238639a92fd9c9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3869888508467546780
+    second: Heroine regular pick left 1
+  - first:
+      213: -6345595262150553148
+    second: Heroine silver pick left 1
+  - first:
+      213: -4433974959177555091
+    second: Heroine gold pick left 1
+  - first:
+      213: -493847824195219651
+    second: Heroine diamond pick left 1
+  - first:
+      213: -7834715474378411378
+    second: Heroine regular pick left 2
+  - first:
+      213: -5107205214686205269
+    second: Heroine silver pick left 2
+  - first:
+      213: -546603710660531626
+    second: Heroine gold pick left 2
+  - first:
+      213: -1412130897597769362
+    second: Heroine diamond pick left 2
+  - first:
+      213: -4878578281212200389
+    second: Heroine regular pick left 3
+  - first:
+      213: 5128465217928993978
+    second: Heroine silver pick left 3
+  - first:
+      213: 3373471771915563275
+    second: Heroine gold pick left 3
+  - first:
+      213: 4396680767639297875
+    second: Heroine diamond pick left 3
+  - first:
+      213: 377263280365068770
+    second: Heroine regular pick left 4
+  - first:
+      213: -2738869968541200604
+    second: Heroine silver pick left 4
+  - first:
+      213: 3109476448671359608
+    second: Heroine gold pick left 4
+  - first:
+      213: 6563530043405380681
+    second: Heroine diamond pick left 4
+  - first:
+      213: -1233355752253684620
+    second: Heroine regular pick right 1
+  - first:
+      213: -8962935503293958155
+    second: Heroine silver pick right 1
+  - first:
+      213: 2188160306839606944
+    second: Heroine gold pick right 1
+  - first:
+      213: 8379833418563960674
+    second: Heroine diamond pick right 1
+  - first:
+      213: 4462016550795684396
+    second: Heroine regular pick right 2
+  - first:
+      213: -4837293982445829034
+    second: Heroine silver pick right 2
+  - first:
+      213: 8340684455210011751
+    second: Heroine gold pick right 2
+  - first:
+      213: -8169344471250703127
+    second: Heroine diamond pick right 2
+  - first:
+      213: -4021542049379386040
+    second: Heroine regular pick right 3
+  - first:
+      213: -8453332116467101842
+    second: Heroine silver pick right 3
+  - first:
+      213: 6244556630335177068
+    second: Heroine gold pick right 3
+  - first:
+      213: 3421024463645077608
+    second: Heroine diamond pick right 3
+  - first:
+      213: -376754577149404658
+    second: Heroine regular pick right 4
+  - first:
+      213: 5443986505981991670
+    second: Heroine silver pick right 4
+  - first:
+      213: 6607274344924064387
+    second: Heroine gold pick right 4
+  - first:
+      213: 1417293981512147029
+    second: Heroine diamond pick right 4
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Heroine regular pick left 1
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 424
+        width: 23
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9a039b481b94b530800000000000000
+      internalID: 3869888508467546780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heroine silver pick left 1
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 424
+        width: 23
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c15d1fbabaefe7a0800000000000000
+      internalID: -6345595262150553148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heroine gold pick left 1
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 424
+        width: 23
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d63ae3f444b5772c0800000000000000
+      internalID: -4433974959177555091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heroine diamond pick left 1
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 424
+        width: 23
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3f8eb935008529f0800000000000000
+      internalID: -493847824195219651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heroine regular pick left 2
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 364
+        width: 28
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e823b6149cf754390800000000000000
+      internalID: -7834715474378411378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heroine silver pick left 2
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 364
+        width: 28
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baa2b979aef8f19b0800000000000000
+      internalID: -5107205214686205269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heroine gold pick left 2
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 364
+        width: 28
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65a2b2932d21a68f0800000000000000
+      internalID: -546603710660531626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heroine diamond pick left 2
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 364
+        width: 28
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e69d4503e6a176ce0800000000000000
+      internalID: -1412130897597769362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heroine regular pick left 3
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 304
+        width: 35
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3a396ba6eecb4cb0800000000000000
+      internalID: -4878578281212200389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heroine silver pick left 3
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 304
+        width: 35
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abc9a95a1f7fb2740800000000000000
+      internalID: 5128465217928993978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heroine gold pick left 3
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 304
+        width: 35
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b01b5d004baf0de20800000000000000
+      internalID: 3373471771915563275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heroine diamond pick left 3
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 304
+        width: 35
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35f9ee11dd5240d30800000000000000
+      internalID: 4396680767639297875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heroine regular pick left 4
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 244
+        width: 39
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e165f464fe4c3500800000000000000
+      internalID: 377263280365068770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heroine silver pick left 4
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 244
+        width: 39
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42fcd1756449df9d0800000000000000
+      internalID: -2738869968541200604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heroine gold pick left 4
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 244
+        width: 39
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 872ef78fa54172b20800000000000000
+      internalID: 3109476448671359608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heroine diamond pick left 4
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 244
+        width: 39
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94c28c5acc7561b50800000000000000
+      internalID: 6563530043405380681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heroine regular pick right 1
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 184
+        width: 23
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4740c395a7d32eee0800000000000000
+      internalID: -1233355752253684620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heroine silver pick right 1
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 184
+        width: 23
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f73d6db5a14d9380800000000000000
+      internalID: -8962935503293958155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heroine gold pick right 1
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 184
+        width: 23
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a6d8c8a438ed5e10800000000000000
+      internalID: 2188160306839606944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heroine diamond pick right 1
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 184
+        width: 23
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26fb37e88162b4470800000000000000
+      internalID: 8379833418563960674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heroine regular pick right 2
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 124
+        width: 28
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2a271489644ced30800000000000000
+      internalID: 4462016550795684396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heroine silver pick right 2
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 124
+        width: 28
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6548e2680ca7edcb0800000000000000
+      internalID: -4837293982445829034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heroine gold pick right 2
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 124
+        width: 28
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76c4a68325010c370800000000000000
+      internalID: 8340684455210011751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heroine diamond pick right 2
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 124
+        width: 28
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ecec478c78a0ae80800000000000000
+      internalID: -8169344471250703127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heroine regular pick right 3
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 64
+        width: 35
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84df17920dc9038c0800000000000000
+      internalID: -4021542049379386040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heroine silver pick right 3
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 64
+        width: 35
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6fc39d4a3bbfaa80800000000000000
+      internalID: -8453332116467101842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heroine gold pick right 3
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 64
+        width: 35
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6140f29b2f19a650800000000000000
+      internalID: 6244556630335177068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heroine diamond pick right 3
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 64
+        width: 35
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8607c73df9be97f20800000000000000
+      internalID: 3421024463645077608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heroine regular pick right 4
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 4
+        width: 39
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0ad18d45bf75caf0800000000000000
+      internalID: -376754577149404658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heroine silver pick right 4
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 4
+        width: 39
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fa931b32ecec8b40800000000000000
+      internalID: 5443986505981991670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heroine gold pick right 4
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 4
+        width: 39
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38a20c68201c1bb50800000000000000
+      internalID: 6607274344924064387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heroine diamond pick right 4
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 4
+        width: 39
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 550a456fd5d3ba310800000000000000
+      internalID: 1417293981512147029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

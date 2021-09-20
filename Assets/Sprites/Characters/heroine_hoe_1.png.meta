@@ -1,0 +1,888 @@
+fileFormatVersion: 2
+guid: c087a97ab515f8347863cf7e81fdc09e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3862788896443879158
+    second: Heroine regular hoe front 1
+  - first:
+      213: 8940423662988779469
+    second: Heroine silver hoe front 1
+  - first:
+      213: 1896804963176562226
+    second: Heroine gold hoe front 1
+  - first:
+      213: 5379090360599715136
+    second: Heroine diamond hoe front 1
+  - first:
+      213: 1077718525632403616
+    second: Heroine regular hoe front 2
+  - first:
+      213: 404856897140634753
+    second: Heroine silver hoe front 2
+  - first:
+      213: 4617979130938212755
+    second: Heroine gold hoe front 2
+  - first:
+      213: -5990155543886168245
+    second: Heroine diamond hoe front 2
+  - first:
+      213: 5367737357374392263
+    second: Heroine regular hoe front 3
+  - first:
+      213: 6562808101975166128
+    second: Heroine silver hoe front 3
+  - first:
+      213: -7331827411926104695
+    second: Heroine gold hoe front 3
+  - first:
+      213: 4863993347622949268
+    second: Heroine diamond hoe front 3
+  - first:
+      213: 4120038742497311814
+    second: Heroine regular hoe front 4
+  - first:
+      213: 240879180877865389
+    second: Heroine silver hoe front 4
+  - first:
+      213: 5762157734396461283
+    second: Heroine gold hoe front 4
+  - first:
+      213: 1141246488161112137
+    second: Heroine diamond hoe front 4
+  - first:
+      213: 8029542577436447146
+    second: Heroine regular hoe back 1
+  - first:
+      213: 573855885674420390
+    second: Heroine silver hoe back 1
+  - first:
+      213: -7343074383472047110
+    second: Heroine gold hoe back 1
+  - first:
+      213: -6673769789037377870
+    second: Heroine diamond hoe back 1
+  - first:
+      213: 7970227110004451759
+    second: Heroine regular hoe back 2
+  - first:
+      213: -3663531396739100024
+    second: Heroine silver hoe back 2
+  - first:
+      213: -4842963898663557319
+    second: Heroine gold hoe back 2
+  - first:
+      213: 6945751293513353708
+    second: Heroine diamond hoe back 2
+  - first:
+      213: -7828026992840579033
+    second: Heroine regular hoe back 3
+  - first:
+      213: 721800659107422045
+    second: Heroine silver hoe back 3
+  - first:
+      213: 109233592522359173
+    second: Heroine gold hoe back 3
+  - first:
+      213: -1772439995989829592
+    second: Heroine diamond hoe back 3
+  - first:
+      213: -9175911222662551143
+    second: Heroine regular hoe back 4
+  - first:
+      213: -4701490929676938364
+    second: Heroine silver hoe back 4
+  - first:
+      213: 7852493632534440506
+    second: Heroine gold hoe back 4
+  - first:
+      213: 6865161026752935351
+    second: Heroine diamond hoe back 4
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Heroine regular hoe front 1
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 423
+        width: 26
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fe4cde09026b9530800000000000000
+      internalID: 3862788896443879158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heroine silver hoe front 1
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 423
+        width: 26
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcf51fdf3f3c21c70800000000000000
+      internalID: 8940423662988779469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heroine gold hoe front 1
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 423
+        width: 26
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23e3656701ec25a10800000000000000
+      internalID: 1896804963176562226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heroine diamond hoe front 1
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 423
+        width: 26
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04d164eee2e56aa40800000000000000
+      internalID: 5379090360599715136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heroine regular hoe front 2
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 363
+        width: 26
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a85d200a43d4fe00800000000000000
+      internalID: 1077718525632403616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heroine silver hoe front 2
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 363
+        width: 26
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1843fe2f3375e9500800000000000000
+      internalID: 404856897140634753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heroine gold hoe front 2
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 363
+        width: 26
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3914dbf6d8b561040800000000000000
+      internalID: 4617979130938212755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heroine diamond hoe front 2
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 363
+        width: 26
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4ff3512541bedca0800000000000000
+      internalID: -5990155543886168245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heroine regular hoe front 3
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 301
+        width: 31
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c705e1efa80e7a40800000000000000
+      internalID: 5367737357374392263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heroine silver hoe front 3
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 301
+        width: 31
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bc094f8237c31b50800000000000000
+      internalID: 6562808101975166128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heroine gold hoe front 3
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 301
+        width: 31
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9854ca580dd104a90800000000000000
+      internalID: -7331827411926104695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heroine diamond hoe front 3
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 301
+        width: 31
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 491ddeadd20608340800000000000000
+      internalID: 4863993347622949268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heroine regular hoe front 4
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 240
+        width: 34
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64c366b48615d2930800000000000000
+      internalID: 4120038742497311814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heroine silver hoe front 4
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 240
+        width: 34
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da1230ab656c75300800000000000000
+      internalID: 240879180877865389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heroine gold hoe front 4
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 240
+        width: 34
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e088722eeb47ff40800000000000000
+      internalID: 5762157734396461283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heroine diamond hoe front 4
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 240
+        width: 34
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 940510862a586df00800000000000000
+      internalID: 1141246488161112137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heroine regular hoe back 1
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 183
+        width: 25
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa159fc8e6aae6f60800000000000000
+      internalID: 8029542577436447146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heroine silver hoe back 1
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 183
+        width: 25
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a814e933eeb6f700800000000000000
+      internalID: 573855885674420390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heroine gold hoe back 1
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 183
+        width: 25
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afbc0e5e0c8281a90800000000000000
+      internalID: -7343074383472047110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heroine diamond hoe back 1
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 183
+        width: 25
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b681bb6cb10263a0800000000000000
+      internalID: -6673769789037377870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heroine regular hoe back 2
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 123
+        width: 25
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa9e007145feb9e60800000000000000
+      internalID: 7970227110004451759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heroine silver hoe back 2
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 123
+        width: 25
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88210e9da95882dc0800000000000000
+      internalID: -3663531396739100024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heroine gold hoe back 2
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 123
+        width: 25
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9372e184ef55accb0800000000000000
+      internalID: -4842963898663557319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heroine diamond hoe back 2
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 123
+        width: 25
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce9c2145004446060800000000000000
+      internalID: 6945751293513353708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heroine regular hoe back 3
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 62
+        width: 31
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7286197bce24d5390800000000000000
+      internalID: -7828026992840579033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heroine silver hoe back 3
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 62
+        width: 31
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5f9dbc00e9540a00800000000000000
+      internalID: 721800659107422045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heroine gold hoe back 3
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 62
+        width: 31
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 581c5d7af53148100800000000000000
+      internalID: 109233592522359173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heroine diamond hoe back 3
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 62
+        width: 31
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 828d455e6370767e0800000000000000
+      internalID: -1772439995989829592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heroine regular hoe back 4
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 2
+        width: 34
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 999adaaeb5d98a080800000000000000
+      internalID: -9175911222662551143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heroine silver hoe back 4
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 2
+        width: 34
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48392e5b8e2f0ceb0800000000000000
+      internalID: -4701490929676938364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heroine gold hoe back 4
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 2
+        width: 34
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3a6b30ca59a9fc60800000000000000
+      internalID: 7852493632534440506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heroine diamond hoe back 4
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 2
+        width: 34
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b5f675a493f54f50800000000000000
+      internalID: 6865161026752935351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

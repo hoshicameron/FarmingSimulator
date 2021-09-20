@@ -1,0 +1,1368 @@
+fileFormatVersion: 2
+guid: 2bab9f595ca547045b4506bfb57c5adc
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7426335494241043012
+    second: TileB_exterior_2_summer_1
+  - first:
+      213: -6571119621218943523
+    second: TileB_exterior_2_summer_3
+  - first:
+      213: 9186593554860799369
+    second: TileB_exterior_2_summer_4
+  - first:
+      213: -1498436728315017592
+    second: TileB_exterior_2_summer_6
+  - first:
+      213: -2971761955076399980
+    second: TileB_exterior_2_summer_7
+  - first:
+      213: 5175886146250873036
+    second: TileB_exterior_2_summer_8
+  - first:
+      213: 988869486991451905
+    second: TileB_exterior_2_summer_9
+  - first:
+      213: -3502082807335246876
+    second: TileB_exterior_2_summer_13
+  - first:
+      213: -3023903023776984454
+    second: TileB_exterior_2_summer_14
+  - first:
+      213: 4273422087314890456
+    second: tree_down
+  - first:
+      213: 6249498291534157111
+    second: TileB_exterior_2_summer_16
+  - first:
+      213: 1576393090344074475
+    second: TileB_exterior_2_summer_17
+  - first:
+      213: 4479345088788180356
+    second: TileB_exterior_2_summer_18
+  - first:
+      213: -4347733247520667251
+    second: TileB_exterior_2_summer_21
+  - first:
+      213: -4890577562437530235
+    second: TileB_exterior_2_summer_22
+  - first:
+      213: 9191181838743750392
+    second: TileB_exterior_2_summer_23
+  - first:
+      213: -9094168630310473480
+    second: TileB_exterior_2_summer_25
+  - first:
+      213: 4338493868516448939
+    second: TileB_exterior_2_summer_26
+  - first:
+      213: -546636761788340995
+    second: TileB_exterior_2_summer_27
+  - first:
+      213: 5899239002465079071
+    second: TileB_exterior_2_summer_29
+  - first:
+      213: 1857169642204585976
+    second: TileB_exterior_2_summer_31
+  - first:
+      213: 1341095389985103693
+    second: TileB_exterior_2_summer_33
+  - first:
+      213: 7747505743467771846
+    second: TileB_exterior_2_summer_36
+  - first:
+      213: -3035979147454485704
+    second: TileB_exterior_2_summer_37
+  - first:
+      213: 1513642146574465568
+    second: TileB_exterior_2_summer_0
+  - first:
+      213: 1062941071382080733
+    second: TileB_exterior_2_summer_24
+  - first:
+      213: 2129545160984172633
+    second: TileB_exterior_2_summer_28
+  - first:
+      213: -4309647471645757202
+    second: TileB_exterior_2_summer_19
+  - first:
+      213: 5070901682294829311
+    second: TileB_exterior_2_summer_10
+  - first:
+      213: 3903715132993725851
+    second: TileB_exterior_2_summer_2
+  - first:
+      213: 6499179456506622608
+    second: TileB_exterior_2_summer_5
+  - first:
+      213: 8961381850028943838
+    second: TileB_exterior_2_summer_11
+  - first:
+      213: 4114037757517479086
+    second: TileB_exterior_2_summer_12
+  - first:
+      213: -7818039697777161194
+    second: TileB_exterior_2_summer_20
+  - first:
+      213: 2983534895407567172
+    second: TileB_exterior_2_summer_30
+  - first:
+      213: -7866528953976219220
+    second: TileB_exterior_2_summer_32
+  - first:
+      213: -2491685151400121812
+    second: TileB_exterior_2_summer_38
+  - first:
+      213: 1279222194678009732
+    second: TileB_exterior_2_summer_39
+  - first:
+      213: 8229397867348923806
+    second: TileB_exterior_2_summer_40
+  - first:
+      213: -6821360854955557052
+    second: TileB_exterior_2_summer_41
+  - first:
+      213: -6500304458700939323
+    second: TileB_exterior_2_summer_42
+  - first:
+      213: 8791265549807379662
+    second: TileB_exterior_2_summer_43
+  - first:
+      213: -5936417265364233007
+    second: TileB_exterior_2_summer_44
+  - first:
+      213: 1892009085375717007
+    second: TileB_exterior_2_summer_45
+  - first:
+      213: -3084550760589186982
+    second: TileB_exterior_2_summer_46
+  - first:
+      213: 5295042370234013384
+    second: TileB_exterior_2_summer_47
+  - first:
+      213: 5784463979781580378
+    second: TileB_exterior_2_summer_48
+  - first:
+      213: -9053945466625343737
+    second: TileB_exterior_2_summer_49
+  - first:
+      213: -6299093551079456724
+    second: TileB_exterior_2_summer_50
+  - first:
+      213: 7073343093593791471
+    second: TileB_exterior_2_summer_34
+  - first:
+      213: 7144745605757189788
+    second: TileB_exterior_2_summer_35
+  - first:
+      213: -1411712353057935420
+    second: tree_top
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: TileB_exterior_2_summer_1
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 448
+        width: 30
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 442cc1d19c4af0760800000000000000
+      internalID: 7426335494241043012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileB_exterior_2_summer_3
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 484
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddd35a01581bec4a0800000000000000
+      internalID: -6571119621218943523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileB_exterior_2_summer_4
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 482
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 985fe5d5a265d7f70800000000000000
+      internalID: 9186593554860799369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileB_exterior_2_summer_6
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 490
+        width: 19
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88682621cbb743be0800000000000000
+      internalID: -1498436728315017592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileB_exterior_2_summer_7
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 480
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49c96a63f3e22c6d0800000000000000
+      internalID: -2971761955076399980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileB_exterior_2_summer_8
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 451
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc81629e60174d740800000000000000
+      internalID: 5175886146250873036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileB_exterior_2_summer_9
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 428
+        width: 32
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10729552f8b29bd00800000000000000
+      internalID: 988869486991451905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileB_exterior_2_summer_13
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 224
+        width: 87
+        height: 122
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e3a7c6dd3a166fc0800000000000000
+      internalID: -3502082807335246876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileB_exterior_2_summer_14
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 288
+        width: 26
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a721b80a830f806d0800000000000000
+      internalID: -3023903023776984454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_down
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 226
+        width: 96
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8de56b13fbe3e4b30800000000000000
+      internalID: 4273422087314890456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileB_exterior_2_summer_16
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 332
+        width: 32
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 735dd4bb59daab650800000000000000
+      internalID: 6249498291534157111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileB_exterior_2_summer_17
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 289
+        width: 30
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: becb650e92970e510800000000000000
+      internalID: 1576393090344074475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileB_exterior_2_summer_18
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 226
+        width: 32
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48d2c9b20a4d92e30800000000000000
+      internalID: 4479345088788180356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileB_exterior_2_summer_21
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 98
+        width: 115
+        height: 124
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d89006b85afb9a3c0800000000000000
+      internalID: -4347733247520667251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileB_exterior_2_summer_22
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 64
+        width: 88
+        height: 153
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58d4a6c4e9d212cb0800000000000000
+      internalID: -4890577562437530235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileB_exterior_2_summer_23
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 192
+        width: 31
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f6c7547f23ad8f70800000000000000
+      internalID: 9191181838743750392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileB_exterior_2_summer_25
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 165
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f0f7de40d50bc180800000000000000
+      internalID: -9094168630310473480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileB_exterior_2_summer_26
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 130
+        width: 31
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baa1225ef2d653c30800000000000000
+      internalID: 4338493868516448939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileB_exterior_2_summer_27
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 96
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df4af68e2c4f968f0800000000000000
+      internalID: -546636761788340995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileB_exterior_2_summer_29
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 39
+        width: 26
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1f8f030e9e4ed150800000000000000
+      internalID: 5899239002465079071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileB_exterior_2_summer_31
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 0
+        width: 92
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ff5e3b23fdf5c910800000000000000
+      internalID: 1857169642204585976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileB_exterior_2_summer_33
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 49
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4fd9f9d6278c9210800000000000000
+      internalID: 1341095389985103693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileB_exterior_2_summer_36
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 12
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c7f1b6fc6ba48b60800000000000000
+      internalID: 7747505743467771846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileB_exterior_2_summer_37
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 2
+        width: 19
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83b6b7afc090ed5d0800000000000000
+      internalID: -3035979147454485704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileB_exterior_2_summer_0
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 1
+        width: 94
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02a71af3389810510800000000000000
+      internalID: 1513642146574465568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileB_exterior_2_summer_24
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 64
+        width: 30
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddce6e0d54350ce00800000000000000
+      internalID: 1062941071382080733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileB_exterior_2_summer_28
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 224
+        width: 31
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9581d958a0aad8d10800000000000000
+      internalID: 2129545160984172633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileB_exterior_2_summer_19
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 263
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee0f461457e0134c0800000000000000
+      internalID: -4309647471645757202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileB_exterior_2_summer_10
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 387
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff03d1896367f5640800000000000000
+      internalID: 5070901682294829311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileB_exterior_2_summer_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 326
+        width: 95
+        height: 154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b95686e0b38cc2630800000000000000
+      internalID: 3903715132993725851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileB_exterior_2_summer_5
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 480
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 092f7941849b13a50800000000000000
+      internalID: 6499179456506622608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileB_exterior_2_summer_11
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 481
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed9ab9b20593d5c70800000000000000
+      internalID: 8961381850028943838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileB_exterior_2_summer_12
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 448
+        width: 63
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eacbf591b8ff71930800000000000000
+      internalID: 4114037757517479086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileB_exterior_2_summer_20
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 385
+        width: 63
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61c071e015eb08390800000000000000
+      internalID: -7818039697777161194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileB_exterior_2_summer_30
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 320
+        width: 63
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44110cf0e25a76920800000000000000
+      internalID: 2983534895407567172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileB_exterior_2_summer_32
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca91ce2589974d290800000000000000
+      internalID: -7866528953976219220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileB_exterior_2_summer_38
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 166
+        width: 96
+        height: 154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2a2eaa6e81cb6dd0800000000000000
+      internalID: -2491685151400121812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileB_exterior_2_summer_39
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 358
+        width: 96
+        height: 154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48f0496fec5b0c110800000000000000
+      internalID: 1279222194678009732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileB_exterior_2_summer_40
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 255
+        width: 96
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9590b652c1b43270800000000000000
+      internalID: 8229397867348923806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileB_exterior_2_summer_41
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 192
+        width: 96
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44f7e9b8178a551a0800000000000000
+      internalID: -6821360854955557052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileB_exterior_2_summer_42
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 224
+        width: 29
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cf1e3fe8874ac5a0800000000000000
+      internalID: -6500304458700939323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileB_exterior_2_summer_43
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 191
+        width: 32
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec4e56e7079d00a70800000000000000
+      internalID: 8791265549807379662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileB_exterior_2_summer_44
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 198
+        width: 32
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d4187b13fb9d9da0800000000000000
+      internalID: -5936417265364233007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileB_exterior_2_summer_45
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 38
+        width: 96
+        height: 153
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8e91a52d34c14a10800000000000000
+      internalID: 1892009085375717007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileB_exterior_2_summer_46
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 64
+        width: 63
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a58ab670d697135d0800000000000000
+      internalID: -3084550760589186982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileB_exterior_2_summer_47
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c6d07c3bf4cb7940800000000000000
+      internalID: 5295042370234013384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileB_exterior_2_summer_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5
+        width: 96
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a566cea975b864050800000000000000
+      internalID: 5784463979781580378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileB_exterior_2_summer_49
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 6
+        width: 26
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70fb906619ce95280800000000000000
+      internalID: -9053945466625343737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileB_exterior_2_summer_50
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 7
+        width: 27
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2084f01acf1598a0800000000000000
+      internalID: -6299093551079456724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileB_exterior_2_summer_34
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 4
+        width: 55
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: febde144110992260800000000000000
+      internalID: 7073343093593791471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileB_exterior_2_summer_35
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 5
+        width: 20
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9eb0b1264c372360800000000000000
+      internalID: 7144745605757189788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_top
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 255
+        width: 95
+        height: 120
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cf63fe2817986ce0800000000000000
+      internalID: -1411712353057935420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

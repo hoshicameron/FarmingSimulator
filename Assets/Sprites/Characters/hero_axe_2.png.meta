@@ -1,0 +1,1080 @@
+fileFormatVersion: 2
+guid: c8d1dfb04b841624f9b29edd717aaeec
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2675104540495260223
+    second: Hero regular axe left  1
+  - first:
+      213: -1106166059522784460
+    second: hero_axe_2_1
+  - first:
+      213: 7463043160076828248
+    second: hero_axe_2_2
+  - first:
+      213: -4926240639065482368
+    second: Hero silver axe left  1
+  - first:
+      213: 4114822896094889812
+    second: hero_axe_2_4
+  - first:
+      213: -7122384011756147604
+    second: hero_axe_2_5
+  - first:
+      213: 5790021583386204159
+    second: Hero golden axe left  1
+  - first:
+      213: -8225456243776297783
+    second: hero_axe_2_7
+  - first:
+      213: -7113083658160428654
+    second: hero_axe_2_8
+  - first:
+      213: -6393329970313481134
+    second: Hero diamond axe left  1
+  - first:
+      213: 9219232630785800989
+    second: hero_axe_2_10
+  - first:
+      213: -227878073958970884
+    second: hero_axe_2_11
+  - first:
+      213: 7653568395557197596
+    second: Hero regular axe left  2
+  - first:
+      213: 2116452661581903299
+    second: hero_axe_2_13
+  - first:
+      213: 3188118830055794643
+    second: hero_axe_2_14
+  - first:
+      213: 1102721428912855436
+    second: Hero silver axe left  2
+  - first:
+      213: -4719110622182185389
+    second: hero_axe_2_16
+  - first:
+      213: 5941614748520932213
+    second: hero_axe_2_17
+  - first:
+      213: -409418613399695551
+    second: Hero golden axe left  2
+  - first:
+      213: 3240260359365771511
+    second: hero_axe_2_19
+  - first:
+      213: 7374343440352484219
+    second: hero_axe_2_20
+  - first:
+      213: 5285973182901103072
+    second: Hero diamond axe left  2
+  - first:
+      213: 4398147066381107567
+    second: hero_axe_2_22
+  - first:
+      213: -966067459283528993
+    second: hero_axe_2_23
+  - first:
+      213: 6431355350988443948
+    second: Hero regular axe left  3
+  - first:
+      213: 6400315731547348918
+    second: hero_axe_2_25
+  - first:
+      213: -6173443886437307874
+    second: hero_axe_2_26
+  - first:
+      213: -1833602818982189036
+    second: Hero silver axe left  3
+  - first:
+      213: 388410195246238282
+    second: hero_axe_2_28
+  - first:
+      213: -3159148808221832405
+    second: hero_axe_2_29
+  - first:
+      213: -1336721590291458145
+    second: Hero golden axe left  3
+  - first:
+      213: -349719011024261364
+    second: hero_axe_2_31
+  - first:
+      213: 4305832722372167997
+    second: hero_axe_2_32
+  - first:
+      213: 8873021792772192905
+    second: Hero diamond axe left  3
+  - first:
+      213: -7939397279123295283
+    second: hero_axe_2_34
+  - first:
+      213: -5786356442598339191
+    second: hero_axe_2_35
+  - first:
+      213: 1066130371958679934
+    second: Hero regular axe left  4
+  - first:
+      213: 6957287113844024094
+    second: hero_axe_2_37
+  - first:
+      213: 8891393040542195654
+    second: hero_axe_2_38
+  - first:
+      213: 6034534838424712433
+    second: Hero silver axe left  4
+  - first:
+      213: 1770791770889615598
+    second: hero_axe_2_40
+  - first:
+      213: 4637498682352491504
+    second: hero_axe_2_41
+  - first:
+      213: 7615866906569752973
+    second: Hero golden axe left  4
+  - first:
+      213: -2962831739265041125
+    second: hero_axe_2_43
+  - first:
+      213: -1577425045216042787
+    second: hero_axe_2_44
+  - first:
+      213: -6785429676004951577
+    second: Hero diamond axe left  4
+  - first:
+      213: 997984978010421382
+    second: hero_axe_2_46
+  - first:
+      213: 4520206411247642136
+    second: hero_axe_2_47
+  - first:
+      213: 6022969083812191205
+    second: Hero regular axe right 1
+  - first:
+      213: -374865103255804343
+    second: hero_axe_2_49
+  - first:
+      213: 3617439924065231970
+    second: hero_axe_2_50
+  - first:
+      213: -8257681295658326170
+    second: Hero silver axe right 1
+  - first:
+      213: 5754778211315559709
+    second: hero_axe_2_52
+  - first:
+      213: 8000490236374051563
+    second: hero_axe_2_53
+  - first:
+      213: 6354270439971234433
+    second: Hero golden axe right  1
+  - first:
+      213: -5754684352649301028
+    second: hero_axe_2_55
+  - first:
+      213: -81146086965538840
+    second: hero_axe_2_56
+  - first:
+      213: -7506830798513098372
+    second: Hero diamond axe right 1
+  - first:
+      213: -5697056960769878870
+    second: hero_axe_2_58
+  - first:
+      213: 7060298425827982055
+    second: hero_axe_2_59
+  - first:
+      213: 366578803093071551
+    second: Hero regular axe right 2
+  - first:
+      213: 2798934023422554852
+    second: hero_axe_2_61
+  - first:
+      213: 8951146703978761614
+    second: hero_axe_2_62
+  - first:
+      213: 3834914146638060108
+    second: Hero silver axe right 2
+  - first:
+      213: -2595212345339001164
+    second: hero_axe_2_64
+  - first:
+      213: -9089877588876687299
+    second: hero_axe_2_65
+  - first:
+      213: -2184723393171389359
+    second: Hero golden axe right  2
+  - first:
+      213: 3502633978096397844
+    second: hero_axe_2_67
+  - first:
+      213: 532371505328066730
+    second: hero_axe_2_68
+  - first:
+      213: -9202490520899568102
+    second: Hero diamond axe right 2
+  - first:
+      213: -5982744963727841376
+    second: hero_axe_2_70
+  - first:
+      213: 437984623051354580
+    second: hero_axe_2_71
+  - first:
+      213: 5260974266024489951
+    second: Hero regular axe right 3
+  - first:
+      213: -3167809471257456869
+    second: hero_axe_2_73
+  - first:
+      213: -5825285235332295720
+    second: hero_axe_2_74
+  - first:
+      213: -255638831503236716
+    second: Hero silver axe right 3
+  - first:
+      213: -6147443260228095617
+    second: hero_axe_2_76
+  - first:
+      213: -3222364589237680643
+    second: hero_axe_2_77
+  - first:
+      213: 8608243900538515027
+    second: Hero golden axe right  3
+  - first:
+      213: -8920317991974215650
+    second: hero_axe_2_79
+  - first:
+      213: -1066356301806536965
+    second: hero_axe_2_80
+  - first:
+      213: 3077101350743763619
+    second: Hero diamond axe right 3
+  - first:
+      213: 8536788689779296119
+    second: hero_axe_2_82
+  - first:
+      213: -3889229702116843517
+    second: hero_axe_2_83
+  - first:
+      213: 1980634753521634479
+    second: Hero regular axe right 4
+  - first:
+      213: -4029497715256978183
+    second: hero_axe_2_85
+  - first:
+      213: 2290765648282120356
+    second: hero_axe_2_86
+  - first:
+      213: -5420832977727675850
+    second: Hero silver axe right 4
+  - first:
+      213: -7094076918252517125
+    second: hero_axe_2_88
+  - first:
+      213: 2602910455476373244
+    second: hero_axe_2_89
+  - first:
+      213: -8955629507820667172
+    second: Hero golden axe right  4
+  - first:
+      213: -7379122053172133065
+    second: hero_axe_2_91
+  - first:
+      213: -233972907552959343
+    second: hero_axe_2_92
+  - first:
+      213: -1214905617745125197
+    second: Hero diamond axe right 4
+  - first:
+      213: 1815719876919352141
+    second: hero_axe_2_94
+  - first:
+      213: 54910487691339831
+    second: hero_axe_2_95
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Hero regular axe left  1
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 424
+        width: 24
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3a21410861ef1520800000000000000
+      internalID: 2675104540495260223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero silver axe left  1
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 424
+        width: 24
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08b98663d3a72abb0800000000000000
+      internalID: -4926240639065482368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero golden axe left  1
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 424
+        width: 24
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff7549704f94a5050800000000000000
+      internalID: 5790021583386204159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero diamond axe left  1
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 424
+        width: 24
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2543b9be3445647a0800000000000000
+      internalID: -6393329970313481134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero regular axe left  2
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 364
+        width: 30
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c17d759c7efe63a60800000000000000
+      internalID: 7653568395557197596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero silver axe left  2
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 364
+        width: 30
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c89df801c47ad4f00800000000000000
+      internalID: 1102721428912855436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero golden axe left  2
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 364
+        width: 30
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14fc0e7b0f3715af0800000000000000
+      internalID: -409418613399695551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero diamond axe left  2
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 364
+        width: 30
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e9af038a9c8b5940800000000000000
+      internalID: 5285973182901103072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero regular axe left  3
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 304
+        width: 40
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2159ffed93c04950800000000000000
+      internalID: 6431355350988443948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero silver axe left  3
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 304
+        width: 40
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 418696373fbbd86e0800000000000000
+      internalID: -1833602818982189036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero golden axe left  3
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 304
+        width: 40
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f97151fbbc2037de0800000000000000
+      internalID: -1336721590291458145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero diamond axe left  3
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 304
+        width: 40
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98a7c7a2f4e432b70800000000000000
+      internalID: 8873021792772192905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero regular axe left  4
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 244
+        width: 38
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e792ad8bce7abce00800000000000000
+      internalID: 1066130371958679934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero silver axe left  4
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 244
+        width: 38
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f436059679feb350800000000000000
+      internalID: 6034534838424712433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero golden axe left  4
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 244
+        width: 38
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d814eb6d99ef0b960800000000000000
+      internalID: 7615866906569752973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero diamond axe left  4
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 244
+        width: 38
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e9b45119af45d1a0800000000000000
+      internalID: -6785429676004951577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero regular axe right 1
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 184
+        width: 24
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5eb19cd7872e59350800000000000000
+      internalID: 6022969083812191205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero silver axe right 1
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 184
+        width: 24
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 667e5e7dc92d66d80800000000000000
+      internalID: -8257681295658326170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero golden axe right  1
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 184
+        width: 24
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 182204d7c47ee2850800000000000000
+      internalID: 6354270439971234433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero diamond axe right 1
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 184
+        width: 24
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c713aa1692162d790800000000000000
+      internalID: -7506830798513098372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero regular axe right 2
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 124
+        width: 32
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb6ec8caa79561500800000000000000
+      internalID: 366578803093071551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero silver axe right 2
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 124
+        width: 32
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4a5b7e191a583530800000000000000
+      internalID: 3834914146638060108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero golden axe right  2
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 124
+        width: 32
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 154888926ad4ea1e0800000000000000
+      internalID: -2184723393171389359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero diamond axe right 2
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 124
+        width: 32
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1eb1ecc0af2a4080800000000000000
+      internalID: -9202490520899568102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero regular axe right 3
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 64
+        width: 41
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd37cda983cb20940800000000000000
+      internalID: 5260974266024489951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero silver axe right 3
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 64
+        width: 41
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 491247156d9c37cf0800000000000000
+      internalID: -255638831503236716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero golden axe right  3
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 64
+        width: 41
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35e65871830a67770800000000000000
+      internalID: 8608243900538515027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero diamond axe right 3
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 64
+        width: 41
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3aae4f4106f04ba20800000000000000
+      internalID: 3077101350743763619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero regular axe right 4
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 4
+        width: 39
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fac437180d0ac7b10800000000000000
+      internalID: 1980634753521634479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero silver axe right 4
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 4
+        width: 39
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 632a1d7a02555c4b0800000000000000
+      internalID: -5420832977727675850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero golden axe right  4
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 4
+        width: 39
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdeb75e596637b380800000000000000
+      internalID: -8955629507820667172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero diamond axe right 4
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 4
+        width: 39
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b0ecaa07c9c32fe0800000000000000
+      internalID: -1214905617745125197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
