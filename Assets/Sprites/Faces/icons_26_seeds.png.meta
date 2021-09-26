@@ -4,28 +4,28 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 780327047526122985
-    second: icons_26_seeds_0
+    second: CauliFlower Seed
   - first:
       213: -7288494381262480667
-    second: icons_26_seeds_1
+    second: Parsnip Seed
   - first:
       213: 420050148492369631
-    second: icons_26_seeds_2
+    second: Pepper Seed
   - first:
       213: 4051011659500464797
-    second: icons_26_seeds_3
+    second: Mashroom Seed
   - first:
       213: -8063340527831257714
-    second: icons_26_seeds_4
+    second: Leek Seed
   - first:
       213: 5186714762408366825
-    second: icons_26_seeds_5
+    second: Orange Seed
   - first:
       213: 2953583945426422441
-    second: icons_26_seeds_6
+    second: Melon Seed
   - first:
       213: 7722957055019040117
-    second: icons_26_seeds_7
+    second: Coconut Seed
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -70,7 +70,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 16
+  spritePixelsToUnits: 64
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -127,7 +127,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: icons_26_seeds_0
+      name: CauliFlower Seed
       rect:
         serializedVersion: 2
         x: 25
@@ -135,7 +135,7 @@ TextureImporter:
         width: 47
         height: 54
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -148,7 +148,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: icons_26_seeds_1
+      name: Parsnip Seed
       rect:
         serializedVersion: 2
         x: 121
@@ -156,7 +156,7 @@ TextureImporter:
         width: 47
         height: 54
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -169,7 +169,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: icons_26_seeds_2
+      name: Pepper Seed
       rect:
         serializedVersion: 2
         x: 217
@@ -177,7 +177,7 @@ TextureImporter:
         width: 47
         height: 54
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -190,7 +190,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: icons_26_seeds_3
+      name: Mashroom Seed
       rect:
         serializedVersion: 2
         x: 312
@@ -198,7 +198,7 @@ TextureImporter:
         width: 47
         height: 54
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -211,7 +211,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: icons_26_seeds_4
+      name: Leek Seed
       rect:
         serializedVersion: 2
         x: 25
@@ -219,7 +219,7 @@ TextureImporter:
         width: 47
         height: 54
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -232,7 +232,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: icons_26_seeds_5
+      name: Orange Seed
       rect:
         serializedVersion: 2
         x: 121
@@ -240,7 +240,7 @@ TextureImporter:
         width: 47
         height: 54
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -253,7 +253,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: icons_26_seeds_6
+      name: Melon Seed
       rect:
         serializedVersion: 2
         x: 217
@@ -261,7 +261,7 @@ TextureImporter:
         width: 47
         height: 54
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -274,7 +274,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: icons_26_seeds_7
+      name: Coconut Seed
       rect:
         serializedVersion: 2
         x: 313
@@ -282,7 +282,7 @@ TextureImporter:
         width: 47
         height: 54
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []

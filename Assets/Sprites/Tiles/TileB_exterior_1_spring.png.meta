@@ -7,7 +7,7 @@ TextureImporter:
     second: TileB_exterior_1_spring_0
   - first:
       213: 4330278466716424698
-    second: TileB_exterior_1_spring_1
+    second: Bush1
   - first:
       213: -2970125565568945882
     second: TileB_exterior_1_spring_3
@@ -34,7 +34,7 @@ TextureImporter:
     second: TileB_exterior_1_spring_13
   - first:
       213: -4442863700314843077
-    second: TileB_exterior_1_spring_14
+    second: Wood
   - first:
       213: 3658845076662436525
     second: TileB_exterior_1_spring_15
@@ -46,7 +46,7 @@ TextureImporter:
     second: TileB_exterior_1_spring_17
   - first:
       213: -2716803519888346997
-    second: TileB_exterior_1_spring_18
+    second: Bush2
   - first:
       213: 9164032860623031023
     second: TileB_exterior_1_spring_21
@@ -271,7 +271,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TileB_exterior_1_spring_1
+      name: Bush1
       rect:
         serializedVersion: 2
         x: 258
@@ -460,7 +460,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TileB_exterior_1_spring_14
+      name: Wood
       rect:
         serializedVersion: 2
         x: 352
@@ -544,7 +544,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TileB_exterior_1_spring_18
+      name: Bush2
       rect:
         serializedVersion: 2
         x: 352

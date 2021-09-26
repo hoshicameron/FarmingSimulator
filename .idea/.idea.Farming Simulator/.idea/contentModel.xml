@@ -19,13 +19,28 @@
           <e p="Events" t="Include">
             <e p="EventHandler.cs" t="Include" />
           </e>
+          <e p="Inventory" t="Include">
+            <e p="InventoryManager.cs" t="Include" />
+          </e>
+          <e p="Items" t="Include">
+            <e p="Item.cs" t="Include" />
+            <e p="ItemDetails.cs" t="Include" />
+            <e p="ObscuringItemFader.cs" t="Include" />
+            <e p="SO_ItemList.cs" t="Include" />
+            <e p="TriggerObscuringItemFader.cs" t="Include" />
+          </e>
           <e p="Misc" t="Include">
             <e p="Settings.cs" t="Include" />
             <e p="SingletonMonobehaviour.cs" t="Include" />
+            <e p="Tags.cs" t="Include" />
           </e>
           <e p="Player" t="Include">
+            <e p="ItemPickup.cs" t="Include" />
             <e p="Player.cs" t="Include" />
             <e p="PlayerAnimationTest.cs" t="Include" />
+          </e>
+          <e p="Scene" t="Include">
+            <e p="SwitchConfineBoundingShape.cs" t="Include" />
           </e>
         </e>
         <e p="Sprites" t="Include">

@@ -53,15 +53,17 @@ namespace Player
         private bool idleRight;
 
         private Rigidbody2D rigidbody2D;
+#pragma warning disable 414
         private Direction playerDirection;
+#pragma warning restoe 414
         private float movementSpeed;
-        private bool playerInputIsDisabled = false;
 
-        public bool PlayerInputIsDisabled
+        public Player()
         {
-            get { return playerInputIsDisabled; }
-            set { playerInputIsDisabled = value; }
+            PlayerInputIsDisabled = false;
         }
+
+        public bool PlayerInputIsDisabled { get; set; }
 
         protected override void Awake()
         {

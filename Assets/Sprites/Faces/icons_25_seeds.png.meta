@@ -4,28 +4,28 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 8507385808321619425
-    second: icons_25_seeds_0
+    second: Eggplant Seed
   - first:
       213: 4170684880575794847
-    second: icons_25_seeds_1
+    second: Onion Seed
   - first:
       213: -7557281282248705114
-    second: icons_25_seeds_2
+    second: Squash Seed
   - first:
       213: -5568458855087258607
-    second: icons_25_seeds_3
+    second: Strawberry Seed
   - first:
       213: 6656754526570475281
-    second: icons_25_seeds_4
+    second: Apple Seed
   - first:
       213: 6871523728638648801
-    second: icons_25_seeds_5
+    second: Radish Seed
   - first:
       213: 5590392784249175192
-    second: icons_25_seeds_6
+    second: Peach Seed
   - first:
       213: -1996560552307567140
-    second: icons_25_seeds_7
+    second: Cucumber Seed
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -70,7 +70,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 16
+  spritePixelsToUnits: 64
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -127,7 +127,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: icons_25_seeds_0
+      name: Eggplant Seed
       rect:
         serializedVersion: 2
         x: 25
@@ -135,7 +135,7 @@ TextureImporter:
         width: 47
         height: 54
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -148,7 +148,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: icons_25_seeds_1
+      name: Onion Seed
       rect:
         serializedVersion: 2
         x: 121
@@ -156,7 +156,7 @@ TextureImporter:
         width: 47
         height: 54
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -169,7 +169,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: icons_25_seeds_2
+      name: Squash Seed
       rect:
         serializedVersion: 2
         x: 217
@@ -177,7 +177,7 @@ TextureImporter:
         width: 47
         height: 54
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -190,7 +190,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: icons_25_seeds_3
+      name: Strawberry Seed
       rect:
         serializedVersion: 2
         x: 312
@@ -198,7 +198,7 @@ TextureImporter:
         width: 47
         height: 54
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -211,7 +211,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: icons_25_seeds_4
+      name: Apple Seed
       rect:
         serializedVersion: 2
         x: 25
@@ -219,7 +219,7 @@ TextureImporter:
         width: 47
         height: 54
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -232,7 +232,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: icons_25_seeds_5
+      name: Radish Seed
       rect:
         serializedVersion: 2
         x: 121
@@ -240,7 +240,7 @@ TextureImporter:
         width: 47
         height: 54
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -253,7 +253,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: icons_25_seeds_6
+      name: Peach Seed
       rect:
         serializedVersion: 2
         x: 217
@@ -261,7 +261,7 @@ TextureImporter:
         width: 47
         height: 54
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -274,7 +274,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: icons_25_seeds_7
+      name: Cucumber Seed
       rect:
         serializedVersion: 2
         x: 313
@@ -282,7 +282,7 @@ TextureImporter:
         width: 47
         height: 54
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []

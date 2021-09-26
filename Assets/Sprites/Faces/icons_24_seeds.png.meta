@@ -13,19 +13,19 @@ TextureImporter:
     second: icons_24_seeds_2
   - first:
       213: -3364894284532582482
-    second: icons_24_seeds_3
+    second: Corn Seed
   - first:
       213: 3222261999481434708
-    second: icons_24_seeds_4
+    second: Tommato Seed
   - first:
       213: -5747514645494775528
-    second: icons_24_seeds_5
+    second: Carrot Seed
   - first:
       213: 4449204303230709884
-    second: icons_24_seeds_6
+    second: Turnip Seed
   - first:
       213: 893618496801418589
-    second: icons_24_seeds_7
+    second: Potato Seed
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -70,7 +70,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 16
+  spritePixelsToUnits: 64
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -135,7 +135,7 @@ TextureImporter:
         width: 51
         height: 55
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -156,7 +156,7 @@ TextureImporter:
         width: 56
         height: 45
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -177,7 +177,7 @@ TextureImporter:
         width: 55
         height: 63
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -190,7 +190,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: icons_24_seeds_3
+      name: Corn Seed
       rect:
         serializedVersion: 2
         x: 312
@@ -198,7 +198,7 @@ TextureImporter:
         width: 47
         height: 54
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -211,7 +211,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: icons_24_seeds_4
+      name: Tommato Seed
       rect:
         serializedVersion: 2
         x: 25
@@ -219,7 +219,7 @@ TextureImporter:
         width: 47
         height: 54
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -232,7 +232,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: icons_24_seeds_5
+      name: Carrot Seed
       rect:
         serializedVersion: 2
         x: 121
@@ -240,7 +240,7 @@ TextureImporter:
         width: 47
         height: 54
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -253,7 +253,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: icons_24_seeds_6
+      name: Turnip Seed
       rect:
         serializedVersion: 2
         x: 217
@@ -261,7 +261,7 @@ TextureImporter:
         width: 47
         height: 54
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -274,7 +274,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: icons_24_seeds_7
+      name: Potato Seed
       rect:
         serializedVersion: 2
         x: 313
@@ -282,7 +282,7 @@ TextureImporter:
         width: 47
         height: 54
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []

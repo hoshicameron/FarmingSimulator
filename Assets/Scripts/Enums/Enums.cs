@@ -9,4 +9,9 @@ namespace Enums
     {
         Up,Down,Left,Right,None
     }
+    public enum ItemType
+    {
+        Seed,Commodity,Watering_Tool,HoeingTool,Chopping_Tool,BreakingTool,
+        Reaping_Tool,Collecting_Tool,Reapable_scanary,Furniture,None,Count
+    }
 }

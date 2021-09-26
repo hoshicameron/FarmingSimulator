@@ -4,28 +4,28 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 6147441207931976728
-    second: icons_19_crops_0
+    second: Sugar
   - first:
       213: 7192690272978656000
-    second: icons_19_crops_1
+    second: Woolean
   - first:
       213: -3141616215285514878
-    second: icons_19_crops_2
+    second: Wheat
   - first:
       213: 74588086893493159
-    second: icons_19_crops_3
+    second: Cabbage
   - first:
       213: 2220003081647224296
-    second: icons_19_crops_4
+    second: lettuce
   - first:
       213: -5128920336056490894
-    second: icons_19_crops_5
+    second: Bell peper
   - first:
       213: -9016757043818098911
-    second: icons_19_crops_6
+    second: Peanut
   - first:
       213: -6933705832898597315
-    second: icons_19_crops_7
+    second: Grape
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -70,7 +70,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 16
+  spritePixelsToUnits: 64
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -127,7 +127,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: icons_19_crops_0
+      name: Sugar
       rect:
         serializedVersion: 2
         x: 22
@@ -135,7 +135,7 @@ TextureImporter:
         width: 50
         height: 53
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -148,7 +148,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: icons_19_crops_1
+      name: Woolean
       rect:
         serializedVersion: 2
         x: 117
@@ -156,7 +156,7 @@ TextureImporter:
         width: 53
         height: 55
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -169,7 +169,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: icons_19_crops_2
+      name: Wheat
       rect:
         serializedVersion: 2
         x: 222
@@ -177,7 +177,7 @@ TextureImporter:
         width: 39
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -190,7 +190,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: icons_19_crops_3
+      name: Cabbage
       rect:
         serializedVersion: 2
         x: 307
@@ -198,7 +198,7 @@ TextureImporter:
         width: 59
         height: 53
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -211,7 +211,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: icons_19_crops_4
+      name: lettuce
       rect:
         serializedVersion: 2
         x: 25
@@ -219,7 +219,7 @@ TextureImporter:
         width: 50
         height: 60
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -232,7 +232,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: icons_19_crops_5
+      name: Bell peper
       rect:
         serializedVersion: 2
         x: 118
@@ -240,7 +240,7 @@ TextureImporter:
         width: 49
         height: 56
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -253,7 +253,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: icons_19_crops_6
+      name: Peanut
       rect:
         serializedVersion: 2
         x: 215
@@ -261,7 +261,7 @@ TextureImporter:
         width: 51
         height: 57
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -274,7 +274,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: icons_19_crops_7
+      name: Grape
       rect:
         serializedVersion: 2
         x: 309
@@ -282,7 +282,7 @@ TextureImporter:
         width: 55
         height: 59
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
