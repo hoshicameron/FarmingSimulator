@@ -1,4 +1,6 @@
 using Enums;
+using System;
+using System.Collections.Generic;
 
 namespace Events
 {
@@ -16,11 +18,20 @@ namespace Events
 
     public static class EventHandler
     {
-        //Movement Event
+        // Inventory Update Event
+        public static event Action<InventoryLocation, List<InventoryItem>> InventoryUpdateEvent;
 
+        // Trigger the Event
+        public static void CallInventoryUpdateEvent(InventoryLocation inventoryLocation,
+            List<InventoryItem> inventoryItemList)
+        {
+            InventoryUpdateEvent?.Invoke(inventoryLocation,inventoryItemList);
+        }
+
+        // Movement Event
         public static event MovementDelegate MovementEvent;
 
-        //Movement Event Call For Publisher
+        // Movement Event Call For Publisher
         public static void CallMovementEvent
         (
 

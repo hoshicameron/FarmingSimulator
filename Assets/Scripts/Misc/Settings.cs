@@ -9,12 +9,15 @@ namespace Misc
         public const float fadeOutSeconds = 0.35f;
         public const float targetAlpha = 0.45f;
 
-        //Player Movement
+        // Player Movement
         public const float runningSpeed = 5.333f;
         public const float walkingSpeed = 2.666f;
 
+        // Inventory
+        public static int playerInitialInventoryCapacity=24;
+        public static int PlayerMaximumInventoryCapacity=48;
 
-        //Player Animation Parameters
+        // Player Animation Parameters
         public static int xInput;
         public static int yInput;
         public static int isWalking;

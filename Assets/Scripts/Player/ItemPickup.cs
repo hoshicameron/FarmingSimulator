@@ -1,4 +1,5 @@
 
+using Enums;
 using Inventory;
 using Items;
 using UnityEngine;
@@ -12,8 +13,12 @@ public class ItemPickup : MonoBehaviour
             // Get item details
             ItemDetails itemDetails = InventoryManager.Instance.GetItemDetails(item.ItemCode);
 
-            // Print Item description to console
-            Debug.Log(itemDetails.itemDescription);
+            // if the item can be picked up
+            if (itemDetails.canPickedUp == true)
+            {
+                // Add item to the Inventory
+                InventoryManager.Instance.AddItem(InventoryLocation.Player,item,other.gameObject);
+            }
         }
 
     }

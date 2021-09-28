@@ -1,0 +1,316 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3810a72101214ed4c8a3ca35849f7bd4, type: 3}
+  m_Name: so_ItemList 1
+  m_EditorClassIdentifier: 
+  ItemDetailsList:
+  - itemCode: 10001
+    itemType: 0
+    itemDescription: Carrot Seed
+    itemSprite: {fileID: -5747514645494775528, guid: 9b7f4e346e89db044a1fcf7be94da0cc, type: 3}
+    itemLongDescription: Carrot seed growa in 3 days
+    itemUseGridRadius: 2
+    itemUseRadius: 0
+    isStartingItem: 0
+    canPickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+  - itemCode: 10002
+    itemType: 1
+    itemDescription: Carrot
+    itemSprite: {fileID: 3019443313259183933, guid: 0173b463dd4fdeb41b9d50eac0eb7d7d, type: 3}
+    itemLongDescription: Carrot is full of vitamins and perfect for soup.
+    itemUseGridRadius: 2
+    itemUseRadius: 0
+    isStartingItem: 0
+    canPickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 1
+    canBeCarried: 1
+  - itemCode: 10003
+    itemType: 0
+    itemDescription: Corn Seed
+    itemSprite: {fileID: -3364894284532582482, guid: 9b7f4e346e89db044a1fcf7be94da0cc, type: 3}
+    itemLongDescription: Carrot seed growa in 6 days
+    itemUseGridRadius: 2
+    itemUseRadius: 0
+    isStartingItem: 0
+    canPickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+  - itemCode: 10004
+    itemType: 1
+    itemDescription: Corn
+    itemSprite: {fileID: 3019443313259183933, guid: 0173b463dd4fdeb41b9d50eac0eb7d7d, type: 3}
+    itemLongDescription: Corn full off fiber and carbohydrates.
+    itemUseGridRadius: 2
+    itemUseRadius: 0
+    isStartingItem: 0
+    canPickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 1
+    canBeCarried: 1
+  - itemCode: 10005
+    itemType: 0
+    itemDescription: Pumpkin Seed
+    itemSprite: {fileID: -7557281282248705114, guid: fca502be26c64734fb2d079c03bf9b77, type: 3}
+    itemLongDescription: Carrot seed growa in 5 days
+    itemUseGridRadius: 2
+    itemUseRadius: 0
+    isStartingItem: 0
+    canPickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+  - itemCode: 10006
+    itemType: 1
+    itemDescription: Pumpkin
+    itemSprite: {fileID: -1571199138213446279, guid: 82c29bb637625a74eaacbb111960cefd, type: 3}
+    itemLongDescription: 'Pumpkin is full of fiber and vitamin '
+    itemUseGridRadius: 2
+    itemUseRadius: 0
+    isStartingItem: 0
+    canPickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 1
+    canBeCarried: 1
+  - itemCode: 10007
+    itemType: 2
+    itemDescription: Watering can
+    itemSprite: {fileID: 4191906747077585937, guid: 188145e762c3a044b8fe340700856f98, type: 3}
+    itemLongDescription: A perfect can for watering seeds.
+    itemUseGridRadius: 1
+    itemUseRadius: 0
+    isStartingItem: 1
+    canPickedUp: 1
+    canBeDropped: 0
+    canBeEaten: 0
+    canBeCarried: 0
+  - itemCode: 10008
+    itemType: 3
+    itemDescription: A Basic Hoe
+    itemSprite: {fileID: 841805989645016474, guid: 03641e082653b3645835a957e3a18bc5, type: 3}
+    itemLongDescription: A perfect,strong hoe for break up soil
+    itemUseGridRadius: 1
+    itemUseRadius: 0
+    isStartingItem: 1
+    canPickedUp: 1
+    canBeDropped: 0
+    canBeEaten: 0
+    canBeCarried: 0
+  - itemCode: 10009
+    itemType: 4
+    itemDescription: Axe
+    itemSprite: {fileID: 7216342087638920494, guid: 03641e082653b3645835a957e3a18bc5, type: 3}
+    itemLongDescription: A perfect,sharp,strong axe for chopping trees
+    itemUseGridRadius: 1
+    itemUseRadius: 0
+    isStartingItem: 1
+    canPickedUp: 1
+    canBeDropped: 0
+    canBeEaten: 0
+    canBeCarried: 0
+  - itemCode: 10010
+    itemType: 5
+    itemDescription: A Basic Pickaxe
+    itemSprite: {fileID: 3019443313259183933, guid: 0173b463dd4fdeb41b9d50eac0eb7d7d, type: 3}
+    itemLongDescription: A perfect strong pickaxe for breaking stones
+    itemUseGridRadius: 1
+    itemUseRadius: 0
+    isStartingItem: 1
+    canPickedUp: 1
+    canBeDropped: 0
+    canBeEaten: 0
+    canBeCarried: 0
+  - itemCode: 10010
+    itemType: 1
+    itemDescription: Wood
+    itemSprite: {fileID: -5235084310606890436, guid: 65cebe1ecd98f1748b58660aefc59530, type: 3}
+    itemLongDescription: Wood is useful for many things - from a building matrials
+      to fuel
+    itemUseGridRadius: 2
+    itemUseRadius: 0
+    isStartingItem: 0
+    canPickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+  - itemCode: 10012
+    itemType: 0
+    itemDescription: Tree stump
+    itemSprite: {fileID: 4273422087314890456, guid: 2bab9f595ca547045b4506bfb57c5adc, type: 3}
+    itemLongDescription: The stump of tree
+    itemUseGridRadius: 2
+    itemUseRadius: 0
+    isStartingItem: 0
+    canPickedUp: 0
+    canBeDropped: 0
+    canBeEaten: 0
+    canBeCarried: 0
+  - itemCode: 10013
+    itemType: 0
+    itemDescription: Pine Cone
+    itemSprite: {fileID: -8826884600973770962, guid: fa0f03192c42d1a4e9d8af3aba39dd5f, type: 3}
+    itemLongDescription: 
+    itemUseGridRadius: 2
+    itemUseRadius: 0
+    isStartingItem: 0
+    canPickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+  - itemCode: 10014
+    itemType: 7
+    itemDescription: Wicker Bascet
+    itemSprite: {fileID: 5391660772398343096, guid: 3c97b8f9381421349b6a4a180e8c7ad7, type: 3}
+    itemLongDescription: A wicker basket for harvesting produce you have grown
+    itemUseGridRadius: 1
+    itemUseRadius: 0
+    isStartingItem: 1
+    canPickedUp: 1
+    canBeDropped: 0
+    canBeEaten: 0
+    canBeCarried: 0
+  - itemCode: 10015
+    itemType: 0
+    itemDescription: Stone Seed 1
+    itemSprite: {fileID: -1345938524493388993, guid: e9b5c5be901095b48878a7ca3917797a, type: 3}
+    itemLongDescription: 
+    itemUseGridRadius: 0
+    itemUseRadius: 0
+    isStartingItem: 0
+    canPickedUp: 0
+    canBeDropped: 0
+    canBeEaten: 0
+    canBeCarried: 0
+  - itemCode: 10016
+    itemType: 1
+    itemDescription: Stone
+    itemSprite: {fileID: -1345938524493388993, guid: e9b5c5be901095b48878a7ca3917797a, type: 3}
+    itemLongDescription: Stone has many practical uses for crafting and buildi
+    itemUseGridRadius: 2
+    itemUseRadius: 0
+    isStartingItem: 0
+    canPickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+  - itemCode: 10017
+    itemType: 0
+    itemDescription: Stone Seed 2
+    itemSprite: {fileID: 3220428440353464644, guid: e9b5c5be901095b48878a7ca3917797a, type: 3}
+    itemLongDescription: 
+    itemUseGridRadius: 0
+    itemUseRadius: 0
+    isStartingItem: 0
+    canPickedUp: 0
+    canBeDropped: 0
+    canBeEaten: 0
+    canBeCarried: 0
+  - itemCode: 10017
+    itemType: 1
+    itemDescription: Stone 2
+    itemSprite: {fileID: 3220428440353464644, guid: e9b5c5be901095b48878a7ca3917797a, type: 3}
+    itemLongDescription: Stone has many practical uses for crafting and buildi
+    itemUseGridRadius: 2
+    itemUseRadius: 0
+    isStartingItem: 0
+    canPickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+  - itemCode: 10019
+    itemType: 6
+    itemDescription: A Basic Sickle
+    itemSprite: {fileID: 1694994193753427009, guid: 03641e082653b3645835a957e3a18bc5, type: 3}
+    itemLongDescription: A sharp, basic sickle - great for cutting grass
+    itemUseGridRadius: 2
+    itemUseRadius: 1.5
+    isStartingItem: 1
+    canPickedUp: 1
+    canBeDropped: 0
+    canBeEaten: 0
+    canBeCarried: 0
+  - itemCode: 10020
+    itemType: 8
+    itemDescription: Grass1
+    itemSprite: {fileID: 3321344809373716550, guid: 4129801fe1b0d3e47906a11b2e08bf0b, type: 3}
+    itemLongDescription: 
+    itemUseGridRadius: 0
+    itemUseRadius: 0
+    isStartingItem: 0
+    canPickedUp: 0
+    canBeDropped: 0
+    canBeEaten: 0
+    canBeCarried: 0
+  - itemCode: 10021
+    itemType: 8
+    itemDescription: Grass2
+    itemSprite: {fileID: 8883646836659372278, guid: 4129801fe1b0d3e47906a11b2e08bf0b, type: 3}
+    itemLongDescription: 
+    itemUseGridRadius: 0
+    itemUseRadius: 0
+    isStartingItem: 0
+    canPickedUp: 0
+    canBeDropped: 0
+    canBeEaten: 0
+    canBeCarried: 0
+  - itemCode: 10022
+    itemType: 1
+    itemDescription: Weed
+    itemSprite: {fileID: 4338493868516448939, guid: 2bab9f595ca547045b4506bfb57c5adc, type: 3}
+    itemLongDescription: 
+    itemUseGridRadius: 2
+    itemUseRadius: 0
+    isStartingItem: 0
+    canPickedUp: 0
+    canBeDropped: 0
+    canBeEaten: 0
+    canBeCarried: 0
+  - itemCode: 10023
+    itemType: 8
+    itemDescription: Bambo
+    itemSprite: {fileID: 5899239002465079071, guid: 2bab9f595ca547045b4506bfb57c5adc, type: 3}
+    itemLongDescription: 
+    itemUseGridRadius: 0
+    itemUseRadius: 0
+    isStartingItem: 0
+    canPickedUp: 0
+    canBeDropped: 0
+    canBeEaten: 0
+    canBeCarried: 0
+  - itemCode: 10024
+    itemType: 9
+    itemDescription: Wooden Chair
+    itemSprite: {fileID: 3019443313259183933, guid: 0173b463dd4fdeb41b9d50eac0eb7d7d, type: 3}
+    itemLongDescription: Chair
+    itemUseGridRadius: 0
+    itemUseRadius: 0
+    isStartingItem: 0
+    canPickedUp: 0
+    canBeDropped: 0
+    canBeEaten: 0
+    canBeCarried: 0
+  - itemCode: 10025
+    itemType: 9
+    itemDescription: Table
+    itemSprite: {fileID: 6050300582642607659, guid: 12207af1c99b3314fa92583fe8783f51, type: 3}
+    itemLongDescription: Wooden Table
+    itemUseGridRadius: 0
+    itemUseRadius: 0
+    isStartingItem: 0
+    canPickedUp: 0
+    canBeDropped: 0
+    canBeEaten: 0
+    canBeCarried: 0

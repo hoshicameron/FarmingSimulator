@@ -4,10 +4,12 @@ using Misc;
 using UnityEngine;
 
 
-namespace Player
+namespace _Player
 {
     public class Player : SingletonMonoBehaviour<Player>
     {
+        private Camera mainCamera;
+
         //Movement Parameters
         private float xInput;
         private float yInput;
@@ -69,6 +71,10 @@ namespace Player
         {
             base.Awake();
             rigidbody2D = GetComponent<Rigidbody2D>();
+
+            // Get the reference to camera
+            mainCamera=Camera.main;
+
         }
 
         private void Update()
@@ -203,6 +209,11 @@ namespace Player
             hoeUp = false;
             hoeDown = false;
         }
-    }
 
+        public Vector3 GetPlayerViewPortPosition()
+        {
+            // Vector 3 viewport position for the player ((0,0) viewport bottom left,(1,1) viewport top right
+            return mainCamera.WorldToViewportPoint(transform.position);
+        }
+    }
 }
