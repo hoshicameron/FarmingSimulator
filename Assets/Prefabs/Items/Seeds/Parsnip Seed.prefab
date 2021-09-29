@@ -1,0 +1,95 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &5950985815355557560
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 237736205611416541, guid: ac4a337e759ca6247988f1b602c2f204, type: 3}
+      propertyPath: m_Size.x
+      value: 0.7259276
+      objectReference: {fileID: 0}
+    - target: {fileID: 237736205611416541, guid: ac4a337e759ca6247988f1b602c2f204, type: 3}
+      propertyPath: m_Size.y
+      value: 0.84469235
+      objectReference: {fileID: 0}
+    - target: {fileID: 237736205611416541, guid: ac4a337e759ca6247988f1b602c2f204, type: 3}
+      propertyPath: m_Offset.x
+      value: 0.0045678765
+      objectReference: {fileID: 0}
+    - target: {fileID: 237736205611416541, guid: ac4a337e759ca6247988f1b602c2f204, type: 3}
+      propertyPath: m_Offset.y
+      value: 0.42234617
+      objectReference: {fileID: 0}
+    - target: {fileID: 3132451117049524182, guid: ac4a337e759ca6247988f1b602c2f204, type: 3}
+      propertyPath: itemCode
+      value: 10026
+      objectReference: {fileID: 0}
+    - target: {fileID: 4173404654323924381, guid: ac4a337e759ca6247988f1b602c2f204, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4173404654323924381, guid: ac4a337e759ca6247988f1b602c2f204, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4173404654323924381, guid: ac4a337e759ca6247988f1b602c2f204, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4173404654323924381, guid: ac4a337e759ca6247988f1b602c2f204, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4173404654323924381, guid: ac4a337e759ca6247988f1b602c2f204, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4173404654323924381, guid: ac4a337e759ca6247988f1b602c2f204, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4173404654323924381, guid: ac4a337e759ca6247988f1b602c2f204, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4173404654323924381, guid: ac4a337e759ca6247988f1b602c2f204, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4173404654323924381, guid: ac4a337e759ca6247988f1b602c2f204, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4173404654323924381, guid: ac4a337e759ca6247988f1b602c2f204, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4173404654323924381, guid: ac4a337e759ca6247988f1b602c2f204, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7390470156492135800, guid: ac4a337e759ca6247988f1b602c2f204, type: 3}
+      propertyPath: m_Name
+      value: Parsnip Seed
+      objectReference: {fileID: 0}
+    - target: {fileID: 8543603291997301731, guid: ac4a337e759ca6247988f1b602c2f204, type: 3}
+      propertyPath: m_Size.x
+      value: 0.734375
+      objectReference: {fileID: 0}
+    - target: {fileID: 8543603291997301731, guid: ac4a337e759ca6247988f1b602c2f204, type: 3}
+      propertyPath: m_Size.y
+      value: 0.84375
+      objectReference: {fileID: 0}
+    - target: {fileID: 8543603291997301731, guid: ac4a337e759ca6247988f1b602c2f204, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -7288494381262480667, guid: 1ef8d3435c5933b4fa762d56ea0e66dc, type: 3}
+    - target: {fileID: 8543603291997301731, guid: ac4a337e759ca6247988f1b602c2f204, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ac4a337e759ca6247988f1b602c2f204, type: 3}

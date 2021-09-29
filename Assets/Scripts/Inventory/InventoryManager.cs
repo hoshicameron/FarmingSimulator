@@ -253,7 +253,7 @@ namespace Inventory
             switch (itemType)
             {
                 case ItemType.Watering_Tool:
-                    itemTypeDescription = Settings.WatringTool;
+                    itemTypeDescription = Settings.WateringTool;
                     break;
                 case ItemType.HoeingTool:
                     itemTypeDescription = Settings.HoeTool;
@@ -262,7 +262,7 @@ namespace Inventory
                     itemTypeDescription = Settings.ChoppingTool;
                     break;
                 case ItemType.BreakingTool:
-                    itemTypeDescription = Settings.WatringTool;
+                    itemTypeDescription = Settings.BreakingTool;
                     break;
                 case ItemType.Reaping_Tool:
                     itemTypeDescription = Settings.ReapingTool;

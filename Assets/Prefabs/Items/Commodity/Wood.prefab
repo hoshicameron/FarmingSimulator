@@ -1,0 +1,95 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &1402674088978269280
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 237736205611416541, guid: ac4a337e759ca6247988f1b602c2f204, type: 3}
+      propertyPath: m_Size.x
+      value: 0.8309887
+      objectReference: {fileID: 0}
+    - target: {fileID: 237736205611416541, guid: ac4a337e759ca6247988f1b602c2f204, type: 3}
+      propertyPath: m_Size.y
+      value: 0.7990136
+      objectReference: {fileID: 0}
+    - target: {fileID: 237736205611416541, guid: ac4a337e759ca6247988f1b602c2f204, type: 3}
+      propertyPath: m_Offset.x
+      value: 0.011419684
+      objectReference: {fileID: 0}
+    - target: {fileID: 237736205611416541, guid: ac4a337e759ca6247988f1b602c2f204, type: 3}
+      propertyPath: m_Offset.y
+      value: 0.3995068
+      objectReference: {fileID: 0}
+    - target: {fileID: 3132451117049524182, guid: ac4a337e759ca6247988f1b602c2f204, type: 3}
+      propertyPath: itemCode
+      value: 10011
+      objectReference: {fileID: 0}
+    - target: {fileID: 4173404654323924381, guid: ac4a337e759ca6247988f1b602c2f204, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4173404654323924381, guid: ac4a337e759ca6247988f1b602c2f204, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4173404654323924381, guid: ac4a337e759ca6247988f1b602c2f204, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4173404654323924381, guid: ac4a337e759ca6247988f1b602c2f204, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4173404654323924381, guid: ac4a337e759ca6247988f1b602c2f204, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4173404654323924381, guid: ac4a337e759ca6247988f1b602c2f204, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4173404654323924381, guid: ac4a337e759ca6247988f1b602c2f204, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4173404654323924381, guid: ac4a337e759ca6247988f1b602c2f204, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4173404654323924381, guid: ac4a337e759ca6247988f1b602c2f204, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4173404654323924381, guid: ac4a337e759ca6247988f1b602c2f204, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4173404654323924381, guid: ac4a337e759ca6247988f1b602c2f204, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7390470156492135800, guid: ac4a337e759ca6247988f1b602c2f204, type: 3}
+      propertyPath: m_Name
+      value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 8543603291997301731, guid: ac4a337e759ca6247988f1b602c2f204, type: 3}
+      propertyPath: m_Size.x
+      value: 0.84375
+      objectReference: {fileID: 0}
+    - target: {fileID: 8543603291997301731, guid: ac4a337e759ca6247988f1b602c2f204, type: 3}
+      propertyPath: m_Size.y
+      value: 0.78125
+      objectReference: {fileID: 0}
+    - target: {fileID: 8543603291997301731, guid: ac4a337e759ca6247988f1b602c2f204, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -5235084310606890436, guid: 65cebe1ecd98f1748b58660aefc59530, type: 3}
+    - target: {fileID: 8543603291997301731, guid: ac4a337e759ca6247988f1b602c2f204, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ac4a337e759ca6247988f1b602c2f204, type: 3}

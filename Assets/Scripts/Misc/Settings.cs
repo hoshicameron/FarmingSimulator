@@ -74,7 +74,7 @@ namespace Misc
         public const string ChoppingTool = "Axe";
         public const string BreakingTool = "Pickaxe";
         public const string ReapingTool = "Sickle";
-        public const string WatringTool = "Watring Can";
+        public const string WateringTool = "Watring Can";
         public const string CollectingTool = "Basket";
 
 

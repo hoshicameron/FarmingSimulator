@@ -124,7 +124,7 @@ MonoBehaviour:
   - itemCode: 10010
     itemType: 5
     itemDescription: A Basic Pickaxe
-    itemSprite: {fileID: 3019443313259183933, guid: 0173b463dd4fdeb41b9d50eac0eb7d7d, type: 3}
+    itemSprite: {fileID: -1230042618854233230, guid: 03641e082653b3645835a957e3a18bc5, type: 3}
     itemLongDescription: A perfect strong pickaxe for breaking stones
     itemUseGridRadius: 1
     itemUseRadius: 0
