@@ -1,9 +1,11 @@
+using System;
 using System.Collections.Generic;
+using System.Security.Cryptography.X509Certificates;
 using Enums;
-using Events;
 using Items;
 using Misc;
 using UnityEngine;
+using EventHandler = Events.EventHandler;
 
 namespace Inventory
 {
@@ -238,6 +240,43 @@ namespace Inventory
                 EventHandler.CallInventoryUpdateEvent(inventoryLocation,inventoryArrayList[(int)inventoryLocation]);
 
             }
+        }
+
+        /// <summary>
+        /// Get the item type description for an item type - returns the item type description as a string for a given ItemType
+        /// </summary>
+        /// <param name="itemType"></param>
+        /// <returns></returns>
+        public string GetItemTypeDescription(ItemType itemType)
+        {
+            string itemTypeDescription;
+            switch (itemType)
+            {
+                case ItemType.Watering_Tool:
+                    itemTypeDescription = Settings.WatringTool;
+                    break;
+                case ItemType.HoeingTool:
+                    itemTypeDescription = Settings.HoeTool;
+                    break;
+                case ItemType.Chopping_Tool:
+                    itemTypeDescription = Settings.ChoppingTool;
+                    break;
+                case ItemType.BreakingTool:
+                    itemTypeDescription = Settings.WatringTool;
+                    break;
+                case ItemType.Reaping_Tool:
+                    itemTypeDescription = Settings.ReapingTool;
+                    break;
+                case ItemType.Collecting_Tool:
+                    itemTypeDescription = Settings.CollectingTool;
+                    break;
+
+                default:
+                    itemTypeDescription = itemType.ToString();
+                    break;
+            }
+
+            return itemTypeDescription;
         }
     }
 }

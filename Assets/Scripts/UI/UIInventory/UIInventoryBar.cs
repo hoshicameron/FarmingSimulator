@@ -32,7 +32,7 @@ namespace UI
                 {
                     inventorySlotArray[i].inventorySlotImage.sprite = blank16x16Sprite;
                     inventorySlotArray[i].text.text = "";
-                    inventorySlotArray[i].ItemDetails = null;
+                    inventorySlotArray[i].itemDetails = null;
                     inventorySlotArray[i].itemQuantity = 0;
                 }
             }
@@ -60,7 +60,7 @@ namespace UI
                                 // Add image and details to inventory item slot
                                 inventorySlotArray[i].inventorySlotImage.sprite = itemDetails.itemSprite;
                                 inventorySlotArray[i].text.text=inventoryList[i].itemQuantity.ToString();
-                                inventorySlotArray[i].ItemDetails = itemDetails;
+                                inventorySlotArray[i].itemDetails = itemDetails;
                                 inventorySlotArray[i].itemQuantity = inventoryList[i].itemQuantity;
                             }
                         } else
@@ -75,6 +75,7 @@ namespace UI
 
 
         private RectTransform rectTransform;
+        [HideInInspector] public GameObject inventoryTextBoxGameObject;
 
         public bool IsInventoryBarPositionBottom { get; set; } = true;
 

@@ -69,6 +69,14 @@ namespace Misc
         public static int idleUp;
         public static int idleDown;
 
+        // Tools
+        public const string HoeTool = "Hoe";
+        public const string ChoppingTool = "Axe";
+        public const string BreakingTool = "Pickaxe";
+        public const string ReapingTool = "Sickle";
+        public const string WatringTool = "Watring Can";
+        public const string CollectingTool = "Basket";
+
 
         //Static Constructor
         static Settings()

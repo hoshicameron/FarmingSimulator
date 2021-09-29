@@ -10,9 +10,10 @@ using _Player;
 
 namespace UI
 {
-    public class UIInventorySlot : MonoBehaviour,IBeginDragHandler,IDragHandler,IEndDragHandler
+    public class UIInventorySlot : MonoBehaviour,IBeginDragHandler,IDragHandler,IEndDragHandler,IPointerEnterHandler,IPointerExitHandler
     {
         private Camera mainCamera;
+        private Canvas parentCanvas;
         private Transform parentItem;
         private GameObject draggedItem;
 
@@ -22,10 +23,16 @@ namespace UI
         public TextMeshProUGUI text;
 
         [SerializeField] private UIInventoryBar inventoryBar=null;
-        [HideInInspector] public ItemDetails ItemDetails;
+        [SerializeField] private GameObject inventoryTextBoxPrefab=null;
+        [HideInInspector] public ItemDetails itemDetails;
         [SerializeField] private GameObject itemPrefab = null;
         [HideInInspector] public int itemQuantity;
         [SerializeField] private int slotNumber = 0;
+
+        private void Awake()
+        {
+            parentCanvas = GetComponentInParent<Canvas>();
+        }
 
         private void Start()
         {
@@ -35,7 +42,7 @@ namespace UI
 
         public void OnBeginDrag(PointerEventData eventData)
         {
-            if (ItemDetails != null)
+            if (itemDetails != null)
             {
                 // Disable keyboard input
                 Player.Instance.DisablePlayerInputAndResetMovement();
@@ -77,11 +84,14 @@ namespace UI
 
                     // Swap inventory items in inventory list
                     InventoryManager.Instance.SwapInventoryItems(InventoryLocation.Player, slotNumber, toSlotnumber);
+
+                    // Destroy inventory text box
+                    DestroyInventoryTextBox();
                 }
                 //else attempt to drop the item if it can be dropped
                 else
                 {
-                    if (ItemDetails.canBeDropped)
+                    if (itemDetails.canBeDropped)
                     {
                         DropSelectedItemAtMousePosition();
                     }
@@ -97,7 +107,7 @@ namespace UI
         /// </summary>
         private void DropSelectedItemAtMousePosition()
         {
-            if (ItemDetails != null)
+            if (itemDetails != null)
             {
                 Vector3 worldPosition = mainCamera.ScreenToWorldPoint(new Vector3(Input.mousePosition.x,
                     Input.mousePosition.y,
@@ -106,10 +116,58 @@ namespace UI
                 //Create item from prefab at mouse position
                 GameObject itemGameObject = Instantiate(itemPrefab, worldPosition, Quaternion.identity, parentItem);
                 Item item = itemGameObject.GetComponent<Item>();
-                item.ItemCode = ItemDetails.itemCode;
+                item.ItemCode = itemDetails.itemCode;
 
                 // Remove item from player inventory
                 InventoryManager.Instance.RemoveItem(InventoryLocation.Player, item.ItemCode);
+            }
+        }
+
+        public void OnPointerEnter(PointerEventData eventData)
+        {
+            // Populate text box with item details
+            if (itemQuantity != 0)
+            {
+                //Instantiate inventory text box
+                inventoryBar.inventoryTextBoxGameObject =
+                    Instantiate(inventoryTextBoxPrefab, transform.position, Quaternion.identity);
+                inventoryBar.inventoryTextBoxGameObject.transform.SetParent(parentCanvas.transform, false);
+
+                UIInventoryTextBox inventoryTextBox =
+                    inventoryBar.inventoryTextBoxGameObject.GetComponent<UIInventoryTextBox>();
+
+                // Set item type description
+                string itemTypeDescription = InventoryManager.Instance.GetItemTypeDescription(itemDetails.itemType);
+
+                // Populate text box
+                inventoryTextBox.SetTextBoxText(itemDetails.itemDescription,itemTypeDescription,"",
+                    itemDetails.itemLongDescription,"","");
+
+                // Set the text box position according to inventory bar position
+                if (inventoryBar.IsInventoryBarPositionBottom)
+                {
+                    inventoryBar.inventoryTextBoxGameObject.GetComponent<RectTransform>().pivot=new Vector2(0.5f,0f);
+                    inventoryBar.inventoryTextBoxGameObject.transform.position=new Vector3(transform.position.x,transform.position.y+50f,
+                        transform.position.z);
+                } else
+                {
+                    inventoryBar.inventoryTextBoxGameObject.GetComponent<RectTransform>().pivot=new Vector2(0.5f,1f);
+                    inventoryBar.inventoryTextBoxGameObject.transform.position=new Vector3(transform.position.x,transform.position.y-50f,
+                        transform.position.z);
+                }
+            }
+        }
+
+        public void OnPointerExit(PointerEventData eventData)
+        {
+            DestroyInventoryTextBox();
+        }
+
+        private void DestroyInventoryTextBox()
+        {
+            if (inventoryBar.inventoryTextBoxGameObject != null)
+            {
+                Destroy(inventoryBar.inventoryTextBoxGameObject);
             }
         }
     }

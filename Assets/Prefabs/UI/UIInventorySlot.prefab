@@ -241,7 +241,8 @@ MonoBehaviour:
   inventorySlotImage: {fileID: 7155064239481367076}
   text: {fileID: 8561203485943072752}
   inventoryBar: {fileID: 0}
-  ItemDetails:
+  inventoryTextBoxPrefab: {fileID: 3683772111842279442, guid: 963ce62cd7f91f3409acd1c871eb4fef, type: 3}
+  itemDetails:
     itemCode: 0
     itemType: 0
     itemDescription: 
@@ -256,6 +257,7 @@ MonoBehaviour:
     canBeCarried: 0
   itemPrefab: {fileID: 7390470156492135800, guid: ac4a337e759ca6247988f1b602c2f204, type: 3}
   itemQuantity: 0
+  slotNumber: 0
 --- !u!1 &5040876740727863840
 GameObject:
   m_ObjectHideFlags: 0

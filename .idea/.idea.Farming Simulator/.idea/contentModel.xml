@@ -48,6 +48,7 @@
             <e p="UIInventory" t="Include">
               <e p="UIInventoryBar.cs" t="Include" />
               <e p="UIInventorySlot.cs" t="Include" />
+              <e p="UIInventoryTextBox.cs" t="Include" />
             </e>
           </e>
           <e p="Utilities" t="Include">
