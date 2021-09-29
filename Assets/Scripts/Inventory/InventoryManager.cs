@@ -212,5 +212,32 @@ namespace Inventory
                 inventoryList.RemoveAt(itemPosition);
             }
         }
+
+        /// <summary>
+        ///  Swap item at foreItem index with item at toItem index in the inventory list
+        /// </summary>
+        /// <param name="inventoryLocation"></param>
+        /// <param name="fromItem"></param>
+        /// <param name="toItem"></param>
+        public void SwapInventoryItems(InventoryLocation inventoryLocation, int fromItem, int toItem)
+        {
+            // If fromItem index and toItem index are within the bound of the list, not the same, and greater and equal to zero
+            if (fromItem < inventoryArrayList[(int) inventoryLocation].Count && toItem <
+                                                                            inventoryArrayList[(int) inventoryLocation]
+                                                                                .Count
+                                                                            && fromItem != toItem && fromItem >= 0 &&
+                                                                            toItem >= 0)
+            {
+                InventoryItem fromInventoryItem = inventoryArrayList[(int) inventoryLocation][fromItem];
+                InventoryItem toInInventoryItem = inventoryArrayList[(int) inventoryLocation][toItem];
+
+                inventoryArrayList[(int) inventoryLocation][toItem]=fromInventoryItem;
+                inventoryArrayList[(int) inventoryLocation][fromItem] = toInInventoryItem;
+
+                // Send event that inventory has updated
+                EventHandler.CallInventoryUpdateEvent(inventoryLocation,inventoryArrayList[(int)inventoryLocation]);
+
+            }
+        }
     }
 }

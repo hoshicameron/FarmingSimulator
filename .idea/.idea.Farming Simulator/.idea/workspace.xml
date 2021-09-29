@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dad21980-4255-4ec8-b0a5-192e21115f1b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/UI/UIInventorySlot.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/UI/UIInventorySlot.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/PersistentScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/PersistentScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Scene1_Farm.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Scene1_Farm.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Inventory/InventoryManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Inventory/InventoryManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Misc/Tags.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Misc/Tags.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/Player.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/UIInventory/UIInventoryBar.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/UIInventory/UIInventoryBar.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/UIInventory/UIInventorySlot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/UIInventory/UIInventorySlot.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,25 +16,25 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/UI/UIInventory/UIInventorySlot.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="77">
-              <caret line="43" column="76" selection-start-line="43" selection-start-column="76" selection-end-line="43" selection-end-column="76" />
+            <state relative-caret-position="220">
+              <caret line="76" lean-forward="true" selection-start-line="76" selection-end-line="76" />
               <folding>
-                <marker date="1632917017155" expanded="true" signature="6:155" ph="..." />
-                <marker date="1632917017155" expanded="true" signature="169:3712" ph="{...}" />
-                <marker date="1632917017155" expanded="true" signature="267:3710" ph="{...}" />
-                <marker date="1632917017155" expanded="true" signature="781:933" ph="{...}" />
-                <marker date="1632917017155" expanded="true" signature="994:1612" ph="{...}" />
-                <marker date="1632917017155" expanded="true" signature="1041:1602" ph="{...}" />
-                <marker date="1632917017155" expanded="true" signature="1668:1870" ph="{...}" />
-                <marker date="1632917017155" expanded="true" signature="1761:1860" ph="{...}" />
-                <marker date="1632917017155" expanded="true" signature="1929:2771" ph="{...}" />
-                <marker date="1632917017155" expanded="true" signature="2027:2676" ph="{...}" />
-                <marker date="1632917017155" expanded="true" signature="2346:2383" ph="{...}" />
-                <marker date="1632917017155" expanded="true" signature="2473:2662" ph="{...}" />
-                <marker date="1632917017155" expanded="true" signature="2541:2644" ph="{...}" />
-                <marker date="1632917017155" expanded="true" signature="2781:2914" ph="/// Drop the item (if selected) at the current mouse position, Called by DropItem event. ... " />
-                <marker date="1632917017155" expanded="true" signature="2969:3704" ph="{...}" />
-                <marker date="1632917017155" expanded="true" signature="3016:3694" ph="{...}" />
+                <marker date="1632920115629" expanded="true" signature="6:155" ph="..." />
+                <marker date="1632920115629" expanded="true" signature="169:4160" ph="{...}" />
+                <marker date="1632920115629" expanded="true" signature="267:4158" ph="{...}" />
+                <marker date="1632920115629" expanded="true" signature="834:986" ph="{...}" />
+                <marker date="1632920115629" expanded="true" signature="1047:1665" ph="{...}" />
+                <marker date="1632920115629" expanded="true" signature="1094:1655" ph="{...}" />
+                <marker date="1632920115629" expanded="true" signature="1721:1923" ph="{...}" />
+                <marker date="1632920115629" expanded="true" signature="1814:1913" ph="{...}" />
+                <marker date="1632920115629" expanded="true" signature="1982:3219" ph="{...}" />
+                <marker date="1632920115629" expanded="true" signature="2080:3124" ph="{...}" />
+                <marker date="1632920115629" expanded="true" signature="2399:2831" ph="{...}" />
+                <marker date="1632920115629" expanded="true" signature="2921:3110" ph="{...}" />
+                <marker date="1632920115629" expanded="true" signature="2989:3092" ph="{...}" />
+                <marker date="1632920115629" expanded="true" signature="3229:3362" ph="/// Drop the item (if selected) at the current mouse position, Called by DropItem event. ... " />
+                <marker date="1632920115629" expanded="true" signature="3417:4152" ph="{...}" />
+                <marker date="1632920115629" expanded="true" signature="3464:4142" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -50,8 +43,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/UI/UIInventory/UIInventoryBar.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1540">
-              <caret line="14" column="43" lean-forward="true" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
+            <state relative-caret-position="-649">
+              <caret line="40" column="21" selection-start-line="40" selection-start-column="21" selection-end-line="40" selection-end-column="21" />
               <folding>
                 <marker date="1632906973719" expanded="false" signature="6:124" ph="..." />
                 <marker date="1632906973719" expanded="true" signature="138:4499" ph="{...}" />
@@ -93,43 +86,62 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Inventory/InventoryManager.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="233">
-              <caret line="211" column="51" selection-start-line="211" selection-start-column="51" selection-end-line="211" selection-end-column="51" />
+            <state relative-caret-position="-45">
+              <caret line="221" column="31" selection-start-line="221" selection-start-column="31" selection-end-line="221" selection-end-column="31" />
               <folding>
-                <marker date="1632910749710" expanded="false" signature="6:104" ph="..." />
-                <marker date="1632910749710" expanded="true" signature="125:7858" ph="{...}" />
-                <marker date="1632910749710" expanded="true" signature="202:7856" ph="{...}" />
-                <marker date="1632910749710" expanded="true" signature="411:553" ph="/* the index of the array is inventory list( from the lnventoryLocation enum), ... */" />
-                <marker date="1632910749710" expanded="true" signature="727:938" ph="{...}" />
-                <marker date="1632910749710" expanded="true" signature="983:1249" ph="{...}" />
-                <marker date="1632910749710" expanded="true" signature="1146:1239" ph="{...}" />
-                <marker date="1632910749710" expanded="true" signature="1259:1374" ph="/// Populates the itemDetailsDictionary from the scriptable items list ... " />
-                <marker date="1632910749710" expanded="true" signature="1425:2009" ph="{...}" />
-                <marker date="1632910749710" expanded="true" signature="1580:1685" ph="{...}" />
-                <marker date="1632910749710" expanded="true" signature="2019:2311" ph="///  Add an item to the inventory list for the inventory location and destroy the gameObjectToDelete ... " />
-                <marker date="1632910749710" expanded="true" signature="2417:2523" ph="{...}" />
-                <marker date="1632910749710" expanded="true" signature="2533:2735" ph="/// Add an item to the inventory list for the inventory location ... " />
-                <marker date="1632910749710" expanded="true" signature="2811:3603" ph="{...}" />
-                <marker date="1632910749710" expanded="true" signature="3231:3333" ph="{...}" />
-                <marker date="1632910749710" expanded="true" signature="3338:3426" ph="{...}" />
-                <marker date="1632910749710" expanded="true" signature="3613:3792" ph="///  add item inventory at given position ... " />
-                <marker date="1632910749710" expanded="true" signature="3898:4263" ph="{...}" />
-                <marker date="1632910749710" expanded="true" signature="4275:4450" ph="///  add item to the end of inventory ... " />
-                <marker date="1632910749710" expanded="true" signature="4538:4812" ph="{...}" />
-                <marker date="1632910749710" expanded="true" signature="4822:5150" ph="/// Find if an itemCode is already in the inventory. Returns the item position ... " />
-                <marker date="1632910749710" expanded="true" signature="5241:5553" ph="{...}" />
-                <marker date="1632910749710" expanded="true" signature="5402:5519" ph="{...}" />
-                <marker date="1632910749710" expanded="true" signature="5563:5789" ph="/// Return the itemDetails (from the SO_ItemList dor the itemCode, or null if the item code dosen't exist ... " />
-                <marker date="1632910749710" expanded="true" signature="5845:6106" ph="{...}" />
-                <marker date="1632910749710" expanded="true" signature="5970:6034" ph="{...}" />
-                <marker date="1632910749710" expanded="true" signature="6039:6096" ph="{...}" />
-                <marker date="1632910749710" expanded="true" signature="6187:6629" ph="{...}" />
-                <marker date="1632910749710" expanded="true" signature="6264:6535" ph="{...}" />
-                <marker date="1632910749710" expanded="true" signature="6712:7273" ph="{...}" />
-                <marker date="1632910749710" expanded="true" signature="6993:7096" ph="{...}" />
-                <marker date="1632910749710" expanded="true" signature="7383:7850" ph="{...}" />
-                <marker date="1632910749710" expanded="true" signature="7558:7753" ph="{...}" />
-                <marker date="1632910749710" expanded="true" signature="7758:7840" ph="{...}" />
+                <marker date="1632920701116" expanded="false" signature="6:104" ph="..." />
+                <marker date="1632920701116" expanded="true" signature="125:9476" ph="{...}" />
+                <marker date="1632920701116" expanded="true" signature="202:9474" ph="{...}" />
+                <marker date="1632920701116" expanded="true" signature="411:553" ph="/* the index of the array is inventory list( from the lnventoryLocation enum), ... */" />
+                <marker date="1632920701116" expanded="true" signature="727:938" ph="{...}" />
+                <marker date="1632920701116" expanded="true" signature="983:1249" ph="{...}" />
+                <marker date="1632920701116" expanded="true" signature="1146:1239" ph="{...}" />
+                <marker date="1632920701116" expanded="true" signature="1259:1374" ph="/// Populates the itemDetailsDictionary from the scriptable items list ... " />
+                <marker date="1632920701116" expanded="true" signature="1425:2009" ph="{...}" />
+                <marker date="1632920701116" expanded="true" signature="1580:1685" ph="{...}" />
+                <marker date="1632920701116" expanded="true" signature="2019:2311" ph="///  Add an item to the inventory list for the inventory location and destroy the gameObjectToDelete ... " />
+                <marker date="1632920701116" expanded="true" signature="2417:2523" ph="{...}" />
+                <marker date="1632920701116" expanded="true" signature="2533:2735" ph="/// Add an item to the inventory list for the inventory location ... " />
+                <marker date="1632920701116" expanded="true" signature="2811:3603" ph="{...}" />
+                <marker date="1632920701116" expanded="true" signature="3231:3333" ph="{...}" />
+                <marker date="1632920701116" expanded="true" signature="3338:3426" ph="{...}" />
+                <marker date="1632920701116" expanded="true" signature="3613:3792" ph="///  add item inventory at given position ... " />
+                <marker date="1632920701116" expanded="true" signature="3898:4263" ph="{...}" />
+                <marker date="1632920701116" expanded="true" signature="4275:4450" ph="///  add item to the end of inventory ... " />
+                <marker date="1632920701116" expanded="true" signature="4538:4812" ph="{...}" />
+                <marker date="1632920701116" expanded="true" signature="4822:5150" ph="/// Find if an itemCode is already in the inventory. Returns the item position ... " />
+                <marker date="1632920701116" expanded="true" signature="5241:5553" ph="{...}" />
+                <marker date="1632920701116" expanded="true" signature="5402:5519" ph="{...}" />
+                <marker date="1632920701116" expanded="true" signature="5563:5789" ph="/// Return the itemDetails (from the SO_ItemList dor the itemCode, or null if the item code dosen't exist ... " />
+                <marker date="1632920701116" expanded="true" signature="5845:6106" ph="{...}" />
+                <marker date="1632920701116" expanded="true" signature="5970:6034" ph="{...}" />
+                <marker date="1632920701116" expanded="true" signature="6039:6096" ph="{...}" />
+                <marker date="1632920701116" expanded="true" signature="6187:6629" ph="{...}" />
+                <marker date="1632920701116" expanded="true" signature="6264:6535" ph="{...}" />
+                <marker date="1632920701116" expanded="true" signature="6712:7273" ph="{...}" />
+                <marker date="1632920701116" expanded="true" signature="6993:7096" ph="{...}" />
+                <marker date="1632920701116" expanded="true" signature="7383:7850" ph="{...}" />
+                <marker date="1632920701116" expanded="true" signature="7558:7753" ph="{...}" />
+                <marker date="1632920701116" expanded="true" signature="7758:7840" ph="{...}" />
+                <marker date="1632920701116" expanded="true" signature="7860:8124" ph="///  ... " />
+                <marker date="1632920701116" expanded="true" signature="8226:9468" ph="{...}" />
+                <marker date="1632920701116" expanded="true" signature="8867:9458" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Events/EventHandler.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="308">
+              <caret line="21" column="86" selection-start-line="21" selection-start-column="86" selection-end-line="21" selection-end-column="86" />
+              <folding>
+                <marker date="1632771905639" expanded="false" signature="6:60" ph="..." />
+                <marker date="1632771905639" expanded="true" signature="78:3081" ph="{...}" />
+                <marker date="1632771905639" expanded="true" signature="1158:3078" ph="{...}" />
+                <marker date="1632771905639" expanded="true" signature="1465:1564" ph="{...}" />
+                <marker date="1632771905639" expanded="true" signature="2501:3072" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -252,9 +264,9 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/ItemPickup.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/Player.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UI/UIInventory/UIInventoryBar.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Inventory/InventoryManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Misc/Tags.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UI/UIInventory/UIInventorySlot.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Inventory/InventoryManager.cs" />
       </list>
     </option>
   </component>
@@ -325,12 +337,12 @@
       <workItem from="1632751328916" duration="1989000" />
       <workItem from="1632766139786" duration="9805000" />
       <workItem from="1632830503099" duration="6108000" />
-      <workItem from="1632903029336" duration="10091000" />
+      <workItem from="1632903029336" duration="11811000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="67432000" />
+    <option name="totallyTimeSpent" value="69152000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -342,7 +354,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.25340393" />
@@ -620,20 +632,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Events/EventHandler.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="27" column="12" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="12" />
-          <folding>
-            <marker date="1632771905639" expanded="false" signature="6:60" ph="..." />
-            <marker date="1632771905639" expanded="true" signature="78:3081" ph="{...}" />
-            <marker date="1632771905639" expanded="true" signature="1158:3078" ph="{...}" />
-            <marker date="1632771905639" expanded="true" signature="1465:1564" ph="{...}" />
-            <marker date="1632771905639" expanded="true" signature="2501:3072" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Items/ItemNudge.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="66">
@@ -712,49 +710,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Inventory/InventoryManager.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="211" column="51" selection-start-line="211" selection-start-column="51" selection-end-line="211" selection-end-column="51" />
-          <folding>
-            <marker date="1632910749710" expanded="false" signature="6:104" ph="..." />
-            <marker date="1632910749710" expanded="true" signature="125:7858" ph="{...}" />
-            <marker date="1632910749710" expanded="true" signature="202:7856" ph="{...}" />
-            <marker date="1632910749710" expanded="true" signature="411:553" ph="/* the index of the array is inventory list( from the lnventoryLocation enum), ... */" />
-            <marker date="1632910749710" expanded="true" signature="727:938" ph="{...}" />
-            <marker date="1632910749710" expanded="true" signature="983:1249" ph="{...}" />
-            <marker date="1632910749710" expanded="true" signature="1146:1239" ph="{...}" />
-            <marker date="1632910749710" expanded="true" signature="1259:1374" ph="/// Populates the itemDetailsDictionary from the scriptable items list ... " />
-            <marker date="1632910749710" expanded="true" signature="1425:2009" ph="{...}" />
-            <marker date="1632910749710" expanded="true" signature="1580:1685" ph="{...}" />
-            <marker date="1632910749710" expanded="true" signature="2019:2311" ph="///  Add an item to the inventory list for the inventory location and destroy the gameObjectToDelete ... " />
-            <marker date="1632910749710" expanded="true" signature="2417:2523" ph="{...}" />
-            <marker date="1632910749710" expanded="true" signature="2533:2735" ph="/// Add an item to the inventory list for the inventory location ... " />
-            <marker date="1632910749710" expanded="true" signature="2811:3603" ph="{...}" />
-            <marker date="1632910749710" expanded="true" signature="3231:3333" ph="{...}" />
-            <marker date="1632910749710" expanded="true" signature="3338:3426" ph="{...}" />
-            <marker date="1632910749710" expanded="true" signature="3613:3792" ph="///  add item inventory at given position ... " />
-            <marker date="1632910749710" expanded="true" signature="3898:4263" ph="{...}" />
-            <marker date="1632910749710" expanded="true" signature="4275:4450" ph="///  add item to the end of inventory ... " />
-            <marker date="1632910749710" expanded="true" signature="4538:4812" ph="{...}" />
-            <marker date="1632910749710" expanded="true" signature="4822:5150" ph="/// Find if an itemCode is already in the inventory. Returns the item position ... " />
-            <marker date="1632910749710" expanded="true" signature="5241:5553" ph="{...}" />
-            <marker date="1632910749710" expanded="true" signature="5402:5519" ph="{...}" />
-            <marker date="1632910749710" expanded="true" signature="5563:5789" ph="/// Return the itemDetails (from the SO_ItemList dor the itemCode, or null if the item code dosen't exist ... " />
-            <marker date="1632910749710" expanded="true" signature="5845:6106" ph="{...}" />
-            <marker date="1632910749710" expanded="true" signature="5970:6034" ph="{...}" />
-            <marker date="1632910749710" expanded="true" signature="6039:6096" ph="{...}" />
-            <marker date="1632910749710" expanded="true" signature="6187:6629" ph="{...}" />
-            <marker date="1632910749710" expanded="true" signature="6264:6535" ph="{...}" />
-            <marker date="1632910749710" expanded="true" signature="6712:7273" ph="{...}" />
-            <marker date="1632910749710" expanded="true" signature="6993:7096" ph="{...}" />
-            <marker date="1632910749710" expanded="true" signature="7383:7850" ph="{...}" />
-            <marker date="1632910749710" expanded="true" signature="7558:7753" ph="{...}" />
-            <marker date="1632910749710" expanded="true" signature="7758:7840" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Inventory/InventoryItem.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
@@ -765,10 +720,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Events/EventHandler.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="21" column="86" selection-start-line="21" selection-start-column="86" selection-end-line="21" selection-end-column="86" />
+          <folding>
+            <marker date="1632771905639" expanded="false" signature="6:60" ph="..." />
+            <marker date="1632771905639" expanded="true" signature="78:3081" ph="{...}" />
+            <marker date="1632771905639" expanded="true" signature="1158:3078" ph="{...}" />
+            <marker date="1632771905639" expanded="true" signature="1465:1564" ph="{...}" />
+            <marker date="1632771905639" expanded="true" signature="2501:3072" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/UI/UIInventory/UIInventoryBar.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1540">
-          <caret line="14" column="43" lean-forward="true" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
+        <state relative-caret-position="-649">
+          <caret line="40" column="21" selection-start-line="40" selection-start-column="21" selection-end-line="40" selection-end-column="21" />
           <folding>
             <marker date="1632906973719" expanded="false" signature="6:124" ph="..." />
             <marker date="1632906973719" expanded="true" signature="138:4499" ph="{...}" />
@@ -794,27 +763,73 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Inventory/InventoryManager.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-45">
+          <caret line="221" column="31" selection-start-line="221" selection-start-column="31" selection-end-line="221" selection-end-column="31" />
+          <folding>
+            <marker date="1632920701116" expanded="false" signature="6:104" ph="..." />
+            <marker date="1632920701116" expanded="true" signature="125:9476" ph="{...}" />
+            <marker date="1632920701116" expanded="true" signature="202:9474" ph="{...}" />
+            <marker date="1632920701116" expanded="true" signature="411:553" ph="/* the index of the array is inventory list( from the lnventoryLocation enum), ... */" />
+            <marker date="1632920701116" expanded="true" signature="727:938" ph="{...}" />
+            <marker date="1632920701116" expanded="true" signature="983:1249" ph="{...}" />
+            <marker date="1632920701116" expanded="true" signature="1146:1239" ph="{...}" />
+            <marker date="1632920701116" expanded="true" signature="1259:1374" ph="/// Populates the itemDetailsDictionary from the scriptable items list ... " />
+            <marker date="1632920701116" expanded="true" signature="1425:2009" ph="{...}" />
+            <marker date="1632920701116" expanded="true" signature="1580:1685" ph="{...}" />
+            <marker date="1632920701116" expanded="true" signature="2019:2311" ph="///  Add an item to the inventory list for the inventory location and destroy the gameObjectToDelete ... " />
+            <marker date="1632920701116" expanded="true" signature="2417:2523" ph="{...}" />
+            <marker date="1632920701116" expanded="true" signature="2533:2735" ph="/// Add an item to the inventory list for the inventory location ... " />
+            <marker date="1632920701116" expanded="true" signature="2811:3603" ph="{...}" />
+            <marker date="1632920701116" expanded="true" signature="3231:3333" ph="{...}" />
+            <marker date="1632920701116" expanded="true" signature="3338:3426" ph="{...}" />
+            <marker date="1632920701116" expanded="true" signature="3613:3792" ph="///  add item inventory at given position ... " />
+            <marker date="1632920701116" expanded="true" signature="3898:4263" ph="{...}" />
+            <marker date="1632920701116" expanded="true" signature="4275:4450" ph="///  add item to the end of inventory ... " />
+            <marker date="1632920701116" expanded="true" signature="4538:4812" ph="{...}" />
+            <marker date="1632920701116" expanded="true" signature="4822:5150" ph="/// Find if an itemCode is already in the inventory. Returns the item position ... " />
+            <marker date="1632920701116" expanded="true" signature="5241:5553" ph="{...}" />
+            <marker date="1632920701116" expanded="true" signature="5402:5519" ph="{...}" />
+            <marker date="1632920701116" expanded="true" signature="5563:5789" ph="/// Return the itemDetails (from the SO_ItemList dor the itemCode, or null if the item code dosen't exist ... " />
+            <marker date="1632920701116" expanded="true" signature="5845:6106" ph="{...}" />
+            <marker date="1632920701116" expanded="true" signature="5970:6034" ph="{...}" />
+            <marker date="1632920701116" expanded="true" signature="6039:6096" ph="{...}" />
+            <marker date="1632920701116" expanded="true" signature="6187:6629" ph="{...}" />
+            <marker date="1632920701116" expanded="true" signature="6264:6535" ph="{...}" />
+            <marker date="1632920701116" expanded="true" signature="6712:7273" ph="{...}" />
+            <marker date="1632920701116" expanded="true" signature="6993:7096" ph="{...}" />
+            <marker date="1632920701116" expanded="true" signature="7383:7850" ph="{...}" />
+            <marker date="1632920701116" expanded="true" signature="7558:7753" ph="{...}" />
+            <marker date="1632920701116" expanded="true" signature="7758:7840" ph="{...}" />
+            <marker date="1632920701116" expanded="true" signature="7860:8124" ph="///  ... " />
+            <marker date="1632920701116" expanded="true" signature="8226:9468" ph="{...}" />
+            <marker date="1632920701116" expanded="true" signature="8867:9458" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/UI/UIInventory/UIInventorySlot.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="77">
-          <caret line="43" column="76" selection-start-line="43" selection-start-column="76" selection-end-line="43" selection-end-column="76" />
+        <state relative-caret-position="220">
+          <caret line="76" lean-forward="true" selection-start-line="76" selection-end-line="76" />
           <folding>
-            <marker date="1632917017155" expanded="true" signature="6:155" ph="..." />
-            <marker date="1632917017155" expanded="true" signature="169:3712" ph="{...}" />
-            <marker date="1632917017155" expanded="true" signature="267:3710" ph="{...}" />
-            <marker date="1632917017155" expanded="true" signature="781:933" ph="{...}" />
-            <marker date="1632917017155" expanded="true" signature="994:1612" ph="{...}" />
-            <marker date="1632917017155" expanded="true" signature="1041:1602" ph="{...}" />
-            <marker date="1632917017155" expanded="true" signature="1668:1870" ph="{...}" />
-            <marker date="1632917017155" expanded="true" signature="1761:1860" ph="{...}" />
-            <marker date="1632917017155" expanded="true" signature="1929:2771" ph="{...}" />
-            <marker date="1632917017155" expanded="true" signature="2027:2676" ph="{...}" />
-            <marker date="1632917017155" expanded="true" signature="2346:2383" ph="{...}" />
-            <marker date="1632917017155" expanded="true" signature="2473:2662" ph="{...}" />
-            <marker date="1632917017155" expanded="true" signature="2541:2644" ph="{...}" />
-            <marker date="1632917017155" expanded="true" signature="2781:2914" ph="/// Drop the item (if selected) at the current mouse position, Called by DropItem event. ... " />
-            <marker date="1632917017155" expanded="true" signature="2969:3704" ph="{...}" />
-            <marker date="1632917017155" expanded="true" signature="3016:3694" ph="{...}" />
+            <marker date="1632920115629" expanded="true" signature="6:155" ph="..." />
+            <marker date="1632920115629" expanded="true" signature="169:4160" ph="{...}" />
+            <marker date="1632920115629" expanded="true" signature="267:4158" ph="{...}" />
+            <marker date="1632920115629" expanded="true" signature="834:986" ph="{...}" />
+            <marker date="1632920115629" expanded="true" signature="1047:1665" ph="{...}" />
+            <marker date="1632920115629" expanded="true" signature="1094:1655" ph="{...}" />
+            <marker date="1632920115629" expanded="true" signature="1721:1923" ph="{...}" />
+            <marker date="1632920115629" expanded="true" signature="1814:1913" ph="{...}" />
+            <marker date="1632920115629" expanded="true" signature="1982:3219" ph="{...}" />
+            <marker date="1632920115629" expanded="true" signature="2080:3124" ph="{...}" />
+            <marker date="1632920115629" expanded="true" signature="2399:2831" ph="{...}" />
+            <marker date="1632920115629" expanded="true" signature="2921:3110" ph="{...}" />
+            <marker date="1632920115629" expanded="true" signature="2989:3092" ph="{...}" />
+            <marker date="1632920115629" expanded="true" signature="3229:3362" ph="/// Drop the item (if selected) at the current mouse position, Called by DropItem event. ... " />
+            <marker date="1632920115629" expanded="true" signature="3417:4152" ph="{...}" />
+            <marker date="1632920115629" expanded="true" signature="3464:4142" ph="{...}" />
           </folding>
         </state>
       </provider>

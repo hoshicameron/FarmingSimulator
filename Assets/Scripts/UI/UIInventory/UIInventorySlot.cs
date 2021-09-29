@@ -25,6 +25,7 @@ namespace UI
         [HideInInspector] public ItemDetails ItemDetails;
         [SerializeField] private GameObject itemPrefab = null;
         [HideInInspector] public int itemQuantity;
+        [SerializeField] private int slotNumber = 0;
 
         private void Start()
         {
@@ -70,7 +71,12 @@ namespace UI
                 if (eventData.pointerCurrentRaycast.gameObject != null &&
                     eventData.pointerCurrentRaycast.gameObject.GetComponent<UIInventorySlot>() != null)
                 {
+                    // Get the slot number where the drag ended
+                    int toSlotnumber = eventData.pointerCurrentRaycast.gameObject.
+                        GetComponent<UIInventorySlot>().slotNumber;
 
+                    // Swap inventory items in inventory list
+                    InventoryManager.Instance.SwapInventoryItems(InventoryLocation.Player, slotNumber, toSlotnumber);
                 }
                 //else attempt to drop the item if it can be dropped
                 else
