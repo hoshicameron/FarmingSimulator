@@ -11,48 +11,50 @@ namespace _Player
         private Camera mainCamera;
 
         //Movement Parameters
-        private float xInput;
-        private float yInput;
-        private bool isWalking;
-        private bool isRunning;
-        private bool isIdle;
-        private bool isCarrying = false;
-        private bool axeRight;
-        private bool axeLeft;
-        private bool axeUp;
-        private bool axeDown;
-        private bool fishingRight;
-        private bool fishingLeft;
-        private bool fishingUp;
-        private bool fishingDown;
-        private bool miscRight;
-        private bool miscLeft;
-        private bool miscUp;
-        private bool miscDown;
-        private bool pickRight;
-        private bool pickLeft;
-        private bool pickUp;
-        private bool pickDown;
-        private bool sickleRight;
-        private bool sickleLeft;
-        private bool sickleUp;
-        private bool sickleDown;
-        private bool hammerRight;
-        private bool hammerLeft;
-        private bool hammerUp;
-        private bool hammerDown;
-        private bool shovelRight;
-        private bool shovelLeft;
-        private bool shovelUp;
-        private bool shovelDown;
-        private bool hoeRight;
-        private bool hoeLeft;
-        private bool hoeUp;
-        private bool hoeDown;
-        private bool idleUp;
-        private bool idleDown;
-        private bool idleLeft;
-        private bool idleRight;
+        #region Movement Variables
+            private float xInput;
+            private float yInput;
+            private bool isWalking;
+            private bool isRunning;
+            private bool isIdle;
+            private bool isCarrying = false;
+            private bool axeRight;
+            private bool axeLeft;
+            private bool axeUp;
+            private bool axeDown;
+            private bool fishingRight;
+            private bool fishingLeft;
+            private bool fishingUp;
+            private bool fishingDown;
+            private bool miscRight;
+            private bool miscLeft;
+            private bool miscUp;
+            private bool miscDown;
+            private bool pickRight;
+            private bool pickLeft;
+            private bool pickUp;
+            private bool pickDown;
+            private bool sickleRight;
+            private bool sickleLeft;
+            private bool sickleUp;
+            private bool sickleDown;
+            private bool hammerRight;
+            private bool hammerLeft;
+            private bool hammerUp;
+            private bool hammerDown;
+            private bool shovelRight;
+            private bool shovelLeft;
+            private bool shovelUp;
+            private bool shovelDown;
+            private bool hoeRight;
+            private bool hoeLeft;
+            private bool hoeUp;
+            private bool hoeDown;
+            private bool idleUp;
+            private bool idleDown;
+            private bool idleLeft;
+            private bool idleRight;
+        #endregion
 
         private Rigidbody2D rigidbody2D;
 #pragma warning disable 414
@@ -81,21 +83,24 @@ namespace _Player
         {
             #region PlayerInput
 
-            ResetAnimationTriggers();
+            if (!PlayerInputIsDisabled)
+            {
+                ResetAnimationTriggers();
 
-            PlayerMovementInput();
+                PlayerMovementInput();
 
-            PlayerWalkInput();
+                PlayerWalkInput();
 
-            // Send event to any listeners for player movement input
-            Events.EventHandler.CallMovementEvent(
-                xInput,yInput,isWalking,isRunning,isIdle,isCarrying,axeRight,axeLeft,axeUp,
-                axeDown,fishingRight,fishingLeft,fishingUp,fishingDown,miscRight,
-                miscLeft,miscUp,miscDown,pickRight,pickLeft,pickUp,pickDown,sickleRight,
-                sickleLeft,sickleUp,sickleDown,hammerRight,hammerLeft,hammerUp,hammerDown,
-                shovelRight,shovelLeft,shovelUp,shovelDown,hoeRight,hoeLeft,hoeUp,hoeDown,
-                false,false,false,false
-            );
+                // Send event to any listeners for player movement input
+                Events.EventHandler.CallMovementEvent(
+                    xInput,yInput,isWalking,isRunning,isIdle,isCarrying,axeRight,axeLeft,axeUp,
+                    axeDown,fishingRight,fishingLeft,fishingUp,fishingDown,miscRight,
+                    miscLeft,miscUp,miscDown,pickRight,pickLeft,pickUp,pickDown,sickleRight,
+                    sickleLeft,sickleUp,sickleDown,hammerRight,hammerLeft,hammerUp,hammerDown,
+                    shovelRight,shovelLeft,shovelUp,shovelDown,hoeRight,hoeLeft,hoeUp,hoeDown,
+                    false,false,false,false
+                );
+            }
 
             #endregion
         }
@@ -214,6 +219,43 @@ namespace _Player
         {
             // Vector 3 viewport position for the player ((0,0) viewport bottom left,(1,1) viewport top right
             return mainCamera.WorldToViewportPoint(transform.position);
+        }
+
+        public void DisablePlayerInputAndResetMovement()
+        {
+            DisablePlayerInput();
+            ResetMovement();
+
+            // Send event to any listeners for player movement input
+            Events.EventHandler.CallMovementEvent(
+                xInput,yInput,isWalking,isRunning,isIdle,isCarrying,axeRight,axeLeft,axeUp,
+                axeDown,fishingRight,fishingLeft,fishingUp,fishingDown,miscRight,
+                miscLeft,miscUp,miscDown,pickRight,pickLeft,pickUp,pickDown,sickleRight,
+                sickleLeft,sickleUp,sickleDown,hammerRight,hammerLeft,hammerUp,hammerDown,
+                shovelRight,shovelLeft,shovelUp,shovelDown,hoeRight,hoeLeft,hoeUp,hoeDown,
+                false,false,false,false
+            );
+
+        }
+
+        private void ResetMovement()
+        {
+            // Reset Movement
+            xInput = 0f;
+            yInput = 0f;
+            isRunning = false;
+            isWalking = false;
+            isIdle = true;
+        }
+
+        public void DisablePlayerInput()
+        {
+            PlayerInputIsDisabled = true;
+        }
+
+        public void EnablePlayerInput()
+        {
+            PlayerInputIsDisabled = false;
         }
     }
 }

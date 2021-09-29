@@ -12,6 +12,7 @@ namespace UI
     {
         [SerializeField] private Sprite blank16x16Sprite = null;
         [SerializeField] private UIInventorySlot[] inventorySlotArray = null;
+        public GameObject inventoryBarDraggedItem;
 
         private void OnEnable()
         {

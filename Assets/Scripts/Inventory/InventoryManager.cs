@@ -180,5 +180,37 @@ namespace Inventory
 
             Debug.Log("********************************************************");
         }
+
+        public void RemoveItem(InventoryLocation inventoryLocation, int itemCode)
+        {
+            List<InventoryItem> inventoryList = inventoryArrayList[(int) inventoryLocation];
+
+            //Check if inventory already contains the item
+            int itemPosition = FindItemInInventory(inventoryLocation, itemCode);
+
+            if (itemPosition != -1)
+            {
+                RemoveItemAtPosition(inventoryList,itemCode,itemPosition);
+            }
+
+            // Send event that inventory has updated
+            EventHandler.CallInventoryUpdateEvent(inventoryLocation,inventoryArrayList[(int)inventoryLocation]);
+        }
+
+        private void RemoveItemAtPosition(List<InventoryItem> inventoryList, int itemCode, int itemPosition)
+        {
+            InventoryItem inventoryItem=new InventoryItem();
+
+            int quantity = inventoryList[itemPosition].itemQuantity - 1;
+            if (quantity > 0)
+            {
+                inventoryItem.itemQuantity = quantity;
+                inventoryItem.itemCode = itemCode;
+                inventoryList[itemPosition] = inventoryItem;
+            } else
+            {
+                inventoryList.RemoveAt(itemPosition);
+            }
+        }
     }
 }
