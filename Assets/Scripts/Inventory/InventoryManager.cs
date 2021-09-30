@@ -13,6 +13,8 @@ namespace Inventory
     {
         private Dictionary<int, ItemDetails> ItemDetailsDictionary;
 
+        private int[] selectedInventoryItem; // The index of the array is the inventory list, and the value is the item code
+
         // The array of list of items that inventory location hold
         public List<InventoryItem>[] inventoryArrayList;
 
@@ -31,6 +33,14 @@ namespace Inventory
 
             // Create item Details Dictionary
             CreateItemDetailsDictionary();
+
+            //Initialize selected inventory item array
+            selectedInventoryItem = new int[(int) InventoryLocation.Count];
+
+            for (int i = 0; i < selectedInventoryItem.Length; i++)
+            {
+                selectedInventoryItem[i] = -1; // We haven't select any item
+            }
         }
 
         private void CreateInventoryLists()
@@ -142,7 +152,7 @@ namespace Inventory
         /// <param name="inventoryLocation"></param>
         /// <param name="itemCode"></param>
         /// <returns></returns>
-        private int FindItemInInventory(InventoryLocation inventoryLocation, int itemCode)
+        public int FindItemInInventory(InventoryLocation inventoryLocation, int itemCode)
         {
             List<InventoryItem> inventoryList = inventoryArrayList[(int) inventoryLocation];
             for (int i = 0; i < inventoryList.Count; i++)
@@ -243,6 +253,16 @@ namespace Inventory
         }
 
         /// <summary>
+        /// Clear the selected inventory item for inventoryLocation
+        /// </summary>
+        /// <param name="inventoryLocation"></param>
+        public void ClearSelectedInventoryItem(InventoryLocation inventoryLocation)
+        {
+            selectedInventoryItem[(int)inventoryLocation] = -1;
+        }
+
+
+        /// <summary>
         /// Get the item type description for an item type - returns the item type description as a string for a given ItemType
         /// </summary>
         /// <param name="itemType"></param>
@@ -278,5 +298,12 @@ namespace Inventory
 
             return itemTypeDescription;
         }
+
+        public void SetSelectedItemInventory(InventoryLocation inventoryLocation, int itemcode)
+        {
+            selectedInventoryItem[(int) inventoryLocation] = itemcode;
+        }
+
+
     }
 }
