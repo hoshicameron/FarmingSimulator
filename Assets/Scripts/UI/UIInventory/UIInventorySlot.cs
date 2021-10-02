@@ -217,6 +217,18 @@ namespace UI
 
             // Set item selected in invertory
             InventoryManager.Instance.SetSelectedItemInventory(InventoryLocation.Player,itemDetails.itemCode);
+
+            if (itemDetails.canBeCarried == true)
+            {
+                // Show player carrying item
+                Player.Instance.ShowCarriedItem(itemDetails.itemCode);
+            } else  // show player carrying nothing
+            {
+                Player.Instance.clearCarriedItem();
+            }
+            {
+
+            }
         }
 
         private void ClearSelectedItem()
@@ -228,6 +240,9 @@ namespace UI
 
             // Set no item selected in inventory
             InventoryManager.Instance.ClearSelectedInventoryItem(InventoryLocation.Player);
+
+            // Clear player carrying item
+            Player.Instance.clearCarriedItem();
         }
     }
 }
