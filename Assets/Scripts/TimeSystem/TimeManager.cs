@@ -70,6 +70,9 @@ namespace TimeSystem
                             {
                                 gs = 0;
                                 gameYear++;
+                                // Restart the game
+                                if (gameYear > 9999)
+                                    gameYear = 1;
                                 EventHandler.CallAdvancedGameYearEvent(gameYear,gameSeason,gameday,gameDayOfWeek,gameHour,
                                     gameMinute,gameSecond);
                             }
@@ -89,9 +92,9 @@ namespace TimeSystem
                 EventHandler.CallAdvancedGameMinuteEvent(gameYear,gameSeason,gameday,gameDayOfWeek,gameHour,
                     gameMinute,gameSecond);
 
-                Debug.Log($"Game Year: {gameYear},Game Season: {gameSeason},Game Day: {gameday}," +
+                /*Debug.Log($"Game Year: {gameYear},Game Season: {gameSeason},Game Day: {gameday}," +
                           $"Game Day Of Week: {gameDayOfWeek},Game Hour: {gameHour},Game Minute: {gameMinute}," +
-                          $"Game Second: {gameSecond}");
+                          $"Game Second: {gameSecond}");*/
             }
             // Call Advanced game Second event would go here if required
         }
@@ -100,6 +103,7 @@ namespace TimeSystem
         {
             int totalDays = (((int) gameSeason) * 30) + gameday;
             int dayOfWeek = totalDays % 7;
+            print(dayOfWeek);
 
             switch (dayOfWeek)
             {
@@ -115,10 +119,34 @@ namespace TimeSystem
                     return "Fri";
                 case   6:
                     return "Sat";
-                case   7:
+                case   0:
                     return "Sun";
                 default:
                     return "";
+            }
+        }
+
+        // TODo: Remove
+        /// <summary>
+        ///  Advance 1 game minute
+        /// </summary>
+        public void TestAdvanceGameMinute()
+        {
+            for (int i = 0; i < 60; i++)
+            {
+                UpdateGameSeconds();
+            }
+        }
+
+        // TODo: Remove
+        /// <summary>
+        ///  Advance 1 game day
+        /// </summary>
+        public void TestAdvanceGameDay()
+        {
+            for (int i = 0; i < 86400; i++)
+            {
+                UpdateGameSeconds();
             }
         }
     }

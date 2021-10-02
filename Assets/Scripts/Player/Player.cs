@@ -4,6 +4,7 @@ using Enums;
 using Inventory;
 using Items;
 using Misc;
+using TimeSystem;
 using UnityEngine;
 
 
@@ -110,6 +111,8 @@ namespace _Player
                 PlayerMovementInput();
 
                 PlayerWalkInput();
+
+                PlayerTestInput();
 
                 // Send event to any listeners for player movement input
                 Events.EventHandler.CallMovementEvent(
@@ -286,6 +289,25 @@ namespace _Player
                 false,false,false,false
             );
 
+        }
+
+        // ToDo:Remove
+        /// <summary>
+        /// Temp routine for test input
+        /// </summary>
+        private void PlayerTestInput()
+        {
+            // Trigger Advance Time
+            if (Input.GetKey(KeyCode.T))
+            {
+                TimeManager.Instance.TestAdvanceGameMinute();
+            }
+
+            // Trigger Advance Day
+            if (Input.GetKey(KeyCode.G))
+            {
+                TimeManager.Instance.TestAdvanceGameDay();
+            }
         }
 
         private void ResetMovement()
