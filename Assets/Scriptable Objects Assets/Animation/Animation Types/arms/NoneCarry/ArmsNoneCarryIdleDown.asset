@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ce1c500762c6514b95db527eb3cee6c, type: 3}
   m_Name: ArmsNoneCarryIdleDown
   m_EditorClassIdentifier: 
-  animationClip: {fileID: 7400000, guid: 78fcc60df6f11084284d059ceaee314e, type: 2}
+  animationClip: {fileID: 7400000, guid: 216da5e284ec8c447af7dba3ad021b49, type: 2}
   animationName: 45
   characterPart: 1
   partVariantColour: 0

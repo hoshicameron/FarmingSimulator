@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ce1c500762c6514b95db527eb3cee6c, type: 3}
   m_Name: ArmsNoneCarryRunLeft
   m_EditorClassIdentifier: 
-  animationClip: {fileID: 7400000, guid: 990595609d05f744abc7a8a83ad4b78d, type: 2}
+  animationClip: {fileID: 7400000, guid: 24f35f27f58f14b40bf49270d4283271, type: 2}
   animationName: 7
   characterPart: 1
   partVariantColour: 0

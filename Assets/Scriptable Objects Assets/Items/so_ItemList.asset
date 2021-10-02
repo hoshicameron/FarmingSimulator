@@ -274,10 +274,10 @@ MonoBehaviour:
     itemUseGridRadius: 2
     itemUseRadius: 0
     isStartingItem: 0
-    canPickedUp: 0
-    canBeDropped: 0
+    canPickedUp: 1
+    canBeDropped: 1
     canBeEaten: 0
-    canBeCarried: 0
+    canBeCarried: 1
   - itemCode: 10023
     itemType: 8
     itemDescription: Bambo

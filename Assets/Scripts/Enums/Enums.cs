@@ -85,4 +85,14 @@ namespace Enums
     {
         Player,Chest,Count
     }
+
+    public enum Season
+    {
+        Spring,
+        Summer,
+        Autumn,
+        Winter,
+        None,
+        Count
+    }
 }

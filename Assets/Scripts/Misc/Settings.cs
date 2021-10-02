@@ -4,6 +4,9 @@ namespace Misc
 {
     public static class Settings
     {
+        // Time System
+        public const float secondsPerGameSeconds = 0.012f;
+
         // Obscuring Item Fading
         public const float fadeInSeconds = 0.25f;
         public const float fadeOutSeconds = 0.35f;
