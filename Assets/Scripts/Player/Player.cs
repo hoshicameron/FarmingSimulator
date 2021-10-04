@@ -4,7 +4,9 @@ using Enums;
 using Inventory;
 using Items;
 using Misc;
+using SceneManagement;
 using TimeSystem;
+using UnityEditor.Build.Content;
 using UnityEngine;
 
 
@@ -307,6 +309,12 @@ namespace _Player
             if (Input.GetKey(KeyCode.G))
             {
                 TimeManager.Instance.TestAdvanceGameDay();
+            }
+
+            // Reload current scene
+            if (Input.GetKey(KeyCode.L))
+            {
+                SceneControllerManager.Instance.FadeAndLoadScene(SceneName.Scene1_Farm.ToString(), transform.position);
             }
         }
 

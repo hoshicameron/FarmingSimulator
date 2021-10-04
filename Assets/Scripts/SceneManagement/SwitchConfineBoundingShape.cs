@@ -1,15 +1,27 @@
 using UnityEngine;
 using Cinemachine;
+using Events;
 using Misc;
 
-namespace Scene
+namespace SceneManagement
 {
     public class SwitchConfineBoundingShape : MonoBehaviour
     {
-        private void Start()
+        private void OnEnable()
+        {
+            EventHandler.AfterSceneLoadEvent += SceneLoaded;
+        }
+
+        private void OnDisable()
+        {
+            EventHandler.AfterSceneLoadEvent -= SceneLoaded;
+        }
+
+        private void SceneLoaded()
         {
             SwitchBoundingShape();
         }
+
         /// <summary>
         /// Switch the collider that cinemachine uses to define the ege of the screen
         /// </summary>

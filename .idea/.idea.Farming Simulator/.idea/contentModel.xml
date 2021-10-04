@@ -44,7 +44,8 @@
             <e p="Player.cs" t="Include" />
             <e p="PlayerAnimationTest.cs" t="Include" />
           </e>
-          <e p="Scene" t="Include">
+          <e p="SceneManagement" t="Include">
+            <e p="SceneControllerManager.cs" t="Include" />
             <e p="SwitchConfineBoundingShape.cs" t="Include" />
           </e>
           <e p="TimeSystem" t="Include">

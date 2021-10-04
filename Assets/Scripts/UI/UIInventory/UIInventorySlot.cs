@@ -1,4 +1,5 @@
 using Enums;
+using Events;
 using Inventory;
 using Items;
 using Misc;
@@ -36,10 +37,25 @@ namespace UI
             parentCanvas = GetComponentInParent<Canvas>();
         }
 
+        private void OnEnable()
+        {
+            EventHandler.AfterSceneLoadEvent += SceneLoaded;
+        }
+
+        private void OnDisable()
+        {
+            EventHandler.AfterSceneLoadEvent -= SceneLoaded;
+        }
+
+        private void SceneLoaded()
+        {
+            parentItem = GameObject.FindGameObjectWithTag(Tags.ItemsParentTransform).transform;
+        }
+
         private void Start()
         {
             mainCamera=Camera.main;
-            parentItem = GameObject.FindGameObjectWithTag(Tags.ItemsParentTransform).transform;
+
         }
 
         public void OnBeginDrag(PointerEventData eventData)

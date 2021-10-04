@@ -95,4 +95,11 @@ namespace Enums
         None,
         Count
     }
+
+    public enum SceneName
+    {
+        Scene1_Farm,
+        Scene2_Filed,
+        Scene3_Cabin
+    }
 }

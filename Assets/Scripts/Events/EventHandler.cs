@@ -106,6 +106,39 @@ namespace Events
             AdvancedGameYearEvent?.Invoke(gameYear,season,gameDay,gameDayOfWeek,gameHour,gameMinute,gameSecond);
         }
 
+        // Scene Load Events - in the order they happen
+
+        // Before scene unload Fade Out Event- (purely notification)
+        public static event Action BeforeSceneUnloadFadeOutEvent;
+        public static void CallBeforeSceneUnloadFadeOutEvent()
+        {
+            BeforeSceneUnloadFadeOutEvent?.Invoke();
+        }
+
+        // Before Scene unload event
+        public static event Action BeforeSceneUnloadEvent;
+
+        public static void CallBeforeSceneUnloadEvent()
+        {
+            BeforeSceneUnloadEvent?.Invoke();
+        }
+
+        // After scene loaded event
+        public static event Action AfterSceneLoadEvent;
+
+        public static void CallAfterSceneLoadEvent()
+        {
+            AfterSceneLoadEvent?.Invoke();
+        }
+
+
+        // After scene load fade in event
+        public static event Action AfterSceneLoadFadeInEvent;
+
+        public static void CallAfterSceneLoadFadeInEvent()
+        {
+            AfterSceneLoadFadeInEvent?.Invoke();
+        }
 
     }
 

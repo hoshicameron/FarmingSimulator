@@ -103,7 +103,6 @@ namespace TimeSystem
         {
             int totalDays = (((int) gameSeason) * 30) + gameday;
             int dayOfWeek = totalDays % 7;
-            print(dayOfWeek);
 
             switch (dayOfWeek)
             {
