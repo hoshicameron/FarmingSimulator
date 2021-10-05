@@ -293,7 +293,7 @@ MonoBehaviour:
   - itemCode: 10024
     itemType: 9
     itemDescription: Wooden Chair
-    itemSprite: {fileID: 3019443313259183933, guid: 0173b463dd4fdeb41b9d50eac0eb7d7d, type: 3}
+    itemSprite: {fileID: 2094919736244263652, guid: 12207af1c99b3314fa92583fe8783f51, type: 3}
     itemLongDescription: Chair
     itemUseGridRadius: 0
     itemUseRadius: 0
