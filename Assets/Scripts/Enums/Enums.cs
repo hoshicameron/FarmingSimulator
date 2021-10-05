@@ -99,7 +99,7 @@ namespace Enums
     public enum SceneName
     {
         Scene1_Farm,
-        Scene2_Filed,
+        Scene2_Field,
         Scene3_Cabin
     }
 }
