@@ -7,8 +7,7 @@ namespace Items
 {
     public class Item : MonoBehaviour
     {
-        [ItemCodeDescription]
-        [SerializeField] private int itemCode;
+        [ItemCodeDescription][SerializeField] private int itemCode;
 
         public int ItemCode
         {

@@ -38,11 +38,18 @@
             <e p="Settings.cs" t="Include" />
             <e p="SingletonMonobehaviour.cs" t="Include" />
             <e p="Tags.cs" t="Include" />
+            <e p="Vector3Serializable.cs" t="Include" />
           </e>
           <e p="Player" t="Include">
             <e p="ItemPickup.cs" t="Include" />
             <e p="Player.cs" t="Include" />
             <e p="PlayerAnimationTest.cs" t="Include" />
+          </e>
+          <e p="SaveSystem" t="Include">
+            <e p="GameObjectSave.cs" t="Include" />
+            <e p="GenerateGUID.cs" t="Include" />
+            <e p="SceneItem.cs" t="Include" />
+            <e p="SceneSave.cs" t="Include" />
           </e>
           <e p="SceneManagement" t="Include">
             <e p="SceneControllerManager.cs" t="Include" />
