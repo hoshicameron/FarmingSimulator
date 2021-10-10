@@ -96,6 +96,15 @@ namespace Enums
         Count
     }
 
+    public enum GridBoolProperty
+    {
+        Diggable,
+        canDropItem,
+        canPlaceFurniture,
+        isPath,
+        isNPCObstcale
+    }
+
     public enum SceneName
     {
         Scene1_Farm,

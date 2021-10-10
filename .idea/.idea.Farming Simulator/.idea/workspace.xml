@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dad21980-4255-4ec8-b0a5-192e21115f1b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Farming Simulator/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Farming Simulator/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Farming Simulator/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Farming Simulator/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/PersistentScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/PersistentScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Items/Item.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Items/Item.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SceneManagement/SceneControllerManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SceneManagement/SceneControllerManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SceneManagement/SceneTeleport.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SceneManagement/SceneTeleport.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Maps/TileMap Grid.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Maps/TileMap Grid.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Scene1_Farm.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Scene1_Farm.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Scene2_Field.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Scene2_Field.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Scene3_Cabin.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Scene3_Cabin.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enums/Enums.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enums/Enums.cs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,82 +21,9 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/SaveSystem/SceneItem.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
-              <folding>
-                <marker date="1633517944119" expanded="true" signature="34:306" ph="{...}" />
-                <marker date="1633517944119" expanded="true" signature="89:304" ph="{...}" />
-                <marker date="1633517944119" expanded="true" signature="229:297" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/SaveSystem/SceneSave.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="8" column="67" selection-start-line="8" selection-start-column="67" selection-end-line="8" selection-end-column="67" />
-              <folding>
-                <marker date="1633518484621" expanded="true" signature="56:269" ph="{...}" />
-                <marker date="1633518484621" expanded="true" signature="111:267" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/SaveSystem/GameObjectSave.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="18" column="39" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
-              <folding>
-                <marker date="1633519398324" expanded="true" signature="56:464" ph="{...}" />
-                <marker date="1633519398324" expanded="true" signature="116:462" ph="{...}" />
-                <marker date="1633519398324" expanded="true" signature="245:324" ph="{...}" />
-                <marker date="1633519398324" expanded="true" signature="396:456" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/SaveSystem/GenerateGUID.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="20" column="51" selection-start-line="20" selection-start-column="51" selection-end-line="20" selection-end-column="51" />
-              <folding>
-                <marker date="1633520592286" expanded="false" signature="7:33" ph="..." />
-                <marker date="1633520592286" expanded="true" signature="55:691" ph="{...}" />
-                <marker date="1633520592286" expanded="true" signature="121:689" ph="{...}" />
-                <marker date="1633520592286" expanded="true" signature="215:295" ph="{...}" />
-                <marker date="1633520592286" expanded="true" signature="325:683" ph="{...}" />
-                <marker date="1633520592286" expanded="true" signature="430:673" ph="{...}" />
-                <marker date="1633520592286" expanded="true" signature="487:659" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/SaveSystem/ISaveable.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
-              <folding>
-                <marker date="1633526676045" expanded="true" signature="21:348" ph="{...}" />
-                <marker date="1633526676045" expanded="true" signature="54:346" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/SaveSystem/SaveLoadManager.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
+            <state relative-caret-position="264">
               <caret line="20" column="87" selection-start-line="20" selection-start-column="87" selection-end-line="20" selection-end-column="87" />
               <folding>
                 <marker date="1633807629180" expanded="false" signature="6:80" ph="..." />
@@ -115,7 +42,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/SceneManagement/SceneItemsManager.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="572">
+            <state relative-caret-position="440">
               <caret line="38" column="35" selection-start-line="38" selection-start-column="35" selection-end-line="38" selection-end-column="35" />
               <folding>
                 <marker date="1633809382343" expanded="false" signature="6:148" ph="..." />
@@ -147,7 +74,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/SceneManagement/SceneControllerManager.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1958">
+            <state relative-caret-position="1848">
               <caret line="104" column="37" selection-start-line="104" selection-start-column="37" selection-end-line="104" selection-end-column="37" />
               <folding>
                 <marker date="1633809592123" expanded="false" signature="6:240" ph="..." />
@@ -169,7 +96,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/SceneManagement/SceneTeleport.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="198">
@@ -186,9 +113,107 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Enums/Enums.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="66">
+              <caret line="103" column="15" selection-start-line="103" selection-start-column="15" selection-end-line="103" selection-end-column="15" />
+              <folding>
+                <marker date="1633895040644" expanded="true" signature="15:1932" ph="{...}" />
+                <marker date="1633895040644" expanded="true" signature="47:895" ph="{...}" />
+                <marker date="1633895040644" expanded="true" signature="934:984" ph="{...}" />
+                <marker date="1633895040644" expanded="true" signature="1019:1050" ph="{...}" />
+                <marker date="1633895040644" expanded="true" signature="1083:1155" ph="{...}" />
+                <marker date="1633895040644" expanded="true" signature="1182:1216" ph="{...}" />
+                <marker date="1633895040644" expanded="true" signature="1243:1287" ph="{...}" />
+                <marker date="1633895040644" expanded="true" signature="1312:1475" ph="{...}" />
+                <marker date="1633895040644" expanded="true" signature="1510:1549" ph="{...}" />
+                <marker date="1633895040644" expanded="true" signature="1573:1677" ph="{...}" />
+                <marker date="1633895040644" expanded="true" signature="1711:1827" ph="{...}" />
+                <marker date="1633895040644" expanded="true" signature="1854:1930" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Maps/GridCoordinate.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="352">
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
+              <folding>
+                <marker date="1633896569163" expanded="true" signature="34:1050" ph="{...}" />
+                <marker date="1633896569163" expanded="true" signature="94:1048" ph="{...}" />
+                <marker date="1633896569163" expanded="true" signature="229:289" ph="{...}" />
+                <marker date="1633896569163" expanded="true" signature="406:509" ph="{...}" />
+                <marker date="1633896569163" expanded="true" signature="592:682" ph="{...}" />
+                <marker date="1633896569163" expanded="true" signature="762:867" ph="{...}" />
+                <marker date="1633896569163" expanded="true" signature="950:1042" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Maps/GridProperty.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+              <folding>
+                <marker date="1633897047625" expanded="true" signature="28:526" ph="{...}" />
+                <marker date="1633897047625" expanded="true" signature="86:524" ph="{...}" />
+                <marker date="1633897047625" expanded="true" signature="346:518" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Maps/SO_GridProperties.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="15" column="49" selection-start-line="15" selection-start-column="49" selection-end-line="15" selection-end-column="49" />
+              <folding>
+                <marker date="1633899432011" expanded="true" signature="6:65" ph="..." />
+                <marker date="1633899432011" expanded="true" signature="81:477" ph="{...}" />
+                <marker date="1633899432011" expanded="true" signature="238:475" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Maps/TilemapGridProperties.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="145">
+              <caret line="63" column="84" selection-start-line="63" selection-start-column="84" selection-end-line="63" selection-end-column="84" />
+              <folding>
+                <marker date="1633899851324" expanded="true" signature="6:78" ph="..." />
+                <marker date="1633899851324" expanded="true" signature="94:2653" ph="{...}" />
+                <marker date="1633899851324" expanded="true" signature="171:2651" ph="{...}" />
+                <marker date="1633899851324" expanded="true" signature="443:786" ph="{...}" />
+                <marker date="1633899851324" expanded="true" signature="548:776" ph="{...}" />
+                <marker date="1633899851324" expanded="true" signature="660:762" ph="{...}" />
+                <marker date="1633899851324" expanded="true" signature="820:1331" ph="{...}" />
+                <marker date="1633899851324" expanded="true" signature="925:1321" ph="{...}" />
+                <marker date="1633899851324" expanded="true" signature="1026:1307" ph="{...}" />
+                <marker date="1633899851324" expanded="true" signature="1065:1226" ph="/* This is required to ensure that the updated grid properties gameObject get saved when ... */" />
+                <marker date="1633899851324" expanded="true" signature="1376:2415" ph="{...}" />
+                <marker date="1633899851324" expanded="true" signature="1560:2404" ph="{...}" />
+                <marker date="1633899851324" expanded="true" signature="1621:2390" ph="{...}" />
+                <marker date="1633899851324" expanded="true" signature="1836:2372" ph="{...}" />
+                <marker date="1633899851324" expanded="true" signature="1928:2350" ph="{...}" />
+                <marker date="1633899851324" expanded="true" signature="2087:2324" ph="{...}" />
+                <marker date="1633899851324" expanded="true" signature="2446:2645" ph="{...}" />
+                <marker date="1633899851324" expanded="true" signature="2551:2635" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Items/Item.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="484">
+            <state relative-caret-position="396">
               <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
               <folding>
                 <marker date="1633785529540" expanded="false" signature="6:78" ph="..." />
@@ -229,6 +254,7 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Misc/Vector3Serializable.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Items/SO_ItemList.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Maps/TilemapGridProperties.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/PlayerAnimationTest.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enums/Enums.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Items/ItemDetails.cs.meta" root0="FORCE_HIGHLIGHTING" />
@@ -238,10 +264,12 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Items/ItemDetails.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/Player.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Animation/AnimationOverrides.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Maps/SO_GridProperties.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Items/ItemNudge.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Inventory/InventoryManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/SaveSystem/GenerateGUID.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Inventory/InventoryManager.cs.meta" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Maps/GridCoordinate.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/SaveSystem/GameObjectSave.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/SaveSystem/SaveLoadManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Utilities/Property Drawers/Editor/ItemCodeDescriptionDrawer.cs" root0="FORCE_HIGHLIGHTING" />
@@ -255,6 +283,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/SceneManagement/SceneTeleport.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Inventory/InventoryItem.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/SaveSystem/ISaveable.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Maps/GridProperty.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Animation/CharacterAttribute.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TimeSystem/TimeManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/SaveSystem/SceneSave.cs" root0="FORCE_HIGHLIGHTING" />
@@ -304,7 +333,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/SceneManagement/SwitchConfineBoundingShape.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UI/UIInventory/UIInventorySlot.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/Player.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Enums/Enums.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Misc/Vector3Serializable.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SaveSystem/SceneItem.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SaveSystem/SceneSave.cs" />
@@ -316,10 +344,15 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/SceneManagement/SceneItemsManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SceneManagement/SceneControllerManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SceneManagement/SceneTeleport.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Enums/Enums.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Maps/GridCoordinate.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Maps/GridProperty.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Maps/SO_GridProperties.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Maps/TilemapGridProperties.cs" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="699" />
@@ -399,12 +432,12 @@
       <workItem from="1633512592790" duration="6066000" />
       <workItem from="1633783641840" duration="3864000" />
       <workItem from="1633803924446" duration="3674000" />
-      <workItem from="1633892614132" duration="597000" />
+      <workItem from="1633892614132" duration="6174000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="131717000" />
+    <option name="totallyTimeSpent" value="137294000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -416,7 +449,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49829933" weight="0.25340393" />
@@ -465,9 +498,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Assets/Editor/AnimatorTransitionCopierWindow.cs" />
-    <entry file="file://$USER_HOME$/Desktop/2d-extras-master/Editor/Tiles/RuleTile/RuleTileEditor.cs" />
-    <entry file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.2d.tilemap.extras@acb3c5a884/Editor/Tiles/RuleTile/RuleTileEditor.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Scene/SwitchConfineBoundingShape.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Player/PlayerAnimationTest.cs">
       <provider selected="true" editor-type-id="text-editor">
@@ -929,26 +959,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Enums/Enums.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2002">
-          <caret line="101" column="19" selection-start-line="101" selection-start-column="19" selection-end-line="101" selection-end-column="19" />
-          <folding>
-            <marker date="1633379350001" expanded="true" signature="15:1782" ph="{...}" />
-            <marker date="1633379350001" expanded="true" signature="47:895" ph="{...}" />
-            <marker date="1633379350001" expanded="true" signature="934:984" ph="{...}" />
-            <marker date="1633379350001" expanded="true" signature="1019:1050" ph="{...}" />
-            <marker date="1633379350001" expanded="true" signature="1083:1155" ph="{...}" />
-            <marker date="1633379350001" expanded="true" signature="1182:1216" ph="{...}" />
-            <marker date="1633379350001" expanded="true" signature="1243:1287" ph="{...}" />
-            <marker date="1633379350001" expanded="true" signature="1312:1475" ph="{...}" />
-            <marker date="1633379350001" expanded="true" signature="1510:1549" ph="{...}" />
-            <marker date="1633379350001" expanded="true" signature="1573:1677" ph="{...}" />
-            <marker date="1633379350001" expanded="true" signature="1704:1780" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Player/Player.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4906">
@@ -1107,7 +1117,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/SaveSystem/SaveLoadManager.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
+        <state relative-caret-position="264">
           <caret line="20" column="87" selection-start-line="20" selection-start-column="87" selection-end-line="20" selection-end-column="87" />
           <folding>
             <marker date="1633807629180" expanded="false" signature="6:80" ph="..." />
@@ -1124,7 +1134,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/SceneManagement/SceneItemsManager.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
+        <state relative-caret-position="440">
           <caret line="38" column="35" selection-start-line="38" selection-start-column="35" selection-end-line="38" selection-end-column="35" />
           <folding>
             <marker date="1633809382343" expanded="false" signature="6:148" ph="..." />
@@ -1154,7 +1164,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/SceneManagement/SceneControllerManager.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1958">
+        <state relative-caret-position="1848">
           <caret line="104" column="37" selection-start-line="104" selection-start-column="37" selection-end-line="104" selection-end-column="37" />
           <folding>
             <marker date="1633809592123" expanded="false" signature="6:240" ph="..." />
@@ -1177,7 +1187,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Items/Item.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
+        <state relative-caret-position="396">
           <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
           <folding>
             <marker date="1633785529540" expanded="false" signature="6:78" ph="..." />
@@ -1204,6 +1214,94 @@
             <marker date="1633809903623" expanded="true" signature="203:1097" ph="{...}" />
             <marker date="1633809903623" expanded="true" signature="417:1091" ph="{...}" />
             <marker date="1633809903623" expanded="true" signature="517:1081" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Enums/Enums.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="103" column="15" selection-start-line="103" selection-start-column="15" selection-end-line="103" selection-end-column="15" />
+          <folding>
+            <marker date="1633895040644" expanded="true" signature="15:1932" ph="{...}" />
+            <marker date="1633895040644" expanded="true" signature="47:895" ph="{...}" />
+            <marker date="1633895040644" expanded="true" signature="934:984" ph="{...}" />
+            <marker date="1633895040644" expanded="true" signature="1019:1050" ph="{...}" />
+            <marker date="1633895040644" expanded="true" signature="1083:1155" ph="{...}" />
+            <marker date="1633895040644" expanded="true" signature="1182:1216" ph="{...}" />
+            <marker date="1633895040644" expanded="true" signature="1243:1287" ph="{...}" />
+            <marker date="1633895040644" expanded="true" signature="1312:1475" ph="{...}" />
+            <marker date="1633895040644" expanded="true" signature="1510:1549" ph="{...}" />
+            <marker date="1633895040644" expanded="true" signature="1573:1677" ph="{...}" />
+            <marker date="1633895040644" expanded="true" signature="1711:1827" ph="{...}" />
+            <marker date="1633895040644" expanded="true" signature="1854:1930" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Maps/GridCoordinate.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <marker date="1633896569163" expanded="true" signature="34:1050" ph="{...}" />
+            <marker date="1633896569163" expanded="true" signature="94:1048" ph="{...}" />
+            <marker date="1633896569163" expanded="true" signature="229:289" ph="{...}" />
+            <marker date="1633896569163" expanded="true" signature="406:509" ph="{...}" />
+            <marker date="1633896569163" expanded="true" signature="592:682" ph="{...}" />
+            <marker date="1633896569163" expanded="true" signature="762:867" ph="{...}" />
+            <marker date="1633896569163" expanded="true" signature="950:1042" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Maps/SO_GridProperties.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="49" selection-start-line="15" selection-start-column="49" selection-end-line="15" selection-end-column="49" />
+          <folding>
+            <marker date="1633899432011" expanded="true" signature="6:65" ph="..." />
+            <marker date="1633899432011" expanded="true" signature="81:477" ph="{...}" />
+            <marker date="1633899432011" expanded="true" signature="238:475" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Maps/GridProperty.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+          <folding>
+            <marker date="1633897047625" expanded="true" signature="28:526" ph="{...}" />
+            <marker date="1633897047625" expanded="true" signature="86:524" ph="{...}" />
+            <marker date="1633897047625" expanded="true" signature="346:518" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Maps/TilemapGridProperties.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="63" column="84" selection-start-line="63" selection-start-column="84" selection-end-line="63" selection-end-column="84" />
+          <folding>
+            <marker date="1633899851324" expanded="true" signature="6:78" ph="..." />
+            <marker date="1633899851324" expanded="true" signature="94:2653" ph="{...}" />
+            <marker date="1633899851324" expanded="true" signature="171:2651" ph="{...}" />
+            <marker date="1633899851324" expanded="true" signature="443:786" ph="{...}" />
+            <marker date="1633899851324" expanded="true" signature="548:776" ph="{...}" />
+            <marker date="1633899851324" expanded="true" signature="660:762" ph="{...}" />
+            <marker date="1633899851324" expanded="true" signature="820:1331" ph="{...}" />
+            <marker date="1633899851324" expanded="true" signature="925:1321" ph="{...}" />
+            <marker date="1633899851324" expanded="true" signature="1026:1307" ph="{...}" />
+            <marker date="1633899851324" expanded="true" signature="1065:1226" ph="/* This is required to ensure that the updated grid properties gameObject get saved when ... */" />
+            <marker date="1633899851324" expanded="true" signature="1376:2415" ph="{...}" />
+            <marker date="1633899851324" expanded="true" signature="1560:2404" ph="{...}" />
+            <marker date="1633899851324" expanded="true" signature="1621:2390" ph="{...}" />
+            <marker date="1633899851324" expanded="true" signature="1836:2372" ph="{...}" />
+            <marker date="1633899851324" expanded="true" signature="1928:2350" ph="{...}" />
+            <marker date="1633899851324" expanded="true" signature="2087:2324" ph="{...}" />
+            <marker date="1633899851324" expanded="true" signature="2446:2645" ph="{...}" />
+            <marker date="1633899851324" expanded="true" signature="2551:2635" ph="{...}" />
           </folding>
         </state>
       </provider>

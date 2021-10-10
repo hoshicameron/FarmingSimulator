@@ -48256,6 +48256,7 @@ GameObject:
   - component: {fileID: 3459814754354962120}
   - component: {fileID: 3459814754354962126}
   - component: {fileID: 3459814754354962121}
+  - component: {fileID: 3459814754354962124}
   m_Layer: 0
   m_Name: BoolNPCObstacle
   m_TagString: Untagged
@@ -48263,6 +48264,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &3459814754354962124
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3459814754354962123}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f6a281dc95e69246a8816d336309a3f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  so_GridProperties: {fileID: 11400000, guid: 2a52d7d19783bbd4f9ec73d0b1c1b9b2, type: 2}
+  gridBoolProperty: 4
 --- !u!1839735485 &3459814754354962126
 Tilemap:
   m_ObjectHideFlags: 0
@@ -48430,6 +48445,7 @@ GameObject:
   - component: {fileID: 3459814754507519333}
   - component: {fileID: 3459814754507519339}
   - component: {fileID: 3459814754507519338}
+  - component: {fileID: 3459814754507519334}
   m_Layer: 0
   m_Name: BoolDiggable
   m_TagString: Untagged
@@ -48451,6 +48467,20 @@ Transform:
   m_Father: {fileID: 3459814754107620926}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3459814754507519334
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3459814754507519332}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f6a281dc95e69246a8816d336309a3f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  so_GridProperties: {fileID: 11400000, guid: 2a52d7d19783bbd4f9ec73d0b1c1b9b2, type: 2}
+  gridBoolProperty: 0
 --- !u!483693784 &3459814754507519338
 TilemapRenderer:
   m_ObjectHideFlags: 0
@@ -104009,6 +104039,7 @@ GameObject:
   - component: {fileID: 3459814755309706456}
   - component: {fileID: 3459814755309706462}
   - component: {fileID: 3459814755309706457}
+  - component: {fileID: 3459814755309706460}
   m_Layer: 0
   m_Name: BoolCanPlaceFurniture
   m_TagString: Untagged
@@ -104016,6 +104047,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &3459814755309706460
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3459814755309706459}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f6a281dc95e69246a8816d336309a3f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  so_GridProperties: {fileID: 11400000, guid: 2a52d7d19783bbd4f9ec73d0b1c1b9b2, type: 2}
+  gridBoolProperty: 2
 --- !u!1839735485 &3459814755309706462
 Tilemap:
   m_ObjectHideFlags: 0
@@ -104151,6 +104196,7 @@ GameObject:
   - component: {fileID: 3459814755548486651}
   - component: {fileID: 3459814755548486649}
   - component: {fileID: 3459814755548486648}
+  - component: {fileID: 3459814755548486652}
   m_Layer: 0
   m_Name: BoolPath
   m_TagString: Untagged
@@ -104172,6 +104218,20 @@ Transform:
   m_Father: {fileID: 3459814754107620926}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3459814755548486652
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3459814755548486650}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f6a281dc95e69246a8816d336309a3f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  so_GridProperties: {fileID: 11400000, guid: 2a52d7d19783bbd4f9ec73d0b1c1b9b2, type: 2}
+  gridBoolProperty: 3
 --- !u!4 &3459814755653973872
 Transform:
   m_ObjectHideFlags: 0
@@ -104387,6 +104447,7 @@ GameObject:
   - component: {fileID: 3459814755695032669}
   - component: {fileID: 3459814755695032643}
   - component: {fileID: 3459814755695032642}
+  - component: {fileID: 3459814755695032670}
   m_Layer: 0
   m_Name: BoolCanDropItem
   m_TagString: Untagged
@@ -104408,6 +104469,20 @@ Transform:
   m_Father: {fileID: 3459814754107620926}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3459814755695032670
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3459814755695032668}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f6a281dc95e69246a8816d336309a3f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  so_GridProperties: {fileID: 11400000, guid: 2a52d7d19783bbd4f9ec73d0b1c1b9b2, type: 2}
+  gridBoolProperty: 1
 --- !u!66 &7091580816091424651
 CompositeCollider2D:
   m_ObjectHideFlags: 0

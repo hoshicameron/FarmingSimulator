@@ -34,6 +34,12 @@
             <e p="SO_ItemList.cs" t="Include" />
             <e p="TriggerObscuringItemFader.cs" t="Include" />
           </e>
+          <e p="Maps" t="Include">
+            <e p="GridCoordinate.cs" t="Include" />
+            <e p="GridProperty.cs" t="Include" />
+            <e p="SO_GridProperties.cs" t="Include" />
+            <e p="TilemapGridProperties.cs" t="Include" />
+          </e>
           <e p="Misc" t="Include">
             <e p="Settings.cs" t="Include" />
             <e p="SingletonMonobehaviour.cs" t="Include" />
