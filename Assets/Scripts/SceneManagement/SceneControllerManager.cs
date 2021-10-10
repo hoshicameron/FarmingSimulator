@@ -4,6 +4,7 @@ using System.Runtime.CompilerServices;
 using Enums;
 using Events;
 using Misc;
+using SaveSystem;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
@@ -45,6 +46,9 @@ namespace SceneManagement
             // Start fading to black and wait for it so finish before continuing.
             yield return StartCoroutine(Fade(1f));
 
+            // Store scene data
+            SaveLoadManager.Instance.StoreCurrentSceneData();
+
             // Set player position
             Player.Instance.gameObject.transform.position = spawnPosition;
 
@@ -59,6 +63,9 @@ namespace SceneManagement
 
             // Call after scene load event
             EventHandler.CallAfterSceneLoadEvent();
+
+            // Load scene data
+            SaveLoadManager.Instance.RestoreCurrentSceneData();
 
             // Start fading back in and wait for it to finish before exiting the function
             yield return StartCoroutine(Fade(0f));
@@ -91,6 +98,8 @@ namespace SceneManagement
 
             // If this event has any subscribers, call it.
             EventHandler.CallAfterSceneLoadEvent();
+
+            SaveLoadManager.Instance.RestoreCurrentSceneData();
 
             // Once the scene is finished loading, start fading in.
             StartCoroutine(Fade(0f));

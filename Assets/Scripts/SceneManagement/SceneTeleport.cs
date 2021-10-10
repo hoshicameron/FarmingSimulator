@@ -11,7 +11,7 @@ namespace SceneManagement
         [SerializeField] private SceneName sceneName = SceneName.Scene1_Farm;
         [SerializeField] private Vector3 scenePositionGOto=new Vector3();
 
-        private void OnTriggerEnter2D(Collider2D other)
+        private void OnTriggerStay2D(Collider2D other)
         {
             Player player = other.GetComponent<Player>();
             if (player != null)

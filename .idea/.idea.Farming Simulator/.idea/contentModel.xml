@@ -48,11 +48,14 @@
           <e p="SaveSystem" t="Include">
             <e p="GameObjectSave.cs" t="Include" />
             <e p="GenerateGUID.cs" t="Include" />
+            <e p="ISaveable.cs" t="Include" />
+            <e p="SaveLoadManager.cs" t="Include" />
             <e p="SceneItem.cs" t="Include" />
             <e p="SceneSave.cs" t="Include" />
           </e>
           <e p="SceneManagement" t="Include">
             <e p="SceneControllerManager.cs" t="Include" />
+            <e p="SceneItemsManager.cs" t="Include" />
             <e p="SceneTeleport.cs" t="Include" />
             <e p="SwitchConfineBoundingShape.cs" t="Include" />
           </e>

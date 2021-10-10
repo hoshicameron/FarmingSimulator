@@ -30,7 +30,7 @@ namespace Items
             }
         }
 
-        private void Init(int itemCodeParam)
+        public void Init(int itemCodeParam)
         {
             if (itemCodeParam != 0)
             {
