@@ -2,6 +2,7 @@ using Enums;
 using Events;
 using Inventory;
 using Items;
+using Maps;
 using Misc;
 using TMPro;
 using UnityEngine;
@@ -130,25 +131,37 @@ namespace UI
         /// </summary>
         private void DropSelectedItemAtMousePosition()
         {
+
             if (itemDetails != null && isSelected)
             {
                 Vector3 worldPosition = mainCamera.ScreenToWorldPoint(new Vector3(Input.mousePosition.x,
                     Input.mousePosition.y,
                     -mainCamera.transform.position.z));
 
-                //Create item from prefab at mouse position
-                GameObject itemGameObject = Instantiate(itemPrefab, worldPosition, Quaternion.identity, parentItem);
-                Item item = itemGameObject.GetComponent<Item>();
-                item.ItemCode = itemDetails.itemCode;
-
-                // Remove item from player inventory
-                InventoryManager.Instance.RemoveItem(InventoryLocation.Player, item.ItemCode);
-
-                // If no more of item then clear selected
-                if (InventoryManager.Instance.FindItemInInventory(InventoryLocation.Player, item.ItemCode) == -1)
+                // if can drop item here
+                Vector3Int gridPosition = GridPropertiesManager.Instance.grid.WorldToCell(worldPosition);
+                GridPropertyDetails gridPropertyDetails =
+                    GridPropertiesManager.Instance.GetGridPropertyDetails(gridPosition.x, gridPosition.y);
+                if ( gridPropertyDetails!=null && gridPropertyDetails.canDropItem)
                 {
-                    ClearSelectedItem();
+                    //Create item from prefab at mouse position
+                    GameObject itemGameObject = Instantiate(itemPrefab,
+                                new Vector3(worldPosition.x,worldPosition.y-Settings.gridCellSize*0.5f,worldPosition.z),
+                                                                                          Quaternion.identity, parentItem);
+                    Item item = itemGameObject.GetComponent<Item>();
+                    item.ItemCode = itemDetails.itemCode;
+
+                    // Remove item from player inventory
+                    InventoryManager.Instance.RemoveItem(InventoryLocation.Player, item.ItemCode);
+
+                    // If no more of item then clear selected
+                    if (InventoryManager.Instance.FindItemInInventory(InventoryLocation.Player, item.ItemCode) == -1)
+                    {
+                        ClearSelectedItem();
+                    }
                 }
+
+
             }
         }
 

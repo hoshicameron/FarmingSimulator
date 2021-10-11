@@ -36,7 +36,9 @@
           </e>
           <e p="Maps" t="Include">
             <e p="GridCoordinate.cs" t="Include" />
+            <e p="GridPropertiesManager.cs" t="Include" />
             <e p="GridProperty.cs" t="Include" />
+            <e p="GridPropertyDetails.cs" t="Include" />
             <e p="SO_GridProperties.cs" t="Include" />
             <e p="TilemapGridProperties.cs" t="Include" />
           </e>

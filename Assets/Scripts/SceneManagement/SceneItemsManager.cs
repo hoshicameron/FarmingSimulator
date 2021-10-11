@@ -116,10 +116,9 @@ namespace SceneManagement
                 sceneItemList.Add(sceneItem);
             }
 
-            // Create list scene items dictionary in scene save and add to it
+            // Create list scene items in scene save and set to scene item list
             SceneSave sceneSave=new SceneSave();
-            sceneSave.listSceneItemDictionary=new Dictionary<string, List<SceneItem>>();
-            sceneSave.listSceneItemDictionary.Add("sceneItemList",sceneItemList);
+            sceneSave.SceneItemList = sceneItemList;
 
             // Add scene item to list
             GameObjectSave.sceneData.Add(sceneName,sceneSave);
@@ -129,14 +128,13 @@ namespace SceneManagement
         {
             if (GameObjectSave.sceneData.TryGetValue(sceneName, out SceneSave sceneSave))
             {
-                if (sceneSave.listSceneItemDictionary != null &&
-                    sceneSave.listSceneItemDictionary.TryGetValue("sceneItemList", out List<SceneItem> sceneItemList))
+                if (sceneSave.SceneItemList != null)
                 {
                     // Scene List items found -destroy existing item in scene
                     DestroySceneItems();
 
                     // Now instantiate the List of scene items
-                    InstantiateSceneItems(sceneItemList);
+                    InstantiateSceneItems(sceneSave.SceneItemList);
                 }
 
             }

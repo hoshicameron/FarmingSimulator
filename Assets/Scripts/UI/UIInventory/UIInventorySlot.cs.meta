@@ -3,7 +3,13 @@ guid: d25293b700c7d584eaad9336cef70354
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - inventorySlotHighlight: {instanceID: 0}
+  - inventorySlotImage: {instanceID: 0}
+  - text: {instanceID: 0}
+  - inventoryBar: {instanceID: 0}
+  - inventoryTextBoxPrefab: {instanceID: 0}
+  - itemPrefab: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
