@@ -42,11 +42,13 @@ namespace UI
         private void OnEnable()
         {
             EventHandler.AfterSceneLoadEvent += SceneLoaded;
+            EventHandler.DropSelectedItemEvent += DropSelectedItemAtMousePosition;
         }
 
         private void OnDisable()
         {
             EventHandler.AfterSceneLoadEvent -= SceneLoaded;
+            EventHandler.DropSelectedItemEvent -= DropSelectedItemAtMousePosition;
         }
 
         private void SceneLoaded()

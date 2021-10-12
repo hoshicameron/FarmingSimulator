@@ -18,6 +18,14 @@ namespace Events
 
     public static class EventHandler
     {
+        // Drop Selected item event
+        public static event Action DropSelectedItemEvent;
+
+        public static void CallDropSelectedItemEvent()
+        {
+            DropSelectedItemEvent?.Invoke();
+        }
+
         // Inventory Update Event
         public static event Action<InventoryLocation, List<InventoryItem>> InventoryUpdateEvent;
 

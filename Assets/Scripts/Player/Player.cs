@@ -6,17 +6,20 @@ using Items;
 using Misc;
 using SceneManagement;
 using TimeSystem;
+using UI;
 using UnityEditor.Build.Content;
 using UnityEngine;
-
+using EventHandler = Events.EventHandler;
 
 namespace _Player
 {
     public class Player : SingletonMonoBehaviour<Player>
     {
         private AnimationOverrides animationOverrides;
+        private GridCursor gridCursor;
         // List of character attribute that we parse in to animation override methods
         private List<CharacterAttribute> characterAttributeCustomizationList;
+
         [Tooltip("Shoud be papulated in the prefab with the equipped item sprite renderer")] [SerializeField]
         private SpriteRenderer equippedItemSpriteRenderer = null;
 
@@ -102,6 +105,11 @@ namespace _Player
             characterAttributeCustomizationList=new List<CharacterAttribute>();
         }
 
+        private void Start()
+        {
+            gridCursor = FindObjectOfType<GridCursor>();
+        }
+
         private void Update()
         {
             #region PlayerInput
@@ -113,6 +121,8 @@ namespace _Player
                 PlayerMovementInput();
 
                 PlayerWalkInput();
+
+                PlayerClickInput();
 
                 PlayerTestInput();
 
@@ -129,7 +139,6 @@ namespace _Player
 
             #endregion
         }
-
         private void FixedUpdate()
         {
             PlayerMovement();
@@ -201,6 +210,83 @@ namespace _Player
                 isRunning = false;
                 isWalking = false;
                 isIdle = true;
+            }
+        }
+
+        private void PlayerClickInput()
+        {
+            if (Input.GetMouseButtonDown(0))
+            {
+                if (gridCursor.CursorIsEnabled)
+                {
+                    ProcessPlayerClickInput();
+                }
+            }
+        }
+
+        private void ProcessPlayerClickInput()
+        {
+            ResetMovement();
+
+            // Get Selected item details
+            ItemDetails itemDetails =
+                InventoryManager.Instance.GetSelectedInventoryItemDetails(InventoryLocation.Player);
+
+            if (itemDetails != null)
+            {
+                switch (itemDetails.itemType)
+                {
+                    case ItemType.Seed:
+                        if (Input.GetMouseButton(0))
+                        {
+                            ProcessPlayerClickInputSeed(itemDetails);
+                        }
+                        break;
+                    case ItemType.Commodity:
+                        if (Input.GetMouseButton(0))
+                        {
+                            ProcessPlayerClickInputCommodity(itemDetails);
+                        }
+                        break;
+                    case ItemType.Watering_Tool:
+                        break;
+                    case ItemType.HoeingTool:
+                        break;
+                    case ItemType.Chopping_Tool:
+                        break;
+                    case ItemType.BreakingTool:
+                        break;
+                    case ItemType.Reaping_Tool:
+                        break;
+                    case ItemType.Collecting_Tool:
+                        break;
+                    case ItemType.Reapable_scanary:
+                        break;
+                    case ItemType.Furniture:
+                        break;
+                    case ItemType.None:
+                        break;
+                    case ItemType.Count:
+                        break;
+                    default:
+                        break;
+                }
+            }
+        }
+
+        private void ProcessPlayerClickInputCommodity(ItemDetails itemDetails)
+        {
+            if (itemDetails.canBeDropped && gridCursor.CursorPositionIsValid)
+            {
+                EventHandler.CallDropSelectedItemEvent();
+            }
+        }
+
+        private void ProcessPlayerClickInputSeed(ItemDetails itemDetails)
+        {
+            if (itemDetails.canBeDropped && gridCursor.CursorPositionIsValid)
+            {
+                EventHandler.CallDropSelectedItemEvent();
             }
         }
 

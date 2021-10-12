@@ -25,7 +25,7 @@ namespace UI
         public bool CursorPositionIsValid { get; set; }
         public int ItemUserGridRadius { get; set; } = 0;
         public ItemType SelectedItemType { get; set; }
-        private bool CursorIsEnabled { get; set; } = false;
+        public bool CursorIsEnabled { get; set; } = false;
 
         private void OnDisable()
         {
