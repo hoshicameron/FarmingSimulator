@@ -72,6 +72,7 @@
             <e p="TimeManager.cs" t="Include" />
           </e>
           <e p="UI" t="Include">
+            <e p="GridCursor.cs" t="Include" />
             <e p="UIInventory" t="Include">
               <e p="UIInventoryBar.cs" t="Include" />
               <e p="UIInventorySlot.cs" t="Include" />

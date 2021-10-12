@@ -181,6 +181,35 @@ namespace Inventory
             }
         }
 
+        /// <summary>
+        /// Returns the item details (from the SO_ItemList) for the currently selected item in the inventory,
+        /// or null if isn't selected
+        /// </summary>
+        /// <param name="inventoryLocation"></param>
+        /// <returns></returns>
+        public ItemDetails GetSelectedInventoryItemDetails(InventoryLocation inventoryLocation)
+        {
+            int itemCode = GetSelectedInventoryItem(inventoryLocation);
+            if (itemCode == -1)
+            {
+                return null;
+            } else
+            {
+                return GetItemDetails(itemCode);
+            }
+        }
+
+
+        /// <summary>
+        /// Get selected item for inventoryLocation - returns itemCode or -1 if nothing is selected
+        /// </summary>
+        /// <param name="inventoryLocation"></param>
+        /// <returns></returns>
+        private int GetSelectedInventoryItem(InventoryLocation inventoryLocation)
+        {
+            return selectedInventoryItem[(int) inventoryLocation];
+        }
+
         private void DebugPrintInventoryList(List<InventoryItem> inventoryList)
         {
             foreach (InventoryItem inventoryItem in inventoryList)
