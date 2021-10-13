@@ -14,10 +14,14 @@ namespace Misc
 
         //Tilemap
         public const float gridCellSize = 1f; //grid cell size in unity unit
+        public static Vector2 cursorSize = Vector2.one;
+
 
         // Player Movement
         public const float runningSpeed = 5.333f;
         public const float walkingSpeed = 2.666f;
+        public static float useToolAnimationPause = 0.25f; // Stop player movement for specific time
+        public static float afterUseToolAnimationPause = 0.2f;
 
         // Inventory
         public static int playerInitialInventoryCapacity=24;

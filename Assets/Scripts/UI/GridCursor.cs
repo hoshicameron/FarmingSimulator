@@ -1,13 +1,15 @@
 using System;
+using System.Collections.Generic;
 using Enums;
 using Inventory;
 using Items;
 using Maps;
-using Unity.Mathematics;
+using Misc;
 using UnityEngine;
 using UnityEngine.UI;
 using _Player;
 using EventHandler = Events.EventHandler;
+using HelperClasses;
 
 namespace UI
 {
@@ -138,6 +140,11 @@ namespace UI
                     case ItemType.Watering_Tool:
                         break;
                     case ItemType.HoeingTool:
+                        if (!IsCursorValidForTool(gridPropertyDetails,itemDetails))
+                        {
+                            SetCursorToInvalid();
+                            return;
+                        }
                         break;
                     case ItemType.Chopping_Tool:
                         break;
@@ -165,6 +172,84 @@ namespace UI
             }
         }
 
+        /// <summary>
+        /// Set the cursor as either valid or invalid for tool for target grid property details. return true if valid
+        /// and false if invalid
+        /// </summary>
+        /// <param name="gridPropertyDetails"></param>
+        /// <param name="itemDetails"></param>
+        /// <returns></returns>
+        private bool IsCursorValidForTool(GridPropertyDetails gridPropertyDetails, ItemDetails itemDetails)
+        {
+            // Switch on tool
+            switch (itemDetails.itemType)
+            {
+                case ItemType.Watering_Tool:
+                    break;
+                case ItemType.HoeingTool:
+                    if (gridPropertyDetails.isDiggable == true && gridPropertyDetails.daySinceDug == -1)
+                    {
+                        #region Need ro get any items at location so we can check if they are reapable
+                        // Get world Position for cursor
+                        Vector3 cursorWorldPosition=new Vector3(GetWorldPositionForCursor().x+0.5f,
+                            GetWorldPositionForCursor().y+0.5f,0f);
+
+                        // Get List of items at cursor location
+                        List<Item> itemList=new List<Item>();
+
+                        HelperMethods.GetComponentsAtBoxLocation<Item>(out itemList, cursorWorldPosition,
+                            Settings.cursorSize, 0f);
+                        #endregion
+
+                        // Loop through items found to see if any are reapable type - we are not going to let the player
+                        // dig where there are reapable scenary items
+                        bool foundReapable = false;
+                        foreach (Item item in itemList)
+                        {
+                            if (InventoryManager.Instance.GetItemDetails(item.ItemCode).itemType ==
+                                ItemType.Reapable_scanary)
+                            {
+                                foundReapable = true;
+                                break;
+                            }
+                        }
+
+                        if (foundReapable)
+                        {
+                            return false;//not valid for dig
+                        }
+
+                        return true;// valid for dig
+                    }
+                    break;
+                case ItemType.Chopping_Tool:
+                    break;
+                case ItemType.BreakingTool:
+                    break;
+                case ItemType.Reaping_Tool:
+                    break;
+                case ItemType.Collecting_Tool:
+                    break;
+                case ItemType.Reapable_scanary:
+                    break;
+                case ItemType.Furniture:
+                    break;
+                case ItemType.None:
+                    break;
+                case ItemType.Count:
+                    break;
+                default:
+                    break;
+            }
+
+            return false;
+        }
+
+        private Vector3 GetWorldPositionForCursor()
+        {
+            return grid.CellToWorld(GetGridPositionForCursor());
+        }
+
         private bool IsCursorValidForCommodity(GridPropertyDetails gridPropertyDetails)
         {
             return gridPropertyDetails.canDropItem;
@@ -187,12 +272,12 @@ namespace UI
             CursorPositionIsValid = true;
         }
 
-        private Vector3Int GetGridPositionForPlayer()
+        public Vector3Int GetGridPositionForPlayer()
         {
             return grid.WorldToCell(Player.Instance.transform.position);
         }
 
-        private Vector3Int GetGridPositionForCursor()
+        public Vector3Int GetGridPositionForCursor()
         {
             Vector3 worldPosition = mainCamera.ScreenToWorldPoint(new Vector3(Input.mousePosition.x,
                 Input.mousePosition.y, -mainCamera.transform.position.z));

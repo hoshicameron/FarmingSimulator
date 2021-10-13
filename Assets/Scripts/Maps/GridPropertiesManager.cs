@@ -3,7 +3,9 @@ using Enums;
 using Misc;
 using SaveSystem;
 using SceneManagement;
+using Unity.Collections;
 using UnityEngine;
+using UnityEngine.Tilemaps;
 using EventHandler = Events.EventHandler;
 
 
@@ -12,10 +14,15 @@ namespace Maps
     [RequireComponent(typeof(GenerateGUID))]
     public class GridPropertiesManager : SingletonMonoBehaviour<GridPropertiesManager>,ISaveable
     {
-        public Grid grid;
+        private Tilemap groundDecoration1;    // Dug ground
+        private Tilemap groundDecoration2;    // Watered ground
+
+        private Grid grid;
+
         private Dictionary<string, GridPropertyDetails> gridPropertyDetailsDictionary;
         [SerializeField] private SO_GridProperties[] so_gridPropertiesArray = null;
-
+        [SerializeField] private Tile[] dugGroundTiles = null;
+        [SerializeField] private RuleTile dugRuleTile = null;
 
         public string ISaveableUniqueID { get; set; }
         public GameObjectSave GameObjectSave { get; set; }
@@ -43,6 +50,202 @@ namespace Maps
         {
             InitializeGridProperties();
         }
+
+        private void ClearDisplayGroundDecorations()
+        {
+            // Remove ground decorations
+
+            groundDecoration1.ClearAllTiles();
+            groundDecoration2.ClearAllTiles();
+        }
+
+        private void ClearDisplayGridPropertyDetails()
+        {
+            ClearDisplayGroundDecorations();
+        }
+
+        public void DisplayDugGround(GridPropertyDetails gridPropertyDetails)
+        {
+            // Dug
+            if (gridPropertyDetails.daySinceDug > -1)
+            {
+                ConnectDugGround(gridPropertyDetails);
+            }
+        }
+
+        private void ConnectDugGround(GridPropertyDetails gridPropertyDetails)
+        {
+            if (dugRuleTile != null)
+            {
+                groundDecoration1.SetTile(new Vector3Int(gridPropertyDetails.gridX,gridPropertyDetails.gridY,0),dugRuleTile );
+            } else
+            {
+                // Select tile based on surrounding dug tiles
+            Tile dugTile0 = SetDugTile(gridPropertyDetails.gridX, gridPropertyDetails.gridY);
+            groundDecoration1.SetTile(new Vector3Int(gridPropertyDetails.gridX,gridPropertyDetails.gridY,0),dugTile0 );
+
+            // Set 4 tiles if dug surrounding current tile - up,down, left, right now that this central tile has been dug
+            GridPropertyDetails adjacentGridPropertyDetails;
+
+            adjacentGridPropertyDetails =
+                GetGridPropertyDetails(gridPropertyDetails.gridX, gridPropertyDetails.gridY + 1);
+
+            if (adjacentGridPropertyDetails != null && adjacentGridPropertyDetails.daySinceDug > -1)
+            {
+                Tile dugTile1 = SetDugTile(gridPropertyDetails.gridX, gridPropertyDetails.gridY+1);
+                groundDecoration1.SetTile(new Vector3Int(gridPropertyDetails.gridX,gridPropertyDetails.gridY+1,0),dugTile1 );
+            }
+
+            adjacentGridPropertyDetails =
+                GetGridPropertyDetails(gridPropertyDetails.gridX, gridPropertyDetails.gridY - 1);
+
+            if (adjacentGridPropertyDetails != null && adjacentGridPropertyDetails.daySinceDug > -1)
+            {
+                Tile dugTile2 = SetDugTile(gridPropertyDetails.gridX, gridPropertyDetails.gridY-1);
+                groundDecoration1.SetTile(new Vector3Int(gridPropertyDetails.gridX,gridPropertyDetails.gridY-11,0),dugTile2 );
+            }
+
+            adjacentGridPropertyDetails =
+                GetGridPropertyDetails(gridPropertyDetails.gridX -1 , gridPropertyDetails.gridY);
+
+            if (adjacentGridPropertyDetails != null && adjacentGridPropertyDetails.daySinceDug > -1)
+            {
+                Tile dugTile3 = SetDugTile(gridPropertyDetails.gridX-1, gridPropertyDetails.gridY);
+                groundDecoration1.SetTile(new Vector3Int(gridPropertyDetails.gridX -1 ,gridPropertyDetails.gridY,0),dugTile3 );
+            }
+
+            adjacentGridPropertyDetails =
+                GetGridPropertyDetails(gridPropertyDetails.gridX +1 , gridPropertyDetails.gridY);
+
+            if (adjacentGridPropertyDetails != null && adjacentGridPropertyDetails.daySinceDug > -1)
+            {
+                Tile dugTile4 = SetDugTile(gridPropertyDetails.gridX +1, gridPropertyDetails.gridY);
+                groundDecoration1.SetTile(new Vector3Int(gridPropertyDetails.gridX +1 ,gridPropertyDetails.gridY,0),dugTile4 );
+            }
+            }
+
+
+        }
+
+        private Tile SetDugTile(int gridX, int gridY)
+        {
+            // Get whether surrounding tiles ( up, down, left and right) are dug or not
+            bool upDug = IsGridSquareDug(gridX, gridY + 1);
+            bool downDug = IsGridSquareDug(gridX, gridY - 1);
+            bool rightDug = IsGridSquareDug(gridX+1, gridY);
+            bool leftDug = IsGridSquareDug(gridX-1, gridY);
+
+            #region Set appropriate tile based on whether surrounding tiles are dug or not
+            if (!upDug && !downDug && !rightDug && !leftDug)
+            {
+                return dugGroundTiles[0];
+            }
+
+            else if(!upDug && downDug && rightDug && !leftDug)
+            {
+                return dugGroundTiles[1];
+            }
+
+            else if(!upDug && downDug && rightDug && leftDug)
+            {
+                return dugGroundTiles[2];
+            }
+
+            else if(!upDug && downDug && !rightDug && leftDug)
+            {
+                return dugGroundTiles[3];
+            }
+
+            else if(!upDug && downDug && !rightDug && !leftDug)
+            {
+                return dugGroundTiles[4];
+            }
+
+            else if(upDug && downDug && rightDug && !leftDug)
+            {
+                return dugGroundTiles[5];
+            }
+
+            else if(upDug && downDug && rightDug && leftDug)
+            {
+                return dugGroundTiles[6];
+            }
+
+            else if(upDug && downDug && !rightDug && leftDug)
+            {
+                return dugGroundTiles[7];
+            }
+            else if(upDug && downDug && !rightDug && !leftDug)
+            {
+                return dugGroundTiles[8];
+            }
+
+            else if(upDug && !downDug && rightDug && !leftDug)
+            {
+                return dugGroundTiles[9];
+            }
+
+            else if(upDug && !downDug && rightDug && leftDug)
+            {
+                return dugGroundTiles[10];
+            }
+
+            else if(upDug && !downDug && !rightDug && leftDug)
+            {
+                return dugGroundTiles[11];
+            }
+
+            else if(upDug && !downDug && !rightDug && !leftDug)
+            {
+                return dugGroundTiles[12];
+            }
+
+            else if(!upDug && !downDug && rightDug && !leftDug)
+            {
+                return dugGroundTiles[13];
+            }
+            else if(!upDug && !downDug && rightDug && leftDug)
+            {
+                return dugGroundTiles[14];
+            }
+
+            else if(!upDug && !downDug && !rightDug && leftDug)
+            {
+                return dugGroundTiles[15];
+            }
+
+            return null;
+
+            #endregion
+        }
+
+        private bool IsGridSquareDug(int xGrid, int yGrid)
+        {
+            GridPropertyDetails gridPropertyDetails = GetGridPropertyDetails(xGrid, yGrid);
+
+            if (gridPropertyDetails == null)
+            {
+                return false;
+            } else if (gridPropertyDetails.daySinceDug>-1)
+            {
+                return true;
+            } else
+            {
+                return false;
+            }
+        }
+
+        private void DisplayGridPropertyDetails()
+        {
+            // Loop through all grid items
+            foreach (KeyValuePair<string,GridPropertyDetails> item in gridPropertyDetailsDictionary)
+            {
+                GridPropertyDetails gridPropertyDetails = item.Value;
+
+                DisplayDugGround(gridPropertyDetails);
+            }
+        }
+
 
         /// <summary>
         /// This initializes the grid property dictionary with the values from the SO_GridProperties assets and stores for each scene
@@ -119,7 +322,7 @@ namespace Maps
         /// <param name="gridX"></param>
         /// <param name="gridY"></param>
         /// <param name="gridPropertyDetails"></param>
-        private void SetGridPropertyDetails(int gridX, int gridY, GridPropertyDetails gridPropertyDetails)
+        public void SetGridPropertyDetails(int gridX, int gridY, GridPropertyDetails gridPropertyDetails)
         {
             SetGridPropertyDetails(gridX,gridY,gridPropertyDetails,gridPropertyDetailsDictionary);
         }
@@ -186,6 +389,10 @@ namespace Maps
         {
             // Get grid
             grid = GameObject.FindObjectOfType<Grid>();
+
+            // Get tilemaps
+            groundDecoration1 = GameObject.FindGameObjectWithTag(Tags.GroundDecoration1).GetComponent<Tilemap>();
+            groundDecoration2 = GameObject.FindGameObjectWithTag(Tags.GroundDecoration2).GetComponent<Tilemap>();
         }
 
         public void ISaveableRegister()
@@ -222,6 +429,16 @@ namespace Maps
                 if (sceneSave.GridPropertyDetailsesDictionary != null)
                 {
                     gridPropertyDetailsDictionary = sceneSave.GridPropertyDetailsesDictionary;
+                }
+
+                // if grid property exist
+                if (gridPropertyDetailsDictionary.Count > 0)
+                {
+                    // grid property details found for the current scene destroy existing ground decoration
+                    ClearDisplayGroundDecorations();
+
+                    //Instantiate grid property details for current scene
+                    DisplayGridPropertyDetails();
                 }
             }
         }
