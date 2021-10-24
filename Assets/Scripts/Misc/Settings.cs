@@ -16,12 +16,18 @@ namespace Misc
         public const float gridCellSize = 1f; //grid cell size in unity unit
         public static Vector2 cursorSize = Vector2.one;
 
+        //Player
+        public static float playerCenterYOffset = 0.875f;
+
 
         // Player Movement
         public const float runningSpeed = 5.333f;
         public const float walkingSpeed = 2.666f;
-        public static float useToolAnimationPause = 0.25f; // Stop player movement for specific time
-        public static float afterUseToolAnimationPause = 0.2f;
+        public static float useHoeAnimationPause = 0.25f; // Stop player movement for specific time
+        public static float useWateringCanAnimationPause = 0.3f;
+        public static float useToolAnimationPause = 0.3f;
+        public static float afterUseHoeAnimationPause = 0.2f;
+        public static float afterUseWateringCanAnimationPause = 0.3f;
 
         // Inventory
         public static int playerInitialInventoryCapacity=24;
@@ -86,6 +92,10 @@ namespace Misc
         public const string ReapingTool = "Sickle";
         public const string WateringTool = "Watring Can";
         public const string CollectingTool = "Basket";
+
+        // Reaping
+        public const int maxCollidersToTestPerReapSwing = 15;
+        public const int maxTargetComponentsToDestroyPerReapSwing = 2;
 
 
         //Static Constructor

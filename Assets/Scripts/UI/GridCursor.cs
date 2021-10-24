@@ -137,8 +137,11 @@ namespace UI
                             return;
                         }
                         break;
+                    case ItemType.Chopping_Tool:
+                    case ItemType.BreakingTool:
+                    case ItemType.Reaping_Tool:
+                    case ItemType.Collecting_Tool:
                     case ItemType.Watering_Tool:
-                        break;
                     case ItemType.HoeingTool:
                         if (!IsCursorValidForTool(gridPropertyDetails,itemDetails))
                         {
@@ -146,18 +149,7 @@ namespace UI
                             return;
                         }
                         break;
-                    case ItemType.Chopping_Tool:
-                        break;
-                    case ItemType.BreakingTool:
-                        break;
-                    case ItemType.Reaping_Tool:
-                        break;
-                    case ItemType.Collecting_Tool:
-                        break;
-                    case ItemType.Reapable_scanary:
-                        break;
-                    case ItemType.Furniture:
-                        break;
+
                     case ItemType.None:
                         break;
                     case ItemType.Count:
@@ -185,11 +177,17 @@ namespace UI
             switch (itemDetails.itemType)
             {
                 case ItemType.Watering_Tool:
-                    break;
-                case ItemType.HoeingTool:
-                    if (gridPropertyDetails.isDiggable == true && gridPropertyDetails.daySinceDug == -1)
+                    if (gridPropertyDetails.daySinceDug > -1 && gridPropertyDetails.daySinceWatered == -1)
                     {
-                        #region Need ro get any items at location so we can check if they are reapable
+                        return true;
+                    } else
+                    {
+                        return false;
+                    }
+                case ItemType.HoeingTool:
+                    if (gridPropertyDetails.isDiggable && gridPropertyDetails.daySinceDug == -1)
+                    {
+                        #region Need to get any items at location so we can check if they are reapable
                         // Get world Position for cursor
                         Vector3 cursorWorldPosition=new Vector3(GetWorldPositionForCursor().x+0.5f,
                             GetWorldPositionForCursor().y+0.5f,0f);

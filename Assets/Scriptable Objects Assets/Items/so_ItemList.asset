@@ -235,7 +235,7 @@ MonoBehaviour:
     itemDescription: A Basic Sickle
     itemSprite: {fileID: 1694994193753427009, guid: 03641e082653b3645835a957e3a18bc5, type: 3}
     itemLongDescription: A sharp, basic sickle - great for cutting grass
-    itemUseGridRadius: 2
+    itemUseGridRadius: 0
     itemUseRadius: 1.5
     isStartingItem: 1
     canPickedUp: 1

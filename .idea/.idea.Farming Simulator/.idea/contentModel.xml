@@ -75,6 +75,7 @@
             <e p="TimeManager.cs" t="Include" />
           </e>
           <e p="UI" t="Include">
+            <e p="Cursor.cs" t="Include" />
             <e p="GridCursor.cs" t="Include" />
             <e p="UIInventory" t="Include">
               <e p="UIInventoryBar.cs" t="Include" />
@@ -89,6 +90,9 @@
               </e>
               <e p="ItemCodeDescriptionAttribute.cs" t="Include" />
             </e>
+          </e>
+          <e p="VFX" t="Include">
+            <e p="PoolManager.cs" t="Include" />
           </e>
         </e>
         <e p="Sprites" t="Include">

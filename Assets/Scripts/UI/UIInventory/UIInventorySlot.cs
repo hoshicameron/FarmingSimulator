@@ -20,6 +20,7 @@ namespace UI
         private Transform parentItem;
         private GameObject draggedItem;
         private GridCursor gridCursor;
+        private Cursor cursor;
 
 
         public Image inventorySlotHighlight;
@@ -60,15 +61,18 @@ namespace UI
         {
             mainCamera=Camera.main;
             gridCursor = FindObjectOfType<GridCursor>();
+            cursor = FindObjectOfType<Cursor>();
         }
 
         private void ClearCursor()
         {
             // Disable cursor
             gridCursor.DisableCursor();
+            cursor.DisableCursor();
 
             // set item type to none
             gridCursor.SelectedItemType = ItemType.None;
+            cursor.SelectedItemType = ItemType.None;
         }
 
         public void OnBeginDrag(PointerEventData eventData)
@@ -256,6 +260,7 @@ namespace UI
 
             // Set use radius for cursors
             gridCursor.ItemUserGridRadius = itemDetails.itemUseGridRadius;
+            cursor.ItemUseRadius = itemDetails.itemUseRadius;
 
             // If item require grid cursor then enable cursor
             if (itemDetails.itemUseGridRadius > 0)
@@ -266,8 +271,18 @@ namespace UI
                 gridCursor.DisableCursor();
             }
 
+            // If item require cursor then enable cursor
+            if (itemDetails.itemUseRadius > 0)
+            {
+                cursor.EnableCursor();
+            } else
+            {
+                cursor.DisableCursor();
+            }
+
             // Set item type
             gridCursor.SelectedItemType = itemDetails.itemType;
+            cursor.SelectedItemType = itemDetails.itemType;
 
 
             // Set item selected in inventory

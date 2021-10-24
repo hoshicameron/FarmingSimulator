@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using Enums;
+using HelperClasses;
 using Inventory;
 using Items;
 using Maps;
@@ -11,22 +12,27 @@ using TimeSystem;
 using UI;
 using UnityEditor.Build.Content;
 using UnityEngine;
+using Cursor = UI.Cursor;
 using EventHandler = Events.EventHandler;
 
 namespace _Player
 {
     public class Player : SingletonMonoBehaviour<Player>
     {
-        private WaitForSeconds afterUseToolAnimationPause;
+        private WaitForSeconds afterUseHoeAnimationPause;
+        private WaitForSeconds useHoeAnimationPause;
+        private WaitForSeconds afterUseWateringCanAnimationPause;
+        private WaitForSeconds useWateringCanAnimationPause;
         private WaitForSeconds useToolAnimationPause;
         private bool playerToolUseDisabled = false;
 
         private AnimationOverrides animationOverrides;
         private GridCursor gridCursor;
+        private Cursor cursor;
         // List of character attribute that we parse in to animation override methods
         private List<CharacterAttribute> characterAttributeCustomizationList;
 
-        [Tooltip("Shoud be papulated in the prefab with the equipped item sprite renderer")] [SerializeField]
+        [Tooltip("Should be populated in the prefab with the equipped item sprite renderer")] [SerializeField]
         private SpriteRenderer equippedItemSpriteRenderer = null;
 
         //Player attributes that can be swapped
@@ -97,6 +103,9 @@ namespace _Player
         protected override void Awake()
         {
             base.Awake();
+
+            Application.targetFrameRate = 30;
+
             rigidbody2D = GetComponent<Rigidbody2D>();
 
             // Get the reference to camera
@@ -107,15 +116,36 @@ namespace _Player
             armsCharacterAttribute=
                 new CharacterAttribute(CharacterPartAnimator.Arms,PartVariantColour.None,PartVariantType.none);
 
+            toolCharacterAttribute=
+                new CharacterAttribute(CharacterPartAnimator.Tool,PartVariantColour.None,PartVariantType.Hoe);
+
             // Initialize character attribute list
             characterAttributeCustomizationList=new List<CharacterAttribute>();
+        }
+
+        private void OnEnable()
+        {
+            EventHandler.BeforeSceneUnloadFadeOutEvent += DisablePlayerInputAndResetMovement;
+            EventHandler.AfterSceneLoadFadeInEvent += EnablePlayerInput;
+        }
+
+        private void OnDisable()
+        {
+            EventHandler.BeforeSceneUnloadFadeOutEvent -= DisablePlayerInputAndResetMovement;
+            EventHandler.AfterSceneLoadFadeInEvent -= EnablePlayerInput;
         }
 
         private void Start()
         {
             gridCursor = FindObjectOfType<GridCursor>();
+            cursor = FindObjectOfType<Cursor>();
+
+            useHoeAnimationPause=new WaitForSeconds(Settings.useHoeAnimationPause);
+            afterUseHoeAnimationPause=new WaitForSeconds(Settings.afterUseHoeAnimationPause);
+
+            useWateringCanAnimationPause=new WaitForSeconds(Settings.useWateringCanAnimationPause);
+            afterUseWateringCanAnimationPause=new WaitForSeconds(Settings.afterUseWateringCanAnimationPause);
             useToolAnimationPause=new WaitForSeconds(Settings.useToolAnimationPause);
-            afterUseToolAnimationPause=new WaitForSeconds(Settings.afterUseToolAnimationPause);
         }
 
         private void Update()
@@ -227,7 +257,7 @@ namespace _Player
             {
                 if (Input.GetMouseButtonDown(0))
                 {
-                    if (gridCursor.CursorIsEnabled)
+                    if (gridCursor.CursorIsEnabled || cursor.CursorIsEnabled)
                     {
                         // Get cursor grid position
                         Vector3Int cursorGridPosition = gridCursor.GetGridPositionForCursor();
@@ -274,16 +304,15 @@ namespace _Player
                         }
                         break;
                     case ItemType.Watering_Tool:
-                        break;
                     case ItemType.HoeingTool:
+                    case ItemType.Reaping_Tool:
                         ProcessPlayerClickInputTool(gridPropertyDetails,itemDetails,playerDirection);
                         break;
                     case ItemType.Chopping_Tool:
                         break;
                     case ItemType.BreakingTool:
                         break;
-                    case ItemType.Reaping_Tool:
-                        break;
+
                     case ItemType.Collecting_Tool:
                         break;
                     case ItemType.Reapable_scanary:
@@ -308,6 +337,10 @@ namespace _Player
             {
 
                 case ItemType.Watering_Tool:
+                    if (gridCursor.CursorPositionIsValid)
+                    {
+                        WateringGroundAtCursor(gridPropertyDetails, playerDirection);
+                    }
                     break;
                 case ItemType.HoeingTool:
                     if (gridCursor.CursorPositionIsValid)
@@ -320,6 +353,12 @@ namespace _Player
                 case ItemType.BreakingTool:
                     break;
                 case ItemType.Reaping_Tool:
+                    if (cursor.CursorPositionIsValid)
+                    {
+                        playerDirection =
+                            GetPlayerDirection(cursor.GetWorldPositionForCursor(), GetPlayerCenterPosition());
+                        ReapInPlayerDirectionAtCursor(itemDetails, playerDirection);
+                    }
                     break;
                 case ItemType.Collecting_Tool:
                     break;
@@ -328,13 +367,198 @@ namespace _Player
             }
         }
 
+        private Vector3Int GetPlayerDirection(Vector3 cursorPosition, Vector3 playerPosition)
+        {
+            if (cursorPosition.x>playerPosition.x
+                &&
+                cursorPosition.y<(playerPosition.y+cursor.ItemUseRadius*0.5f)
+                &&
+                cursorPosition.y>(playerPosition.y-cursor.ItemUseRadius*0.5f))
+            {
+                return Vector3Int.right;
+            }
+            else if (cursorPosition.x < playerPosition.x
+                     &&
+                     cursorPosition.y < (playerPosition.y + cursor.ItemUseRadius * 0.5f)
+                     &&
+                     cursorPosition.y > (playerPosition.y - cursor.ItemUseRadius * 0.5f))
+            {
+                return Vector3Int.left;
+            }
+            else if (cursorPosition.y > playerPosition.y)
+            {
+                return  Vector3Int.up;
+            } else
+            {
+                return Vector3Int.down;
+            }
+        }
+
+        private void ReapInPlayerDirectionAtCursor(ItemDetails itemDetails, Vector3Int playerDirection)
+        {
+            StartCoroutine(ReapInPlayerDirectionAtCursorRoutine(itemDetails, playerDirection));
+        }
+
+        private IEnumerator ReapInPlayerDirectionAtCursorRoutine(ItemDetails itemDetails, Vector3Int playerDirection)
+        {
+            PlayerInputIsDisabled=true;
+            playerToolUseDisabled = true;
+
+            // Set tool animation to hoe in override animation
+            /*toolCharacterAttribute.partVariantType = PartVariantType.Sickle;
+            characterAttributeCustomizationList.Clear();
+            characterAttributeCustomizationList.Add(toolCharacterAttribute);
+            animationOverrides.ApplyCharacterCustomizationParameters(characterAttributeCustomizationList);*/
+
+            // Reap in player direction
+            UseToolInPlayerDirection(itemDetails, playerDirection);
+
+            yield return useToolAnimationPause;
+
+            PlayerInputIsDisabled = false;
+            playerToolUseDisabled = false;
+        }
+
+        private void UseToolInPlayerDirection(ItemDetails equippedItemDetails, Vector3Int playerDirection)
+        {
+
+            if (Input.GetMouseButton(0))
+            {
+                switch (equippedItemDetails.itemType)
+                {
+                    case ItemType.Chopping_Tool:
+                        break;
+                    case ItemType.BreakingTool:
+                        break;
+                    case ItemType.Reaping_Tool:
+                        if (playerDirection == Vector3Int.right)
+                        {
+                            sickleRight = true;
+                        }
+                        else if(playerDirection == Vector3Int.left)
+                        {
+                            sickleLeft = true;
+                        }
+                        else if(playerDirection == Vector3Int.up)
+                        {
+                            sickleUp= true;
+                        }
+                        else if(playerDirection == Vector3Int.down)
+                        {
+                            sickleDown = true;
+                        }
+                        break;
+                    case ItemType.Collecting_Tool:
+                        break;
+                }
+
+                // Define create point of square which will be used for collision testing
+                Vector2 point =new Vector2(
+                    GetPlayerCenterPosition().x + (playerDirection.x *(equippedItemDetails.itemUseRadius*0.5f)),
+                    GetPlayerCenterPosition().y + (playerDirection.y *(equippedItemDetails.itemUseRadius*0.5f)));
+
+                // Define size of the square which will be used for collision testing
+                Vector2 size=new Vector2(equippedItemDetails.itemUseRadius,equippedItemDetails.itemUseRadius);
+
+                // Get Item components with 2d collider located in the square at the centre point defined
+                // ( 2d colliders tested limited to maxCollidersToTestPerReapSwing)
+                Item[] itemArray =
+                    HelperMethods.GetComponentsAtBoxLocationNonAlloc<Item>(
+                        Settings.maxCollidersToTestPerReapSwing,point, size, 0f);
+
+                int reapableItemCount = 0;
+
+                // Loop through all items retrieved
+                for (int i = 0; i < itemArray.Length; i++)
+                {
+                    if (itemArray[i] != null)
+                    {
+
+                        // Destroy item game object if reapable
+                        if (InventoryManager.Instance.GetItemDetails(itemArray[i].ItemCode).itemType ==
+                            ItemType.Reapable_scanary)
+                        {
+
+                            // Effect position
+                            Vector3 effectPosition=new Vector3(itemArray[i].transform.position.x,
+                                itemArray[i].transform.position.y + Settings.gridCellSize*0.5f,itemArray[i].transform.position.z);
+
+                            Destroy(itemArray[i].gameObject,0.5f);
+
+                            reapableItemCount++;
+                            if(reapableItemCount >= Settings.maxTargetComponentsToDestroyPerReapSwing)
+                                break;
+
+                        }
+
+                    }
+                }
+            }
+        }
+
+        private void WateringGroundAtCursor(GridPropertyDetails gridPropertyDetails, Vector3Int playerDirection)
+        {
+           // Trigger Animation
+           StartCoroutine(WateringGroundAtCursorRoutine(playerDirection, gridPropertyDetails));
+        }
+
+        private IEnumerator WateringGroundAtCursorRoutine(Vector3Int playerDirection, GridPropertyDetails gridPropertyDetails)
+        {
+            PlayerInputIsDisabled = true;
+            playerToolUseDisabled = true;
+
+            // Set tool animation to hoe in override animation
+            /*toolCharacterAttribute.partVariantType = PartVariantType.Watering;
+            characterAttributeCustomizationList.Clear();
+            characterAttributeCustomizationList.Add(toolCharacterAttribute);
+            animationOverrides.ApplyCharacterCustomizationParameters(characterAttributeCustomizationList);*/
+
+            if (playerDirection == Vector3Int.right)
+            {
+                miscRight = true;
+            }
+            else if(playerDirection == Vector3Int.left)
+            {
+                miscLeft = true;
+            }
+            else if(playerDirection == Vector3Int.up)
+            {
+                miscUp= true;
+            }
+            else if(playerDirection == Vector3Int.down)
+            {
+                miscDown = true;
+            }
+
+            yield return useWateringCanAnimationPause;
+
+            // Set Grid Property Details for Dug ground
+            if (gridPropertyDetails.daySinceWatered == -1)
+            {
+                gridPropertyDetails.daySinceWatered = 0;
+            }
+
+            // Set grid property to dug
+            GridPropertiesManager.Instance.SetGridPropertyDetails(gridPropertyDetails.gridX,
+                gridPropertyDetails.gridY,gridPropertyDetails);
+
+            // Display watered grid tiles
+            GridPropertiesManager.Instance.DisplayWateredgGround(gridPropertyDetails);
+
+            // After animation pause
+            yield return afterUseWateringCanAnimationPause;
+
+            PlayerInputIsDisabled = false;
+            playerToolUseDisabled = false;
+        }
+
         private void HoeGroundAtCursor(GridPropertyDetails gridPropertyDetails, Vector3Int playerDirection)
         {
             // Trigger animation
-            StartCoroutine(HeroGroundAtCursorRoutine(playerDirection, gridPropertyDetails));
+            StartCoroutine(HoeGroundAtCursorRoutine(playerDirection, gridPropertyDetails));
         }
 
-        private IEnumerator HeroGroundAtCursorRoutine(Vector3Int playerDirection, GridPropertyDetails gridPropertyDetails)
+        private IEnumerator HoeGroundAtCursorRoutine(Vector3Int playerDirection, GridPropertyDetails gridPropertyDetails)
         {
             PlayerInputIsDisabled=true;
             playerToolUseDisabled = true;
@@ -362,7 +586,7 @@ namespace _Player
                 hoeDown = true;
             }
 
-            yield return useToolAnimationPause;
+            yield return useHoeAnimationPause;
 
             // Set Grid Property Details for Dug ground
             if (gridPropertyDetails.daySinceDug == -1)
@@ -378,7 +602,7 @@ namespace _Player
             GridPropertiesManager.Instance.DisplayDugGround(gridPropertyDetails);
 
             // After animation pause
-            yield return afterUseToolAnimationPause;
+            yield return afterUseHoeAnimationPause;
 
             PlayerInputIsDisabled = false;
             playerToolUseDisabled = false;
@@ -551,6 +775,12 @@ namespace _Player
         public void EnablePlayerInput()
         {
             PlayerInputIsDisabled = false;
+        }
+
+        public Vector3 GetPlayerCenterPosition()
+        {
+            return  new Vector3(transform.position.x,transform.position.y+ Settings.playerCenterYOffset,
+                transform.position.z);
         }
     }
 }

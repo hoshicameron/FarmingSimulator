@@ -16,7 +16,7 @@ TextureImporter:
     second: Dug_Top_Right_Corner
   - first:
       213: 9185315290136886186
-    second: DugGround_4
+    second: Watering_Single
   - first:
       213: 3766865763359371942
     second: DugGround_5
@@ -40,7 +40,7 @@ TextureImporter:
     second: Dug_Mid_Right
   - first:
       213: -4987229573879477163
-    second: DugGround_12
+    second: top
   - first:
       213: 818433697204119388
     second: DugGround_13
@@ -64,7 +64,7 @@ TextureImporter:
     second: Dug_Bottom_Right_Corner
   - first:
       213: -5815133488013185899
-    second: DugGround_20
+    second: middle
   - first:
       213: -8266863679620031733
     second: DugGround_21
@@ -88,16 +88,16 @@ TextureImporter:
     second: DugGroundRight
   - first:
       213: 8316314858200970040
-    second: DugGround_28
+    second: bottom
   - first:
       213: -2717033803204188961
-    second: DugGround_29
+    second: left
   - first:
       213: 2655803857110052468
-    second: DugGround_30
+    second: mid2
   - first:
       213: -2961396871861752453
-    second: DugGround_31
+    second: right
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -283,7 +283,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DugGround_4
+      name: Watering_Single
       rect:
         serializedVersion: 2
         x: 64
@@ -451,7 +451,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DugGround_12
+      name: top
       rect:
         serializedVersion: 2
         x: 64
@@ -619,7 +619,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DugGround_20
+      name: middle
       rect:
         serializedVersion: 2
         x: 64
@@ -787,7 +787,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DugGround_28
+      name: bottom
       rect:
         serializedVersion: 2
         x: 64
@@ -808,7 +808,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DugGround_29
+      name: left
       rect:
         serializedVersion: 2
         x: 80
@@ -829,7 +829,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DugGround_30
+      name: mid2
       rect:
         serializedVersion: 2
         x: 96
@@ -850,7 +850,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DugGround_31
+      name: right
       rect:
         serializedVersion: 2
         x: 112
