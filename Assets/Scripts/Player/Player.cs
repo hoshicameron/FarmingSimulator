@@ -12,6 +12,7 @@ using TimeSystem;
 using UI;
 using UnityEditor.Build.Content;
 using UnityEngine;
+using VFX;
 using Cursor = UI.Cursor;
 using EventHandler = Events.EventHandler;
 
@@ -19,6 +20,7 @@ namespace _Player
 {
     public class Player : SingletonMonoBehaviour<Player>
     {
+
         private WaitForSeconds afterUseHoeAnimationPause;
         private WaitForSeconds useHoeAnimationPause;
         private WaitForSeconds afterUseWateringCanAnimationPause;
