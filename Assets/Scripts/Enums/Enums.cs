@@ -96,6 +96,16 @@ namespace Enums
         Count
     }
 
+    public enum HarvestActionEffect
+    {
+        DeciduousLeavesFalling,
+        PineConesFalling,
+        ChoppingTreeTrunk,
+        BreakingStone,
+        Reaping,
+        None
+    }
+
     public enum GridBoolProperty
     {
         Diggable,

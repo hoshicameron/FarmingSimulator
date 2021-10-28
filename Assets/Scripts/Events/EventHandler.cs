@@ -1,6 +1,7 @@
 using Enums;
 using System;
 using System.Collections.Generic;
+using UnityEngine;
 
 namespace Events
 {
@@ -24,6 +25,14 @@ namespace Events
         public static void CallDropSelectedItemEvent()
         {
             DropSelectedItemEvent?.Invoke();
+        }
+
+        // Harvest Action Effect Event
+        public static event Action<Vector3, HarvestActionEffect> HarvestActionEffectEvent;
+
+        public static void CallHarvestActionEffectEvent(Vector3 effectPosition, HarvestActionEffect harvestActionEffect)
+        {
+            HarvestActionEffectEvent?.Invoke(effectPosition,harvestActionEffect);
         }
 
         // Inventory Update Event

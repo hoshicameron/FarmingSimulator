@@ -485,7 +485,10 @@ namespace _Player
                             Vector3 effectPosition=new Vector3(itemArray[i].transform.position.x,
                                 itemArray[i].transform.position.y + Settings.gridCellSize*0.5f,itemArray[i].transform.position.z);
 
-                            Destroy(itemArray[i].gameObject,0.5f);
+                            // Trigger the reaping effect
+                            EventHandler.CallHarvestActionEffectEvent(effectPosition,HarvestActionEffect.Reaping);
+
+                            Destroy(itemArray[i].gameObject);
 
                             reapableItemCount++;
                             if(reapableItemCount >= Settings.maxTargetComponentsToDestroyPerReapSwing)
