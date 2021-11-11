@@ -110,6 +110,28 @@ namespace Inventory
             EventHandler.CallInventoryUpdateEvent(inventoryLocation,inventoryArrayList[(int)inventoryLocation]);
         }
 
+        public void AddItem(InventoryLocation inventoryLocation, int itemCode)
+        {
+            // inventory list point to the reference of the list in the inventory Array list
+            List<InventoryItem> inventoryList = inventoryArrayList[(int) inventoryLocation];
+
+            //Check if the inventory already contains the item
+            int itemPosition = FindItemInInventory(inventoryLocation, itemCode);
+
+            if (itemPosition != -1)
+            {
+                AddItemAtPosition(inventoryList, itemCode, itemPosition);
+            } else
+            {
+                AddItemAtPosition(inventoryList, itemCode);
+            }
+
+            // Send event that inventory has updated
+            EventHandler.CallInventoryUpdateEvent(inventoryLocation,inventoryArrayList[(int)inventoryLocation]);
+        }
+
+
+
         /// <summary>
         ///  add item inventory at given position
         /// </summary>

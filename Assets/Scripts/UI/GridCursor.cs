@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using Crops;
 using Enums;
 using Inventory;
 using Items;
@@ -23,6 +24,7 @@ namespace UI
         [SerializeField] private RectTransform cursorRectTransform=null;
         [SerializeField] private Sprite greenCursorSprite=null;
         [SerializeField] private Sprite redCursorSprite=null;
+        [SerializeField] private SO_CropDetailsList so_CropDetailsList=null;
 
         public bool CursorPositionIsValid { get; set; }
         public int ItemUserGridRadius { get; set; } = 0;
@@ -227,7 +229,32 @@ namespace UI
                 case ItemType.Reaping_Tool:
                     break;
                 case ItemType.Collecting_Tool:
-                    break;
+
+                    // Check if item can be harvested with item selected, check item is fully grown
+
+                    // Check if seed planted
+                    if (gridPropertyDetails.seedItemCode != -1)
+                    {
+                        // Get crop details for seed
+                        CropDetails cropDetails = so_CropDetailsList.GetCropDetails(gridPropertyDetails.seedItemCode);
+
+                        // If crop details found
+                        if (cropDetails != null)
+                        {
+                            // Check if crop fully grown
+                            if (gridPropertyDetails.growthDays >=
+                                                cropDetails.growthDays[cropDetails.growthDays.Length-1])
+                            {
+                                // Check if crop fully grown
+                                return cropDetails.CanUseToolToHarvestCrop(itemDetails.itemCode);
+                            } else
+                            {
+                                return false;
+                            }
+                        }
+                    }
+
+                    return false;
                 case ItemType.Reapable_scanary:
                     break;
                 case ItemType.Furniture:

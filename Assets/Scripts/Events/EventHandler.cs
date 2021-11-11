@@ -1,6 +1,7 @@
 using Enums;
 using System;
 using System.Collections.Generic;
+using UnityEditor;
 using UnityEngine;
 
 namespace Events
@@ -9,6 +10,7 @@ namespace Events
                                           bool axeRight,bool axeLeft,bool axeUp,bool axeDown,
                                           bool fishingRight,bool fishingLeft,bool fishingUp,bool fishingDown,
                                           bool miscRight,bool miscLeft,bool miscUp,bool miscDown,
+                                          bool harvestRight,bool harvestLeft,bool harvestUp,bool harvestDown,
                                           bool pickRight,bool pickLeft,bool pickUp,bool pickDown,
                                           bool sickleRight,bool sickleLeft,bool sickleUp,bool sickleDown,
                                           bool hammerRight,bool hammerLeft,bool hammerUp,bool hammerDown,
@@ -25,6 +27,14 @@ namespace Events
         public static void CallDropSelectedItemEvent()
         {
             DropSelectedItemEvent?.Invoke();
+        }
+
+        // Remove selected item from inventory
+        public static event Action RemoveSelectedItemFromInventoryEvent;
+
+        public static void CallRemoveSelectedItemFromInventoryEvent()
+        {
+            RemoveSelectedItemFromInventoryEvent?.Invoke();
         }
 
         // Harvest Action Effect Event
@@ -56,6 +66,7 @@ namespace Events
             bool axeRight,bool axeLeft,bool axeUp,bool axeDown,
             bool fishingRight,bool fishingLeft,bool fishingUp,bool fishingDown,
             bool miscRight,bool miscLeft,bool miscUp,bool miscDown,
+            bool harvestRight,bool harvestLeft,bool harvestUp,bool harvestDown,
             bool pickRight,bool pickLeft,bool pickUp,bool pickDown,
             bool sickleRight,bool sickleLeft,bool sickleUp,bool sickleDown,
             bool hammerRight,bool hammerLeft,bool hammerUp,bool hammerDown,
@@ -66,12 +77,18 @@ namespace Events
         )
         {
             MovementEvent?.Invoke(
-                inputX,inputY,isWalking,isRunning,isIdle,isCarrying,axeRight,axeLeft,axeUp,axeDown,
+                inputX,inputY,
+                isWalking,isRunning,isIdle,isCarrying
+                ,axeRight,axeLeft,axeUp,axeDown,
                 fishingRight,fishingLeft,fishingUp,fishingDown,
-                miscRight,miscLeft,miscUp,miscDown,pickRight,pickLeft,pickUp,pickDown,
-                sickleRight,sickleLeft,sickleUp,sickleDown,hammerRight,hammerLeft,hammerUp,
-                hammerDown,shovelRight,shovelLeft,shovelUp,shovelDown,hoeRight,hoeLeft,hoeUp,
-                hoeDown,idleUp,idleDown,idleLeft,idleRight
+                miscRight,miscLeft,miscUp,miscDown,
+                harvestRight,harvestLeft,harvestUp,harvestDown,
+                pickRight,pickLeft,pickUp,pickDown,
+                sickleRight,sickleLeft,sickleUp,sickleDown,
+                hammerRight,hammerLeft,hammerUp,hammerDown,
+                shovelRight,shovelLeft,shovelUp,shovelDown,
+                hoeRight,hoeLeft,hoeUp,hoeDown,
+                idleUp,idleDown,idleLeft,idleRight
 
                 );
         }

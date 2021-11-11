@@ -25,13 +25,13 @@ TextureImporter:
     second: crops_1_6
   - first:
       213: 2241519107517955508
-    second: crops_1_7
+    second: 01
   - first:
       213: -5136933018354280941
-    second: crops_1_8
+    second: 02
   - first:
       213: 712672106555694185
-    second: crops_1_9
+    second: 03
   - first:
       213: -8474391918305094704
     second: crops_1_10
@@ -157,13 +157,13 @@ TextureImporter:
     second: crops_1_50
   - first:
       213: -7248910393014707066
-    second: crops_1_51
+    second: Parsnip_0
   - first:
       213: 3551128672495684875
-    second: crops_1_52
+    second: Parsnip_1
   - first:
       213: 8210375759589567060
-    second: crops_1_53
+    second: Parsnip_2
   - first:
       213: 3026905793437918065
     second: crops_1_54
@@ -430,7 +430,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 16
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -487,7 +487,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: crops_1_7
+      name: 01
       rect:
         serializedVersion: 2
         x: 0
@@ -508,7 +508,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: crops_1_8
+      name: 02
       rect:
         serializedVersion: 2
         x: 32
@@ -529,7 +529,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: crops_1_9
+      name: 03
       rect:
         serializedVersion: 2
         x: 64
@@ -1117,7 +1117,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: crops_1_51
+      name: Parsnip_0
       rect:
         serializedVersion: 2
         x: 192
@@ -1138,7 +1138,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: crops_1_52
+      name: Parsnip_1
       rect:
         serializedVersion: 2
         x: 224
@@ -1159,7 +1159,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: crops_1_53
+      name: Parsnip_2
       rect:
         serializedVersion: 2
         x: 256

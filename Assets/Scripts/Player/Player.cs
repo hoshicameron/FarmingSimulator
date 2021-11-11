@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using Crops;
 using Enums;
 using HelperClasses;
 using Inventory;
@@ -24,8 +25,12 @@ namespace _Player
         private WaitForSeconds afterUseHoeAnimationPause;
         private WaitForSeconds useHoeAnimationPause;
         private WaitForSeconds afterUseWateringCanAnimationPause;
+        private WaitForSeconds afterPickAnimationPause;
+
         private WaitForSeconds useWateringCanAnimationPause;
         private WaitForSeconds useToolAnimationPause;
+        private WaitForSeconds pickAnimationPause;
+
         private bool playerToolUseDisabled = false;
 
         private AnimationOverrides animationOverrides;
@@ -47,42 +52,57 @@ namespace _Player
         #region Movement Variables
             private float xInput;
             private float yInput;
+
             private bool isWalking;
             private bool isRunning;
             private bool isIdle;
             private bool isCarrying = false;
+
             private bool axeRight;
             private bool axeLeft;
             private bool axeUp;
             private bool axeDown;
+
+            private bool harvestingRight;
+            private bool harvestingLeft;
+            private bool harvestingUp;
+            private bool harvestingDown;
+
             private bool fishingRight;
             private bool fishingLeft;
             private bool fishingUp;
             private bool fishingDown;
+
             private bool miscRight;
             private bool miscLeft;
             private bool miscUp;
             private bool miscDown;
+
             private bool pickRight;
             private bool pickLeft;
             private bool pickUp;
             private bool pickDown;
+
             private bool sickleRight;
             private bool sickleLeft;
             private bool sickleUp;
             private bool sickleDown;
+
             private bool hammerRight;
             private bool hammerLeft;
             private bool hammerUp;
             private bool hammerDown;
+
             private bool shovelRight;
             private bool shovelLeft;
             private bool shovelUp;
             private bool shovelDown;
+
             private bool hoeRight;
             private bool hoeLeft;
             private bool hoeUp;
             private bool hoeDown;
+
             private bool idleUp;
             private bool idleDown;
             private bool idleLeft;
@@ -147,7 +167,11 @@ namespace _Player
 
             useWateringCanAnimationPause=new WaitForSeconds(Settings.useWateringCanAnimationPause);
             afterUseWateringCanAnimationPause=new WaitForSeconds(Settings.afterUseWateringCanAnimationPause);
+
             useToolAnimationPause=new WaitForSeconds(Settings.useToolAnimationPause);
+
+            pickAnimationPause=new WaitForSeconds(Settings.pickAnimationPause);
+            afterPickAnimationPause=new WaitForSeconds(Settings.afterPickAnimationPause);
         }
 
         private void Update()
@@ -168,10 +192,15 @@ namespace _Player
 
                 // Send event to any listeners for player movement input
                 Events.EventHandler.CallMovementEvent(
-                    xInput,yInput,isWalking,isRunning,isIdle,isCarrying,axeRight,axeLeft,axeUp,
-                    axeDown,fishingRight,fishingLeft,fishingUp,fishingDown,miscRight,
-                    miscLeft,miscUp,miscDown,pickRight,pickLeft,pickUp,pickDown,sickleRight,
-                    sickleLeft,sickleUp,sickleDown,hammerRight,hammerLeft,hammerUp,hammerDown,
+                    xInput,yInput,
+                    isWalking,isRunning,isIdle,isCarrying,
+                    axeRight,axeLeft,axeUp,axeDown,
+                    fishingRight,fishingLeft,fishingUp,fishingDown,
+                    miscRight,miscLeft,miscUp,miscDown,
+                    harvestingRight,harvestingLeft,harvestingUp,harvestingDown,
+                    pickRight,pickLeft,pickUp,pickDown,
+                    sickleRight,sickleLeft,sickleUp,sickleDown,
+                    hammerRight,hammerLeft,hammerUp,hammerDown,
                     shovelRight,shovelLeft,shovelUp,shovelDown,hoeRight,hoeLeft,hoeUp,hoeDown,
                     false,false,false,false
                 );
@@ -296,7 +325,7 @@ namespace _Player
                     case ItemType.Seed:
                         if (Input.GetMouseButton(0))
                         {
-                            ProcessPlayerClickInputSeed(itemDetails);
+                            ProcessPlayerClickInputSeed(itemDetails,gridPropertyDetails);
                         }
                         break;
                     case ItemType.Commodity:
@@ -308,14 +337,12 @@ namespace _Player
                     case ItemType.Watering_Tool:
                     case ItemType.HoeingTool:
                     case ItemType.Reaping_Tool:
+                    case ItemType.Collecting_Tool:
                         ProcessPlayerClickInputTool(gridPropertyDetails,itemDetails,playerDirection);
                         break;
                     case ItemType.Chopping_Tool:
                         break;
                     case ItemType.BreakingTool:
-                        break;
-
-                    case ItemType.Collecting_Tool:
                         break;
                     case ItemType.Reapable_scanary:
                         break;
@@ -337,7 +364,6 @@ namespace _Player
             // Switch on tool
             switch (itemDetails.itemType)
             {
-
                 case ItemType.Watering_Tool:
                     if (gridCursor.CursorPositionIsValid)
                     {
@@ -363,11 +389,17 @@ namespace _Player
                     }
                     break;
                 case ItemType.Collecting_Tool:
+                    if (gridCursor.CursorPositionIsValid)
+                    {
+                        CollectInPlayerDirection(gridPropertyDetails, itemDetails, playerDirection);
+                    }
                     break;
                 default:
                     throw new ArgumentOutOfRangeException();
             }
         }
+
+
 
         private Vector3Int GetPlayerDirection(Vector3 cursorPosition, Vector3 playerPosition)
         {
@@ -557,6 +589,75 @@ namespace _Player
             playerToolUseDisabled = false;
         }
 
+
+        private void CollectInPlayerDirection(GridPropertyDetails gridPropertyDetails,
+                                              ItemDetails equippedItemDetails, Vector3Int playerDirection)
+        {
+            StartCoroutine(CollectInPlayerDirectionRoutine(gridPropertyDetails, equippedItemDetails, playerDirection));
+        }
+
+        private IEnumerator CollectInPlayerDirectionRoutine(GridPropertyDetails gridPropertyDetails, ItemDetails equippedItemDetails, Vector3Int playerDirection)
+        {
+            PlayerInputIsDisabled = true;
+            playerToolUseDisabled = true;
+
+            ProcessCropWithEquippedItemInPlayerDirection(playerDirection, equippedItemDetails, gridPropertyDetails);
+
+            yield return pickAnimationPause;
+
+            // After animation pause
+            yield return afterPickAnimationPause;
+
+            PlayerInputIsDisabled = false;
+            playerToolUseDisabled = false;
+
+        }
+
+        private void ProcessCropWithEquippedItemInPlayerDirection(Vector3Int playerDirection, ItemDetails equippedItemDetails, GridPropertyDetails gridPropertyDetails)
+        {
+
+            switch (equippedItemDetails.itemType)
+            {
+                case ItemType.Collecting_Tool:
+
+                    if (playerDirection == Vector3Int.right)
+                    {
+                        harvestingRight = true;
+                    }
+                    else if (playerDirection == Vector3Int.left)
+                    {
+                        harvestingLeft = true;
+                    }
+                    else if (playerDirection == Vector3Int.up)
+                    {
+                        harvestingUp = true;
+                    }
+                    else if (playerDirection == Vector3Int.down)
+                    {
+                        harvestingDown = true;
+                    }
+                    break;
+
+                case ItemType.None:
+                    break;
+            }
+
+            // Get crop at corner grid location
+            Crop crop = GridPropertiesManager.Instance.GetCropObjectAtGridLocation(gridPropertyDetails);
+
+            // Execute Process tool action for crop
+            if (crop != null)
+            {
+                switch (equippedItemDetails.itemType)
+                {
+                    case ItemType.Collecting_Tool:
+                        crop.ProcessToolAction(equippedItemDetails,harvestingRight,harvestingLeft,harvestingUp,harvestingDown);
+                        break;
+                }
+            }
+
+        }
+
         private void HoeGroundAtCursor(GridPropertyDetails gridPropertyDetails, Vector3Int playerDirection)
         {
             // Trigger animation
@@ -565,7 +666,7 @@ namespace _Player
 
         private IEnumerator HoeGroundAtCursorRoutine(Vector3Int playerDirection, GridPropertyDetails gridPropertyDetails)
         {
-            PlayerInputIsDisabled=true;
+            PlayerInputIsDisabled = true;
             playerToolUseDisabled = true;
 
             // Set tool animation to hoe in override animation
@@ -640,12 +741,37 @@ namespace _Player
             }
         }
 
-        private void ProcessPlayerClickInputSeed(ItemDetails itemDetails)
+        private void ProcessPlayerClickInputSeed(ItemDetails itemDetails, GridPropertyDetails gridPropertyDetails)
         {
-            if (itemDetails.canBeDropped && gridCursor.CursorPositionIsValid)
+            if (itemDetails.canBeDropped && gridCursor.CursorPositionIsValid
+                && gridPropertyDetails.daySinceDug>-1 && gridPropertyDetails.seedItemCode==-1)
+            {
+                PlantSeedAtCursor(gridPropertyDetails, itemDetails);
+            }
+
+            else if (itemDetails.canBeDropped && gridCursor.CursorPositionIsValid)
             {
                 EventHandler.CallDropSelectedItemEvent();
             }
+
+        }
+
+        private void PlantSeedAtCursor(GridPropertyDetails gridPropertyDetails, ItemDetails itemDetails)
+        {
+            // Process if we have crop details for the seed
+            if (GridPropertiesManager.Instance.GetCropDetails(itemDetails.itemCode) != null)
+            {
+                // Update Grid properties with seed details
+                gridPropertyDetails.seedItemCode = itemDetails.itemCode;
+                gridPropertyDetails.growthDays = 0;
+
+                // Display planted crop at grid property details
+                GridPropertiesManager.Instance.DisplayPlantedCrops(gridPropertyDetails);
+
+                // Remove item from inventory
+                EventHandler.CallRemoveSelectedItemFromInventoryEvent();
+            }
+
         }
 
         private void ResetAnimationTriggers()
@@ -727,11 +853,17 @@ namespace _Player
 
             // Send event to any listeners for player movement input
             Events.EventHandler.CallMovementEvent(
-                xInput,yInput,isWalking,isRunning,isIdle,isCarrying,axeRight,axeLeft,axeUp,
-                axeDown,fishingRight,fishingLeft,fishingUp,fishingDown,miscRight,
-                miscLeft,miscUp,miscDown,pickRight,pickLeft,pickUp,pickDown,sickleRight,
-                sickleLeft,sickleUp,sickleDown,hammerRight,hammerLeft,hammerUp,hammerDown,
-                shovelRight,shovelLeft,shovelUp,shovelDown,hoeRight,hoeLeft,hoeUp,hoeDown,
+                xInput,yInput,
+                isWalking,isRunning,isIdle,isCarrying,
+                axeRight,axeLeft,axeUp,axeDown,
+                fishingRight,fishingLeft,fishingUp,fishingDown,
+                miscRight,miscLeft,miscUp,miscDown,
+                harvestingRight,harvestingLeft,harvestingUp,harvestingDown,
+                pickRight,pickLeft,pickUp,pickDown,
+                sickleRight,sickleLeft,sickleUp,sickleDown,
+                hammerRight,hammerLeft,hammerUp,hammerDown,
+                shovelRight,shovelLeft,shovelUp,shovelDown,
+                hoeRight,hoeLeft,hoeUp,hoeDown,
                 false,false,false,false
             );
 

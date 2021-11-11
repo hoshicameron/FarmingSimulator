@@ -26,8 +26,10 @@ namespace Misc
         public static float useHoeAnimationPause = 0.25f; // Stop player movement for specific time
         public static float useWateringCanAnimationPause = 0.3f;
         public static float useToolAnimationPause = 0.3f;
+        public static float pickAnimationPause = 1f;
         public static float afterUseHoeAnimationPause = 0.2f;
         public static float afterUseWateringCanAnimationPause = 0.3f;
+        public static float afterPickAnimationPause = 0.2f;
 
         // Inventory
         public static int playerInitialInventoryCapacity=24;

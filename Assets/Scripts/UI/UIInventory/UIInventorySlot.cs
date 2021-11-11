@@ -44,13 +44,16 @@ namespace UI
         {
             EventHandler.AfterSceneLoadEvent += SceneLoaded;
             EventHandler.DropSelectedItemEvent += DropSelectedItemAtMousePosition;
+            EventHandler.RemoveSelectedItemFromInventoryEvent += RemoveSelectedItemFromInventory;
         }
 
         private void OnDisable()
         {
             EventHandler.AfterSceneLoadEvent -= SceneLoaded;
             EventHandler.DropSelectedItemEvent -= DropSelectedItemAtMousePosition;
+            EventHandler.RemoveSelectedItemFromInventoryEvent += RemoveSelectedItemFromInventory;
         }
+
 
         private void SceneLoaded()
         {
@@ -177,6 +180,24 @@ namespace UI
             }
         }
 
+        private void RemoveSelectedItemFromInventory()
+        {
+            if (itemDetails != null && isSelected)
+            {
+                int itemCode = itemDetails.itemCode;
+
+                //Remove item from players Inventory
+                InventoryManager.Instance.RemoveItem(InventoryLocation.Player,itemCode);
+
+                // If no more of item then clear selected
+                if (InventoryManager.Instance.FindItemInInventory(InventoryLocation.Player, itemCode) == -1)
+                {
+                    ClearSelectedItem();
+                }
+            }
+        }
+
+
         public void OnPointerEnter(PointerEventData eventData)
         {
             // Populate text box with item details
@@ -295,9 +316,6 @@ namespace UI
             } else  // show player carrying nothing
             {
                 Player.Instance.clearCarriedItem();
-            }
-            {
-
             }
         }
 

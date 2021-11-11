@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using System.Linq;
+using Crops;
 using Enums;
 using Misc;
 using SaveSystem;
@@ -15,12 +16,14 @@ namespace Maps
     [RequireComponent(typeof(GenerateGUID))]
     public class GridPropertiesManager : SingletonMonoBehaviour<GridPropertiesManager>,ISaveable
     {
+        private Transform cropParentTransform;
         private Tilemap groundDecoration1;    // Dug ground
         private Tilemap groundDecoration2;    // Watered ground
 
         private Grid grid;
 
         private Dictionary<string, GridPropertyDetails> gridPropertyDetailsDictionary;
+        [SerializeField] private SO_CropDetailsList so_CropDetailsList = null;
         [SerializeField] private SO_GridProperties[] so_gridPropertiesArray = null;
         [SerializeField] private Tile[] dugGroundTiles = null;
         [SerializeField] private Tile[] wateredGroundTiles = null;
@@ -69,6 +72,20 @@ namespace Maps
         private void ClearDisplayGridPropertyDetails()
         {
             ClearDisplayGroundDecorations();
+
+            ClearDisplayAllPlantedCrops();
+        }
+
+        private void ClearDisplayAllPlantedCrops()
+        {
+            //Destroy all crops in scene
+            Crop[] cropArray;
+            cropArray = FindObjectsOfType<Crop>();
+
+            foreach (Crop crop in cropArray)
+            {
+                Destroy(crop.gameObject);
+            }
         }
 
         public void DisplayWateredgGround(GridPropertyDetails gridPropertyDetails)
@@ -419,11 +436,63 @@ namespace Maps
             foreach (KeyValuePair<string,GridPropertyDetails> item in gridPropertyDetailsDictionary)
             {
                 GridPropertyDetails gridPropertyDetails = item.Value;
+
                 DisplayDugGround(gridPropertyDetails);
+
                 DisplayWateredgGround(gridPropertyDetails);
+
+                DisplayPlantedCrops(gridPropertyDetails);
+
             }
         }
 
+        public void DisplayPlantedCrops(GridPropertyDetails gridPropertyDetails)
+        {
+            if (gridPropertyDetails.seedItemCode > -1)
+            {
+                // Get crop details
+                CropDetails cropDetails = so_CropDetailsList.GetCropDetails(gridPropertyDetails.seedItemCode);
+
+                if (cropDetails != null)
+                {
+                    // Prefer to use
+                    GameObject cropPrefab;
+
+                    //Instantiate crop prefab at grid location
+                    int growthStages = cropDetails.growthDays.Length;
+
+                    int currentGrowthStage = 0;
+
+                    // Workout what growthStage we currently in based on growthDays
+
+                    for (int i=growthStages-1 ; i>=0; i--)
+                    {
+                        if (gridPropertyDetails.growthDays >= cropDetails.growthDays[i])
+                        {
+                            currentGrowthStage = i;
+                            break;
+                        }
+                    }
+
+                    cropPrefab = cropDetails.growthPrefab[currentGrowthStage];
+
+                    Sprite growthSprite = cropDetails.growthSprite[currentGrowthStage];
+
+                    Vector3 worldPosition =
+                        groundDecoration2.CellToWorld(new Vector3Int(gridPropertyDetails.gridX,
+                            gridPropertyDetails.gridY,0));
+
+                    worldPosition= new Vector3(worldPosition.x+Settings.gridCellSize*0.5f,worldPosition.y,worldPosition.z);
+
+                    GameObject cropInstance = Instantiate(cropPrefab, worldPosition, Quaternion.identity);
+
+                    cropInstance.GetComponentInChildren<SpriteRenderer>().sprite = growthSprite;
+                    cropInstance.transform.SetParent(cropParentTransform);
+                    cropInstance.GetComponent<Crop>().cropGridPosition=
+                        new Vector2Int(gridPropertyDetails.gridX,gridPropertyDetails.gridY);
+                }
+            }
+        }
 
         /// <summary>
         /// This initializes the grid property dictionary with the values from the SO_GridProperties assets and stores for each scene
@@ -551,6 +620,39 @@ namespace Maps
             }
 
         }
+
+        /// <summary>
+        /// Return crop object at th gridX,gridY position or null if no crop found
+        /// </summary>
+        /// <param name="gridPropertyDetails"></param>
+        /// <returns></returns>
+        public Crop GetCropObjectAtGridLocation(GridPropertyDetails gridPropertyDetails)
+        {
+            Vector3 worldPosition =
+                grid.GetCellCenterWorld(new Vector3Int(gridPropertyDetails.gridX, gridPropertyDetails.gridY, 0));
+            Collider2D[] collider2DArray = Physics2D.OverlapPointAll(worldPosition);
+
+            // Loop through colliders to get crop game object
+            Crop crop = null;
+            for (int i = 0; i < collider2DArray.Length; i++)
+            {
+                crop = collider2DArray[i].gameObject.GetComponentInParent<Crop>();
+                if(crop!=null && crop.cropGridPosition== new Vector2Int(gridPropertyDetails.gridX,gridPropertyDetails.gridY))
+                    break;
+                crop = collider2DArray[i].gameObject.GetComponentInChildren<Crop>();
+                if(crop!=null && crop.cropGridPosition== new Vector2Int(gridPropertyDetails.gridX,gridPropertyDetails.gridY))
+                    break;
+            }
+
+            return crop;
+        }
+
+        public CropDetails GetCropDetails(int sendItemCode)
+        {
+            return so_CropDetailsList.GetCropDetails(sendItemCode);
+        }
+
+
         /// <summary>
         /// Get the grid property Details for the tile at (gridX, gridY). If no grid property details exist null is returned
         /// and can assume that all grid property details values are null or false
@@ -571,6 +673,14 @@ namespace Maps
             // Get tilemaps
             groundDecoration1 = GameObject.FindGameObjectWithTag(Tags.GroundDecoration1).GetComponent<Tilemap>();
             groundDecoration2 = GameObject.FindGameObjectWithTag(Tags.GroundDecoration2).GetComponent<Tilemap>();
+
+            if (GameObject.FindGameObjectWithTag(Tags.CropsParentTransform) != null)
+            {
+                cropParentTransform = GameObject.FindGameObjectWithTag(Tags.CropsParentTransform).transform;
+            } else
+            {
+                cropParentTransform = null;
+            }
         }
 
         private void AdvanceDay(int gameYear, Season season, int gameDay, string gameDayOfWeek, int gameHour,
@@ -600,6 +710,12 @@ namespace Maps
                             if (gridPropertyDetails.daySinceWatered > -1)
                             {
                                 gridPropertyDetails.daySinceWatered = -1;
+                            }
+
+                            // if a crop is Planted
+                            if (gridPropertyDetails.growthDays > -1)
+                            {
+                                gridPropertyDetails.growthDays += 1;
                             }
 
                             // Set gridPropertyDetails

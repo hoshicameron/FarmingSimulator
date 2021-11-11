@@ -172,7 +172,7 @@ MonoBehaviour:
     canBeCarried: 1
   - itemCode: 10014
     itemType: 7
-    itemDescription: Wicker Bascet
+    itemDescription: Wicker Bascket
     itemSprite: {fileID: 5391660772398343096, guid: 3c97b8f9381421349b6a4a180e8c7ad7, type: 3}
     itemLongDescription: A wicker basket for harvesting produce you have grown
     itemUseGridRadius: 1

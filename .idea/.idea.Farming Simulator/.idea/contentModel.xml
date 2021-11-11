@@ -12,7 +12,7 @@
             <e p="MovementAnimationParameterControl.cs" t="Include" />
             <e p="SO_AnimationType.cs" t="Include" />
           </e>
-          <e p="Crop" t="Include">
+          <e p="Crops" t="Include">
             <e p="Crop.cs" t="Include" />
             <e p="CropDetails.cs" t="Include" />
             <e p="SO_CropDetailsList.cs" t="Include" />

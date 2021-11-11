@@ -24,13 +24,18 @@ namespace Animation
         }
 
         private void SetAnimationParameters(
-            float inputX, float inputY, bool isWalking,bool isRunning, bool isIdle, bool isCarrying,bool axeRight,
-            bool axeLeft, bool axeUp, bool axeDown, bool fishingRight,bool fishingLeft, bool fishingUp,
-            bool fishingDown, bool miscRight, bool miscLeft,bool miscUp, bool miscDown, bool pickRight,
-            bool pickLeft, bool pickUp, bool pickDown, bool sickleRight, bool sickleLeft, bool sickleUp,
-            bool sickleDown, bool hammerRight, bool hammerLeft, bool hammerUp, bool hammerDown, bool shovelRight,
-            bool shovelLeft, bool shovelUp,bool shovelDown, bool hoeRight, bool hoeLeft, bool hoeUp,
-            bool hoeDown, bool idleUp, bool idleDown,bool idleLeft, bool idleRight)
+            float inputX, float inputY,
+            bool isWalking,bool isRunning, bool isIdle, bool isCarrying,
+            bool axeRight,bool axeLeft, bool axeUp, bool axeDown,
+            bool fishingRight,bool fishingLeft, bool fishingUp,bool fishingDown,
+            bool miscRight, bool miscLeft,bool miscUp, bool miscDown,
+            bool harvestRight,bool harvestLeft,bool harvestUp,bool harvestDown,
+            bool pickRight,bool pickLeft, bool pickUp, bool pickDown,
+            bool sickleRight, bool sickleLeft, bool sickleUp,bool sickleDown,
+            bool hammerRight, bool hammerLeft, bool hammerUp, bool hammerDown,
+            bool shovelRight,bool shovelLeft, bool shovelUp,bool shovelDown,
+            bool hoeRight, bool hoeLeft, bool hoeUp,bool hoeDown,
+            bool idleUp, bool idleDown,bool idleLeft, bool idleRight)
         {
             animator.SetFloat(Settings.xInput,inputX);
             animator.SetFloat(Settings.yInput,inputY);
