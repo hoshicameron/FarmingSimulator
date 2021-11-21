@@ -10,6 +10,8 @@ namespace VFX
     {
         private WaitForSeconds twoSeconds;
         [SerializeField] private GameObject reapingPrefab = null;
+        [SerializeField] private GameObject deciduousLeavesFallingPrefab = null;
+        [SerializeField] private GameObject choppingTreeTrunkPrefab = null;
 
         protected override void Awake()
         {
@@ -38,10 +40,19 @@ namespace VFX
             switch (harvestActionEffect)
             {
                 case HarvestActionEffect.DeciduousLeavesFalling:
+                    GameObject deciduousLeaves = PoolManager.Instance.ReuseObject(deciduousLeavesFallingPrefab,
+                        effectPosition, Quaternion.identity);
+                    deciduousLeaves.SetActive(true);
+                    StartCoroutine(DisableHarvestActionEffect(deciduousLeaves, twoSeconds));
+
                     break;
                 case HarvestActionEffect.PineConesFalling:
                     break;
                 case HarvestActionEffect.ChoppingTreeTrunk:
+                    GameObject ChoppingTreeTrunk = PoolManager.Instance.ReuseObject(choppingTreeTrunkPrefab,
+                        effectPosition, Quaternion.identity);
+                    ChoppingTreeTrunk.SetActive(true);
+                    StartCoroutine(DisableHarvestActionEffect(ChoppingTreeTrunk, twoSeconds));
                     break;
                 case HarvestActionEffect.BreakingStone:
                     break;

@@ -23,13 +23,18 @@ namespace Misc
         // Player Movement
         public const float runningSpeed = 5.333f;
         public const float walkingSpeed = 2.666f;
+
         public static float useHoeAnimationPause = 0.25f; // Stop player movement for specific time
         public static float useWateringCanAnimationPause = 0.3f;
         public static float useToolAnimationPause = 0.3f;
         public static float pickAnimationPause = 1f;
+        public static float chopAnimationPause = 0.7f;
+
+
         public static float afterUseHoeAnimationPause = 0.2f;
         public static float afterUseWateringCanAnimationPause = 0.3f;
         public static float afterPickAnimationPause = 0.2f;
+        public static float afterChopAnimationPause = 0.3f;
 
         // Inventory
         public static int playerInitialInventoryCapacity=24;

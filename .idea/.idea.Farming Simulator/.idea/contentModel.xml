@@ -15,6 +15,7 @@
           <e p="Crops" t="Include">
             <e p="Crop.cs" t="Include" />
             <e p="CropDetails.cs" t="Include" />
+            <e p="CropInstantiator.cs" t="Include" />
             <e p="SO_CropDetailsList.cs" t="Include" />
           </e>
           <e p="Editor" t="Include">

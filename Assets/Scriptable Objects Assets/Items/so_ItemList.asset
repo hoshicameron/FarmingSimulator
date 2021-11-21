@@ -149,7 +149,7 @@ MonoBehaviour:
   - itemCode: 10012
     itemType: 0
     itemDescription: Tree stump
-    itemSprite: {fileID: 4273422087314890456, guid: 2bab9f595ca547045b4506bfb57c5adc, type: 3}
+    itemSprite: {fileID: 6397969038911665078, guid: 2bab9f595ca547045b4506bfb57c5adc, type: 3}
     itemLongDescription: The stump of tree
     itemUseGridRadius: 2
     itemUseRadius: 0

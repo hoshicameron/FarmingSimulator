@@ -94,7 +94,7 @@ TextureImporter:
     second: crops_2_29
   - first:
       213: 5605546389950770359
-    second: crops_2_30
+    second: tree 1
   - first:
       213: -6880985254918692477
     second: crops_2_31
@@ -124,7 +124,7 @@ TextureImporter:
     second: crops_2_39
   - first:
       213: -2315632727782174200
-    second: crops_2_40
+    second: tree 0
   - first:
       213: -6102602686673097360
     second: crops_2_41
@@ -280,7 +280,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 16
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -946,7 +946,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: crops_2_40
+      name: tree 0
       rect:
         serializedVersion: 2
         x: 288
@@ -1450,7 +1450,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: crops_2_30
+      name: tree 1
       rect:
         serializedVersion: 2
         x: 320

@@ -10,7 +10,7 @@ TextureImporter:
     second: crops_4_1
   - first:
       213: -5421686334411734417
-    second: crops_4_2
+    second: tree 3
   - first:
       213: -7774202910627068730
     second: crops_4_3
@@ -292,7 +292,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: crops_4_2
+      name: tree 3
       rect:
         serializedVersion: 2
         x: 273

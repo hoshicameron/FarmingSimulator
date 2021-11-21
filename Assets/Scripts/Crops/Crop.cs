@@ -1,5 +1,6 @@
 using System.Collections;
 using Enums;
+using Events;
 using Inventory;
 using Items;
 using Maps;
@@ -17,8 +18,11 @@ namespace Crops
 
         [HideInInspector] public Vector2Int cropGridPosition;
 
+        [Tooltip("This should be populated from child transform gameobject showing harvest effect spawn point")]
+        [SerializeField] private Transform harvestActionEffectTransform = null;
+
         public void ProcessToolAction(ItemDetails equippedItemDetails,bool isToolRight,bool isToolLeft,
-                                      bool isToolDown, bool isToolUp)
+                                       bool isToolUp,bool isToolDown)
         {
             // Get gridPropertyDetails
             GridPropertyDetails gridPropertyDetails =
@@ -37,6 +41,7 @@ namespace Crops
             // Get animator for crop if present
             Animator animator = GetComponentInChildren<Animator>();
 
+            // Trigger tool animation
             if (animator != null)
             {
                 if (isToolRight || isToolUp)
@@ -47,6 +52,14 @@ namespace Crops
                     animator.SetTrigger("usetoolleft");
                 }
             }
+
+            // Trigger tool particle effect on crap
+            if (cropDetails.isHarvestActionEffect)
+            {
+                EventHandler.CallHarvestActionEffectEvent(harvestActionEffectTransform.position,
+                    cropDetails.harvestActionEffect);
+            }
+
 
 
             // Get required harvest action for tool
@@ -65,6 +78,7 @@ namespace Crops
         private void HarvestCrop(bool isUsingToolRight,bool isUsingToolUp,
                         CropDetails cropDetails, GridPropertyDetails gridPropertyDetails,Animator animator)
         {
+
             // Is there a harvested animation
             if (cropDetails.isHarvestedAnimation && animator != null)
             {
@@ -93,7 +107,8 @@ namespace Crops
             {
                 GetComponentInChildren<SpriteRenderer>().enabled = false;
             }
-            GridPropertiesManager.Instance.SetGridPropertyDetails(gridPropertyDetails.gridX,gridPropertyDetails.gridY,gridPropertyDetails);
+            GridPropertiesManager.Instance.SetGridPropertyDetails(gridPropertyDetails.gridX,
+                                                                  gridPropertyDetails.gridY,gridPropertyDetails);
 
             // is there a harvested animation - Destroy this crop gameObject after animation completed
             if (cropDetails.isHarvestedAnimation && animator != null)
@@ -119,11 +134,34 @@ namespace Crops
         {
             SpawnHarvestedItem(cropDetails);
 
+            // Does this crop transform into another crap
+            if (cropDetails.harvestedTransformItemCode > 0)
+            {
+                CreateHarvestedTransformCrop(cropDetails, gridPropertyDetails);
+            }
+
+
             Destroy(gameObject);
+        }
+
+        private void CreateHarvestedTransformCrop(CropDetails cropDetails, GridPropertyDetails gridPropertyDetails)
+        {
+            // Update crop in grid properties
+            gridPropertyDetails.seedItemCode = cropDetails.harvestedTransformItemCode;
+            gridPropertyDetails.growthDays = 0;
+            gridPropertyDetails.daySinceLastHarvest = -1;
+            gridPropertyDetails.daySinceWatered = -1;
+
+            GridPropertiesManager.Instance.SetGridPropertyDetails(gridPropertyDetails.gridX,
+                                                                        gridPropertyDetails.gridY,gridPropertyDetails);
+
+            // Display planted crop
+            GridPropertiesManager.Instance.DisplayPlantedCrops(gridPropertyDetails);
         }
 
         private void SpawnHarvestedItem(CropDetails cropDetails)
         {
+
             // Spawn the item(s) to be produced
             for (int i = 0; i < cropDetails.cropProducedItemCode.Length; i++)
             {

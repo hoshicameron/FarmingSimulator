@@ -222,12 +222,11 @@ namespace UI
                         return true;// valid for dig
                     }
                     break;
-                case ItemType.Chopping_Tool:
-                    break;
                 case ItemType.BreakingTool:
                     break;
                 case ItemType.Reaping_Tool:
                     break;
+                case ItemType.Chopping_Tool:
                 case ItemType.Collecting_Tool:
 
                     // Check if item can be harvested with item selected, check item is fully grown

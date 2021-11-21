@@ -26,10 +26,12 @@ namespace _Player
         private WaitForSeconds useHoeAnimationPause;
         private WaitForSeconds afterUseWateringCanAnimationPause;
         private WaitForSeconds afterPickAnimationPause;
+        private WaitForSeconds afterChopAnimationPause;
 
         private WaitForSeconds useWateringCanAnimationPause;
         private WaitForSeconds useToolAnimationPause;
         private WaitForSeconds pickAnimationPause;
+        private WaitForSeconds chopAnimationPause;
 
         private bool playerToolUseDisabled = false;
 
@@ -172,6 +174,9 @@ namespace _Player
 
             pickAnimationPause=new WaitForSeconds(Settings.pickAnimationPause);
             afterPickAnimationPause=new WaitForSeconds(Settings.afterPickAnimationPause);
+
+            chopAnimationPause=new WaitForSeconds(Settings.chopAnimationPause);
+            afterChopAnimationPause=new WaitForSeconds(Settings.afterChopAnimationPause);
         }
 
         private void Update()
@@ -334,14 +339,14 @@ namespace _Player
                             ProcessPlayerClickInputCommodity(itemDetails);
                         }
                         break;
+                    case ItemType.Chopping_Tool:
                     case ItemType.Watering_Tool:
                     case ItemType.HoeingTool:
                     case ItemType.Reaping_Tool:
                     case ItemType.Collecting_Tool:
                         ProcessPlayerClickInputTool(gridPropertyDetails,itemDetails,playerDirection);
                         break;
-                    case ItemType.Chopping_Tool:
-                        break;
+
                     case ItemType.BreakingTool:
                         break;
                     case ItemType.Reapable_scanary:
@@ -377,6 +382,10 @@ namespace _Player
                     }
                     break;
                 case ItemType.Chopping_Tool:
+                    if (gridCursor.CursorPositionIsValid)
+                    {
+                        ChopInPlayerDirection(gridPropertyDetails, itemDetails, playerDirection);
+                    }
                     break;
                 case ItemType.BreakingTool:
                     break;
@@ -398,8 +407,6 @@ namespace _Player
                     throw new ArgumentOutOfRangeException();
             }
         }
-
-
 
         private Vector3Int GetPlayerDirection(Vector3 cursorPosition, Vector3 playerPosition)
         {
@@ -590,11 +597,41 @@ namespace _Player
         }
 
 
+        private void ChopInPlayerDirection(GridPropertyDetails gridPropertyDetails, ItemDetails equippedItemDetails, Vector3Int playerDirection)
+        {
+            StartCoroutine(ChopInPlayerDirectionRoutine(gridPropertyDetails,equippedItemDetails,playerDirection));
+        }
+
+        private IEnumerator ChopInPlayerDirectionRoutine(GridPropertyDetails gridPropertyDetails, ItemDetails equippedItemDetails, Vector3Int playerDirection)
+        {
+            PlayerInputIsDisabled = true;
+            playerToolUseDisabled = true;
+
+            // Set tool animation to hoe in override animation
+            /*toolCharacterAttribute.partVariantType = PartVariantType.axe;
+            characterAttributeCustomizationList.Clear();
+            characterAttributeCustomizationList.Add(toolCharacterAttribute);
+            animationOverrides.ApplyCharacterCustomizationParameters(characterAttributeCustomizationList);*/
+
+            ProcessCropWithEquippedItemInPlayerDirection(playerDirection, equippedItemDetails, gridPropertyDetails);
+
+            yield return chopAnimationPause;
+
+            // After animation pause
+            yield return afterChopAnimationPause;
+
+            PlayerInputIsDisabled = false;
+            playerToolUseDisabled = false;
+
+        }
+
         private void CollectInPlayerDirection(GridPropertyDetails gridPropertyDetails,
                                               ItemDetails equippedItemDetails, Vector3Int playerDirection)
         {
             StartCoroutine(CollectInPlayerDirectionRoutine(gridPropertyDetails, equippedItemDetails, playerDirection));
         }
+
+
 
         private IEnumerator CollectInPlayerDirectionRoutine(GridPropertyDetails gridPropertyDetails, ItemDetails equippedItemDetails, Vector3Int playerDirection)
         {
@@ -637,6 +674,24 @@ namespace _Player
                         harvestingDown = true;
                     }
                     break;
+                case ItemType.Chopping_Tool:
+                    if (playerDirection == Vector3Int.right)
+                    {
+                        pickRight = true;
+                    }
+                    else if (playerDirection == Vector3Int.left)
+                    {
+                        pickLeft = true;
+                    }
+                    else if (playerDirection == Vector3Int.up)
+                    {
+                        pickUp = true;
+                    }
+                    else if (playerDirection == Vector3Int.down)
+                    {
+                        pickDown = true;
+                    }
+                    break;
 
                 case ItemType.None:
                     break;
@@ -652,6 +707,9 @@ namespace _Player
                 {
                     case ItemType.Collecting_Tool:
                         crop.ProcessToolAction(equippedItemDetails,harvestingRight,harvestingLeft,harvestingUp,harvestingDown);
+                        break;
+                    case ItemType.Chopping_Tool:
+                        crop.ProcessToolAction(equippedItemDetails,pickRight,pickLeft,pickUp,pickDown);
                         break;
                 }
             }
