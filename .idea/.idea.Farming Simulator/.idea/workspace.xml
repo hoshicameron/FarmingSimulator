@@ -2,31 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dad21980-4255-4ec8-b0a5-192e21115f1b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Farming Simulator/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Farming Simulator/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Tree/TreeBody.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Tree/TreeBody.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Tree/Tree_HarvestLeft.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Tree/Tree_HarvestLeft.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Tree/Tree_HarvestRight.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Tree/Tree_HarvestRight.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Tree/Tree_UseToolLeft.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Tree/Tree_UseToolLeft.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Tree/Tree_UseToolRight.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Tree/Tree_UseToolRight.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Items/Commodity/Pumpkin.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Items/Commodity/Pumpkin.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Tree.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Tree.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/PersistentScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/PersistentScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scriptable Objects Assets/Crop/so_CropDetailsList.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scriptable Objects Assets/Crop/so_CropDetailsList.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scriptable Objects Assets/Items/so_ItemList.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scriptable Objects Assets/Items/so_ItemList.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Crops/Crop.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Crops/Crop.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Events/EventHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Events/EventHandler.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Maps/GridPropertiesManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Maps/GridPropertiesManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Misc/Settings.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Misc/Settings.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/Player.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/SaveSystem/SceneSave.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SaveSystem/SceneSave.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/GridCursor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/GridCursor.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/VFX/VFXManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/VFX/VFXManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Characters/crops_2.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Characters/crops_2.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Characters/crops_3.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Characters/crops_3.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Characters/crops_4.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Characters/crops_4.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Tiles/TileB_exterior_2_summer.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Tiles/TileB_exterior_2_summer.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Tiles/TileB_exterior_3_fall.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Tiles/TileB_exterior_3_fall.png.meta" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -278,8 +256,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Maps/GridPropertiesManager.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-198">
-              <caret line="764" column="89" selection-start-line="764" selection-start-column="89" selection-end-line="764" selection-end-column="89" />
+            <state relative-caret-position="-440">
+              <caret line="756" column="41" lean-forward="true" selection-start-line="756" selection-start-column="41" selection-end-line="756" selection-end-column="41" />
               <folding>
                 <marker date="1637488954848" expanded="false" signature="6:245" ph="..." />
                 <marker date="1637488954848" expanded="true" signature="262:31455" ph="{...}" />
@@ -701,12 +679,12 @@
       <workItem from="1636656247153" duration="6128000" />
       <workItem from="1637259056440" duration="5467000" />
       <workItem from="1637396319309" duration="3464000" />
-      <workItem from="1637483804546" duration="3446000" />
+      <workItem from="1637483804546" duration="4477000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="275678000" />
+    <option name="totallyTimeSpent" value="276709000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -718,7 +696,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49829933" weight="0.22919819" />
@@ -1784,8 +1762,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Maps/GridPropertiesManager.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-198">
-          <caret line="764" column="89" selection-start-line="764" selection-start-column="89" selection-end-line="764" selection-end-column="89" />
+        <state relative-caret-position="-440">
+          <caret line="756" column="41" lean-forward="true" selection-start-line="756" selection-start-column="41" selection-end-line="756" selection-end-column="41" />
           <folding>
             <marker date="1637488954848" expanded="false" signature="6:245" ph="..." />
             <marker date="1637488954848" expanded="true" signature="262:31455" ph="{...}" />

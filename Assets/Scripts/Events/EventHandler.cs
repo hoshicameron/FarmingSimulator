@@ -55,6 +55,15 @@ namespace Events
             InventoryUpdateEvent?.Invoke(inventoryLocation,inventoryItemList);
         }
 
+        //Instantiate crop prefabs
+        public static event Action InstantiateCropPrefabsEvent;
+
+        public static void CallInstantiateCropPrefabsEvent()
+        {
+            InstantiateCropPrefabsEvent?.Invoke();
+        }
+
+
         // Movement Event
         public static event MovementDelegate MovementEvent;
 

@@ -20,6 +20,8 @@ namespace Maps
         private Tilemap groundDecoration1;    // Dug ground
         private Tilemap groundDecoration2;    // Watered ground
 
+        private bool isFirstTimeSceneLoaded = true;
+
         private Grid grid;
 
         private Dictionary<string, GridPropertyDetails> gridPropertyDetailsDictionary;
@@ -558,6 +560,11 @@ namespace Maps
                     this.gridPropertyDetailsDictionary = gridPropertyDictionary;
                 }
 
+                // Add bool dictionary and set first time scene loaded to true
+                sceneSave.boolDictionary =new Dictionary<string, bool>();
+                sceneSave.boolDictionary.Add("isFirstTimeSceneLoaded",true);
+
+
                 // Add scene save to game object scene data
                 GameObjectSave.sceneData.Add(so_GridProperties.sceneName.ToString(),sceneSave);
             }
@@ -753,6 +760,10 @@ namespace Maps
             // Create and add dictionary grid property details
             sceneSave.GridPropertyDetailsesDictionary = gridPropertyDetailsDictionary;
 
+            // Create and add bool dictionary for first time since loaded
+            sceneSave.boolDictionary=new Dictionary<string, bool>();
+            sceneSave.boolDictionary.Add("isFirstTimeSceneLoaded", isFirstTimeSceneLoaded);
+
             // Add sceneSave to gameObject scene data
             GameObjectSave.sceneData.Add(sceneName,sceneSave);
         }
@@ -768,6 +779,20 @@ namespace Maps
                     gridPropertyDetailsDictionary = sceneSave.GridPropertyDetailsesDictionary;
                 }
 
+                // Get dictionary of bools - it exists since we created it in initialize
+                if (sceneSave.boolDictionary != null && sceneSave.boolDictionary.TryGetValue("isFirstTimeSceneLoaded",
+                        out bool storedIsFirstTimeSceneLoaded))
+                {
+                    isFirstTimeSceneLoaded = storedIsFirstTimeSceneLoaded;
+                }
+
+                // Instantiate any crop prefabs initially present in the scene
+                if (isFirstTimeSceneLoaded)
+                {
+                    EventHandler.CallInstantiateCropPrefabsEvent();
+                }
+
+
                 // if grid property exist
                 if (gridPropertyDetailsDictionary.Count > 0)
                 {
@@ -776,6 +801,11 @@ namespace Maps
 
                     //Instantiate grid property details for current scene
                     DisplayGridPropertyDetails();
+                }
+
+                if (isFirstTimeSceneLoaded == true)
+                {
+                    isFirstTimeSceneLoaded = false;
                 }
             }
         }
