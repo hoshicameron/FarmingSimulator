@@ -21,6 +21,11 @@ namespace Crops
             EventHandler.InstantiateCropPrefabsEvent+=InstantiateCropPrefabs;
         }
 
+        private void OnDisable()
+        {
+            EventHandler.InstantiateCropPrefabsEvent-=InstantiateCropPrefabs;
+        }
+
         private void InstantiateCropPrefabs()
         {
             // Get grid gameObject

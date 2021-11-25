@@ -18,7 +18,6 @@ namespace UI
         private Camera mainCamera;
         private Canvas parentCanvas;
         private Transform parentItem;
-        private GameObject draggedItem;
         private GridCursor gridCursor;
         private Cursor cursor;
 
@@ -26,6 +25,7 @@ namespace UI
         public Image inventorySlotHighlight;
         public Image inventorySlotImage;
         public TextMeshProUGUI text;
+        public GameObject draggedItem;
 
         [SerializeField] private UIInventoryBar inventoryBar=null;
         [SerializeField] private GameObject inventoryTextBoxPrefab=null;
@@ -319,7 +319,7 @@ namespace UI
             }
         }
 
-        private void ClearSelectedItem()
+        public void ClearSelectedItem()
         {
             ClearCursor();
 

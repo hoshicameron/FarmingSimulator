@@ -27,11 +27,13 @@ namespace _Player
         private WaitForSeconds afterUseWateringCanAnimationPause;
         private WaitForSeconds afterPickAnimationPause;
         private WaitForSeconds afterChopAnimationPause;
+        private WaitForSeconds afterBreakAnimationPause;
 
         private WaitForSeconds useWateringCanAnimationPause;
         private WaitForSeconds useToolAnimationPause;
         private WaitForSeconds pickAnimationPause;
         private WaitForSeconds chopAnimationPause;
+        private WaitForSeconds breakAnimationPause;
 
         private bool playerToolUseDisabled = false;
 
@@ -177,6 +179,11 @@ namespace _Player
 
             chopAnimationPause=new WaitForSeconds(Settings.chopAnimationPause);
             afterChopAnimationPause=new WaitForSeconds(Settings.afterChopAnimationPause);
+
+            breakAnimationPause=new WaitForSeconds(Settings.breakAnimationPause);
+            afterBreakAnimationPause=new WaitForSeconds(Settings.afterBreakAnimationPause);
+
+
         }
 
         private void Update()
@@ -344,10 +351,8 @@ namespace _Player
                     case ItemType.HoeingTool:
                     case ItemType.Reaping_Tool:
                     case ItemType.Collecting_Tool:
-                        ProcessPlayerClickInputTool(gridPropertyDetails,itemDetails,playerDirection);
-                        break;
-
                     case ItemType.BreakingTool:
+                        ProcessPlayerClickInputTool(gridPropertyDetails,itemDetails,playerDirection);
                         break;
                     case ItemType.Reapable_scanary:
                         break;
@@ -388,6 +393,10 @@ namespace _Player
                     }
                     break;
                 case ItemType.BreakingTool:
+                    if (gridCursor.CursorPositionIsValid)
+                    {
+                        BreakingAtCursor(gridPropertyDetails, itemDetails, playerDirection);
+                    }
                     break;
                 case ItemType.Reaping_Tool:
                     if (cursor.CursorPositionIsValid)
@@ -407,7 +416,6 @@ namespace _Player
                     throw new ArgumentOutOfRangeException();
             }
         }
-
         private Vector3Int GetPlayerDirection(Vector3 cursorPosition, Vector3 playerPosition)
         {
             if (cursorPosition.x>playerPosition.x
@@ -625,6 +633,33 @@ namespace _Player
 
         }
 
+        private void BreakingAtCursor(GridPropertyDetails gridPropertyDetails, ItemDetails itemDetails, Vector3Int playerDirection)
+        {
+            StartCoroutine(BreakingAtCursorRoutine(gridPropertyDetails,itemDetails,playerDirection));
+        }
+
+        private IEnumerator BreakingAtCursorRoutine(GridPropertyDetails gridPropertyDetails, ItemDetails equippedItemDetails, Vector3Int playerDirection)
+        {
+            PlayerInputIsDisabled = true;
+            playerToolUseDisabled = true;
+
+            // Set tool animation to hoe in override animation
+            /*toolCharacterAttribute.partVariantType = PartVariantType.pickaxe;
+            characterAttributeCustomizationList.Clear();
+            characterAttributeCustomizationList.Add(toolCharacterAttribute);
+            animationOverrides.ApplyCharacterCustomizationParameters(characterAttributeCustomizationList);*/
+
+            ProcessCropWithEquippedItemInPlayerDirection(playerDirection, equippedItemDetails, gridPropertyDetails);
+
+            yield return breakAnimationPause;
+
+            // After animation pause
+            yield return afterBreakAnimationPause;
+
+            PlayerInputIsDisabled = false;
+            playerToolUseDisabled = false;
+        }
+
         private void CollectInPlayerDirection(GridPropertyDetails gridPropertyDetails,
                                               ItemDetails equippedItemDetails, Vector3Int playerDirection)
         {
@@ -677,6 +712,25 @@ namespace _Player
                 case ItemType.Chopping_Tool:
                     if (playerDirection == Vector3Int.right)
                     {
+                        axeRight = true;
+                    }
+                    else if (playerDirection == Vector3Int.left)
+                    {
+                        axeLeft = true;
+                    }
+                    else if (playerDirection == Vector3Int.up)
+                    {
+                        axeUp = true;
+                    }
+                    else if (playerDirection == Vector3Int.down)
+                    {
+                        axeDown = true;
+                    }
+                    break;
+
+                case ItemType.BreakingTool :
+                    if (playerDirection == Vector3Int.right)
+                    {
                         pickRight = true;
                     }
                     else if (playerDirection == Vector3Int.left)
@@ -709,6 +763,9 @@ namespace _Player
                         crop.ProcessToolAction(equippedItemDetails,harvestingRight,harvestingLeft,harvestingUp,harvestingDown);
                         break;
                     case ItemType.Chopping_Tool:
+                        crop.ProcessToolAction(equippedItemDetails,axeRight,axeLeft,axeUp,axeDown);
+                        break;
+                    case ItemType.BreakingTool:
                         crop.ProcessToolAction(equippedItemDetails,pickRight,pickLeft,pickUp,pickDown);
                         break;
                 }

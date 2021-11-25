@@ -146,6 +146,9 @@ TextureImporter:
   - first:
       213: 2645892066607099804
     second: TileB_exterior_3_fall_47
+  - first:
+      213: 2985660187712774613
+    second: Stone Effect
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -1250,6 +1253,27 @@ TextureImporter:
       bones: []
       spriteID: c9fe328e0d818b420800000000000000
       internalID: 2645892066607099804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stone Effect
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 65
+        width: 4
+        height: 3
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d165ac3f123f6920800000000000000
+      internalID: 2985660187712774613
       vertices: []
       indices: 
       edges: []

@@ -171,5 +171,24 @@ namespace UI
                 }
             }
         }
+
+        public void DestroyCurrentlyDraggedItems()
+        {
+            for (int i = 0; i < inventorySlotArray.Length; i++)
+            {
+                if (inventorySlotArray[i].draggedItem != null)
+                {
+                    Destroy(inventorySlotArray[i].draggedItem);
+                }
+            }
+        }
+
+        public void ClearCurrentlySelectedItems()
+        {
+            for (int i = 0; i < inventorySlotArray.Length; i++)
+            {
+                inventorySlotArray[i].ClearSelectedItem();
+            }
+        }
     }
 }

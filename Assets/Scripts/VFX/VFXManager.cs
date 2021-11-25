@@ -12,6 +12,7 @@ namespace VFX
         [SerializeField] private GameObject reapingPrefab = null;
         [SerializeField] private GameObject deciduousLeavesFallingPrefab = null;
         [SerializeField] private GameObject choppingTreeTrunkPrefab = null;
+        [SerializeField] private GameObject breakingStonePrefab = null;
 
         protected override void Awake()
         {
@@ -55,6 +56,10 @@ namespace VFX
                     StartCoroutine(DisableHarvestActionEffect(ChoppingTreeTrunk, twoSeconds));
                     break;
                 case HarvestActionEffect.BreakingStone:
+                    GameObject BreakingStone = PoolManager.Instance.ReuseObject(breakingStonePrefab,
+                        effectPosition, Quaternion.identity);
+                    BreakingStone.SetActive(true);
+                    StartCoroutine(DisableHarvestActionEffect(BreakingStone, twoSeconds));
                     break;
                 case HarvestActionEffect.Reaping:
                     GameObject reaping =

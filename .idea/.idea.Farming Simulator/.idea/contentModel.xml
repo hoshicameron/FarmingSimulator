@@ -88,6 +88,10 @@
               <e p="UIInventorySlot.cs" t="Include" />
               <e p="UIInventoryTextBox.cs" t="Include" />
             </e>
+            <e p="UIManager.cs" t="Include" />
+            <e p="UIPauseMenu" t="Include">
+              <e p="PauseMenuInventoryManagementSlot.cs" t="Include" />
+            </e>
           </e>
           <e p="Utilities" t="Include">
             <e p="Property Drawers" t="Include">
