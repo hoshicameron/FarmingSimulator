@@ -28,6 +28,9 @@
           <e p="Events" t="Include">
             <e p="EventHandler.cs" t="Include" />
           </e>
+          <e p="GameManager" t="Include">
+            <e p="GameManager.cs" t="Include" />
+          </e>
           <e p="HelperClasses" t="Include">
             <e p="HelperMethods.cs" t="Include" />
           </e>
@@ -90,6 +93,7 @@
             </e>
             <e p="UIManager.cs" t="Include" />
             <e p="UIPauseMenu" t="Include">
+              <e p="PauseMenuInventoryManagement.cs" t="Include" />
               <e p="PauseMenuInventoryManagementSlot.cs" t="Include" />
             </e>
           </e>

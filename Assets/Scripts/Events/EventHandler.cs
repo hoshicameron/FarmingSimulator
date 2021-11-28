@@ -46,13 +46,13 @@ namespace Events
         }
 
         // Inventory Update Event
-        public static event Action<InventoryLocation, List<InventoryItem>> InventoryUpdateEvent;
+        public static event Action<InventoryLocation, List<InventoryItem>> InventoryUpdatedEvent;
 
         // Trigger the Event
-        public static void CallInventoryUpdateEvent(InventoryLocation inventoryLocation,
+        public static void CallInventoryUpdatedEvent(InventoryLocation inventoryLocation,
             List<InventoryItem> inventoryItemList)
         {
-            InventoryUpdateEvent?.Invoke(inventoryLocation,inventoryItemList);
+            InventoryUpdatedEvent?.Invoke(inventoryLocation,inventoryItemList);
         }
 
         //Instantiate crop prefabs

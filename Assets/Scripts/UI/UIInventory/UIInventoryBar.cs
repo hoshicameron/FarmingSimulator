@@ -16,12 +16,12 @@ namespace UI
 
         private void OnEnable()
         {
-            EventHandler.InventoryUpdateEvent+=OnInventoryUpdateEvent;
+            EventHandler.InventoryUpdatedEvent+=OnInventoryUpdatedEvent;
         }
 
         private void OnDisable()
         {
-            EventHandler.InventoryUpdateEvent-=OnInventoryUpdateEvent;
+            EventHandler.InventoryUpdatedEvent-=OnInventoryUpdatedEvent;
         }
         private void ClearInventorySlots()
         {
@@ -39,7 +39,7 @@ namespace UI
             }
         }
 
-        private void OnInventoryUpdateEvent(InventoryLocation inventoryLocation, List<InventoryItem> inventoryList)
+        private void OnInventoryUpdatedEvent(InventoryLocation inventoryLocation, List<InventoryItem> inventoryList)
         {
             if (inventoryLocation == InventoryLocation.Player)
             {

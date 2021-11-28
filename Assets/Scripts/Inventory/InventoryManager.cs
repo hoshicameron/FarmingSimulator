@@ -107,7 +107,7 @@ namespace Inventory
             }
 
             // Send event that inventory has updated
-            EventHandler.CallInventoryUpdateEvent(inventoryLocation,inventoryArrayList[(int)inventoryLocation]);
+            EventHandler.CallInventoryUpdatedEvent(inventoryLocation,inventoryArrayList[(int)inventoryLocation]);
         }
 
         public void AddItem(InventoryLocation inventoryLocation, int itemCode)
@@ -127,7 +127,7 @@ namespace Inventory
             }
 
             // Send event that inventory has updated
-            EventHandler.CallInventoryUpdateEvent(inventoryLocation,inventoryArrayList[(int)inventoryLocation]);
+            EventHandler.CallInventoryUpdatedEvent(inventoryLocation,inventoryArrayList[(int)inventoryLocation]);
         }
 
 
@@ -257,7 +257,7 @@ namespace Inventory
             }
 
             // Send event that inventory has updated
-            EventHandler.CallInventoryUpdateEvent(inventoryLocation,inventoryArrayList[(int)inventoryLocation]);
+            EventHandler.CallInventoryUpdatedEvent(inventoryLocation,inventoryArrayList[(int)inventoryLocation]);
         }
 
         private void RemoveItemAtPosition(List<InventoryItem> inventoryList, int itemCode, int itemPosition)
@@ -298,7 +298,7 @@ namespace Inventory
                 inventoryArrayList[(int) inventoryLocation][fromItem] = toInInventoryItem;
 
                 // Send event that inventory has updated
-                EventHandler.CallInventoryUpdateEvent(inventoryLocation,inventoryArrayList[(int)inventoryLocation]);
+                EventHandler.CallInventoryUpdatedEvent(inventoryLocation,inventoryArrayList[(int)inventoryLocation]);
 
             }
         }

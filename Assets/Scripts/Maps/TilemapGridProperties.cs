@@ -8,6 +8,9 @@ namespace Maps
     [ExecuteAlways]
     public class TilemapGridProperties : MonoBehaviour
     {
+
+#if UNITY_EDITOR
+
         private Tilemap tilemap;
         private Grid grid;
         [SerializeField] private SO_GridProperties so_GridProperties = null;
@@ -81,4 +84,6 @@ namespace Maps
             }
         }
     }
+
+#endif
 }
