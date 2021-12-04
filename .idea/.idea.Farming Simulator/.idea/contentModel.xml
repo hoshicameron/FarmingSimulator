@@ -67,6 +67,7 @@
           </e>
           <e p="SaveSystem" t="Include">
             <e p="GameObjectSave.cs" t="Include" />
+            <e p="GameSave.cs" t="Include" />
             <e p="GenerateGUID.cs" t="Include" />
             <e p="ISaveable.cs" t="Include" />
             <e p="SaveLoadManager.cs" t="Include" />

@@ -7,6 +7,7 @@ using SaveSystem;
 using SceneManagement;
 using Unity.Collections;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.Tilemaps;
 using EventHandler = Events.EventHandler;
 
@@ -749,6 +750,17 @@ namespace Maps
             SaveLoadManager.Instance.iSaveableObjectList.Remove(this);
         }
 
+        public void ISaveableLoad(GameSave gameSave)
+        {
+            if(gameSave.gameObjectData.TryGetValue(ISaveableUniqueID,out GameObjectSave gameObjectSave))
+            {
+                GameObjectSave = gameObjectSave;
+
+                // Restore data for current scene
+                ISaveableRestoreScene(SceneManager.GetActiveScene().name);
+            }
+        }
+
         public void ISaveableStoreScene(string sceneName)
         {
             // Remove sceneSave for scene
@@ -766,6 +778,14 @@ namespace Maps
 
             // Add sceneSave to gameObject scene data
             GameObjectSave.sceneData.Add(sceneName,sceneSave);
+        }
+
+        public GameObjectSave ISaveableSave()
+        {
+            // Store current scene data
+            ISaveableStoreScene(SceneManager.GetActiveScene().name);
+
+            return GameObjectSave;
         }
 
         public void ISaveableRestoreScene(string sceneName)

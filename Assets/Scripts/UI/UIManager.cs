@@ -96,7 +96,7 @@ namespace UI
 
         }
 
-        private void DisablePauseMenu()
+        public void DisablePauseMenu()
         {
             // Destroy any currently dragged items
             pauseMenuInventoryManagement.DestroyCurrentlyDraggedItems();
