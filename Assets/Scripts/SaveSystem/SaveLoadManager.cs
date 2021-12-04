@@ -21,7 +21,7 @@ namespace SaveSystem
 
             iSaveableObjectList=new List<ISaveable>();
         }
-        
+
         public void LoadDataFromFile()
         {
             BinaryFormatter bf = new BinaryFormatter();
@@ -74,6 +74,7 @@ namespace SaveSystem
             file.Close();
 
             UIManager.Instance.DisablePauseMenu();
+
         }
 
         public void StoreCurrentSceneData()

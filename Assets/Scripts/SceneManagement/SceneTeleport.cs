@@ -23,7 +23,7 @@ namespace SceneManagement
                 float yPosition= Mathf.Approximately(scenePositionGOto.y, 0f)
                     ? player.transform.position.y: scenePositionGOto.y;
 
-                float zPosition = 0;
+                //float zPosition = 0;
 
                 // Teleport to new scene
                 SceneControllerManager.Instance.FadeAndLoadScene(sceneName.ToString(),scenePositionGOto);

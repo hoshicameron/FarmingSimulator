@@ -4,6 +4,8 @@ namespace Misc
 {
     public static class Settings
     {
+        // Scene
+        public const string PersistentScene = "PersistentScene";
         // Time System
         public const float secondsPerGameSeconds = 0.012f;
 

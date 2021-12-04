@@ -8,18 +8,20 @@ using Inventory;
 using Items;
 using Maps;
 using Misc;
+using SaveSystem;
 using SceneManagement;
 using TimeSystem;
 using UI;
 using UnityEditor.Build.Content;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using VFX;
 using Cursor = UI.Cursor;
 using EventHandler = Events.EventHandler;
 
 namespace _Player
 {
-    public class Player : SingletonMonoBehaviour<Player>
+    public class Player : SingletonMonoBehaviour<Player>,ISaveable
     {
 
         private WaitForSeconds afterUseHoeAnimationPause;
@@ -113,10 +115,10 @@ namespace _Player
             private bool idleRight;
         #endregion
 
-        private Rigidbody2D rigidbody2D;
-#pragma warning disable 414
+        private Rigidbody2D rBody2D;
+
         private Direction playerDirection;
-#pragma warning restoe 414
+
         private float movementSpeed;
 
         public Player()
@@ -126,13 +128,16 @@ namespace _Player
 
         public bool PlayerInputIsDisabled { get; set; }
 
+        public string ISaveableUniqueID { get; set; }
+        public GameObjectSave GameObjectSave { get; set; }
+
         protected override void Awake()
         {
             base.Awake();
 
             Application.targetFrameRate = 30;
 
-            rigidbody2D = GetComponent<Rigidbody2D>();
+            rBody2D = GetComponent<Rigidbody2D>();
 
             // Get the reference to camera
             mainCamera=Camera.main;
@@ -147,16 +152,25 @@ namespace _Player
 
             // Initialize character attribute list
             characterAttributeCustomizationList=new List<CharacterAttribute>();
+
+            // Get Unique ID for gameobject and create save data object
+            ISaveableUniqueID = GetComponent<GenerateGUID>().GUid;
+
+            GameObjectSave=new GameObjectSave();
         }
 
         private void OnEnable()
         {
+            ISaveableRegister();
+
             EventHandler.BeforeSceneUnloadFadeOutEvent += DisablePlayerInputAndResetMovement;
             EventHandler.AfterSceneLoadFadeInEvent += EnablePlayerInput;
         }
 
         private void OnDisable()
         {
+            ISaveableDeregister();
+
             EventHandler.BeforeSceneUnloadFadeOutEvent -= DisablePlayerInputAndResetMovement;
             EventHandler.AfterSceneLoadFadeInEvent -= EnablePlayerInput;
         }
@@ -228,7 +242,7 @@ namespace _Player
         private void PlayerMovement()
         {
             Vector2 move=new Vector2(xInput * movementSpeed*Time.deltaTime,yInput*movementSpeed*Time.deltaTime);
-            rigidbody2D.MovePosition(rigidbody2D.position + move);
+            rBody2D.MovePosition(rBody2D.position + move);
         }
 
         // Switch between walk and run by shift key
@@ -1033,6 +1047,169 @@ namespace _Player
         {
             return  new Vector3(transform.position.x,transform.position.y+ Settings.playerCenterYOffset,
                 transform.position.z);
+        }
+
+
+        public void ISaveableRegister()
+        {
+            SaveLoadManager.Instance.iSaveableObjectList.Add(this);
+        }
+
+        public void ISaveableDeregister()
+        {
+            SaveLoadManager.Instance.iSaveableObjectList.Remove(this);
+        }
+
+        public GameObjectSave ISaveableSave()
+        {
+            // Delete saveScene for game object if it already exists
+            GameObjectSave.sceneData.Remove(Settings.PersistentScene);
+
+            // Create saveScene for game object
+            SceneSave sceneSave = new SceneSave();
+
+            // Create Vector3 Dictionary
+            sceneSave.vector3Dictionary = new Dictionary<string, Vector3Serializable>();
+
+            // Create String Dictionary
+            sceneSave.stringDictionary = new Dictionary<string, string>();
+
+            // Add Player position to Vector3 dictionary
+            var position = transform.position;
+            Vector3Serializable vector3Serializable = new Vector3Serializable(position.x, position.y, position.z);
+            sceneSave.vector3Dictionary.Add("playerPosition", vector3Serializable);
+
+            // Add Current Scene Name to string dictionary
+            sceneSave.stringDictionary.Add("currentScene", SceneManager.GetActiveScene().name);
+
+            // Add Player Direction to string dictionary
+            sceneSave.stringDictionary.Add("playerDirection", playerDirection.ToString());
+
+            // Add sceneSave data for player game object
+            GameObjectSave.sceneData.Add(Settings.PersistentScene, sceneSave);
+
+            return GameObjectSave;
+        }
+
+        public void ISaveableLoad(GameSave gameSave)
+        {
+            if (gameSave.gameObjectData.TryGetValue(ISaveableUniqueID, out GameObjectSave gameObjectSave))
+            {
+                // Get save data dictionary for scene
+                if (gameObjectSave.sceneData.TryGetValue(Settings.PersistentScene, out SceneSave sceneSave))
+                {
+                    // Get player position
+                    if (sceneSave.vector3Dictionary != null && sceneSave.vector3Dictionary.TryGetValue("playerPosition", out Vector3Serializable playerPosition))
+                    {
+                        transform.position = new Vector3(playerPosition.x, playerPosition.y, playerPosition.z);
+                    }
+
+                    // Get String dictionary
+                    if (sceneSave.stringDictionary != null)
+                    {
+                        // Get player scene
+                        if (sceneSave.stringDictionary.TryGetValue("currentScene", out string currentScene))
+                        {
+                            SceneControllerManager.Instance.FadeAndLoadScene(currentScene, transform.position);
+                        }
+
+                        // Get player direction
+                        if (sceneSave.stringDictionary.TryGetValue("playerDirection", out string playerDir))
+                        {
+                            bool playerDirFound = Enum.TryParse<Direction>(playerDir, true, out Direction direction);
+
+                            if (playerDirFound)
+                            {
+                                playerDirection = direction;
+                                SetPlayerDirection(playerDirection);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        public void ISaveableStoreScene(string sceneName)
+        {
+            // Nothing required here since the player is on a persistent scene;
+        }
+
+        public void ISaveableRestoreScene(string sceneName)
+        {
+            // Nothing required here since the player is on a persistent scene;
+        }
+
+
+        private void SetPlayerDirection(Direction playerDirection)
+        {
+
+            switch (playerDirection)
+            {
+                case Direction.Up:
+                    // set idle up trigger
+                    EventHandler.CallMovementEvent(0f, 0f, false, false, false,
+                        false, false, false, false, false, false,
+                        false, false, false, false, false, false,
+                        false, false, false, false, false,
+                        false, false, false, false, false,false,
+                        false,false,false,false,false,
+                        false,false,false,false,false,
+                        false,false,false,false,true,false,
+                        false,false);
+
+                    break;
+
+                case Direction.Down:
+                    // set idle down trigger
+                    EventHandler.CallMovementEvent(0f, 0f, false, false, false,
+                        false, false, false, false, false, false,
+                        false, false, false, false, false, false,
+                        false, false, false, false, false,
+                        false, false, false, false, false,false,
+                        false,false,false,false,false,
+                        false,false,false,false,false,
+                        false,false,false,false,false,true,
+                        false,false);
+                    break;
+
+                case Direction.Left:
+                    EventHandler.CallMovementEvent(0f, 0f, false, false, false,
+                        false, false, false, false, false, false,
+                        false, false, false, false, false, false,
+                        false, false, false, false, false,
+                        false, false, false, false, false,false,
+                        false,false,false,false,false,
+                        false,false,false,false,false,
+                        false,false,false,false,false,false,
+                        true,false);
+                    break;
+
+                case Direction.Right:
+                    EventHandler.CallMovementEvent(0f, 0f, false, false, false,
+                        false, false, false, false, false, false,
+                        false, false, false, false, false, false,
+                        false, false, false, false, false,
+                        false, false, false, false, false,false,
+                        false,false,false,false,false,
+                        false,false,false,false,false,
+                        false,false,false,false,false,false,
+                        false,true);
+                    break;
+
+                default:
+                    // set idle down trigger
+                    EventHandler.CallMovementEvent(0f, 0f, false, false, false,
+                        false, false, false, false, false, false,
+                        false, false, false, false, false, false,
+                        false, false, false, false, false,
+                        false, false, false, false, false,false,
+                        false,false,false,false,false,
+                        false,false,false,false,false,
+                        false,false,false,false,false,true,
+                        false,false);
+
+                    break;
+            }
         }
     }
 }
