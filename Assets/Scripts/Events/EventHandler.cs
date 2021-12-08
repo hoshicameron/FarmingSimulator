@@ -107,7 +107,7 @@ namespace Events
         // Advanced game minute
         public static event Action<int, Season, int, string, int, int, int> AdvancedGameMinuteEvent;
 
-        public static void CallAdvancedGameMinuteEvent(int gameYear, Season season, int gameDay, string gameDayOfWeek,
+        public static void CallAdvanceGameMinuteEvent(int gameYear, Season season, int gameDay, string gameDayOfWeek,
             int gameHour, int gameMinute, int gameSecond)
         {
             AdvancedGameMinuteEvent?.Invoke(gameYear,season,gameDay,gameDayOfWeek,gameHour,gameMinute,gameSecond);

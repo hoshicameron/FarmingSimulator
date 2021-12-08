@@ -939,7 +939,7 @@ namespace _Player
             hoeDown = false;
         }
 
-        public void clearCarriedItem()
+        public void ClearCarriedItem()
         {
             equippedItemSpriteRenderer.sprite = null;
             equippedItemSpriteRenderer.color=new Color(0f,0f,0f,0f);

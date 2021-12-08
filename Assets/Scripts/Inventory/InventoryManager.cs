@@ -4,16 +4,24 @@ using System.Security.Cryptography.X509Certificates;
 using Enums;
 using Items;
 using Misc;
+using SaveSystem;
+using UI;
 using UnityEngine;
+using _Player;
 using EventHandler = Events.EventHandler;
 
 namespace Inventory
 {
-    public class InventoryManager:SingletonMonoBehaviour<InventoryManager>
+    public class InventoryManager:SingletonMonoBehaviour<InventoryManager>,ISaveable
     {
+        private UIInventoryBar inventoryBar;
+
         private Dictionary<int, ItemDetails> ItemDetailsDictionary;
 
         private int[] selectedInventoryItem; // The index of the array is the inventory list, and the value is the item code
+
+        public string ISaveableUniqueID { get; set; }
+        public GameObjectSave GameObjectSave { get; set; }
 
         // The array of list of items that inventory location hold
         public List<InventoryItem>[] inventoryArrayList;
@@ -41,6 +49,25 @@ namespace Inventory
             {
                 selectedInventoryItem[i] = -1; // We haven't select any item
             }
+
+            ISaveableUniqueID = GetComponent<GenerateGUID>().GUid;
+
+            GameObjectSave=new GameObjectSave();
+        }
+
+        private void Start()
+        {
+            inventoryBar = FindObjectOfType<UIInventoryBar>();
+        }
+
+        private void OnEnable()
+        {
+            ISaveableRegister();
+        }
+
+        private void OnDisable()
+        {
+            ISaveableDeregister();
         }
 
         private void CreateInventoryLists()
@@ -356,5 +383,82 @@ namespace Inventory
         }
 
 
+        public void ISaveableRegister()
+        {
+            SaveLoadManager.Instance.iSaveableObjectList.Add(this);
+        }
+
+        public void ISaveableDeregister()
+        {
+            SaveLoadManager.Instance.iSaveableObjectList.Remove(this);
+        }
+
+        public GameObjectSave ISaveableSave()
+        {
+            // Create new scene save
+            SceneSave sceneSave = new SceneSave();
+
+            // Remove any existing scene save for persistent scene for this gameobject
+            GameObjectSave.sceneData.Remove(Settings.PersistentScene);
+
+            // Add inventory lists array to persistent scene save
+            sceneSave.listInvItemArray = inventoryArrayList;
+
+            // Add  inventory list capacity array to persistent scene save
+            sceneSave.intArrayDictionary = new Dictionary<string, int[]>();
+            sceneSave.intArrayDictionary.Add("inventoryListCapacityArray", inventoryListCapacityIntArray);
+
+            // Add scene save for gameobject
+            GameObjectSave.sceneData.Add(Settings.PersistentScene, sceneSave);
+
+            return GameObjectSave;
+        }
+
+        public void ISaveableLoad(GameSave gameSave)
+        {
+            if (gameSave.gameObjectData.TryGetValue(ISaveableUniqueID, out GameObjectSave gameObjectSave))
+            {
+                GameObjectSave = gameObjectSave;
+
+                // Need to find inventory lists - start by trying to locate saveScene for game object
+                if (gameObjectSave.sceneData.TryGetValue(Settings.PersistentScene, out SceneSave sceneSave))
+                {
+                    // list inv items array exists for persistent scene
+                    if (sceneSave.listInvItemArray != null)
+                    {
+                        inventoryArrayList = sceneSave.listInvItemArray;
+
+                        //  Send events that inventory has been updated
+                        for (int i = 0; i < (int)InventoryLocation.Count; i++)
+                        {
+                            EventHandler.CallInventoryUpdatedEvent((InventoryLocation)i, inventoryArrayList[i]);
+                        }
+
+                        // Clear any items player was carrying
+                        Player.Instance.ClearCarriedItem();
+
+                        // Clear any highlights on inventory bar
+                        inventoryBar.ClearHighlightOnInventorySlots();
+                    }
+
+                    // int array dictionary exists for scene
+                    if (sceneSave.intArrayDictionary != null && sceneSave.intArrayDictionary.TryGetValue("inventoryListCapacityArray", out int[] inventoryCapacityArray))
+                    {
+                        inventoryListCapacityIntArray = inventoryCapacityArray;
+                    }
+                }
+
+            }
+        }
+
+        public void ISaveableStoreScene(string sceneName)
+        {
+            // Nothing required her since the inventory manager is on a persistent scene;
+        }
+
+        public void ISaveableRestoreScene(string sceneName)
+        {
+            // Nothing required here since the inventory manager is on a persistent scene;
+        }
     }
 }

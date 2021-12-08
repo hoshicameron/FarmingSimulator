@@ -17,7 +17,16 @@ namespace SaveSystem
 
         // Because we have only one list of item per scene, It's better to use a list than dictionary
         public List<SceneItem> SceneItemList;
+
+        // Save inventory capacity array
+        public Dictionary<string, int[]> intArrayDictionary;
+
         // String key is coordinate of the gridProperty
         public Dictionary<string, GridPropertyDetails> GridPropertyDetailsesDictionary;
+
+        public Dictionary<string, int> intDictionary;
+
+        // List of inventory Items
+        public List<InventoryItem>[] listInvItemArray;
     }
 }

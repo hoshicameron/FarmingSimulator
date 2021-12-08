@@ -315,7 +315,7 @@ namespace UI
                 Player.Instance.ShowCarriedItem(itemDetails.itemCode);
             } else  // show player carrying nothing
             {
-                Player.Instance.clearCarriedItem();
+                Player.Instance.ClearCarriedItem();
             }
         }
 
@@ -332,7 +332,7 @@ namespace UI
             InventoryManager.Instance.ClearSelectedInventoryItem(InventoryLocation.Player);
 
             // Clear player carrying item
-            Player.Instance.clearCarriedItem();
+            Player.Instance.ClearCarriedItem();
         }
     }
 }
