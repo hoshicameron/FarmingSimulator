@@ -553,7 +553,7 @@ namespace Maps
                 SceneSave sceneSave = new SceneSave();
 
                 // Add grid property dictionary to scene save data
-                sceneSave.GridPropertyDetailsesDictionary = gridPropertyDictionary;
+                sceneSave.gridPropertyDetailsDictionary = gridPropertyDictionary;
 
                 // If starting scene set the gridPropertyDetailsDictionary member variable to the current iteration
                 if (so_GridProperties.sceneName.ToString() == SceneControllerManager.Instance.startingSceneName.ToString())
@@ -610,7 +610,7 @@ namespace Maps
         /// <param name="gridY"></param>
         /// <param name="gridPropertyDetailsDictionary"></param>
         /// <returns></returns>
-        private GridPropertyDetails GetGridPropertyDetails(int gridX, int gridY, Dictionary<string,GridPropertyDetails> gridPropertyDetailsDictionary)
+        public GridPropertyDetails GetGridPropertyDetails(int gridX, int gridY, Dictionary<string,GridPropertyDetails> gridPropertyDetailsDictionary)
         {
             // Construct key from coordinate
             string key = $"x{gridX}y{gridY}";
@@ -660,6 +660,36 @@ namespace Maps
             return so_CropDetailsList.GetCropDetails(sendItemCode);
         }
 
+        /// <summary>
+        /// Returns for each scene a vector2Int with the grid dimensions, or vector2Int.zero if scene not found
+        /// </summary>
+        /// <param name="sceneName"></param>
+        /// <param name="gridDimensions"></param>
+        /// <param name="gridOrigin"></param>
+        /// <returns></returns>
+        public bool GetGridDimensions(SceneName sceneName,out Vector2Int gridDimensions,out Vector2Int gridOrigin)
+        {
+            gridDimensions=Vector2Int.zero;
+            gridOrigin=Vector2Int.zero;
+
+            // Loop through all scenes
+            foreach (SO_GridProperties so_GridProperties in so_gridPropertiesArray)
+            {
+                if (so_GridProperties.sceneName == sceneName)
+                {
+                    gridDimensions.x = so_GridProperties.gridWidth;
+                    gridDimensions.y = so_GridProperties.gridHeight;
+
+                    gridOrigin.x = so_GridProperties.originX;
+                    gridOrigin.y = so_GridProperties.originY;
+
+                    return true;
+                }
+            }
+
+            return false;
+        }
+
 
         /// <summary>
         /// Get the grid property Details for the tile at (gridX, gridY). If no grid property details exist null is returned
@@ -704,12 +734,12 @@ namespace Maps
                 if (GameObjectSave.sceneData.TryGetValue(so_GridProperties.sceneName.ToString(),
                     out SceneSave sceneSave))
                 {
-                    if (sceneSave.GridPropertyDetailsesDictionary != null)
+                    if (sceneSave.gridPropertyDetailsDictionary != null)
                     {
-                        for (int i = sceneSave.GridPropertyDetailsesDictionary.Count-1; i >= 0; i--)
+                        for (int i = sceneSave.gridPropertyDetailsDictionary.Count-1; i >= 0; i--)
                         {
                             KeyValuePair<string, GridPropertyDetails> item =
-                                sceneSave.GridPropertyDetailsesDictionary.ElementAt(i);
+                                sceneSave.gridPropertyDetailsDictionary.ElementAt(i);
                             GridPropertyDetails gridPropertyDetails = item.Value;
 
                             #region Update all grid properties to reflect the advanced in the day
@@ -728,7 +758,7 @@ namespace Maps
 
                             // Set gridPropertyDetails
                             SetGridPropertyDetails(gridPropertyDetails.gridX,gridPropertyDetails.gridY,gridPropertyDetails,
-                                sceneSave.GridPropertyDetailsesDictionary);
+                                sceneSave.gridPropertyDetailsDictionary);
 
                             #endregion
                         }
@@ -770,7 +800,7 @@ namespace Maps
             SceneSave sceneSave=new SceneSave();
 
             // Create and add dictionary grid property details
-            sceneSave.GridPropertyDetailsesDictionary = gridPropertyDetailsDictionary;
+            sceneSave.gridPropertyDetailsDictionary = gridPropertyDetailsDictionary;
 
             // Create and add bool dictionary for first time since loaded
             sceneSave.boolDictionary=new Dictionary<string, bool>();
@@ -794,9 +824,9 @@ namespace Maps
             if (GameObjectSave.sceneData.TryGetValue(sceneName, out SceneSave sceneSave))
             {
                 // Get grid property details dictionary - it exists since we created it in initialize
-                if (sceneSave.GridPropertyDetailsesDictionary != null)
+                if (sceneSave.gridPropertyDetailsDictionary != null)
                 {
-                    gridPropertyDetailsDictionary = sceneSave.GridPropertyDetailsesDictionary;
+                    gridPropertyDetailsDictionary = sceneSave.gridPropertyDetailsDictionary;
                 }
 
                 // Get dictionary of bools - it exists since we created it in initialize

@@ -22,7 +22,7 @@ namespace SaveSystem
         public Dictionary<string, int[]> intArrayDictionary;
 
         // String key is coordinate of the gridProperty
-        public Dictionary<string, GridPropertyDetails> GridPropertyDetailsesDictionary;
+        public Dictionary<string, GridPropertyDetails> gridPropertyDetailsDictionary;
 
         public Dictionary<string, int> intDictionary;
 
