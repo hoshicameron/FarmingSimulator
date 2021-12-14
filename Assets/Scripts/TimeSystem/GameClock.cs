@@ -15,12 +15,12 @@ namespace TimeSystem
 
         private void OnEnable()
         {
-            EventHandler.AdvancedGameMinuteEvent+= UpdateGameTime;
+            EventHandler.AdvanceGameMinuteEvent+= UpdateGameTime;
         }
 
         private void OnDisable()
         {
-            EventHandler.AdvancedGameMinuteEvent-= UpdateGameTime;
+            EventHandler.AdvanceGameMinuteEvent-= UpdateGameTime;
         }
 
         private void UpdateGameTime(int gameYear, Season season, int gameDay,

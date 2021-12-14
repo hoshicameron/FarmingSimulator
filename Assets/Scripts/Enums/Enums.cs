@@ -106,6 +106,15 @@ namespace Enums
         None
     }
 
+    public enum Weather
+    {
+        Dry,
+        Raining,
+        Snowing,
+        None,
+        Count
+    }
+
     public enum GridBoolProperty
     {
         Diggable,
@@ -121,4 +130,5 @@ namespace Enums
         Scene2_Field,
         Scene3_Cabin
     }
+
 }

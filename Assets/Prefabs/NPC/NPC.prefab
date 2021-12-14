@@ -14,6 +14,10 @@ GameObject:
   - component: {fileID: 805909345672479172}
   - component: {fileID: 805909345672479173}
   - component: {fileID: 805909345672479174}
+  - component: {fileID: -8482070667228028996}
+  - component: {fileID: 1039716968665784282}
+  - component: {fileID: -3064128566869350128}
+  - component: {fileID: 2506101185054759201}
   m_Layer: 0
   m_Name: NPC
   m_TagString: Untagged
@@ -164,4 +168,65 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 694a7c987ea3c8141b0c02835d1487fd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _gUID: 
+  _gUID: b4d11226-b8ea-4dc1-9334-aaaaf39536f3
+--- !u!114 &-8482070667228028996
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 805909345672479175}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb3766d735280714fac8fc207d5ce6f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1039716968665784282
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 805909345672479175}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa9f1157a0072334d82b051ce744e0ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  npcCurrentScene: 0
+  npcTargetScene: 0
+  npcCurrentGridPosition: {x: 0, y: 0, z: 0}
+  npcTargetGridPosition: {x: 0, y: 0, z: 0}
+  npcTargetWorldPosition: {x: 0, y: 0, z: 0}
+  npcFacingDirectionAtDestination: 0
+  npcNormalSpeed: 2
+  npcMinSpeed: 1
+  npcMaxSpeed: 3
+  npcTargetAnimationClip: {fileID: 0}
+  blankAnimation: {fileID: 7400000, guid: de73329f78eb6d645a9a70faf2bddfce, type: 2}
+  npcActiveInScene: 0
+--- !u!114 &-3064128566869350128
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 805909345672479175}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aebf964433f080e4691600b229d12def, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &2506101185054759201
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 805909345672479175}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad765173090328a4188cb5c3cf53fa6e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  so_NPCScheduleEventList: {fileID: 0}

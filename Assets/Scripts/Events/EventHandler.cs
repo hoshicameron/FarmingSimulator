@@ -105,48 +105,48 @@ namespace Events
         // Time events
 
         // Advanced game minute
-        public static event Action<int, Season, int, string, int, int, int> AdvancedGameMinuteEvent;
+        public static event Action<int, Season, int, string, int, int, int> AdvanceGameMinuteEvent;
 
         public static void CallAdvanceGameMinuteEvent(int gameYear, Season season, int gameDay, string gameDayOfWeek,
             int gameHour, int gameMinute, int gameSecond)
         {
-            AdvancedGameMinuteEvent?.Invoke(gameYear,season,gameDay,gameDayOfWeek,gameHour,gameMinute,gameSecond);
+            AdvanceGameMinuteEvent?.Invoke(gameYear,season,gameDay,gameDayOfWeek,gameHour,gameMinute,gameSecond);
         }
 
         // Advanced game Hour
-        public static event Action<int, Season, int, string, int, int, int> AdvancedGameHourEvent;
+        public static event Action<int, Season, int, string, int, int, int> AdvanceGameHourEvent;
 
-        public static void CallAdvancedGameHourEvent(int gameYear, Season season, int gameDay, string gameDayOfWeek,
+        public static void CallAdvanceGameHourEvent(int gameYear, Season season, int gameDay, string gameDayOfWeek,
             int gameHour, int gameMinute, int gameSecond)
         {
-            AdvancedGameHourEvent?.Invoke(gameYear,season,gameDay,gameDayOfWeek,gameHour,gameMinute,gameSecond);
+            AdvanceGameHourEvent?.Invoke(gameYear,season,gameDay,gameDayOfWeek,gameHour,gameMinute,gameSecond);
         }
 
         // Advanced game Day
-        public static event Action<int, Season, int, string, int, int, int> AdvancedGameDayEvent;
+        public static event Action<int, Season, int, string, int, int, int> AdvanceGameDayEvent;
 
-        public static void CallAdvancedGameDayEvent(int gameYear, Season season, int gameDay, string gameDayOfWeek,
+        public static void CallAdvanceGameDayEvent(int gameYear, Season season, int gameDay, string gameDayOfWeek,
             int gameHour, int gameMinute, int gameSecond)
         {
-            AdvancedGameDayEvent?.Invoke(gameYear,season,gameDay,gameDayOfWeek,gameHour,gameMinute,gameSecond);
+            AdvanceGameDayEvent?.Invoke(gameYear,season,gameDay,gameDayOfWeek,gameHour,gameMinute,gameSecond);
         }
 
         // Advanced game Season
-        public static event Action<int, Season, int, string, int, int, int> AdvancedGameSeasonEvent;
+        public static event Action<int, Season, int, string, int, int, int> AdvanceGameSeasonEvent;
 
-        public static void CallAdvancedGameSeasonEvent(int gameYear, Season season, int gameDay, string gameDayOfWeek,
+        public static void CallAdvanceGameSeasonEvent(int gameYear, Season season, int gameDay, string gameDayOfWeek,
             int gameHour, int gameMinute, int gameSecond)
         {
-            AdvancedGameSeasonEvent?.Invoke(gameYear,season,gameDay,gameDayOfWeek,gameHour,gameMinute,gameSecond);
+            AdvanceGameSeasonEvent?.Invoke(gameYear,season,gameDay,gameDayOfWeek,gameHour,gameMinute,gameSecond);
         }
 
         // Advanced game Year
-        public static event Action<int, Season, int, string, int, int, int> AdvancedGameYearEvent;
+        public static event Action<int, Season, int, string, int, int, int> AdvanceGameYearEvent;
 
-        public static void CallAdvancedGameYearEvent(int gameYear, Season season, int gameDay, string gameDayOfWeek,
+        public static void CallAdvanceGameYearEvent(int gameYear, Season season, int gameDay, string gameDayOfWeek,
             int gameHour, int gameMinute, int gameSecond)
         {
-            AdvancedGameYearEvent?.Invoke(gameYear,season,gameDay,gameDayOfWeek,gameHour,gameMinute,gameSecond);
+            AdvanceGameYearEvent?.Invoke(gameYear,season,gameDay,gameDayOfWeek,gameHour,gameMinute,gameSecond);
         }
 
         // Scene Load Events - in the order they happen

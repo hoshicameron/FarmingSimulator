@@ -47,7 +47,7 @@ namespace Maps
         {
             ISaveableRegister();
             EventHandler.AfterSceneLoadEvent += AfterSceneLoadEvent;
-            EventHandler.AdvancedGameDayEvent += AdvanceDay;
+            EventHandler.AdvanceGameDayEvent += AdvanceDay;
         }
 
 
@@ -56,7 +56,7 @@ namespace Maps
         {
             ISaveableDeregister();
             EventHandler.AfterSceneLoadEvent -= AfterSceneLoadEvent;
-            EventHandler.AdvancedGameDayEvent -= AdvanceDay;
+            EventHandler.AdvanceGameDayEvent -= AdvanceDay;
         }
 
         private void Start()

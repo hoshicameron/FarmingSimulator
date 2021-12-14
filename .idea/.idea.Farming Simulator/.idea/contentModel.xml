@@ -12,6 +12,17 @@
             <e p="GridNodes.cs" t="Include" />
             <e p="Node.cs" t="Include" />
           </e>
+          <e p="_NPC" t="Include">
+            <e p="NPC.cs" t="Include" />
+            <e p="NPCManager.cs" t="Include" />
+            <e p="NPCMovement.cs" t="Include" />
+            <e p="NPCMovementStep.cs" t="Include" />
+            <e p="NPCPath.cs" t="Include" />
+            <e p="NPCSchedule.cs" t="Include" />
+            <e p="NPCScheduleEvent.cs" t="Include" />
+            <e p="NPCScheduleEventSort.cs" t="Include" />
+            <e p="SO_NPCScheduleEventList.cs" t="Include" />
+          </e>
           <e p="Animation" t="Include">
             <e p="AnimationOverrides.cs" t="Include" />
             <e p="CharacterAttribute.cs" t="Include" />
@@ -66,9 +77,6 @@
             <e p="Tags.cs" t="Include" />
             <e p="Vector3Serializable.cs" t="Include" />
           </e>
-          <e p="NPC" t="Include">
-            <e p="NPCMovementStep.cs" t="Include" />
-          </e>
           <e p="Player" t="Include">
             <e p="ItemPickup.cs" t="Include" />
             <e p="Player.cs" t="Include" />
@@ -86,7 +94,10 @@
           <e p="SceneManagement" t="Include">
             <e p="SceneControllerManager.cs" t="Include" />
             <e p="SceneItemsManager.cs" t="Include" />
+            <e p="ScenePath.cs" t="Include" />
+            <e p="SceneRoute.cs" t="Include" />
             <e p="SceneTeleport.cs" t="Include" />
+            <e p="SO_SceneRouteList.cs" t="Include" />
             <e p="SwitchConfineBoundingShape.cs" t="Include" />
           </e>
           <e p="TimeSystem" t="Include">

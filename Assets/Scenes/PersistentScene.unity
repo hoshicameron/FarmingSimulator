@@ -1596,6 +1596,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 227500703}
+  - component: {fileID: 227500704}
   - component: {fileID: 227500702}
   - component: {fileID: 227500701}
   m_Layer: 0
@@ -1617,6 +1618,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 979fb9ca766e8a945a3daed4e970bee6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  npcPath: {fileID: 2018136111}
+  moveNPC: 0
+  sceneName: 0
+  finishPosition: {x: 0, y: 0}
+  idleDownAnimationClip: {fileID: 7400000, guid: 723a36efcafc4484da2be69116a954f9, type: 2}
+  eventAnimationClip: {fileID: 7400000, guid: ade86f48563297840917b9f9455b90c2, type: 2}
 --- !u!114 &227500702
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1631,7 +1638,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   observeMovementPenalties: 1
   pathMovementPenalty: 0
-  defaultMovementPenalty: 0
+  defaultMovementPenalty: 20
 --- !u!4 &227500703
 Transform:
   m_ObjectHideFlags: 0
@@ -1646,6 +1653,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &227500704
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 227500700}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d5c160aa95579c44b0f913c146a803a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  so_SceneRouteList: {fileID: 11400000, guid: f8648ac3baa8a5b46af8c5923a693bbe, type: 2}
+  npcArray: []
 --- !u!1 &228814677
 GameObject:
   m_ObjectHideFlags: 0
@@ -6639,6 +6660,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5fa39f86e4004bd4aae1ac5cda9610e4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  currentWeather: 0
 --- !u!4 &947853629
 Transform:
   m_ObjectHideFlags: 0
@@ -12989,11 +13011,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 805909345672479169, guid: c1f93ba46746ae14281179e9cabee87a, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -3
       objectReference: {fileID: 0}
     - target: {fileID: 805909345672479169, guid: c1f93ba46746ae14281179e9cabee87a, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -17
       objectReference: {fileID: 0}
     - target: {fileID: 805909345672479169, guid: c1f93ba46746ae14281179e9cabee87a, type: 3}
       propertyPath: m_LocalPosition.z
@@ -13051,6 +13073,30 @@ PrefabInstance:
       propertyPath: m_ApplyRootMotion
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 805909345672479173, guid: c1f93ba46746ae14281179e9cabee87a, type: 3}
+      propertyPath: m_SpriteTilingProperty.pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 805909345672479173, guid: c1f93ba46746ae14281179e9cabee87a, type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.x
+      value: 1.375
+      objectReference: {fileID: 0}
+    - target: {fileID: 805909345672479173, guid: c1f93ba46746ae14281179e9cabee87a, type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.y
+      value: 2.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 805909345672479173, guid: c1f93ba46746ae14281179e9cabee87a, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 1.3125
+      objectReference: {fileID: 0}
+    - target: {fileID: 805909345672479173, guid: c1f93ba46746ae14281179e9cabee87a, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 2.8125
+      objectReference: {fileID: 0}
+    - target: {fileID: 805909345672479173, guid: c1f93ba46746ae14281179e9cabee87a, type: 3}
+      propertyPath: m_SpriteTilingProperty.adaptiveTilingThreshold
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 805909345672479174, guid: c1f93ba46746ae14281179e9cabee87a, type: 3}
       propertyPath: _gUID
       value: c1f1fdab-9a01-41b1-8d8a-190eca590088
@@ -13059,8 +13105,27 @@ PrefabInstance:
       propertyPath: m_Name
       value: NPC_Butch
       objectReference: {fileID: 0}
+    - target: {fileID: 1039716968665784282, guid: c1f93ba46746ae14281179e9cabee87a, type: 3}
+      propertyPath: npcFacingDirectionAtDestination
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2506101185054759201, guid: c1f93ba46746ae14281179e9cabee87a, type: 3}
+      propertyPath: so_NPCScheduleEventList
+      value: 
+      objectReference: {fileID: 11400000, guid: 58ecbafae68d3df4c817f934ec15a399, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c1f93ba46746ae14281179e9cabee87a, type: 3}
+--- !u!114 &2018136111 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: -3064128566869350128, guid: c1f93ba46746ae14281179e9cabee87a, type: 3}
+  m_PrefabInstance: {fileID: 2018136110}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aebf964433f080e4691600b229d12def, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &2032759663
 PrefabInstance:
   m_ObjectHideFlags: 0

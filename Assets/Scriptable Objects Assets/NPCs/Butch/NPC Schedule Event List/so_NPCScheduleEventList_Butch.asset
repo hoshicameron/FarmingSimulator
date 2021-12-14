@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 52d8172e08037a84fa1f48c378562bca, type: 3}
+  m_Name: so_NPCScheduleEventList_Butch
+  m_EditorClassIdentifier: 
+  npcScheduleEventList:
+  - hour: 8
+    minute: 0
+    priority: 3
+    day: 0
+    weather: 3
+    season: 4
+    toSceneName: 0
+    toGridCoordinate:
+      x: -12
+      y: 12
+    npcFacingDirectionAtDestination: 1
+    animationAtDestination: {fileID: 7400000, guid: 723a36efcafc4484da2be69116a954f9, type: 2}
+  - hour: 8
+    minute: 0
+    priority: 2
+    day: 0
+    weather: 1
+    season: 4
+    toSceneName: 2
+    toGridCoordinate:
+      x: -7
+      y: -21
+    npcFacingDirectionAtDestination: 1
+    animationAtDestination: {fileID: 7400000, guid: c0537c1ec79e3d546b4035ee5828f1db, type: 2}
+  - hour: 8
+    minute: 0
+    priority: 1
+    day: 5
+    weather: 1
+    season: 0
+    toSceneName: 0
+    toGridCoordinate:
+      x: -14
+      y: 14
+    npcFacingDirectionAtDestination: 1
+    animationAtDestination: {fileID: 7400000, guid: 9e335ec41bbebb449aa87d37f687d6e4, type: 2}
+  - hour: 17
+    minute: 0
+    priority: 3
+    day: 0
+    weather: 3
+    season: 4
+    toSceneName: 2
+    toGridCoordinate:
+      x: -10
+      y: -3
+    npcFacingDirectionAtDestination: 1
+    animationAtDestination: {fileID: 7400000, guid: 9e335ec41bbebb449aa87d37f687d6e4, type: 2}

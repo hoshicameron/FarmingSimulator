@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using Enums;
 using Maps;
-using NPC;
+using _NPC;
 using SaveSystem;
 using UnityEngine;
 

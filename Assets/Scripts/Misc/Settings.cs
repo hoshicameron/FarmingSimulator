@@ -15,7 +15,10 @@ namespace Misc
         public const float targetAlpha = 0.45f;
 
         //Tilemap
-        public const float gridCellSize = 1f; //grid cell size in unity unit
+        public const float gridCellSize = 1f;                // Grid cell size in unity unit
+        public const float gridCellDiagonalSize = 1.4f;      // Diagonal distance between unity cell centers
+        public const int maxGridWidth = 99999;
+        public const int maxGridHeight = 99999;
         public static Vector2 cursorSize = Vector2.one;
 
         //Player
@@ -25,20 +28,27 @@ namespace Misc
         // Player Movement
         public const float runningSpeed = 5.333f;
         public const float walkingSpeed = 2.666f;
-
-        public static float useHoeAnimationPause = 0.25f; // Stop player movement for specific time
+        public static float useHoeAnimationPause = 0.25f;     // Stop player movement for specific time
         public static float useWateringCanAnimationPause = 0.3f;
         public static float useToolAnimationPause = 0.3f;
         public static float pickAnimationPause = 1f;
         public static float chopAnimationPause = 0.7f;
         public static float breakAnimationPause = 0.6f;
-
-
         public static float afterUseHoeAnimationPause = 0.2f;
         public static float afterUseWateringCanAnimationPause = 0.3f;
         public static float afterPickAnimationPause = 0.2f;
         public static float afterChopAnimationPause = 0.3f;
         public static float afterBreakAnimationPause = 0.25f;
+
+        // NPC Movement
+        public static float pixelSize = 0.0625f;
+
+        // NPC Animation Parameters
+        public static int walkRight;
+        public static int walkLeft;
+        public static int walkUp;
+        public static int walkDown;
+        public static int eventAnimation;
 
         // Inventory
         public static int playerInitialInventoryCapacity=24;
@@ -108,60 +118,71 @@ namespace Misc
         public const int maxCollidersToTestPerReapSwing = 15;
         public const int maxTargetComponentsToDestroyPerReapSwing = 2;
 
+        // Time System
+        public const float secondsPerGameSecond = 0.012f;
+
 
         //Static Constructor
         static Settings()
         {
-         xInput=Animator.StringToHash("XInput");
-         yInput=Animator.StringToHash("YInput");
-         isWalking=Animator.StringToHash("IsWalking");
-         isRunning=Animator.StringToHash("IsRunning");
+            // NPC Animation Parameters
+            walkUp = Animator.StringToHash("WalkUp");
+            walkDown = Animator.StringToHash("WalkDown");
+            walkRight = Animator.StringToHash("WalkRight");
+            walkLeft = Animator.StringToHash("WalkLeft");
+            eventAnimation = Animator.StringToHash("EventAnimation");
 
-         axeRight=Animator.StringToHash("AxeRight");
-         axeLeft=Animator.StringToHash("AxeLeft");
-         axeUp=Animator.StringToHash("AxeUp");
-         axeDown=Animator.StringToHash("AxeDown");
+            // Player Animation Parameters
+            xInput=Animator.StringToHash("XInput");
+            yInput=Animator.StringToHash("YInput");
+            isWalking=Animator.StringToHash("IsWalking");
+            isRunning=Animator.StringToHash("IsRunning");
 
-         fishingRight=Animator.StringToHash("FishingRight");
-         fishingLeft=Animator.StringToHash("FishingLeft");
-         fishingUp = Animator.StringToHash("FishingUp");
-         fishingDown = Animator.StringToHash("FishingDown");
+            axeRight=Animator.StringToHash("AxeRight");
+            axeLeft=Animator.StringToHash("AxeLeft");
+            axeUp=Animator.StringToHash("AxeUp");
+            axeDown=Animator.StringToHash("AxeDown");
 
-         miscRight=Animator.StringToHash("MiscRight");
-         miscLeft=Animator.StringToHash("MiscLeft");
-         miscUp=Animator.StringToHash("MiscUp");
-         miscDown=Animator.StringToHash("MiscDown");
+            fishingRight=Animator.StringToHash("FishingRight");
+            fishingLeft=Animator.StringToHash("FishingLeft");
+            fishingUp = Animator.StringToHash("FishingUp");
+            fishingDown = Animator.StringToHash("FishingDown");
 
-         pickRight=Animator.StringToHash("PickRight");
-         pickLeft=Animator.StringToHash("PickLeft");
-         pickUp=Animator.StringToHash("PickUp");
-         pickDown=Animator.StringToHash("PickDown");
+            miscRight=Animator.StringToHash("MiscRight");
+            miscLeft=Animator.StringToHash("MiscLeft");
+            miscUp=Animator.StringToHash("MiscUp");
+            miscDown=Animator.StringToHash("MiscDown");
 
-         sickleRight=Animator.StringToHash("SickleRight");
-         sickleLeft=Animator.StringToHash("SickleLeft");
-         sickleUp=Animator.StringToHash("SickleUp");
-         sickleDown=Animator.StringToHash("SickleDown");
+            pickRight=Animator.StringToHash("PickRight");
+            pickLeft=Animator.StringToHash("PickLeft");
+            pickUp=Animator.StringToHash("PickUp");
+            pickDown=Animator.StringToHash("PickDown");
 
-         hammerRight=Animator.StringToHash("HammerRight");
-         hammerLeft=Animator.StringToHash("HammerLeft");
-         hammerUp=Animator.StringToHash("HammerUp");
-         hammerDown=Animator.StringToHash("HammerDown");
+            sickleRight=Animator.StringToHash("SickleRight");
+            sickleLeft=Animator.StringToHash("SickleLeft");
+            sickleUp=Animator.StringToHash("SickleUp");
+            sickleDown=Animator.StringToHash("SickleDown");
 
-         shovelRight=Animator.StringToHash("ShovelRight");
-         shovelLeft=Animator.StringToHash("ShovelLeft");
-         shovelUp=Animator.StringToHash("ShovelUp");
-         shovelDown=Animator.StringToHash("ShovelDown");
+            hammerRight=Animator.StringToHash("HammerRight");
+            hammerLeft=Animator.StringToHash("HammerLeft");
+            hammerUp=Animator.StringToHash("HammerUp");
+            hammerDown=Animator.StringToHash("HammerDown");
 
-         hoeRight=Animator.StringToHash("HoeRight");
-         hoeLeft=Animator.StringToHash("HoeLeft");
-         hoeUp=Animator.StringToHash("HoeUp");
-         hoeDown=Animator.StringToHash("HoeDown");
+            shovelRight=Animator.StringToHash("ShovelRight");
+            shovelLeft=Animator.StringToHash("ShovelLeft");
+            shovelUp=Animator.StringToHash("ShovelUp");
+            shovelDown=Animator.StringToHash("ShovelDown");
 
-        //Shared Animation Parameters
-         idleRight=Animator.StringToHash("IdleRight");
-         idleLeft=Animator.StringToHash("IdleLeft");
-         idleUp=Animator.StringToHash("IdleUp");
-         idleDown=Animator.StringToHash("IdleDown");
+            hoeRight=Animator.StringToHash("HoeRight");
+            hoeLeft=Animator.StringToHash("HoeLeft");
+            hoeUp=Animator.StringToHash("HoeUp");
+            hoeDown=Animator.StringToHash("HoeDown");
+
+            //Shared Animation Parameters
+            idleRight=Animator.StringToHash("IdleRight");
+            idleLeft=Animator.StringToHash("IdleLeft");
+            idleUp=Animator.StringToHash("IdleUp");
+            idleDown=Animator.StringToHash("IdleDown");
         }
     }
 }

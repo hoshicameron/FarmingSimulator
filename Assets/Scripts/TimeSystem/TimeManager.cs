@@ -115,20 +115,20 @@ namespace TimeSystem
                                 // Restart the game
                                 if (gameYear > 9999)
                                     gameYear = 1;
-                                EventHandler.CallAdvancedGameYearEvent(gameYear,gameSeason,gameDay,gameDayOfWeek,gameHour,
+                                EventHandler.CallAdvanceGameYearEvent(gameYear,gameSeason,gameDay,gameDayOfWeek,gameHour,
                                     gameMinute,gameSecond);
                             }
 
-                            EventHandler.CallAdvancedGameSeasonEvent(gameYear,gameSeason,gameDay,gameDayOfWeek,gameHour,
+                            EventHandler.CallAdvanceGameSeasonEvent(gameYear,gameSeason,gameDay,gameDayOfWeek,gameHour,
                                 gameMinute,gameSecond);
                         }
 
                         gameDayOfWeek = GetDayOfWeek();
-                        EventHandler.CallAdvancedGameDayEvent(gameYear,gameSeason,gameDay,gameDayOfWeek,gameHour,
+                        EventHandler.CallAdvanceGameDayEvent(gameYear,gameSeason,gameDay,gameDayOfWeek,gameHour,
                             gameMinute,gameSecond);
                     }
 
-                    EventHandler.CallAdvancedGameHourEvent(gameYear,gameSeason,gameDay,gameDayOfWeek,gameHour,
+                    EventHandler.CallAdvanceGameHourEvent(gameYear,gameSeason,gameDay,gameDayOfWeek,gameHour,
                         gameMinute,gameSecond);
                 }
                 EventHandler.CallAdvanceGameMinuteEvent(gameYear,gameSeason,gameDay,gameDayOfWeek,gameHour,
@@ -165,6 +165,13 @@ namespace TimeSystem
                 default:
                     return "";
             }
+        }
+
+        public TimeSpan GetGameTime()
+        {
+            TimeSpan gameTime=new TimeSpan(gameHour,gameMinute,gameSecond);
+
+            return gameTime;
         }
 
         // TODo: Remove
