@@ -2,6 +2,7 @@
 using Enums;
 using Inventory;
 using Items;
+using Sounds;
 using UnityEngine;
 
 public class ItemPickup : MonoBehaviour
@@ -18,6 +19,9 @@ public class ItemPickup : MonoBehaviour
             {
                 // Add item to the Inventory
                 InventoryManager.Instance.AddItem(InventoryLocation.Player,item,other.gameObject);
+
+                // Play pickup sound
+                AudioManager.Instance.PlaySound(SoundName.EffectPickupSound);
             }
         }
 

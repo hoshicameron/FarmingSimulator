@@ -100,6 +100,14 @@
             <e p="SO_SceneRouteList.cs" t="Include" />
             <e p="SwitchConfineBoundingShape.cs" t="Include" />
           </e>
+          <e p="Sounds" t="Include">
+            <e p="AudioManager.cs" t="Include" />
+            <e p="SceneSoundsItem.cs" t="Include" />
+            <e p="SO_SceneSoundsList.cs" t="Include" />
+            <e p="SO_SoundList.cs" t="Include" />
+            <e p="Sound.cs" t="Include" />
+            <e p="SoundItem.cs" t="Include" />
+          </e>
           <e p="TimeSystem" t="Include">
             <e p="GameClock.cs" t="Include" />
             <e p="TimeManager.cs" t="Include" />

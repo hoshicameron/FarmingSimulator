@@ -1,5 +1,7 @@
+using Enums;
 using Events;
 using Misc;
+using Sounds;
 using UnityEngine;
 
 namespace Animation
@@ -126,7 +128,7 @@ namespace Animation
 
         private void AnimationEventPlayFootstepSound()
         {
-
+            AudioManager.Instance.PlaySound(SoundName.EffectFootstepHardGround);
         }
     }
 }

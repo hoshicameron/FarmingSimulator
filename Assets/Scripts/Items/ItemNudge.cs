@@ -1,4 +1,6 @@
 using System.Collections;
+using Enums;
+using Sounds;
 using UnityEngine;
 
 namespace Items
@@ -25,6 +27,12 @@ namespace Items
                 {
                     StartCoroutine(RotateClock());
                 }
+
+                // Play Rustle sound if player
+                if (other.CompareTag("Player"))
+                {
+                    AudioManager.Instance.PlaySound(SoundName.EffectRustle);
+                }
             }
         }
 
@@ -38,6 +46,12 @@ namespace Items
                 } else
                 {
                     StartCoroutine(RotateClock());
+                }
+
+                // Play Rustle sound if player
+                if (other.CompareTag("Player"))
+                {
+                    AudioManager.Instance.PlaySound(SoundName.EffectRustle);
                 }
             }
         }

@@ -5,6 +5,7 @@ using Inventory;
 using Items;
 using Maps;
 using SceneManagement;
+using Sounds;
 using UnityEngine;
 
 namespace Crops
@@ -94,6 +95,12 @@ namespace Crops
             } else
             {
                 animator.SetTrigger("harvestleft");
+            }
+
+            // Is there a harvest sound
+            if (cropDetails.harvestSound != SoundName.None)
+            {
+                AudioManager.Instance.PlaySound(cropDetails.harvestSound);
             }
 
             // Delete crop from grid properties

@@ -34,6 +34,7 @@ MonoBehaviour:
     isHarvestActionEffect: 0
     spawnCropProducedAtPlayerPosition: 1
     harvestActionEffect: 5
+    harvestSound: 130
     harvestToolItemCode: 1e270000
     requiredHarvestActions: 01000000
     cropProducedItemCode: 2b270000
@@ -63,6 +64,7 @@ MonoBehaviour:
     isHarvestActionEffect: 1
     spawnCropProducedAtPlayerPosition: 0
     harvestActionEffect: 0
+    harvestSound: 110
     harvestToolItemCode: 19270000
     requiredHarvestActions: 07000000
     cropProducedItemCode: 1b2700001d270000
@@ -84,6 +86,7 @@ MonoBehaviour:
     isHarvestActionEffect: 1
     spawnCropProducedAtPlayerPosition: 0
     harvestActionEffect: 2
+    harvestSound: 150
     harvestToolItemCode: 19270000
     requiredHarvestActions: 04000000
     cropProducedItemCode: 1b270000
@@ -105,6 +108,7 @@ MonoBehaviour:
     isHarvestActionEffect: 1
     spawnCropProducedAtPlayerPosition: 1
     harvestActionEffect: 3
+    harvestSound: 140
     harvestToolItemCode: 1a270000
     requiredHarvestActions: 01000000
     cropProducedItemCode: 20270000
@@ -126,6 +130,7 @@ MonoBehaviour:
     isHarvestActionEffect: 1
     spawnCropProducedAtPlayerPosition: 1
     harvestActionEffect: 3
+    harvestSound: 140
     harvestToolItemCode: 1a270000
     requiredHarvestActions: 02000000
     cropProducedItemCode: 22270000

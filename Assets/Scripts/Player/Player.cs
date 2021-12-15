@@ -10,6 +10,7 @@ using Maps;
 using Misc;
 using SaveSystem;
 using SceneManagement;
+using Sounds;
 using TimeSystem;
 using UI;
 using UnityEditor.Build.Content;
@@ -459,6 +460,9 @@ namespace _Player
 
         private void ReapInPlayerDirectionAtCursor(ItemDetails itemDetails, Vector3Int playerDirection)
         {
+            // play Reaping sound
+            AudioManager.Instance.PlaySound(SoundName.EffectScythe);
+
             StartCoroutine(ReapInPlayerDirectionAtCursorRoutine(itemDetails, playerDirection));
         }
 
@@ -564,6 +568,9 @@ namespace _Player
 
         private void WateringGroundAtCursor(GridPropertyDetails gridPropertyDetails, Vector3Int playerDirection)
         {
+            // Play Watering sound
+            AudioManager.Instance.PlaySound(SoundName.EffectWateringCan);
+
            // Trigger Animation
            StartCoroutine(WateringGroundAtCursorRoutine(playerDirection, gridPropertyDetails));
         }
@@ -621,6 +628,8 @@ namespace _Player
 
         private void ChopInPlayerDirection(GridPropertyDetails gridPropertyDetails, ItemDetails equippedItemDetails, Vector3Int playerDirection)
         {
+            // Play chop sound
+            AudioManager.Instance.PlaySound(SoundName.EffectAxe);
             StartCoroutine(ChopInPlayerDirectionRoutine(gridPropertyDetails,equippedItemDetails,playerDirection));
         }
 
@@ -649,6 +658,9 @@ namespace _Player
 
         private void BreakingAtCursor(GridPropertyDetails gridPropertyDetails, ItemDetails itemDetails, Vector3Int playerDirection)
         {
+            // Make breaking sound
+            AudioManager.Instance.PlaySound(SoundName.EffectPickaxe);
+
             StartCoroutine(BreakingAtCursorRoutine(gridPropertyDetails,itemDetails,playerDirection));
         }
 
@@ -677,6 +689,9 @@ namespace _Player
         private void CollectInPlayerDirection(GridPropertyDetails gridPropertyDetails,
                                               ItemDetails equippedItemDetails, Vector3Int playerDirection)
         {
+            // Make collecting sound
+            AudioManager.Instance.PlaySound(SoundName.EffectBasket);
+
             StartCoroutine(CollectInPlayerDirectionRoutine(gridPropertyDetails, equippedItemDetails, playerDirection));
         }
 
@@ -789,6 +804,9 @@ namespace _Player
 
         private void HoeGroundAtCursor(GridPropertyDetails gridPropertyDetails, Vector3Int playerDirection)
         {
+            // Play Hoe sound
+            AudioManager.Instance.PlaySound(SoundName.EffectHoe);
+
             // Trigger animation
             StartCoroutine(HoeGroundAtCursorRoutine(playerDirection, gridPropertyDetails));
         }
@@ -899,6 +917,9 @@ namespace _Player
 
                 // Remove item from inventory
                 EventHandler.CallRemoveSelectedItemFromInventoryEvent();
+
+                // Make planting sound
+                AudioManager.Instance.PlaySound(SoundName.EffectPlantingSound);
             }
 
         }
