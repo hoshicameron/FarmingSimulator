@@ -121,6 +121,9 @@ namespace Misc
         // Time System
         public const float secondsPerGameSecond = 0.012f;
 
+        // Light Fade
+        public const float lightFadeDuration = 5.0f;
+
 
         //Static Constructor
         static Settings()

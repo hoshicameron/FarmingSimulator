@@ -174,6 +174,11 @@ namespace TimeSystem
             return gameTime;
         }
 
+        public Season GetGameSeason()
+        {
+            return gameSeason;
+        }
+
         // TODo: Remove
         /// <summary>
         ///  Advance 1 game minute

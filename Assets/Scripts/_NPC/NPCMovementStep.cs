@@ -3,7 +3,7 @@ using UnityEngine;
 
 namespace _NPC
 {
-    public class NPCMovementStep : MonoBehaviour
+    public class NPCMovementStep
     {
         public SceneName sceneName;
         public int hour;

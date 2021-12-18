@@ -63,6 +63,10 @@
             <e p="SO_ItemList.cs" t="Include" />
             <e p="TriggerObscuringItemFader.cs" t="Include" />
           </e>
+          <e p="Lighting" t="Include">
+            <e p="LightingController.cs" t="Include" />
+            <e p="LightingSchedule.cs" t="Include" />
+          </e>
           <e p="Maps" t="Include">
             <e p="GridCoordinate.cs" t="Include" />
             <e p="GridPropertiesManager.cs" t="Include" />
